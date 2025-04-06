@@ -5,7 +5,7 @@ A final length of 20-32 chapters is planned at the moment.
 
 ## To install and play
 1. [Download and install PMDO](https://github.com/audinowho/PMDODump/releases) if you have not already.
-2. Download PMD: Sunpath as a zip file from PMDO's Discord server. The latest release should be the most stable one.
+2. Download PMD: Sunpath as a zip file from PMDO's Discord server (not available there right now.) The latest release should be the most stable one.
 3. Extract the PMD: Sunpath zip file to its own folder.
 4. Place extracted PMD: Sunpath folder into PMDO's MODS folder. The exact file path changes depending on where you put PMDO, but it should go something like PMDO/MODS/PMD_Sunpath in the end.
 5. Make sure PMD: Sunpath is not embedded an extra folder down! When you click on Sunpath's folder in your MODS folder, it should have the readme file in plain sight, and not in another folder.
