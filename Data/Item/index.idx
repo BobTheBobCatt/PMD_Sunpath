@@ -1,0 +1,2162 @@
+﻿{
+"Version": "0.8.9.0",
+"Object": {
+"$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
+"berry_aspear": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Aspear Berry",
+"LocalTexts": {
+"fr": "Baie Willia",
+"de": "Wilbirbeere",
+"es": "Baya Perasi",
+"pt": "Fruta Aspear",
+"it": "Baccaperina",
+"ko": "배리열매",
+"ja": "ナナシのみ",
+"ja-jp": "ナナシのみ",
+"zh-hans": "利木果",
+"zh-hant": "利木果"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"berry_babiri": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Babiri Berry",
+"LocalTexts": {
+"fr": "Baie Babiri",
+"de": "Babiribeere",
+"es": "Baya Baribá",
+"it": "Baccababiri",
+"ko": "바리비열매",
+"ja": "リリバのみ",
+"ja-jp": "リリバのみ",
+"zh-hans": "霹霹果",
+"zh-hant": "霹霹果"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"berry_charti": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Charti Berry",
+"LocalTexts": {
+"fr": "Baie Charti",
+"de": "Chiaribeere",
+"es": "Baya Alcho",
+"it": "Baccaciofo",
+"ko": "루미열매",
+"ja": "ヨロギのみ",
+"ja-jp": "ヨロギのみ",
+"zh-hans": "草蚕果",
+"zh-hant": "草蠶果"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"berry_cheri": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Cheri Berry",
+"LocalTexts": {
+"fr": "Baie Ceriz",
+"de": "Amrenabeere",
+"es": "Baya Zreza",
+"pt": "Fruta Cheri",
+"it": "Baccaliegia",
+"ko": "버치열매",
+"ja": "クラボのみ",
+"ja-jp": "クラボのみ",
+"zh-hans": "樱子果",
+"zh-hant": "櫻子果"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"berry_chesto": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Chesto Berry",
+"LocalTexts": {
+"fr": "Baie Maron",
+"de": "Maronbeere",
+"es": "Baya Atania",
+"pt": "Fruta Chesto",
+"it": "Baccastagna",
+"ko": "유루열매",
+"ja": "カゴのみ",
+"ja-jp": "カゴのみ",
+"zh-hans": "零余果",
+"zh-hant": "零餘果"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"berry_chilan": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Chilan Berry",
+"LocalTexts": {
+"fr": "Baie Zalis",
+"de": "Latchibeere",
+"es": "Baya Chilan",
+"pt": "Fruta Chilan",
+"it": "Baccacinlan",
+"ko": "카리열매",
+"ja": "ホズのみ",
+"ja-jp": "ホズのみ",
+"zh-hans": "灯浆果",
+"zh-hant": "燈漿果"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"berry_chople": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Chople Berry",
+"LocalTexts": {
+"fr": "Baie Pomroz",
+"de": "Rospelbeere",
+"es": "Baya Pomaro",
+"pt": "Fruta Chople",
+"it": "Baccarosmel",
+"ko": "로플열매",
+"ja": "ヨプのみ",
+"ja-jp": "ヨプのみ",
+"zh-hans": "莲蒲果",
+"zh-hant": "蓮蒲果"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"berry_coba": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Coba Berry",
+"LocalTexts": {
+"fr": "Baie Cobaba",
+"de": "Kobabeere",
+"es": "Baya Kouba",
+"pt": "Fruta Coba",
+"it": "Baccababa",
+"ko": "바코열매",
+"ja": "バコウのみ",
+"ja-jp": "バコウのみ",
+"zh-hans": "棱瓜果",
+"zh-hant": "稜瓜果"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"berry_colbur": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Colbur Berry",
+"LocalTexts": {
+"fr": "Baie Lampou",
+"de": "Burleobeere",
+"es": "Baya Dillo",
+"pt": "Fruta Colbur",
+"it": "Baccaxan",
+"ko": "마코열매",
+"ja": "ナモのみ",
+"ja-jp": "ナモのみ",
+"zh-hans": "刺耳果",
+"zh-hant": "刺耳果"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"berry_haban": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Haban Berry",
+"LocalTexts": {
+"fr": "Baie Fraigo",
+"de": "Terirobeere",
+"es": "Baya Anjiro",
+"it": "Baccahaban",
+"ko": "하반열매",
+"ja": "ハバンのみ",
+"ja-jp": "ハバンのみ",
+"zh-hans": "莓榴果",
+"zh-hant": "莓榴果"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"berry_kasib": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Kasib Berry",
+"LocalTexts": {
+"fr": "Baie Sédra",
+"de": "Zitarzbeere",
+"es": "Baya Drasi",
+"it": "Baccacitrus",
+"ko": "수불열매",
+"ja": "カシブのみ",
+"ja-jp": "カシブのみ",
+"zh-hans": "佛柑果",
+"zh-hant": "佛柑果"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"berry_kebia": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Kebia Berry",
+"LocalTexts": {
+"fr": "Baie Kébia",
+"de": "Grarzbeere",
+"es": "Baya Kebia",
+"it": "Baccakebia",
+"ko": "으름열매",
+"ja": "ビアーのみ",
+"ja-jp": "ビアーのみ",
+"zh-hans": "通通果",
+"zh-hant": "通通果"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"berry_occa": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Occa Berry",
+"LocalTexts": {
+"fr": "Baie Chocco",
+"de": "Koakobeere",
+"es": "Baya Caoca",
+"it": "Baccacao",
+"ko": "오카열매",
+"ja": "オッカのみ",
+"ja-jp": "オッカのみ",
+"zh-hans": "巧可果",
+"zh-hant": "巧可果"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"berry_passho": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Passho Berry",
+"LocalTexts": {
+"fr": "Baie Pocpoc",
+"de": "Foepasbeere",
+"es": "Baya Pasio",
+"it": "Baccapasflo",
+"ko": "꼬시개열매",
+"ja": "イトケのみ",
+"ja-jp": "イトケのみ",
+"zh-hans": "千香果",
+"zh-hant": "千香果"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"berry_payapa": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Payapa Berry",
+"LocalTexts": {
+"fr": "Baie Yapap",
+"de": "Pyapabeere",
+"es": "Baya Payapa",
+"it": "Baccapayapa",
+"ko": "야파열매",
+"ja": "ウタンのみ",
+"ja-jp": "ウタンのみ",
+"zh-hans": "福禄果",
+"zh-hant": "福祿果"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"berry_pecha": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Pecha Berry",
+"LocalTexts": {
+"fr": "Baie Pêcha",
+"de": "Pirsifbeere",
+"es": "Baya Meloc",
+"pt": "Fruta Pecha",
+"it": "Baccapesca",
+"ko": "복슝열매",
+"ja": "モモンのみ",
+"ja-jp": "モモンのみ",
+"zh-hans": "桃桃果",
+"zh-hant": "桃桃果"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"berry_persim": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Persim Berry",
+"LocalTexts": {
+"fr": "Baie Kika",
+"de": "Persimbeere",
+"es": "Baya Caquic",
+"pt": "Fruta Persim",
+"it": "Baccaki",
+"ko": "시몬열매",
+"ja": "キーのみ",
+"ja-jp": "キーのみ",
+"zh-hans": "柿仔果",
+"zh-hant": "柿仔果"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"berry_rawst": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Rawst Berry",
+"LocalTexts": {
+"fr": "Baie Fraive",
+"de": "Fragiabeere",
+"es": "Baya Safre",
+"pt": "Fruta Rawst",
+"it": "Baccafrago",
+"ko": "복분열매",
+"ja": "チーゴのみ",
+"ja-jp": "チーゴのみ",
+"zh-hans": "莓莓果",
+"zh-hant": "莓莓果"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"berry_rindo": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Rindo Berry",
+"LocalTexts": {
+"fr": "Baie Ratam",
+"de": "Grindobeere",
+"es": "Baya Tamar",
+"it": "Baccarindo",
+"ko": "린드열매",
+"ja": "リンドのみ",
+"ja-jp": "リンドのみ",
+"zh-hans": "罗子果",
+"zh-hant": "羅子果"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"berry_roseli": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Roseli Berry",
+"LocalTexts": {
+"fr": "Baie Selro",
+"de": "Hibisbeere",
+"es": "Baya Hibis",
+"it": "Baccarcadè",
+"ko": "로셀열매",
+"ja": "ロゼルのみ",
+"ja-jp": "ロゼルのみ",
+"zh-hans": "洛玫果",
+"zh-hant": "洛玫果"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"berry_shuca": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Shuca Berry",
+"LocalTexts": {
+"fr": "Baie Jouca",
+"de": "Schukebeere",
+"es": "Baya Acardo",
+"it": "Baccanaca",
+"ko": "슈캐열매",
+"ja": "シュカのみ",
+"ja-jp": "シュカのみ",
+"zh-hans": "腰木果",
+"zh-hant": "腰木果"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"berry_tanga": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Tanga Berry",
+"LocalTexts": {
+"fr": "Baie Panga",
+"de": "Tanigabeere",
+"es": "Baya Yecana",
+"pt": "Fruta Tanga",
+"it": "Baccaitan",
+"ko": "리체열매",
+"ja": "タンガのみ",
+"ja-jp": "タンガのみ",
+"zh-hans": "扁樱果",
+"zh-hant": "扁櫻果"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"berry_wacan": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Wacan Berry",
+"LocalTexts": {
+"fr": "Baie Parma",
+"de": "Kerzalbeere",
+"es": "Baya Gualot",
+"it": "Baccaparmen",
+"ko": "초나열매",
+"ja": "ソクノのみ",
+"ja-jp": "ソクノのみ",
+"zh-hans": "烛木果",
+"zh-hant": "燭木果"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"berry_yache": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Yache Berry",
+"LocalTexts": {
+"fr": "Baie Nanone",
+"de": "Kiroyabeere",
+"es": "Baya Rimoya",
+"it": "Baccamoya",
+"ko": "플카열매",
+"ja": "ヤチェのみ",
+"ja-jp": "ヤチェのみ",
+"zh-hans": "番荔果",
+"zh-hant": "番荔果"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"seed_reviver": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 4,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.SeedState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": true,
+"Name": {
+"DefaultText": "Reviver Seed",
+"LocalTexts": {
+"fr": "Résugraine",
+"de": "Belebersamen",
+"it": "Revitalseme",
+"ko": "부활의씨앗",
+"ja": "ふっかつのタネ",
+"ja-jp": "ふっかつのタネ",
+"zh-hans": "复活之种"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 7
+},
+"wand_fear": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 8,
+"UsageType": 1,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.WandState"
+}
+],
+"MaxStack": 9,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Fear Wand",
+"LocalTexts": {
+"fr": "Branche Tremblemment",
+"de": "Angstzweig",
+"it": "Fifaramo",
+"ko": "깜짝지팡이",
+"zh-hans": "恐惧之杖"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 3
+},
+"ammo_cloyster_spike": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 1,
+"UsageType": 3,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.AmmoState"
+}
+],
+"MaxStack": 9,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Cloyster Spike",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 2
+},
+"ammo_fulgurite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 0,
+"UsageType": 3,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.AmmoState"
+}
+],
+"MaxStack": 9,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Fulgurite",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 2
+},
+"ammo_hailstone": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 0,
+"UsageType": 3,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.AmmoState"
+}
+],
+"MaxStack": 9,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Hailstone",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 2
+},
+"ammo_ice_spike": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 1,
+"UsageType": 3,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.AmmoState"
+}
+],
+"MaxStack": 9,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Ice Spike",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 2
+},
+"ammo_jolteon_needle": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 1,
+"UsageType": 3,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.AmmoState"
+}
+],
+"MaxStack": 9,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Jolteon Needle",
+"LocalTexts": {
+"fr": "Aiguille de Jolteon",
+"de": "Jolteon-Nadel",
+"it": "Ago Jolteon"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 2
+},
+"ammo_magma_stone": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 0,
+"UsageType": 3,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.AmmoState"
+}
+],
+"MaxStack": 9,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Magma Stone",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 2
+},
+"ammo_mossy_stone": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 0,
+"UsageType": 3,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.AmmoState"
+}
+],
+"MaxStack": 9,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Mossy Stone",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 2
+},
+"ammo_pinsir_spike": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 1,
+"UsageType": 3,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.AmmoState"
+}
+],
+"MaxStack": 9,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Pinsir Spike",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 2
+},
+"ammo_poison_thorn": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 1,
+"UsageType": 3,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.AmmoState"
+}
+],
+"MaxStack": 9,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Poison Thorn",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 2
+},
+"ammo_rock": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 0,
+"UsageType": 3,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.AmmoState"
+}
+],
+"MaxStack": 9,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Rock",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 2
+},
+"ammo_sandy_stone": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 0,
+"UsageType": 3,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.AmmoState"
+}
+],
+"MaxStack": 9,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Sandy Stone",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 2
+},
+"ammo_stalactite": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 1,
+"UsageType": 3,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.AmmoState"
+}
+],
+"MaxStack": 9,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Stalactite",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 2
+},
+"ammo_steel_ball": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 0,
+"UsageType": 3,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.AmmoState"
+}
+],
+"MaxStack": 9,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Steel Ball",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 2
+},
+"ammo_steel_spike": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 1,
+"UsageType": 3,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.AmmoState"
+}
+],
+"MaxStack": 9,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Steel Spike",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 2
+},
+"ammo_tree_needle": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 1,
+"UsageType": 3,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.AmmoState"
+}
+],
+"MaxStack": 9,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Tree Needle",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 2
+},
+"ammo_turtonator_spike": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 1,
+"UsageType": 3,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.AmmoState"
+}
+],
+"MaxStack": 9,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Turtonator Spike",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 2
+},
+"berry_eggant": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Eggant Berry",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"berry_gold": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Golden Berry",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 4
+},
+"berry_kuo": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Kuo Berry",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"berry_leppa_tiny": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Tiny Leppa Berry",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"berry_magost": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Magost Berry",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"berry_mistary": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Mistary Berry",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"berry_oran_tiny": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Tiny Oran Berry",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"berry_pumkin": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Pumkin Berry",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 6
+},
+"berry_rabuta": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 3,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Rabuta Berry",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"food_apple_tiny": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 2,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.FoodState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Tiny Apple",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 4
+},
+"food_apple_unripened": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 2,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.FoodState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Unripened Apple",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 4
+},
+"food_yucca_fruit": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 2,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.FoodState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Yucca Fruit",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 4
+},
+"food_yucca_fruit_tiny": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 2,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.FoodState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Tiny Yucca Fruit",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 4
+},
+"held_focus_band": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
+"UsageType": 0,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EquipState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.HeldState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Focus Band",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"held_focus_sash": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
+"UsageType": 0,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EquipState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.HeldState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Focus Sash",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 1
+},
+"held_ohm_scarf": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
+"UsageType": 0,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EquipState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.HeldState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Ohm Scarf",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 1
+},
+"held_pecha_scarf": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
+"UsageType": 0,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EquipState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.HeldState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Pecha Scarf",
+"LocalTexts": {
+"fr": "Turban",
+"de": "Spiralband",
+"it": "Fasciagiro",
+"ko": "꽈배기머리띠",
+"zh-hans": "扭转头巾"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 1
+},
+"held_persim_band": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
+"UsageType": 0,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EquipState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.HeldState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Persim Band",
+"LocalTexts": {
+"fr": "Turban",
+"de": "Spiralband",
+"it": "Fasciagiro",
+"ko": "꽈배기머리띠",
+"zh-hans": "扭转头巾"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 1
+},
+"held_rawst_scarf": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
+"UsageType": 0,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EquipState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.HeldState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Rawst Scarf",
+"LocalTexts": {
+"fr": "Turban",
+"de": "Spiralband",
+"it": "Fasciagiro",
+"ko": "꽈배기머리띠",
+"zh-hans": "扭转头巾"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 1
+},
+"held_wakeful_band": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
+"UsageType": 0,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EquipState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.HeldState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Wakeful Band",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 1
+},
+"held_warmth_scarf": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
+"UsageType": 0,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EquipState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.HeldState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Warmth Scarf",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 1
+},
+"seed_curse": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 4,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.SeedState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Curse Seed",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 7
+},
+"seed_energy": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 4,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Energy Seed",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 7
+},
+"seed_fire": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 4,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.SeedState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Fire Seed",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 7
+},
+"seed_frost": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 4,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.SeedState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Frost Seed",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 7
+},
+"seed_heal": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 4,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.CurerState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.BerryState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Heal Seed",
+"LocalTexts": {
+"fr": "Baie Oran",
+"de": "Sinelbeere",
+"es": "Baya Aranja",
+"pt": "Fruta Laran",
+"it": "Baccarancia",
+"ko": "오랭열매",
+"ja": "オレンのみ",
+"ja-jp": "オレンのみ",
+"zh-hans": "橙橙果",
+"zh-hant": "橙橙果"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 7
+},
+"seed_love": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 4,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.SeedState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Love Seed",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 7
+},
+"seed_poison": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 4,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.SeedState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Poison Seed",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 7
+},
+"seed_reviver_tiny": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 4,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.SeedState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": true,
+"Name": {
+"DefaultText": "Tiny Reviver Seed",
+"LocalTexts": {
+"fr": "Résugraine",
+"de": "Belebersamen",
+"it": "Revitalseme",
+"ko": "부활의씨앗",
+"ja": "ふっかつのタネ",
+"ja-jp": "ふっかつのタネ",
+"zh-hans": "复活之种"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 7
+},
+"seed_stun": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 4,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.SeedState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Stun Seed",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 7
+},
+"seed_totter": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 4,
+"UsageType": 4,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.EdibleState"
+},
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.SeedState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Totter Seed",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 7
+},
+"tm_fire_up": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 13,
+"UsageType": 6,
+"States": [
+{
+"assembly": "RogueEssence, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null",
+"type": "RogueEssence.Dungeon.ItemIDState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "TM Fire Up",
+"LocalTexts": {
+"fr": "CT Fatal-Foudre",
+"de": "TM Donner",
+"es": "MT Trueno",
+"pt": "MT Trovão",
+"it": "MT Tuono",
+"ko": "번개 기술머신 ",
+"ja": "わざマシンかみなり",
+"zh-hans": "TM 打雷",
+"zh-hant": "TM 打雷"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 13
+},
+"tm_rock_punch": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 13,
+"UsageType": 6,
+"States": [
+{
+"assembly": "RogueEssence, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null",
+"type": "RogueEssence.Dungeon.ItemIDState"
+}
+],
+"MaxStack": 0,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "TM Rock Punch",
+"LocalTexts": {
+"fr": "CT Fatal-Foudre",
+"de": "TM Donner",
+"es": "MT Trueno",
+"pt": "MT Trovão",
+"it": "MT Tuono",
+"ko": "번개 기술머신 ",
+"ja": "わざマシンかみなり",
+"zh-hans": "TM 打雷",
+"zh-hant": "TM 打雷"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 13
+},
+"wand_spook": {
+"$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 8,
+"UsageType": 1,
+"States": [
+{
+"assembly": "PMDC, Version=0.8.9.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.WandState"
+}
+],
+"MaxStack": 9,
+"CannotDrop": false,
+"BagEffect": false,
+"Name": {
+"DefaultText": "Spook Wand",
+"LocalTexts": {
+"fr": "Branche Tremblemment",
+"de": "Angstzweig",
+"it": "Fifaramo",
+"ko": "깜짝지팡이",
+"zh-hans": "恐惧之杖"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 3
+}
+}
+}

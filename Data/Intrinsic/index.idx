@@ -1,0 +1,15 @@
+﻿{
+"Version": "0.8.3.0",
+"Object": {
+"$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
+"terrifying_presence": {
+"Name": {
+"DefaultText": "Terrifying Presence",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 22
+}
+}
+}

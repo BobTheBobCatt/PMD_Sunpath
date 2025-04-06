@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="MSG_TYPE_RESISTANT_START" xml:space="preserve">
+    <value>{0} is now resisting {1}-type attacks!</value>
+  </data>
+  <data name="MSG_TYPE_RESISTANT_STOP" xml:space="preserve">
+    <value>{0} is no longer resisting {1}-type attacks!</value>
+  </data>
+  <data name="MSG_FROSTBITE_END" xml:space="preserve">
+    <value>{0} recovered from frostbite!</value>
+  </data>
+  <data name="MSG_FROSTBITE_FAIL" xml:space="preserve">
+    <value>{0} didn't become frostbitten!</value>
+  </data>
+  <data name="MSG_FROSTBITE_FAIL_ELEMENT" xml:space="preserve">
+    <value>{0}'s type doesn't get frostbite!</value>
+  </data>
+  <data name="MSG_FROSTBITE_START" xml:space="preserve">
+    <value>{0} became frostbitten!</value>
+  </data>
+  <data name="MSG_FROSTBITE_ALREADY" xml:space="preserve">
+    <value>{0} is already frostbitten!</value>
+  </data>
+  <data name="MSG_PECHA_SCARF" xml:space="preserve">
+    <value>{0} can't be poisoned due to its Pecha Scarf!</value>
+  </data>
+  <data name="MSG_PERSIM_BAND" xml:space="preserve">
+    <value>{0} can't be confused due to its Persim Band!</value>
+  </data>
+  <data name="MSG_RAWST_SCARF" xml:space="preserve">
+    <value>{0} can't be burned due to its Rawst Scarf!</value>
+  </data>
+  <data name="MSG_OHM_SCARF" xml:space="preserve">
+    <value>{0} can't be paralyzed due to its Ohm Scarf!</value>
+  </data>
+  <data name="MSG_WAKEFUL_BAND" xml:space="preserve">
+    <value>{0} can't fall asleep due to its Wakeful Band!</value>
+  </data>
+  <data name="MSG_WARMTH_SCARF" xml:space="preserve">
+    <value>{0} can't be frostbitten due to its Warmth Scarf!</value>
+  </data>
+  <data name="MSG_PETRIFY_FAIL" xml:space="preserve">
+    <value>{0} didn't become petrified!</value>
+  </data>
+  <data name="MSG_PETRIFY_FAIL_ELEMENT" xml:space="preserve">
+    <value>{0}'s type doesn't get petrified!</value>
+  </data>
+  <data name="MSG_PETRIFY_START" xml:space="preserve">
+    <value>{0} became petrified!</value>
+  </data>
+  <data name="MSG_PETRIFY_ALREADY" xml:space="preserve">
+    <value>{0} is already petrified!</value>
+  </data>
+  <data name="MSG_PETRIFY_END" xml:space="preserve">
+    <value>{0} recovered from petrification!</value>
+  </data>
+  <data name="MSG_PETRIFY" xml:space="preserve">
+    <value>{0} is petrified and can't move!</value>
+  </data>
+  <data name="MSG_TERRIFIED" xml:space="preserve">
+    <value>{0} is terrified and can't attack!</value>
+  </data>
+  <data name="MSG_TERRIFIED_START" xml:space="preserve">
+    <value>{0} became terrified!</value>
+  </data>
+  <data name="MSG_TERRIFIED_END" xml:space="preserve">
+    <value>{0} is no longer terrified!</value>
+  </data>
+  <data name="MSG_FIRED_UP_START" xml:space="preserve">
+    <value>{0} augmented its flames!</value>
+  </data>
+  <data name="MSG_FIRED_UP_END" xml:space="preserve">
+    <value>{0}'s flames died down!</value>
+  </data>
+</root>

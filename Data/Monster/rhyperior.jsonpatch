@@ -1,0 +1,22 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.8.0"
+  ],
+  "Object": {
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "14": [
+            {
+              "Level": 31,
+              "Skill": "rock_punch"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.8.0"
+  ],
+  "Object": {
+    "Desc": {
+      "DefaultText": [
+        "@@ -108,18 +108,19 @@\n es. \n-It changes\n+When eaten,\n  the\n@@ -132,14 +132,34 @@\n mon \n-to the\n+will take less damage from\n  Dar\n@@ -164,9 +164,15 @@\n ark-type\n+ moves\n .\n",
+        0,
+        2
+      ]
+    },
+    "UseEvent": {
+      "OnHits": {
+        "_t": "a",
+        "0": {
+          "Value": {
+            "$type": [
+              "PMDC.Dungeon.ChangeToElementEvent, PMDC",
+              "PMDC.Dungeon.StatusElementBattleEvent, PMDC"
+            ],
+            "TargetElement": [
+              "dark",
+              0,
+              0
+            ],
+            "Element": [
+              "dark"
+            ],
+            "StatusID": [
+              "type_resistant"
+            ],
+            "AffectTarget": [
+              true
+            ],
+            "SilentCheck": [
+              false
+            ],
+            "Anonymous": [
+              false
+            ],
+            "TriggerMsg": [
+              {
+                "Key": ""
+              }
+            ],
+            "Anims": [
+              []
+            ]
+          }
+        }
+      }
+    }
+  }
+}

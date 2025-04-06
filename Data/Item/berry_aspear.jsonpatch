@@ -1,0 +1,82 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.8.0"
+  ],
+  "Object": {
+    "Desc": {
+      "DefaultText": [
+        "@@ -0,0 +1,93 @@\n+A hard, sour berry that is dense with a rich juice. It cures the Freeze & Frostbite statuses.\n",
+        0,
+        2
+      ]
+    },
+    "Released": [
+      false,
+      true
+    ],
+    "Sprite": [
+      "",
+      "Berry_Aspear"
+    ],
+    "Price": [
+      50,
+      12
+    ],
+    "UseAction": {
+      "CharAnimData": {
+        "$type": [
+          "@@ -26,15 +26,17 @@\n Anim\n-Process\n+FrameType\n , Ro\n",
+          0,
+          2
+        ],
+        "Process": [
+          0,
+          0,
+          0
+        ],
+        "AnimOverride": [
+          0,
+          0,
+          0
+        ],
+        "ActionType": [
+          0
+        ]
+      }
+    },
+    "UseEvent": {
+      "OnHits": {
+        "_t": "a",
+        "1": [
+          {
+            "Key": {
+              "str": [
+                0
+              ]
+            },
+            "Value": {
+              "$type": "PMDC.Dungeon.RemoveStatusBattleEvent, PMDC",
+              "StatusID": "freeze",
+              "AffectTarget": true
+            }
+          }
+        ],
+        "2": [
+          {
+            "Key": {
+              "str": [
+                0
+              ]
+            },
+            "Value": {
+              "$type": "PMDC.Dungeon.RemoveStatusBattleEvent, PMDC",
+              "StatusID": "frostbite",
+              "AffectTarget": true
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.8.0"
+  ],
+  "Object": {
+    "SkillGroup2": [
+      "",
+      "amorphous"
+    ],
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "13": [
+            {
+              "Level": 28,
+              "Skill": "rock_punch"
+            }
+          ]
+        }
+      },
+      "1": {
+        "LevelSkills": {
+          "_t": "a",
+          "13": [
+            {
+              "Level": 28,
+              "Skill": "rock_punch"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

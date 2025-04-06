@@ -1,0 +1,82 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.8.0"
+  ],
+  "Object": {
+    "Desc": {
+      "DefaultText": [
+        "@@ -0,0 +1,61 @@\n+A very sweet and delicious berry. It cures the Poison status.\n",
+        0,
+        2
+      ]
+    },
+    "Released": [
+      false,
+      true
+    ],
+    "Sprite": [
+      "",
+      "Berry_Pecha"
+    ],
+    "Price": [
+      50,
+      12
+    ],
+    "UseAction": {
+      "CharAnimData": {
+        "$type": [
+          "@@ -26,15 +26,17 @@\n Anim\n-Process\n+FrameType\n , Ro\n",
+          0,
+          2
+        ],
+        "Process": [
+          0,
+          0,
+          0
+        ],
+        "AnimOverride": [
+          0,
+          0,
+          0
+        ],
+        "ActionType": [
+          0
+        ]
+      }
+    },
+    "UseEvent": {
+      "OnHits": {
+        "_t": "a",
+        "1": [
+          {
+            "Key": {
+              "str": [
+                0
+              ]
+            },
+            "Value": {
+              "$type": "PMDC.Dungeon.RemoveStatusBattleEvent, PMDC",
+              "StatusID": "poison",
+              "AffectTarget": true
+            }
+          }
+        ],
+        "2": [
+          {
+            "Key": {
+              "str": [
+                0
+              ]
+            },
+            "Value": {
+              "$type": "PMDC.Dungeon.RemoveStatusBattleEvent, PMDC",
+              "StatusID": "poison_toxic",
+              "AffectTarget": true
+            }
+          }
+        ]
+      }
+    }
+  }
+}

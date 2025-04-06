@@ -1,0 +1,56 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.8.0"
+  ],
+  "Object": {
+    "Desc": {
+      "DefaultText": [
+        "@@ -100,18 +100,19 @@\n am. \n-It changes\n+When eaten,\n  the\n@@ -124,14 +124,34 @@\n mon \n-to the\n+will take less damage from\n  Dra\n@@ -158,9 +158,15 @@\n gon-type\n+ moves\n .\n",
+        0,
+        2
+      ]
+    },
+    "UseEvent": {
+      "OnHits": {
+        "_t": "a",
+        "0": {
+          "Value": {
+            "$type": [
+              "PMDC.Dungeon.ChangeToElementEvent, PMDC",
+              "PMDC.Dungeon.StatusElementBattleEvent, PMDC"
+            ],
+            "TargetElement": [
+              "dragon",
+              0,
+              0
+            ],
+            "Element": [
+              "dragon"
+            ],
+            "StatusID": [
+              "type_resistant"
+            ],
+            "AffectTarget": [
+              true
+            ],
+            "SilentCheck": [
+              false
+            ],
+            "Anonymous": [
+              false
+            ],
+            "TriggerMsg": [
+              {
+                "Key": ""
+              }
+            ],
+            "Anims": [
+              []
+            ]
+          }
+        }
+      }
+    }
+  }
+}

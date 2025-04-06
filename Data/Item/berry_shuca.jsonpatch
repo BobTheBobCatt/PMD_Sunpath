@@ -1,0 +1,56 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.8.0"
+  ],
+  "Object": {
+    "Desc": {
+      "DefaultText": [
+        "@@ -81,18 +81,19 @@\n it. \n-It changes\n+When eaten,\n  the\n@@ -105,14 +105,34 @@\n mon \n-to the\n+will take less damage from\n  Gro\n@@ -139,9 +139,15 @@\n und-type\n+ moves\n .\n",
+        0,
+        2
+      ]
+    },
+    "UseEvent": {
+      "OnHits": {
+        "_t": "a",
+        "0": {
+          "Value": {
+            "$type": [
+              "PMDC.Dungeon.ChangeToElementEvent, PMDC",
+              "PMDC.Dungeon.StatusElementBattleEvent, PMDC"
+            ],
+            "TargetElement": [
+              "ground",
+              0,
+              0
+            ],
+            "Element": [
+              "ground"
+            ],
+            "StatusID": [
+              "type_resistant"
+            ],
+            "AffectTarget": [
+              true
+            ],
+            "SilentCheck": [
+              false
+            ],
+            "Anonymous": [
+              false
+            ],
+            "TriggerMsg": [
+              {
+                "Key": ""
+              }
+            ],
+            "Anims": [
+              []
+            ]
+          }
+        }
+      }
+    }
+  }
+}

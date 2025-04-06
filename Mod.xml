@@ -1,0 +1,22 @@
+<Header>
+  <Name>Pokemon Mystery Dungeon: Sunpath</Name>
+  <Author>BobTheBobCatt</Author>
+  <Description>A PMDO story mod based loosely in the style of the main PMD titles.</Description>
+  <Namespace>pmd_sunpath</Namespace>
+  <UUID>611FE4D3-2F26-416C-9B83-4CC28BCD0D55</UUID>
+  <Version>0.1</Version>
+  <GameVersion>0.8.3</GameVersion>
+  <ModType>Quest</ModType>
+  <Relationships>
+    <RelatedMod>
+      <UUID>4D7F17A7-0864-4F1B-AD4A-F8D2BE6DDD97</UUID>
+      <Namespace>All Starters</Namespace>
+      <Relationship>Incompatible</Relationship>
+    </RelatedMod>
+    <RelatedMod>
+      <UUID>55887EBE-E6E9-408B-A8DC-ADC9D6A5F67C</UUID>
+      <Namespace>Enable Mission Board</Namespace>
+      <Relationship>Incompatible</Relationship>
+    </RelatedMod>
+  </Relationships>
+</Header>

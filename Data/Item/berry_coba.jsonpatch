@@ -1,0 +1,56 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.8.0"
+  ],
+  "Object": {
+    "Desc": {
+      "DefaultText": [
+        "@@ -105,18 +105,19 @@\n ay. \n-It changes\n+When eaten,\n  the\n@@ -129,14 +129,34 @@\n mon \n-to the\n+will take less damage from\n  Fly\n@@ -163,9 +163,15 @@\n ing-type\n+ moves\n .\n",
+        0,
+        2
+      ]
+    },
+    "UseEvent": {
+      "OnHits": {
+        "_t": "a",
+        "0": {
+          "Value": {
+            "$type": [
+              "PMDC.Dungeon.ChangeToElementEvent, PMDC",
+              "PMDC.Dungeon.StatusElementBattleEvent, PMDC"
+            ],
+            "TargetElement": [
+              "flying",
+              0,
+              0
+            ],
+            "Element": [
+              "flying"
+            ],
+            "StatusID": [
+              "type_resistant"
+            ],
+            "AffectTarget": [
+              true
+            ],
+            "SilentCheck": [
+              false
+            ],
+            "Anonymous": [
+              false
+            ],
+            "TriggerMsg": [
+              {
+                "Key": ""
+              }
+            ],
+            "Anims": [
+              []
+            ]
+          }
+        }
+      }
+    }
+  }
+}

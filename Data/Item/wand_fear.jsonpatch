@@ -1,0 +1,94 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.8.0"
+  ],
+  "Object": {
+    "Name": {
+      "LocalTexts": {
+        "ja": [
+          "ひるませのえだ",
+          0,
+          0
+        ],
+        "ja-jp": [
+          "ひるませのえだ",
+          0,
+          0
+        ]
+      }
+    },
+    "Desc": {
+      "DefaultText": [
+        "@@ -54,11 +54,21 @@\n  to \n-flinch\n+become terrified\n .\n",
+        0,
+        2
+      ],
+      "LocalTexts": {
+        "fr": [
+          "Une branche que l'on agite vers un Pokémon. Elle cause à la cible la peur",
+          0,
+          0
+        ],
+        "de": [
+          "Ein Zweig, der gegen Pokémon geschwungen werden kann. Er lässt das Ziel zurückschrecken.",
+          0,
+          0
+        ],
+        "it": [
+          "Un ramo che può essere agitato contro un Pokémon. Fa tentennare il bersaglio.",
+          0,
+          0
+        ],
+        "ko": [
+          "포켓몬에게 휘두르면 풀죽게 된다.",
+          0,
+          0
+        ],
+        "ja": [
+          "ポケモンにむかってふると　ひるませることができる。",
+          0,
+          0
+        ],
+        "ja-jp": [
+          "ポケモンにむかってふると　ひるませることができる。",
+          0,
+          0
+        ],
+        "zh-hans": [
+          "可以挥向宝可梦的魔杖。能够使目标畏缩。",
+          0,
+          0
+        ]
+      }
+    },
+    "UseEvent": {
+      "OnHits": {
+        "_t": "a",
+        "0": {
+          "Value": {
+            "States": {
+              "_t": "a",
+              "0": {
+                "Counter": [
+                  4,
+                  8
+                ]
+              }
+            },
+            "StatusID": [
+              "flinch",
+              "terrified"
+            ],
+            "TriggerMsg": {
+              "Key": [
+                null,
+                ""
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

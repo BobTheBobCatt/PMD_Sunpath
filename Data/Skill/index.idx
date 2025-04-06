@@ -1,0 +1,288 @@
+﻿{
+"Version": "0.8.8.0",
+"Object": {
+"$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
+"ice_fang": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "ice",
+"Category": 1,
+"BasePower": 65,
+"BaseCharges": 18,
+"HitRate": 100,
+"RangeDescription": "Foe in Front",
+"Description": {
+"DefaultText": "The user bites with cold-infused fangs. This may also make the target flinch or leave it frostbitten.",
+"LocalTexts": {
+"fr": "Le lanceur utilise une morsure glaciale. Peut aussi geler ou apeurer l’ennemi.",
+"de": "Anwender beißt mit eiskalten Reißzähnen zu. Ziel schreckt eventuell zurück oder friert ein.",
+"es": "Usa colmillos helados para morder. Puede hacer que el objetivo retroceda o se congele.",
+"it": "Chi la usa morde con denti ghiacciati. Può anche congelare o far tentennare il bersaglio.",
+"ko": "냉기를 품은 이빨로 문다. 상대를 풀죽게 하거나 얼음 상태로 만들 때가 있다.",
+"ja": "れいきを　ひめた　キバで　か つく。 あいてを　ひるませたり こおり　じょうたいに　することが　ある。",
+"ja-jp": "冷気を　ひめた　キバで　か つく。 相手を　ひるませたり こおり状態に　することが　ある。",
+"zh-hans": "用藏有冷气的牙齿咬住对手。有时会使对手畏缩或陷入冰冻状态。",
+"zh-hant": "用帶有寒氣的牙齒咬住對手。 有時會讓對手畏縮 或陷入冰凍狀態。"
+}
+},
+"Name": {
+"DefaultText": "Ice Fang",
+"LocalTexts": {
+"fr": "Crocs Givre",
+"de": "Eiszahn",
+"es": "Colmillo Hielo",
+"it": "Gelodenti",
+"ko": "얼음엄니",
+"ja": "こおりのキバ",
+"ja-jp": "こおりのキバ",
+"zh-hans": "冰冻牙",
+"zh-hant": "冰凍牙"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 423
+},
+"ice_punch": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "ice",
+"Category": 1,
+"BasePower": 75,
+"BaseCharges": 18,
+"HitRate": 100,
+"RangeDescription": "Foe in Front",
+"Description": {
+"DefaultText": "The target is punched with an icy fist. This may also leave the target frostbitten.",
+"LocalTexts": {
+"fr": "Un coup de poing glacé vient frapper l’ennemi. Peut le geler.",
+"de": "Ein eisiger Schlag, der das Ziel eventuell einfriert.",
+"es": "Puñetazo helado. Puede congelar.",
+"pt": "O alvo é socado com um punho congelante. Possui chance de congelar o alvo.",
+"it": "Il Pokémon attacca il bersaglio con un pugno di ghiaccio che può congelarlo.",
+"ko": "냉기를 담은 펀치로 상대를 공격한다. 얼음 상태로 만들 때가 있다.",
+"ja": "れいきを　こめた　パンチで あいてを　こうげきする。 こおり　じょうたいに　することが　ある。",
+"ja-jp": "冷気を　こめた　パンチで 相手を　攻撃する。 こおり状態に　することが　ある。",
+"zh-hans": "用充满寒气的拳头攻击对手。有时会让对手陷入冰冻状态。",
+"zh-hant": "用帶有寒氣的拳頭 攻擊對手。 有時會讓對手陷入冰凍狀態。"
+}
+},
+"Name": {
+"DefaultText": "Ice Punch",
+"LocalTexts": {
+"fr": "Poing-Glace",
+"de": "Eishieb",
+"es": "Puño Hielo",
+"pt": "Soco de Gelo",
+"it": "Gelopugno",
+"ko": "냉동펀치",
+"ja": "れいとうパンチ",
+"ja-jp": "れいとうパンチ",
+"zh-hans": "冰冻拳",
+"zh-hant": "冰凍拳"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 8
+},
+"powder_snow": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "ice",
+"Category": 2,
+"BasePower": 35,
+"BaseCharges": 16,
+"HitRate": 100,
+"RangeDescription": "Foes in 4-Tile Area",
+"Description": {
+"DefaultText": "The user attacks with a chilling gust of powdery snow. This may also leave the opposing Pokémon frostbitten.",
+"LocalTexts": {
+"fr": "Le lanceur projette de la neige poudreuse. Peut aussi geler l’ennemi.",
+"de": "Angriff mit Schnee. Das Ziel wird eventuell eingefroren.",
+"es": "Lanza nieve que puede llegar a congelar.",
+"it": "Il Pokémon attacca il bersaglio con una raffica di neve farinosa e può anche congelarlo.",
+"ko": "차가운 가랑눈을 상대에게 내뿜어 공격한다. 얼음 상태로 만들 때가 있다.",
+"ja": "つめたい　こなゆきを あいてに　ふきつけて　こうげきする。 こおり　じょうたいに　することが　ある。",
+"ja-jp": "冷たい　粉雪を 相手に　吹きつけて　攻撃する。 こおり状態に　することが　ある。",
+"zh-hans": "将冰冷的细雪吹向对手进行攻击。有时会让对手陷入冰冻状态。",
+"zh-hant": "將冰冷的細雪 吹向對手進行攻擊。 有時會讓對手陷入冰凍狀態。"
+}
+},
+"Name": {
+"DefaultText": "Powder Snow",
+"LocalTexts": {
+"fr": "Poudreuse",
+"de": "Pulverschnee",
+"es": "Nieve Polvo",
+"it": "Polneve",
+"ko": "눈싸라기",
+"ja": "こなゆき",
+"ja-jp": "こなゆき",
+"zh-hans": "细雪",
+"zh-hant": "細雪"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 181
+},
+"tri_attack": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "normal",
+"Category": 2,
+"BasePower": 60,
+"BaseCharges": 9,
+"HitRate": 100,
+"RangeDescription": "Ally/Foe in 8-Tile Shot",
+"Description": {
+"DefaultText": "The user strikes with a simultaneous three-beam attack. May also burn, frostbite, or paralyze the target.",
+"LocalTexts": {
+"fr": "Le lanceur envoie trois boules d’énergie simultanément. Peut aussi paralyser, brûler ou geler l’ennemi.",
+"de": "Feuert drei Strahlen ab. Verursacht eventuell Paralyse, Verbrennung oder Einfrieren.",
+"es": "Ataque triple que puede paralizar, quemar o congelar al objetivo.",
+"it": "Il Pokémon attacca il bersaglio con tre raggi di luce che possono paralizzarlo, scottarlo o congelarlo.",
+"ko": "3개의 광선으로 공격한다. 마비, 화상 또는 얼음 상태 중 어느 하나로 만들 때가 있다.",
+"ja": "３つの　こうせんで　こうげきする。 まひか　やけどか　こおりじょうたいの どれかに　することが　ある。",
+"ja-jp": "３つの　光線で　攻撃する。 まひか　やけどか　こおり状態の どれかに　することが　ある。",
+"zh-hans": "用3种光线进行攻击。有时会让对手陷入麻痹、灼伤或冰冻的状态。",
+"zh-hant": "用３種光線進行攻擊。 有時會讓對手陷入 麻痺、灼傷或冰凍的狀態。"
+}
+},
+"Name": {
+"DefaultText": "Tri Attack",
+"LocalTexts": {
+"fr": "Triplattaque",
+"de": "Triplette",
+"es": "Triataque",
+"it": "Tripletta",
+"ko": "트라이어택",
+"ja": "トライアタック",
+"ja-jp": "トライアタック",
+"zh-hans": "三重攻击",
+"zh-hant": "三重攻擊"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 161
+},
+"fire_bite": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "fire",
+"Category": 1,
+"BasePower": 45,
+"BaseCharges": 18,
+"HitRate": 100,
+"RangeDescription": "Foe in Front",
+"Description": {
+"DefaultText": "The user bites with flame-cloaked teeth. This may also leave the target with a burn.",
+"LocalTexts": {
+"fr": "Le lanceur utilise une morsure enflammée. Peut aussi brûler ou apeurer l’ennemi.",
+"de": "Anwender beißt mit flammenden Reißzähnen zu. Ziel schreckt eventuell zurück oder verbrennt sich.",
+"es": "Usa colmillos en llamas para morder. Puede hacer que el objetivo retroceda o reciba quemaduras.",
+"it": "Chi la usa morde con denti infuocati. Può anche scottare o far tentennare il bersaglio.",
+"ko": "불꽃을 두른 이빨로 문다. 상대를 풀죽게 하거나 화상 상태로 만들 때가 있다.",
+"ja": "ほのおを　まとった　キバで　か つく。 あいてを　ひるませたり やけど　じょうたいに　することが　ある。",
+"ja-jp": "炎を　まとった　キバで　か つく。 相手を　ひるませたり やけど状態に　することが　ある。",
+"zh-hans": "用覆盖着火焰的牙齿咬住对手。有时会使对手畏缩或陷入灼伤状态。",
+"zh-hant": "用纏繞火焰的牙齒咬住對手。 有時會讓對手畏縮 或陷入灼傷狀態。"
+}
+},
+"Name": {
+"DefaultText": "Fire Bite",
+"LocalTexts": {
+"fr": "Crocs Feu",
+"de": "Feuerzahn",
+"es": "Colmillo Ígneo",
+"it": "Rogodenti",
+"ko": "불꽃엄니",
+"ja": "ほのおのキバ",
+"ja-jp": "ほのおのキバ",
+"zh-hans": "火焰牙",
+"zh-hant": "火焰牙"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 424
+},
+"fire_up": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "fire",
+"Category": 3,
+"BasePower": -1,
+"BaseCharges": 20,
+"HitRate": -1,
+"RangeDescription": "User",
+"Description": {
+"DefaultText": "The user boosts the power of the Fire move it uses on the next turn. The user takes less damage from physical attacks while fired up.",
+"LocalTexts": {}
+},
+"Name": {
+"DefaultText": "Fire Up",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 268
+},
+"rock_punch": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "rock",
+"Category": 1,
+"BasePower": 75,
+"BaseCharges": 18,
+"HitRate": 100,
+"RangeDescription": "Foe in Front",
+"Description": {
+"DefaultText": "The target is punched with a rocky fist. This may also cause the target to flinch.",
+"LocalTexts": {}
+},
+"Name": {
+"DefaultText": "Rock Punch",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 7
+},
+"thunder_bite": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "electric",
+"Category": 1,
+"BasePower": 45,
+"BaseCharges": 18,
+"HitRate": 100,
+"RangeDescription": "Foe in Front",
+"Description": {
+"DefaultText": "The user bites with electrified teeth. This may also leave the target with paralysis.",
+"LocalTexts": {
+"fr": "Le lanceur utilise une morsure électrifiée. Peut aussi paralyser ou apeurer l’ennemi.",
+"de": "Anwender beißt mit elektrifizierten Reißzähnen zu. Das Ziel schreckt eventuell zurück oder wird paralysiert.",
+"es": "Usa colmillos electrificados para morder. Puede hacer que el objetivo retroceda o se paralice.",
+"it": "Chi la usa morde con denti elettrificati che possono anche paralizzare o far tentennare il bersaglio.",
+"ko": "전기를 모은 이빨로 문다. 상대를 풀죽게 하거나 마비 상태로 만들 때가 있다.",
+"ja": "でんきを　ためた　キバで　か つく。 あいてを　ひるませたり まひ　じょうたいに　することが　ある。",
+"ja-jp": "電気を　ためた　キバで　か つく。 相手を　ひるませたり まひ状態に　することが　ある。",
+"zh-hans": "用蓄满电流的牙齿咬住对手。有时会使对手畏缩或陷入麻痹状态。",
+"zh-hant": "用蓄滿電流的牙齒咬住對手。 有時會讓對手畏縮 或陷入麻痺狀態。"
+}
+},
+"Name": {
+"DefaultText": "Thunder Bite",
+"LocalTexts": {
+"fr": "Crocs Éclair",
+"de": "Donnerzahn",
+"es": "Colmillo Rayo",
+"it": "Fulmindenti",
+"ko": "번개엄니",
+"ja": "かみなりのキバ",
+"ja-jp": "かみなりのキバ",
+"zh-hans": "雷电牙",
+"zh-hant": "雷電牙"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 422
+}
+}
+}

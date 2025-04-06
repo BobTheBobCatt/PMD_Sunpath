@@ -1,0 +1,57 @@
+﻿{
+"Version": "0.8.8.0",
+"Object": {
+"$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
+"fired_up": {
+"Name": {
+"DefaultText": "Fired Up",
+"LocalTexts": {
+"fr": "Chargeur",
+"de": "Aufgeladen",
+"es": "Carga",
+"it": "Sottocarica",
+"zh-hans": "充电"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"frostbite": {
+"Name": {
+"DefaultText": "Frostbite",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"petrified": {
+"Name": {
+"DefaultText": "Petrified",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"terrified": {
+"Name": {
+"DefaultText": "Terrified",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"type_resistant": {
+"Name": {
+"DefaultText": "Type-Resistant",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+}
+}
+}

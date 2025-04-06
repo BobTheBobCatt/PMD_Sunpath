@@ -1,0 +1,518 @@
+﻿{
+"Version": "0.8.8.0",
+"Object": {
+"$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
+"golem": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Golem",
+"LocalTexts": {
+"ja": "ゴローニャ",
+"ko": "딱구리",
+"zh-hant": "隆隆岩",
+"fr": "Grolem",
+"de": "Geowaz",
+"es": "Golem",
+"it": "Golem",
+"ja-jp": "ゴローニャ",
+"zh-hans": "隆隆岩"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Alolan Golem",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Grolem d'Alola",
+"de": "Alola Geowaz",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Golem",
+"LocalTexts": {
+"ja": "ゴローニャ",
+"ko": "딱구리",
+"zh-hant": "隆隆岩",
+"fr": "Grolem",
+"de": "Geowaz",
+"es": "Golem",
+"it": "Golem",
+"ja-jp": "ゴローニャ",
+"zh-hans": "隆隆岩"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 76
+},
+"graveler": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Graveler",
+"LocalTexts": {
+"ja": "ゴローン",
+"ko": "데구리",
+"zh-hant": "隆隆石",
+"fr": "Gravalanch",
+"de": "Georok",
+"es": "Graveler",
+"it": "Graveler",
+"ja-jp": "ゴローン",
+"zh-hans": "隆隆石"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Alolan Graveler",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Gravalanch d'Alola",
+"de": "Alola Georok",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Graveler",
+"LocalTexts": {
+"ja": "ゴローン",
+"ko": "데구리",
+"zh-hant": "隆隆石",
+"fr": "Gravalanch",
+"de": "Georok",
+"es": "Graveler",
+"it": "Graveler",
+"ja-jp": "ゴローン",
+"zh-hans": "隆隆石"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 75
+},
+"houndoom": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Houndoom",
+"LocalTexts": {
+"ja": "ヘルガー",
+"ko": "헬가",
+"zh-hant": "黑魯加",
+"fr": "Démolosse",
+"de": "Hundemon",
+"es": "Houndoom",
+"it": "Houndoom",
+"ja-jp": "ヘルガー",
+"zh-hans": "黑鲁加"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Mega Houndoom",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Méga-Démolosse",
+"de": "Mega-Hundemon",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": true,
+"Temporary": true
+}
+],
+"Name": {
+"DefaultText": "Houndoom",
+"LocalTexts": {
+"ja": "ヘルガー",
+"ko": "헬가",
+"zh-hant": "黑魯加",
+"fr": "Démolosse",
+"de": "Hundemon",
+"es": "Houndoom",
+"it": "Houndoom",
+"ja-jp": "ヘルガー",
+"zh-hans": "黑鲁加"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 229
+},
+"houndour": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Houndour",
+"LocalTexts": {
+"ja": "デルビル",
+"ko": "델빌",
+"zh-hant": "戴魯比",
+"fr": "Malosse",
+"de": "Hunduster",
+"es": "Houndour",
+"it": "Houndour",
+"ja-jp": "デルビル",
+"zh-hans": "戴鲁比"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Houndour",
+"LocalTexts": {
+"ja": "デルビル",
+"ko": "델빌",
+"zh-hant": "戴魯比",
+"fr": "Malosse",
+"de": "Hunduster",
+"es": "Houndour",
+"it": "Houndour",
+"ja-jp": "デルビル",
+"zh-hans": "戴鲁比"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 228
+},
+"luxio": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Luxio",
+"LocalTexts": {
+"ja": "ルクシオ",
+"ko": "럭시오",
+"zh-hant": "勒克貓",
+"fr": "Luxio",
+"de": "Luxio",
+"es": "Luxio",
+"it": "Luxio",
+"ja-jp": "ルクシオ",
+"zh-hans": "勒克猫"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Luxio",
+"LocalTexts": {
+"ja": "ルクシオ",
+"ko": "럭시오",
+"zh-hant": "勒克貓",
+"fr": "Luxio",
+"de": "Luxio",
+"es": "Luxio",
+"it": "Luxio",
+"ja-jp": "ルクシオ",
+"zh-hans": "勒克猫"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 404
+},
+"luxray": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Luxray",
+"LocalTexts": {
+"ja": "レントラー",
+"ko": "렌트라",
+"zh-hant": "倫琴貓",
+"fr": "Luxray",
+"de": "Luxtra",
+"es": "Luxray",
+"it": "Luxray",
+"ja-jp": "レントラー",
+"zh-hans": "伦琴猫"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Luxray",
+"LocalTexts": {
+"ja": "レントラー",
+"ko": "렌트라",
+"zh-hant": "倫琴貓",
+"fr": "Luxray",
+"de": "Luxtra",
+"es": "Luxray",
+"it": "Luxray",
+"ja-jp": "レントラー",
+"zh-hans": "伦琴猫"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 405
+},
+"regirock": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Regirock",
+"LocalTexts": {
+"ja": "レジロック",
+"ko": "레지락",
+"zh-hant": "雷吉洛克",
+"fr": "Regirock",
+"de": "Regirock",
+"es": "Regirock",
+"it": "Regirock",
+"ja-jp": "レジロック",
+"zh-hans": "雷吉洛克"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Regirock",
+"LocalTexts": {
+"ja": "レジロック",
+"ko": "레지락",
+"zh-hant": "雷吉洛克",
+"fr": "Regirock",
+"de": "Regirock",
+"es": "Regirock",
+"it": "Regirock",
+"ja-jp": "レジロック",
+"zh-hans": "雷吉洛克"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 377
+},
+"rhydon": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Rhydon",
+"LocalTexts": {
+"ja": "サイドン",
+"ko": "코뿌리",
+"zh-hant": "鑽角犀獸",
+"fr": "Rhinoféros",
+"de": "Rizeros",
+"es": "Rhydon",
+"it": "Rhydon",
+"ja-jp": "サイドン",
+"zh-hans": "钻角犀兽"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Rhydon",
+"LocalTexts": {
+"ja": "サイドン",
+"ko": "코뿌리",
+"zh-hant": "鑽角犀獸",
+"fr": "Rhinoféros",
+"de": "Rizeros",
+"es": "Rhydon",
+"it": "Rhydon",
+"ja-jp": "サイドン",
+"zh-hans": "钻角犀兽"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 112
+},
+"rhyperior": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Rhyperior",
+"LocalTexts": {
+"ja": "ドサイドン",
+"ko": "거대코뿌리",
+"zh-hant": "超甲狂犀",
+"fr": "Rhinastoc",
+"de": "Rihornior",
+"es": "Rhyperior",
+"it": "Rhyperior",
+"ja-jp": "ドサイドン",
+"zh-hans": "超甲狂犀"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Rhyperior",
+"LocalTexts": {
+"ja": "ドサイドン",
+"ko": "거대코뿌리",
+"zh-hant": "超甲狂犀",
+"fr": "Rhinastoc",
+"de": "Rihornior",
+"es": "Rhyperior",
+"it": "Rhyperior",
+"ja-jp": "ドサイドン",
+"zh-hans": "超甲狂犀"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 464
+},
+"shinx": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Shinx",
+"LocalTexts": {
+"ja": "コリンク",
+"ko": "꼬링크",
+"zh-hant": "小貓怪",
+"fr": "Lixy",
+"de": "Sheinux",
+"es": "Shinx",
+"it": "Shinx",
+"ja-jp": "コリンク",
+"zh-hans": "小猫怪"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Shinx",
+"LocalTexts": {
+"ja": "コリンク",
+"ko": "꼬링크",
+"zh-hant": "小貓怪",
+"fr": "Lixy",
+"de": "Sheinux",
+"es": "Shinx",
+"it": "Shinx",
+"ja-jp": "コリンク",
+"zh-hans": "小猫怪"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 403
+},
+"tyranitar": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Tyranitar",
+"LocalTexts": {
+"ja": "バンギラス",
+"ko": "마기라스",
+"zh-hant": "班基拉斯",
+"fr": "Tyranocif",
+"de": "Despotar",
+"es": "Tyranitar",
+"it": "Tyranitar",
+"ja-jp": "バンギラス",
+"zh-hans": "班基拉斯"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Mega Tyranitar",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Méga-Tyranocif",
+"de": "Mega-Despotar",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": false,
+"Temporary": true
+}
+],
+"Name": {
+"DefaultText": "Tyranitar",
+"LocalTexts": {
+"ja": "バンギラス",
+"ko": "마기라스",
+"zh-hant": "班基拉斯",
+"fr": "Tyranocif",
+"de": "Despotar",
+"es": "Tyranitar",
+"it": "Tyranitar",
+"ja-jp": "バンギラス",
+"zh-hans": "班基拉斯"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 248
+}
+}
+}
