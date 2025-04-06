@@ -1,6 +1,6 @@
 # Pokemon Mystery Dungeon: Sunpath
 PMD: Sunpath is a story mod for [PMDO](https://github.com/audinowho/PMDODump/) created by BobTheBobCatt that aims to create a full-length adventure featured on the Sand Continent of Pokemon Mystery Dungeon.
-It currently consists of 0 chapters. 
+It currently consists of 0 chapters. - NOTE: This is very much an early WIP.
 A final length of 20-32 chapters is planned at the moment.
 
 ## To install and play
