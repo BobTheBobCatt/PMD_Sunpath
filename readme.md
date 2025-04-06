@@ -1,7 +1,6 @@
 # Pokemon Mystery Dungeon: Sunpath
 PMD: Sunpath is a story mod for [PMDO](https://github.com/audinowho/PMDODump/) created by BobTheBobCatt that aims to create a full-length adventure featured on the Sand Continent of Pokemon Mystery Dungeon.
 It currently consists of 0 chapters. - NOTE: This is very much an early WIP.
-A final length of 20-32 chapters is planned at the moment.
 
 ## To install and play
 1. [Download and install PMDO](https://github.com/audinowho/PMDODump/releases) if you have not already.
@@ -11,7 +10,7 @@ A final length of 20-32 chapters is planned at the moment.
 5. Make sure PMD: Sunpath is not embedded an extra folder down! When you click on Sunpath's folder in your MODS folder, it should have the readme file in plain sight, and not in another folder.
 6. Start PMDO, and select PMD: Sunpath from the main menu via Special Episodes.
 
-If you're having trouble installing the game, or have any questions, comments, feedback, etc., please join the [PMDO discord](https://discord.gg/37VKndMsr2) and talk with BobTheBobCatt there! The dedicated channel for PMD: Sunpath discussion is in the sunpath tab (once it's made).
+If you're having trouble installing the game, or have any questions, comments, feedback, etc., please join the [PMDO discord](https://discord.gg/37VKndMsr2) and talk with BobTheBobCatt (me) or any dev there! The dedicated channel for PMD: Sunpath discussion is in the Sunpath tab (once it's made).
 
 
 
