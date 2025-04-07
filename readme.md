@@ -3,14 +3,14 @@ PMD: Sunpath is a story mod for [PMDO](https://github.com/audinowho/PMDODump/) c
 It currently consists of 0 chapters. - NOTE: This is very much an early WIP.
 
 ## To install and play
-1. [Download and install PMDO](https://github.com/audinowho/PMDODump/releases) if you have not already.
-2. Download PMD: Sunpath as a zip file from PMDO's Discord server (not available there right now.) The latest release should be the most stable one.
+1. [Download and install PMDO.](https://github.com/audinowho/PMDODump/releases)
+2. Download PMD: Sunpath as a zip file from [its own GitHub page.](https://github.com/BobTheBobCatt/PMD_Sunpath)
 3. Extract the PMD: Sunpath zip file to its own folder.
-4. Place extracted PMD: Sunpath folder into PMDO's MODS folder. The exact file path changes depending on where you put PMDO, but it should go something like PMDO/MODS/PMD_Sunpath in the end.
-5. Make sure PMD: Sunpath is not embedded an extra folder down! When you click on Sunpath's folder in your MODS folder, it should have the readme file in plain sight, and not in another folder.
+4. Place extracted PMD: Sunpath folder into PMDO's MODS folder. The exact file path changes depending on where you put PMDO, but it should go something like this: PMDO/MODS/PMD_Sunpath
+5. Make sure PMD: Sunpath is not embedded an extra folder down. When you click on Sunpath's folder in your MODS folder, it should have the readme & mod file in plain sight, and not in another folder.
 6. Start PMDO, and select PMD: Sunpath from the main menu via Special Episodes.
 
-If you're having trouble installing the game, or have any questions, comments, feedback, etc., please join the [PMDO discord](https://discord.gg/37VKndMsr2) and talk with BobTheBobCatt (me) or any dev there! The dedicated channel for PMD: Sunpath discussion is in the Sunpath tab (once it's made).
+If you are having any issues with installation of the mod or have any questions regarding it, you can join the [PMDO Discord server](https://discord.gg/37VKndMsr2) and ask me or any devs there.
 
 
 
@@ -49,8 +49,9 @@ Other custom sprites and animations come from the master [PMD Sprite Repository]
 If you helped in some way and aren't listed here, please let me know.
 
 ### Special thanks
-* Palika — For giving me permission to learn from his scripts and maps. Also giving me tips on map & location design as well.
+* Palika — For giving me permission to learn from his scripts and maps. Also giving me tips on map & location design as well, as well as helping with a couple issues.
 * Shitpost Sunkern - For giving me advice and criticism for many aspects regarding the project and even dev stuff in general.
+* Audino - For helping me with how to do various scripts as well as some troubleshooting, and giving advice of what to do in future scenarios.
 * Minarchu — For giving me permission to expand upon the Sands of Time map and allowing the use of SoT assets.
 * A Birkeholm, DJMuffinTops, KM Arrangements - For giving me permission to use their music in the project.
 * [SkyTemple](https://skytemple.org/) community — For helping me figure out various aspects of mod development.
