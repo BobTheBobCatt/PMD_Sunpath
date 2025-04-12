@@ -24,10 +24,14 @@ If you are having any issues with installation of the mod or have any questions 
 
 ## Credits
 * **BobTheBobCatt** — Mod author; Scripting, writing, balancing, mapping, etc. (Non-engine work, except where other credit is given)  
-* **Audino** — For making the engine, adding features that I needed for the game. Their work cannot be understated as without them this mod would not exist.
-* **Trio-** — Mission_gen in-dungeon scripting, other scripting features/enhancements/quality of life.
-* **Palika** - Writing the original scripts that some scenes are based on.
+* **Audino** — For making the engine and adding features that I needed for the game. Their work cannot be understated as without them, this mod would not exist.
+* **Trio-** — Mission_gen in-dungeon scripting, other scripting features/enhancements/quality of life from PMDO & Halcyon scripts used as a baseline.
 * **Minarchu** - Designing the original Sand Continent map.
+* **Palika** - Writing the original scripts that some scenes are based on.
+
+### Spriting credits:
+* Minarchu - Sand Continent Map, Desert Road tile & Cactus
+* MistressNebula - Frostbite Status Icon
 
 ### Music credits:
 * DJMuffinTops - Buried Oasis
@@ -37,12 +41,9 @@ If you are having any issues with installation of the mod or have any questions 
 ### Misc Music credits:
 * MOLI/Moliyo via Tales of Pirates - Shaitan City (Qahil Village) [NOTE: MOLI never credited the composers for Tales of Pirates, so I am unable to provide any names.]
 
-### Spriting credits:
-* Minarchu - Sand Continent Map & Cactus
-* MistressNebula - Frostbite Status Icon
-
 ### Playtesters:
-
+* Palika
+* Audino
 
 Other custom sprites and animations come from the master [PMD Sprite Repository](https://sprites.pmdcollab.org/) and were not custom made for this mod.
 
@@ -52,6 +53,6 @@ If you helped in some way and aren't listed here, please let me know.
 * Palika — For giving me permission to learn from his scripts and maps. Also giving me tips on map & location design as well, as well as helping with a couple issues.
 * Shitpost Sunkern - For giving me advice and criticism for many aspects regarding the project and even dev stuff in general.
 * Audino - For helping me with how to do various scripts as well as some troubleshooting, and giving advice of what to do in future scenarios.
-* Minarchu — For giving me permission to expand upon the Sands of Time map and allowing the use of SoT assets.
+* Minarchu — For giving me permission to expand upon the Sands of Time map and allowing the use of Sands of Time assets.
 * A Birkeholm, DJMuffinTops, KM Arrangements - For giving me permission to use their music in the project.
 * [SkyTemple](https://skytemple.org/) community — For helping me figure out various aspects of mod development.
