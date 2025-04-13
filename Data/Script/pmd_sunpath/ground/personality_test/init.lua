@@ -28,7 +28,7 @@ end
 --Engine callback function
 function personality_test.Enter(map)
 
-	personality_test.PlotScripting()
+	personality_test.StoryScripting()
 
 end
 
@@ -60,11 +60,11 @@ end
 function personality_test.GameLoad(map)
 	PartnerEssentials.LoadGamePartnerPosition(CH('Teammate1'))
 	PartnerEssentials.LoadGamePartnerPosition(CH('Teammate2'))
-	personality_test.PlotScripting()
+	personality_test.StoryScripting()
 end
 
 
-function personality_test.PlotScripting()
+function personality_test.StoryScripting()
 	if not SV.Chapter1.PlayedIntroCutscene then 
 		personality_test.CharacterSelect()
 	else
@@ -120,7 +120,7 @@ function personality_test.CharacterSelect()
 	--otherwise, use the standard starter selection script.
 	if CONFIG.RegularStarters then
 		--Hero data
-		local msg = "Your hero."
+		local msg = "Your charac."
 		--[[local choices = {'Bulbasaur', 'Charmander', 'Squirtle', 'Pikachu', 'Vulpix', 'Vulpix-A', 'Meowth', 'Machop', 'Eevee', 'Growlithe', 'Psyduck', 'Meowth',
 						 'Cubone', 'Chikorita', 'Cyndaquil', 'Totodile', 'Houndour', 'Phanpy', 'Magby', 'Teddiursa', 'Mareep', 'Elekid',
 						 'Larvitar', 'Treecko', 'Torchic', 'Mudkip', 'Poochyena', 'Ralts', 'Skitty', 'Azurill',

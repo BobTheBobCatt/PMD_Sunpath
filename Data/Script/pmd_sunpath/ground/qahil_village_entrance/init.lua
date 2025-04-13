@@ -25,7 +25,7 @@ end
 --Engine callback function
 function qahil_village_entrance.Enter(map)
 
-	qahil_village_entrance.PlotScripting()
+	qahil_village_entrance.StoryScripting()
 
 end
 
@@ -50,11 +50,11 @@ function qahil_village_entrance.GameSave(map)
 
 end
 
-function qahil_village_entrance.PlotScripting()
-  --plot scripting
+function qahil_village_entrance.StoryScripting()
+  --Story scripting
 	if SV.ChapterProgression.Chapter == 1 then 
-		if SV.Chapter1.PlayerCompletedDune and not SV.Chapter1.PlayerEnteredVillage then
-			qahil_village_entrnace_ch_1.Plot_Cutscene()
+		if not SV.Chapter1.PlayerEnteredVillage and SV.Chapter1.PlayerCompletedDune then
+			qahil_village_entrance_ch_1.Story_Cutscene()
 		end
 	else
 		GAME:FadeIn(20)
@@ -65,8 +65,32 @@ end
 --Engine callback function
 function qahil_village_entrance.GameLoad(map)
 
-	qahil_village_entrance.PlotScripting()
+	qahil_village_entrance.StoryScripting()
 
+end
+
+--------------------------------------------------
+-- Objects Callbacks
+--------------------------------------------------
+
+function qahil_village_entrance.North_Exit_Touch(obj, activator)
+	DEBUG.EnableDbgCoro() --Enable debugging this coroutine
+	if SV.Chapter1.PlayerMetPartner then
+		GAME:FadeOut(false, 20)
+		GAME:EnterGroundMap("qahil_village", "entrance_south")
+	else
+		print("Map trigger failed.")
+	end
+end
+
+function qahil_village_entrance.East_Exit_Touch(obj, activator)
+	DEBUG.EnableDbgCoro() --Enable debugging this coroutine
+	if SV.Chapter1.PlayerMetPartner then
+		GAME:FadeOut(false, 20)
+		GAME:EnterGroundMap("abandoned_crossroads", "Main_Entrance_Marker2")
+	else
+		print("Map trigger failed.")
+	end
 end
 
 -------------------------------

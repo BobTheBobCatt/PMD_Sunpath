@@ -307,7 +307,7 @@ function GeneralFunctions.EightWayMove(chara, x, y, run, speed)
 	GROUND:MoveToPosition(chara, x, y, run, speed)
 end
 
---shortcut for doing hero dialogue (i.e., no sfx, no nameplate at the start)
+--shortcut for doing player dialogue (i.e., no sfx, no nameplate at the start)
 function GeneralFunctions.HeroDialogue(chara, str, emotion)
 	UI:SetSpeaker('', false, chara.CurrentForm.Species, chara.CurrentForm.Form, chara.CurrentForm.Skin, chara.CurrentForm.Gender)
 	UI:SetSpeakerEmotion(emotion)

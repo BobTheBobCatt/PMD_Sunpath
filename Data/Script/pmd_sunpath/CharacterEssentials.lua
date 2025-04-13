@@ -7,6 +7,18 @@ end
 
 CharacterEssentials = {}
 
+local characters = {
+		--village guard
+		Absol = {
+			species = "absol",
+			nickname = 'Absol',
+			instance = 'Absol',
+			gender = Gender.Male,
+			form = 0,
+			skin = "normal"
+		}
+			
+	}
 
 --creates character from stored data and returns them
 function CharacterEssentials.MakeCharactersFromList(list, retTable)

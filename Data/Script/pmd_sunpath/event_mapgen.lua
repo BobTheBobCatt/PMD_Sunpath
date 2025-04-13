@@ -1,5 +1,5 @@
 require 'origin.common'
-require 'origin.mission_gen'
+require 'pmd_sunpath.mission_gen'
 
 function ZONE_GEN_SCRIPT.ReverseDustyDune(zoneContext, context, queue, seed, args)
 	if SV.Chapter1.PlayerEnteredDune and not SV.Chapter1.PlayerCompletedDune then
@@ -14,11 +14,9 @@ end
 
 
 
---Halcyon custom map gen steps
+--Halcyon/Sunpath custom map gen steps
  
---Used to create a somewhat irregular cross that cuts through Apricorn Grove. It's needed to add some more pathways for
---mobs to navigate the dungeon with and jump you more often
---Note: I think with the right RNG, the area in the middle may end up resembling a swastika. Be aware of this and perhaps adjust some numbers in the logic around to fix it if it ends up being an issue. I may just be paranoid.
+--Used to create a somewhat irregular cross that cuts through a dungeon. It's needed to add some more pathways for mobs to navigate the dungeon with and jump you more often.
 function FLOOR_GEN_SCRIPT.CreateCrossHalls(map, args)
 	
 	--get the center of the map to start the cross from, plus or minus 1 or 2 for variety.
@@ -124,7 +122,7 @@ function FLOOR_GEN_SCRIPT.CreateCrossHalls(map, args)
 	
  
 end 
---used for making the river in the Illuminant Riverbed
+--Used for making the rivers in dungeons.
 function FLOOR_GEN_SCRIPT.CreateRiver(map, args)
 	local mapCenter = math.ceil(map.Width / 2)
 	local randomOffset = map.Rand:Next(-2,3) --a random small offset added to all tiles to help randomize where the river falls a bit 

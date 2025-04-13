@@ -1,6 +1,7 @@
 require 'origin.common_gen'
 require 'origin.common_shop'
 require 'pmd_sunpath.menu.member_return'
+require 'pmd_sunpath.config'
 
 function COMMON.RespawnAllies(reviveAll)
   GROUND:RefreshPlayer()
@@ -12,21 +13,21 @@ function COMMON.RespawnAllies(reviveAll)
   local partner2Position = nil
   local partner2Direction = nil
  
- --custom Halcyon addition to handle partner respawning 
+ --custom Halcyon/Sunpath addition to handle partner respawning 
   local partner = CH('Teammate1')
   if partner ~= nil then
 	partnerPosition = partner.Position
 	partnerDirection = partner.Direction
   end
   
-   --custom Halcyon addition to handle 2nd partner respawning 
+   --custom Halcyon/Sunpath addition to handle 2nd partner respawning 
   local partner2 = CH('Teammate2')
   if partner2 ~= nil then
 	partner2Position = partner2.Position
 	partner2Direction = partner2.Direction
   end
 	
-  --Halcyon change: reviveAll parameter. If false, only respawn player+partner. If true, then revive player+Teammates1-3
+  --Halcyon/Sunpath change: reviveAll parameter. If false, only respawn player+partner. If true, then revive player+Teammates1-3
   --Place player teammates
   if reviveAll == nil then reviveAll = false end
   local allies = 1
@@ -51,14 +52,14 @@ function COMMON.RespawnAllies(reviveAll)
   partner = CH('Teammate1')
   partner2 = CH('Teammate2')
 
-  --custom Halcyon addition: Move partner to their original Position and direction
+  --custom Halcyon/Sunpath addition: Move partner to their original Position and direction
   if partner ~= nil and partnerPosition ~= nil and partnerDirection ~= nil then 
 	GROUND:TeleportTo(partner, partnerPosition.X, partnerPosition.Y, partnerDirection)
 	AI:SetCharacterAI(partner, "ai.ground_partner", CH('PLAYER'), partner.Position)
     partner.CollisionDisabled = true 
   end
   
-  --custom Halcyon addition: Move partner to their original Position and direction
+  --custom Halcyon/Sunpath addition: Move partner to their original Position and direction
   if partner2 ~= nil and partner2Position ~= nil and partner2Direction ~= nil then 
 	GROUND:TeleportTo(partner2, partner2Position.X, partner2Position.Y, partner2Direction)
 	AI:SetCharacterAI(partner2, "ai.ground_partner2", CH('PLAYER'), partner2.Position)

@@ -25,7 +25,7 @@ end
 --Engine callback function
 function abandoned_crossroads.Enter(map)
 
-	abandoned_crossroads.PlotScripting()
+	abandoned_crossroads.StoryScripting()
 
 end
 
@@ -50,11 +50,11 @@ function abandoned_crossroads.GameSave(map)
 
 end
 
-function abandoned_crossroads.PlotScripting()
-  --plot scripting
+function abandoned_crossroads.StoryScripting()
+  --Story scripting
 	if SV.ChapterProgression.Chapter == 1 then 
 		if SV.Chapter1.PlayerCompletedDune then
-			abandoned_crossroads_ch_1.Plot_Cutscene()
+			abandoned_crossroads_ch_1.Story_Cutscene()
 		end
 	else
 		GAME:FadeIn(20)
@@ -64,9 +64,43 @@ end
 ---abandoned_crossroads.GameLoad(map)
 --Engine callback function
 function abandoned_crossroads.GameLoad(map)
-	abandoned_crossroads.PlotScripting()
+	abandoned_crossroads.StoryScripting()
 end
 
+--------------------------------------------------
+-- Objects Callbacks
+--------------------------------------------------
+
+function abandoned_crossroads.North_Exit_Touch(obj, activator)
+	DEBUG.EnableDbgCoro() --Enable debugging this coroutine
+	
+	if SV.Chapter1.PlayerMetPartner then
+		UI:ResetSpeaker(false)
+		SOUND:PlaySE("Menu/Skip")
+		local zone = _DATA.DataIndices[RogueEssence.Data.DataManager.DataType.Zone]:Get('dusty_dune')
+		UI:ChoiceMenuYesNo(STRINGS:FormatKey("DLG_ASK_ENTER_DUNGEON", zone:GetColoredName()), false)
+		UI:WaitForChoice()
+		ch = UI:ChoiceResult()
+		if ch then
+			_DATA:PreLoadZone('dusty_dune')
+			SOUND:PlayBGM("", true)
+			GAME:FadeOut(false, 20)
+			GAME:EnterDungeon("dusty_dune", 0, 0, 0, RogueEssence.Data.GameProgress.DungeonStakes.Risk, true, true)
+		end
+	else
+		print("Map trigger failed.")
+	end
+end
+
+function abandoned_crossroads.West_Exit_Touch(obj, activator)
+	DEBUG.EnableDbgCoro() --Enable debugging this coroutine
+	if SV.Chapter1.PlayerMetPartner then
+		GAME:FadeOut(false, 20)
+		GAME:EnterGroundMap("qahil_village_entrance", "main_entrance_marker")
+	else
+		print("Map trigger failed.")
+	end
+end
 
 -------------------------------
 -- Entities Callbacks

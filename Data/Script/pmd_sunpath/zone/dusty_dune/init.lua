@@ -34,19 +34,6 @@ function dusty_dune.ExitSegment(zone, result, rescue, segmentID, mapID)
   PrintInfo("=>> ExitSegment_dusty_dune (Dusty Dune) result "..tostring(result).." segment "..tostring(segmentID))
   GAME:SetRescueAllowed(false)
 
-	--[[Different dungeon result typeS (cleared, died, etc)
-	       public enum ResultType
-        {
-            Unknown = -1,
-            Downed,
-            Failed,
-            Cleared,
-            Escaped,
-            TimedOut,
-            GaveUp,
-            Rescue
-        }
-		]]--
 	if SV.ChapterProgression.Chapter == 1 then 
 		if result ~= RogueEssence.Data.GameProgress.ResultType.Cleared then
 			if SV.Chapter1.PlayerEnteredDune and not SV.Chapter1.PlayerCompletedDune then--player fainted before clearing
@@ -61,16 +48,18 @@ function dusty_dune.ExitSegment(zone, result, rescue, segmentID, mapID)
 				GAME:EnterGroundMap("dusty_dune", "Main_Entrance_Marker")	
 
 			else --failsafe
-				print("error in resulting Sandy Dune completion")
+				print("Dusty Dune completion failed.")
 			end
 		else 
-		
 			if SV.Chapter1.PlayerEnteredDune and not SV.Chapter1.PlayerCompletedDune then--player made it through solo
 				SV.Chapter1.PlayerCompletedDune = true	
+				
+				GAME:EndDungeonRun(result, "sp_test_zone", -1, 0, 0, false, false)
+				
 				GAME:EnterGroundMap("abandoned_crossroads", "Main_Entrance_Marker")				
 				
 			else--failsafe 
-				print("error in resulting Sandy Dune completion")
+				print("Dusty Dune completion failed.")
 			end
 		end		
 	end

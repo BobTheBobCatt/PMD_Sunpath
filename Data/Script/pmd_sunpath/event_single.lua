@@ -146,62 +146,62 @@ end
 
 
 --Halcyon/Sunpath script
---Popups with information on how to play the game in Dusty Dune's first two pass throughs
+--Popups with information on how to play the game in Dusty Dune's first pass-throughs
 function SINGLE_CHAR_SCRIPT.DustyDuneTutorial(owner, ownerChar, context, args)
     --note: each floor has a few messages as the player progresses throughout the first dungeon.
     UI:ResetSpeaker()
-    if args.Floor == 1 then
+    if args.Floor == 5 then
 		if SV.Chapter1.TutorialProgression < 1 then
 			SOUND:PlayFanfare("Fanfare/Note")
-			UI:WaitShowDialogue("Head for the stairs![pause=0] You can attack enemies by pressing " .. STRINGS:LocalKeyString(2) .. ".[pause=0] Enemies don't move or attack until you do.")
-			UI:WaitShowDialogue("Press " .. STRINGS:LocalKeyString(0) .. " to confirm selections or press " .. STRINGS:LocalKeyString(1) .. " to cancel.")
-			UI:WaitShowDialogue("Want to change settings such as controls, battle speed, or window size?[pause=0] Press " .. STRINGS:LocalKeyString(9) .. " and check the Others menu.")
+			UI:WaitShowDialogue("Go for the stairs![pause=0] While doing so, you can attack enemies by pressing " .. STRINGS:LocalKeyString(2) .. ". Enemies don't attack or move until you do so first.")
+			UI:WaitShowDialogue("Also, press " .. STRINGS:LocalKeyString(0) .. " to confirm selections or press " .. STRINGS:LocalKeyString(1) .. " to cancel.")
+			UI:WaitShowDialogue("Moves also have varying effects; To use moves, hold " .. STRINGS:LocalKeyString(4) .. ", then press " .. STRINGS:LocalKeyString(21) .. ", " .. STRINGS:LocalKeyString(22) .. ", " .. STRINGS:LocalKeyString(23) .. ", or " .. STRINGS:LocalKeyString(24) .. " to use the selected move.")
+			UI:WaitShowDialogue("You can also press " .. STRINGS:LocalKeyString(9) .. " and choose the Moves option or press " .. STRINGS:LocalKeyString(11) .. " to access the Moves menu too.")
 			SV.Chapter1.TutorialProgression = 1
 			GAME:WaitFrames(20)
 		end 		
-    elseif args.Floor == 2 then
+    elseif args.Floor == 4 then
 	  	if SV.Chapter1.TutorialProgression < 2 then
 			SOUND:PlayFanfare("Fanfare/Note")
-			UI:WaitShowDialogue("To earn Exp. Points,[pause=10] a Pokémon must use at least one move against a foe,[pause=10] rather than just its basic " .. STRINGS:LocalKeyString(2) .. " attack.")
-			UI:WaitShowDialogue("To use moves,[pause=10] hold " .. STRINGS:LocalKeyString(4) .. ",[pause=10] then press " .. STRINGS:LocalKeyString(21) .. ",[pause=10] " .. STRINGS:LocalKeyString(22) .. ",[pause=10] " .. STRINGS:LocalKeyString(23) .. ",[pause=10] or " .. STRINGS:LocalKeyString(24) .. " to use the corresponding move.")
-			UI:WaitShowDialogue("Alternatively,[pause=10] press " .. STRINGS:LocalKeyString(9) .. " and choose the Moves option or press " .. STRINGS:LocalKeyString(11) .. " to access the Moves menu.")
-			UI:WaitShowDialogue("To view a history of recent actions,[pause=10] press " .. STRINGS:LocalKeyString(10) .. ".")
-			UI:WaitShowDialogue("You can also toggle minimap modes using " .. STRINGS:LocalKeyString(8) .. ",[pause=10] and view the status of your team using " .. STRINGS:LocalKeyString(14) .. ".")
+			UI:WaitShowDialogue("You can carry a number of items; Items that you find have a number of various uses and effects.")
+			UI:WaitShowDialogue("To see what items you are carrying, press " .. STRINGS:LocalKeyString(9) .. " and select the Items menu. You can also use this to see what an item does.")
+			UI:WaitShowDialogue("You can also press " .. STRINGS:LocalKeyString(12) .. " to access the item menu faster.") 
 			SV.Chapter1.TutorialProgression = 2
 			GAME:WaitFrames(20)
 		end 
     elseif args.Floor == 3 then
 		if SV.Chapter1.TutorialProgression < 3 then
 			SOUND:PlayFanfare("Fanfare/Note")
-			UI:WaitShowDialogue("You can carry a number of items.[pause=0] Items have a number of various effects and uses.")
-			UI:WaitShowDialogue("To see what items you are carrying,[pause=10] press " .. STRINGS:LocalKeyString(9) .. " and choose the Items option.")
-			UI:WaitShowDialogue("Alternatively,[pause=10] press " .. STRINGS:LocalKeyString(12) .. " to access your items more quickly.") 
-			UI:WaitShowDialogue("You can also hold " .. STRINGS:LocalKeyString(3) .. " to run![pause=0] This doesn't let you travel more distance in a single turn,[pause=10] but helps you navigate faster.")
-			UI:WaitShowDialogue("Hold " .. STRINGS:LocalKeyString(5) .. " and press a direction to look that way without moving or using up your turn.")
-			UI:WaitShowDialogue("You can also hold " .. STRINGS:LocalKeyString(6) .. " to only allow for diagonal movement as well.")
+			UI:WaitShowDialogue("Sometimes, you may come across a black tile with a green arrow. This is called a Wonder Tile.")
+			UI:WaitShowDialogue("Step on one to heal or reset any stat changes of yourself and anyone near you.")
+			UI:WaitShowDialogue("Also, if you want to change settings such as window size, battle speed, or controls, press " .. STRINGS:LocalKeyString(9) .. " and check the Others menu.")
+			UI:WaitShowDialogue("You can view a history of recent actions by pressing " .. STRINGS:LocalKeyString(10) .. "as well.")
 			SV.Chapter1.TutorialProgression = 3
 			GAME:WaitFrames(20)
 		end 
-    elseif args.Floor == 4 then
+    elseif args.Floor == 2 then
 	  	if SV.Chapter1.TutorialProgression < 4 then
-				local apple  = RogueEssence.Dungeon.InvItem("food_apple"):GetDisplayName()
-				SOUND:PlayFanfare("Fanfare/Note")
-				UI:WaitShowDialogue("If you get hungry,[pause=10] eat an " .. apple .. " or any food item.[pause=0] If your Belly runs empty,[pause=10] you will slowly lose health until you faint or eat something!")
-				UI:WaitShowDialogue("Team members will receive Exp. Points when enemies are defeated.[pause=0] When a teammate gets enough,[pause=10] they will level up!")
-				UI:WaitShowDialogue("A Pokémon will get more HP,[pause=10] higher stats,[pause=10] and possibly a new move each time it levels up.")
-				UI:WaitShowDialogue("Make sure to fight enemies if you want to toughen up!")
-				SV.Chapter1.TutorialProgression = 4
-				GAME:WaitFrames(20)
+			SOUND:PlayFanfare("Fanfare/Note")
+			UI:WaitShowDialogue("You can change minimap modes using " .. STRINGS:LocalKeyString(8) .. ", and view the status of your team using " .. STRINGS:LocalKeyString(14) .. ".")
+			UI:WaitShowDialogue("You can also hold " .. STRINGS:LocalKeyString(3) .. " to run! This doesn't allow you to travel more distance in a single turn, but it does help you navigate faster.")
+			UI:WaitShowDialogue("Additionally, holding " .. STRINGS:LocalKeyString(5) .. " and pressing a direction also allows you to look that way without moving or using up a turn.")
+			UI:WaitShowDialogue("Lastly, you can hold " .. STRINGS:LocalKeyString(6) .. " to only allow movement in a diagonal direction.")
+			SV.Chapter1.TutorialProgression = 4
+			GAME:WaitFrames(20)
 		end
-    elseif args.Floor == 5 then
+    elseif args.Floor == 1 then
 		if SV.Chapter1.TutorialProgression < 5 then
-				SOUND:PlayFanfare("Fanfare/Note")
-				UI:WaitShowDialogue("In your travels you may see a black tile with a green arrow.[pause=0] This is known as a Wonder Tile.")
-				UI:WaitShowDialogue("Step on one to reset the stat changes of yourself and anyone nearby.")
-				UI:WaitShowDialogue("Watch the HP stats of you and your partner at the top of the screen.[pause=0] If a Pokémon's HP reaches 0,[pause=10] it will faint!")
-				UI:WaitShowDialogue("If either you or your partner faint,[pause=10] you will both be ejected from the dungeon![pause=0] So work together to get through danger!")
-				SV.Chapter1.TutorialProgression = 5
-				GAME:WaitFrames(20)
+			SOUND:PlayFanfare("Fanfare/Note")
+			UI:WaitShowDialogue("Keep watch of your HP at the top of the screen. If a Pokémon's HP reaches 0, it will faint!")
+			UI:WaitShowDialogue("If you faint, you will be ejected from the dungeon. So be careful so that this doesn't happen.")
+			UI:WaitShowDialogue("On the topic of which, if you get hungry, eat a food item such as an apple or yucca fruit. If your Belly runs empty, you will slowly lose health until you faint or eat something.")
+			UI:WaitShowDialogue("Also, to earn Exp. Points, a Pokémon must use at least one move against an enemy rather than just its basic " .. STRINGS:LocalKeyString(2) .. " attack.")
+			UI:WaitShowDialogue("Team members will receive Exp. Points when enemies are defeated. When a teammate gets enough Exp., they will level up.")
+			UI:WaitShowDialogue("When a Pokémon levels up, they will get more HP, higher stats, and possibly even a new move.")
+			SV.Chapter1.TutorialProgression = 5
+			GAME:WaitFrames(20)
 		end
     end
 end
+
+

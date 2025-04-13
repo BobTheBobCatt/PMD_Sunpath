@@ -25,7 +25,7 @@ end
 --Engine callback function
 function dusty_dune.Enter(map)
 
-	dusty_dune.PlotScripting()
+	dusty_dune.StoryScripting()
 
 end
 
@@ -56,8 +56,8 @@ function dusty_dune.GameLoad(map)
 
 end
 
-function dusty_dune.PlotScripting()
-  --plot scripting
+function dusty_dune.StoryScripting()
+  --Story scripting
 	if SV.ChapterProgression.Chapter == 1 then 
 		if not SV.Chapter1.PlayedIntroCutscene then --Opening Cutscene on a fresh save
 			dusty_dune_ch_1.Intro_Cutscene()
@@ -74,6 +74,7 @@ function dusty_dune.GenericEnding()
 	local hero = CH('PLAYER')
 	local partner = CH('Teammate1')
 	local partner2 = CH('Teammate2')
+	local team2 = CH('Teammate2')
 	local team3 = CH('Teammate3')
 
 	AI:DisableCharacterAI(partner)
@@ -81,12 +82,15 @@ function dusty_dune.GenericEnding()
 	SOUND:StopBGM()
 	GAME:WaitFrames(20)
 
-	GAME:MoveCamera(301, 224, 1, false)
-	GROUND:TeleportTo(hero, 277, 400, Direction.Up)
-	GROUND:TeleportTo(partner, 309, 400, Direction.Up)
-	GROUND:TeleportTo(partner2, 293, 432, Direction.Up)
+	GAME:MoveCamera(235, 190, 1, false)
+	GROUND:TeleportTo(hero, 240, 200, Direction.Up)
+	GROUND:TeleportTo(partner, 272, 200, Direction.Up)
+	GROUND:TeleportTo(partner2, 256, 232, Direction.Up)
+	if team2 ~= nil then
+		GROUND:TeleportTo(team2, 256, 232, Direction.Up)
+	end
 	if team3 ~= nil then
-		GROUND:TeleportTo(team3, 325, 432, Direction.Up)
+		GROUND:TeleportTo(team3, 288, 232, Direction.Up)
 	end
 	
 	GAME:CutsceneMode(true)
@@ -99,29 +103,51 @@ function dusty_dune.GenericEnding()
 	SOUND:PlayBGM('In The Depths of the Pit.ogg', true)
 	
 	--numbers a bit wonk for camera and movement (not multiples of 2) to help match up with the slightly offcenter tablet and the other dusty dune scripts
-	local coro1 = TASK:BranchCoroutine(function() GROUND:MoveToPosition(partner, 309, 240, false, 1) end)
-	local coro2 = TASK:BranchCoroutine(function() GAME:WaitFrames(10)
-												  GROUND:MoveToPosition(hero, 277, 240, false, 1) end)
-	local coro3 = TASK:BranchCoroutine(function() GAME:WaitFrames(14)
-												  GROUND:MoveToPosition(partner2, 293, 272, false, 1) end)
-	local coro4 = TASK:BranchCoroutine(function() if team3 ~= nil then GAME:WaitFrames(18) GROUND:MoveToPosition(team3, 325, 272, false, 1) end end)
+	if SV.Chapter1.PlayerMetPartner and not SV.Chapter4.PlayerAndPartnerMetPartner2 then
+		local coro1 = TASK:BranchCoroutine(function() GROUND:MoveToPosition(partner, 272, 200, false, 1) end)
+		local coro2 = TASK:BranchCoroutine(function() GAME:WaitFrames(10)
+												 	  GROUND:MoveToPosition(hero, 240, 200, false, 1) end)
+		local coro3 = TASK:BranchCoroutine(function() if team2 ~= nil then GAME:WaitFrames(14) GROUND:MoveToPosition(team2, 256, 232, false, 1) end end)
+		local coro4 = TASK:BranchCoroutine(function() if team3 ~= nil then GAME:WaitFrames(18) GROUND:MoveToPosition(team3, 288, 232, false, 1) end end)
+		TASK:JoinCoroutines({coro1, coro2, coro3, coro4})
+	else
+		if SV.Chapter4.PlayerAndPartnerMetPartner2 then
+			local coro1 = TASK:BranchCoroutine(function() GROUND:MoveToPosition(partner, 272, 200, false, 1) end)
+			local coro2 = TASK:BranchCoroutine(function() GAME:WaitFrames(10)
+												 	  	  GROUND:MoveToPosition(hero, 240, 200, false, 1) end)
+			local coro3 = TASK:BranchCoroutine(function() GAME:WaitFrames(14)
+												  	 	  GROUND:MoveToPosition(partner2, 256, 232, false, 1) end)
+			local coro4 = TASK:BranchCoroutine(function() if team3 ~= nil then GAME:WaitFrames(18) GROUND:MoveToPosition(team3, 288, 232, false, 1) end end)
+			TASK:JoinCoroutines({coro1, coro2, coro3, coro4})
+		end
+	end
 	
-	TASK:JoinCoroutines({coro1, coro2, coro3, coro4})
 	GAME:WaitFrames(10)	
 	
-	coro1 = TASK:BranchCoroutine(function() GeneralFunctions.LookAround(partner, 3, 4, false, false, true, Direction.Up) end)
-	coro2 = TASK:BranchCoroutine(function() GAME:WaitFrames(10)
-											GeneralFunctions.LookAround(hero, 3, 4, false, false, true, Direction.Up) end)
-	coro3 = TASK:BranchCoroutine(function() GAME:WaitFrames(14)
-											GeneralFunctions.LookAround(partner2, 3, 4, false, false, true, Direction.Up) end)								  
-	coro4 = TASK:BranchCoroutine(function() if team3 ~= nil then GAME:WaitFrames(18) GeneralFunctions.LookAround(team3, 3, 4, false, false, true, Direction.Right) end end)										  
-	TASK:JoinCoroutines({coro1, coro2, coro3, coro4})
+	if SV.Chapter1.PlayerMetPartner and not SV.Chapter4.PlayerAndPartnerMetPartner2 then
+		coro1 = TASK:BranchCoroutine(function() GeneralFunctions.LookAround(partner, 3, 4, false, false, true, Direction.Up) end)
+		coro2 = TASK:BranchCoroutine(function() GAME:WaitFrames(10)
+											    GeneralFunctions.LookAround(hero, 3, 4, false, false, true, Direction.Up) end)
+		coro3 = TASK:BranchCoroutine(function() if team2 ~= nil then GAME:WaitFrames(14) GeneralFunctions.LookAround(team2, 3, 4, false, false, true, Direction.Up) end end)									  
+		coro4 = TASK:BranchCoroutine(function() if team3 ~= nil then GAME:WaitFrames(18) GeneralFunctions.LookAround(team3, 3, 4, false, false, true, Direction.Right) end end)										  
+		TASK:JoinCoroutines({coro1, coro2, coro3, coro4})
+	else
+		if SV.Chapter4.PlayerAndPartnerMetPartner2 then
+			coro1 = TASK:BranchCoroutine(function() GeneralFunctions.LookAround(partner, 3, 4, false, false, true, Direction.Up) end)
+			coro2 = TASK:BranchCoroutine(function() GAME:WaitFrames(10)
+													GeneralFunctions.LookAround(hero, 3, 4, false, false, true, Direction.Up) end)
+			coro3 = TASK:BranchCoroutine(function() GAME:WaitFrames(14)
+													GeneralFunctions.LookAround(partner2, 3, 4, false, false, true, Direction.Up) end)								  
+			coro4 = TASK:BranchCoroutine(function() if team3 ~= nil then GAME:WaitFrames(18) GeneralFunctions.LookAround(team3, 3, 4, false, false, true, Direction.Right) end end)										  
+			TASK:JoinCoroutines({coro1, coro2, coro3, coro4})
+		end
+	end
 
 	--temporary flags are set by the zone script rather than here.
 	GAME:WaitFrames(20)
 	UI:SetCenter(true)
 	UI:WaitShowDialogue("There doesn't appear to be anything of interest here.")
-	UI:WaitShowDialogue("It's impossible to go any further.[pause=0]\nIt's time to go back.")
+	UI:WaitShowDialogue("It's impossible to go any further. It's time to go back.")
 	GAME:WaitFrames(40)
 	UI:SetCenter(false)
 	SOUND:FadeOutBGM(60)

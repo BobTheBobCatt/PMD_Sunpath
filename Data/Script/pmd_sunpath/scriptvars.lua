@@ -62,7 +62,8 @@ SV.Chapter1 =
 	PlayerEnteredDune = false,--Did player go into the dune dungeon yet?
 	PlayerCompletedDune = false,--Did player complete solo run of first dungeon?
 	PlayerEnteredVillage = false,--Did player go into the village yet?
-	PartnerMetHero = false,--Finished partner meeting hero cutscene in Qahil Village?
+	PlayerAllowedInVillage = false,--Finished player meeting chief cutscene in Qahil Village?
+	PlayerMetPartner = false,--Finished player meeting partner cutscene in Qahil Village?
 
 
 	TutorialProgression = 0
@@ -78,7 +79,7 @@ SV.Chapter3 =
 
 SV.Chapter4 = 
 {
-
+	PlayerAndPartnerMetPartner2 = false--Finished player & partner meeting 2nd partner cutscene in Alraas Town?
 }
 
 ----------------------------------
