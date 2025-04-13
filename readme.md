@@ -45,7 +45,7 @@ If you are having any issues with installation of the mod or have any questions 
 * Palika
 * Audino
 
-Other custom sprites and animations come from the master [PMD Sprite Repository](https://sprites.pmdcollab.org/) and were not custom made for this mod.
+Other custom animations and sprites come from the [PMD Sprite Repository](https://sprites.pmdcollab.org/) and were not custom made for this mod.
 
 If you helped in some way and aren't listed here, please let me know.
 
