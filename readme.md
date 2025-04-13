@@ -23,7 +23,7 @@ If you are having any issues with installation of the mod or have any questions 
 
 
 ## Credits
-* **BobTheBobCatt**: Mod author; Scripting, writing, balancing, mapping, etc. (Non-engine work, except where other credit is given)  
+* **BobTheBobCatt**: Mod author; Writing, scripting, map design, balancing, some item design, a couple mechanics, etc. (Non-engine work, except where other credit is given)  
 * **Audino**: For making the engine and adding features that I needed for the game. Their work cannot be understated as without them, this mod would not exist.
 * **Trio-**: Mission_gen in-dungeon scripting, other scripting features/enhancements/quality of life from PMDO & Halcyon scripts used as a baseline.
 * **Minarchu**: Designing the original Sand Continent map.
