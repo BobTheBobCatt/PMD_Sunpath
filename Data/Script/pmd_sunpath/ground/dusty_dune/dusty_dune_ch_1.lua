@@ -104,10 +104,10 @@ function dusty_dune_ch_1.Intro_Cutscene()
 	
 	SV.Chapter1.PlayedIntroCutscene = true
 	SV.Chapter1.PlayerEnteredDune = true
-	SV.Chapter1.PlayerCompletedDune = true --Only for testing purposes
+	--SV.Chapter1.PlayerCompletedDune = true --Only for testing purposes (Flag needed for Abandoned Crossroads scene to play)
 	GAME:CutsceneMode(false)
-	GAME:EnterGroundMap("abandoned_crossroads", "Main_Entrance_Marker") --Only for testing purposes
-	--GAME:EnterDungeon("dusty_dune", 0, 4, 0, RogueEssence.Data.GameProgress.DungeonStakes.Risk, true, true)
+	--GAME:EnterGroundMap("abandoned_crossroads", "Main_Entrance_Marker") --Only for testing purposes for skipping the dungeon (and only if the enter dungeon code is commented out)
+	GAME:EnterDungeon("dusty_dune", 0, 4, 0, RogueEssence.Data.GameProgress.DungeonStakes.Risk, true, true)
 	
 end
 
