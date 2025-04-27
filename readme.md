@@ -34,12 +34,11 @@ If you are having any issues with installation of the mod or have any questions 
 * MistressNebula: Frostbite Status Icon
 
 ### Music credits:
-* DJMuffinTops: Buried Oasis
+* DJMuffinTops: Buried Oasis, Watahan Town
 * KM Arrangements: Blistering Desert
 * A Birkeholm: Ancient Ruins, Ancient Ruins Pit, Lakebed Canyon, Icebound Forest, Mt. Rockslide, Magma Cave, Scorching Lands
 
 ### Misc Music credits:
-* MOLI/Moliyo via Tales of Pirates: Shaitan City (Qahil Village) [NOTE: MOLI never credited the composers for Tales of Pirates, so I am unable to provide any names.]
 
 ### Playtesters:
 * Palika
