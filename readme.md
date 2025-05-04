@@ -16,7 +16,7 @@ If you are having any issues with installation of the mod or have any questions 
 
 ## FAQ
 1. How come the map is not accurate to the Sand Continent in Pokemon Super Mystery Dungeon?
-* The Sand Continent in PSMD is not really that utilized; Most places lack a unique theme and many names leave a lot to be desired. I also didn't want to draw too heavily on the game, especially given the previous statement. As for the major changes like the lowering of the snowline, that was purely my headcanon; I know PMD itself struggles with sensible snowlines. Also, the Sand Continent doesn't have a lot of biome diversity in PMDO.
+* The Sand Continent in PSMD is not really that utilized; Most places lack a unique theme and many names leave a lot to be desired. I also didn't want to draw too heavily on the game, especially given the previous statement. As for the major changes like the lowering of the snowline, that was purely my headcanon; I know PMD itself struggles with sensible snowlines. Also, the Sand Continent doesn't have a lot of biome diversity in PSMD.
 
 2. How come some of the music is...different?
 * Some tracks I used are from other titles; This is not an original thing to this project as PMDO also does the same thing. Honestly, I knew I was taking a gamble by using some tracks from other game series. If these tracks sound too out of place, then I'll change the tracks to something else.
