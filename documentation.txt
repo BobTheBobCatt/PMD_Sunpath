@@ -1,0 +1,420 @@
+New abilities:
+- Acceleration (Originally from Pokemon Uranium) - "Priority"-based move damage is boosted by 25%.
+- Clairvoyance - Accuracy is boosted by 10% and enemy accuracy is decreased by 10%.
+- Cloud Guard - Avoids enemy status moves in cloudy, foggy or rainy weather.
+- Flame Absorb - Being hit by a Fire-type move restores HP.
+- Frost Absorb - Being hit by an Ice-type move restores HP.
+- Frozen Body - Moves that make contact with the Pokemon may leave the target frostbitten.
+- Fujiwhara Effect - Being hit by a wind-based move raises Sp. Attack by 1 stage.
+- Poison Absorb - Being hit by a Poison-type move restores HP.
+- Purging Veil - Lowers the Sp. Attack stat of nearby Pokémon by 33%.
+- Sound Boost (Originally from Pokemon Uranium) - Sound-based move damage is boosted by 25%.
+- Surge - Boosts Electric-type moves when HP is low.
+- Terrifying Presence - Moves that make contact with the Pokemon may leave the target terrified.
+------------------------------------------------------------------------------------------------
+New statuses:
+- Blindness - Changes vision to blind under the status effect; Goes back to normal when effect ends.
+- Calcify - Damage on action, lowers Accuracy, does not affect Ground nor Rock types.
+- Drowsy (Originally from Pokemon Legends) - Basically acts like paralyze, but also increases taken Attack and Sp. Attack damage by 25%.
+- Frostbite (Originally from Pokemon Legends) - Damage on action, lowers Sp. attack, does not affect Ice Types.
+- Pathfinder - Changes vision to clear, changes vision back to normal when effect ends.
+- Petrify - Prevents Pokemon from acting and cannot be damaged. Fight, Ground & Steel-type moves remove the effect. (Rock version of Freeze)
+- Terrified (Originally from mainline PMD) - Changes an ally or enemy's tactic to Fleeing until the effect ends.
+- Type-Resistant (Type-change berry change) - Reduces damage from a specific type by 1/3.
+- Weather-Protect - Prevents weather from damaging the Pokemon when under the effect.
+-------------------------------------------------------------------------------------
+New moves: 
+- Caustic Breath (Originally from Pokemon Uranium) - Power: 45, Type: Dragon, Damage type: Special, Accuracy: 100%, Range: 5-tile shot, Additional effects: Lowers Defense and Sp. Defense stats.
+- Corrosive Breath - Power: 50, Type: Poison, Damage type: Special, Accuracy: 85%, Range: 5-tile shot, Additional effects: Super-effective vs Ground, Rock & Steel-types.
+- Downburst - Power: 60, Type: Flying, Damage type: Special, Accuracy: 100%, Range: 3-tile area, Additional effects: Chance to Flinch on hit.
+- Drain Life (Originally from Pokemon Uranium) - Power: 50, Type: Dark, Damage type: Physical, Accuracy: 100%, Range: Foe in front, Additional effects: Heals for half of damage dealt.
+- Dust Storm - Power: 50, Type: Ground, Damage type: Special, Accuracy: 100%, Range: 4-tile area, Additional effects: Chance to Calcify on hit.
+- Fire Up - Power: N/A, Type: Fire, Damage type: Special, Accuracy: 100%, Range: Self, Additional effects: Powers up the next Fire-type move and also reduces physical damage taken.
+- Flame Tail - Power: 75, Type: Fire, Damage type: Physical, Accuracy: 90%, Range: Foes in front and side, Additional effects: Chance to burn all targets hit.
+- Ghostly Chill - Power: 40, Type: Ghost, Damage type: Special, Accuracy: 100%, Range: Foes in 2-tile arc, Additional effects: Chance to immobolize the target.
+- Mineral Powder - Power: N/A, Type: Rock, Damage type: Special, Accuracy: 70%, Range: 2-tile area, Additional effects: Calcifies all targets "hit".
+- Muddy Terrain - Power: N/A, Type: Ground, Damage type: Special, Accuracy: 100%, Range: Map-status change, Additional effects: Changes map-status to Muddy Terrain.
+- Rock Punch - Power: 70, Type: Rock, Damage type: Physical, Accuracy: 100%, Range: Foe in front, Additional effects: Chance to calcify the target.
+- Sand Beam - Power: 50, Type: Ground, Damage type: Special, Accuracy: 100%, Range: 8-tile shot, Additional effects: Chance to calcify the target.
+- Sand Blast - Power: 40, Type: Ground, Damage type: Special, Accuracy: 100%, Range: 2-tile cone, Additional effects: Chance to calcify the target.
+- Scourge - Power: 60, Type: Ghost, Damage type: Special, Accuracy: 100%, Range: 4-tile area, Additional effects: Chance to terrify the target.
+- Shadow Beam - Power: 50, Type: Ghost, Damage type: Special, Accuracy: 100%, Range: 8-tile shot, Additional effects: Chance to flinch the target.
+- Sting - Power: 40, Type: Bug, Damage type: Physical, Accuracy: 100%, Range: 2-tile shot, Additional effects: N/A
+- Stone Fang - Power: 70, Type: Rock, Damage type: Physical, Accuracy: 100%, Range: Foe in front, Additional effects: Chance to calcify the target.
+- Wind Beam - Power: 50, Type: Flying, Damage type: Special, Accuracy: 100%, Range: 8-tile shot, Additional effects: Chance to flinch the target.
+- Wind Blast - Power: 40, Type: Flying, Damage type: Special, Accuracy: 100%, Range: 2-tile cone, Additional effects: Chance to flinch the target.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+New weathers:
+- Acid Rain - All Steel-type, Rock-type, Water-type, Grass-type & Ground-type Pokemon will take damage. Poison-type attacks are boosted and Fire-type attacks are weakened.
+- Ashfall - The defense of Fire-types is boosted and Electric-type attacks are weakened.
+- Aurora (Unfinished) - The Sp. Defense of Steel-types is boosted.
+- Darkness - Dark-type and Ghost-type moves are boosted and Fairy-type moves are weakened.
+- Diamond Dust (PMDO map status with an effect added in Sunpath) - Fairy-type moves are boosted.
+- Firestorm - All non-Fire type Pokemon take damage.
+- Fog (PMDO map status with an effect added in Sunpath) - Accuracy for all moves is reduced.
+- Freezing Fog - Ice-type moves are boosted.
+- Misty - All stats can't be dropped.
+- Muddy Terrain (Move "weather") - Ground-type moves are boosted, Electric-type moves are weakened.
+- Pathfinder (Item effect) - Changes the dungeon vision to clear if it is originally dark or murky.
+- Pollen Storm - Grass-type and Bug-type moves are boosted, all other moves are weakened.
+- Red Rain - Steel-type, Grass-type & Water-type attacks are boosted and Fire-type attacks are weakened.
+- Shadowy Aura - All non-Ghost type Pokemon take damage.
+- Strong Winds (Unfinished) - Flying-type moves are boosted.
+- Thunderstorm (Unfinished) - All non-Electric type Pokemon will take damage. Water-type moves are boosted and Fire-type moves are weakened. Character sight for all Pokémon on the floor are also changed to Dark.
+- Toxic Fog - All non-Poison type and non-Steel type Pokemon will take damage.
+------------------------------------------------------------------------------
+New Items:
+[Ammunition items]
+- Cloyster Spike - Hurled item that deals Water damage on impact. Critical hits land more easily.
+- Falinks Spike - Hurled item that deals Fighting damage on impact. Critical hits land more easily.
+- Fulgurite - Thrown item that deals Electric damage on impact. Chance to leave the target Paralyzed.
+- Garchomp Spike - Hurled item that deals Dragon damage on impact. Critical hits land more easily.
+- Hailstone - Throw item that deals Ice damage on impact. Chance to leave the target Frostbitten.
+- Ice Spike - Hurled item that deals Ice damage on impact. Chance to leave the target Frostbitten.
+- Jagged Bone - Hurled item that deals Ground damage on impact. Chance to leave the target Calcified.
+- Jolteon Needle - Hurled item that deals Electric damage on impact. Chance to leave the target Paralyzed.
+- Magma Stone - Thrown item that deals Fire damage on impact. Chance to leave the target Burned.
+- Mossy Stone - Thrown item that deals Grass damage on impact. Chance to Flinch the target.
+- Overqwil Spike - Hurled item that deals Dark damage on impact. Critical hits land more easily.
+- Pinsir Spike - Hurled item that deals Bug damage on impact. Critical hits land more easily.
+- Poison Thorn - Hurled item that deals Poison damage on impact. Chance to leave the target Poisoned.
+- Rock - Thrown item that deals Rock damage on impact. Chance to Flinch the target.
+- Sandy Stone - Thrown item that deals Ground damage on impact. Chance to leave the target Calcified.
+- Stalactite - Hurled item that deals Rock damage on impact. Chance to Flinch the target.
+- Steel Ball - Thrown item that deals Steel damage on impact. Chance to Flinch the target.
+- Steel Spike - Hurled item that deals Steel damage on impact. Chance to Flinch the target.
+- Tree Needle - Hurled item that deals Grass damage on impact. Chance to Flinch the target.
+- Turtonator Spike - Hurled item that deals Fire damage on impact. Chance to leave the target Burned.
+[Berry items]
+- Eggant Berry (Originally from Pokemon gen 3 e-reader series 1) - Edible item that cures the Infatuation status on consumption.
+- Kuo Berry (Originally from Pokemon gen 3 e-reader series 2; Improvised effect) - Edible item that cures the Immobolized status on consumption.
+- Magost Berry (Originally from mainline Pokemon games; Improvised effect) - Edible item that cures the Curse status on consumption.
+- Rabuta Berry (Originally from mainline Pokemon games; Improvised effect) - Edible item that cures the Calcified and Petrified statuses on consumption.
+- Tiny Leppa Berry - Edible item that restores all move PP by 10 on consumption.
+- Tiny Oran Berry - Edible item that restores HP by 50% of total on consumption.
+[Evolution items]
+- Earth Stone - Allows specific kinds of Pokemon to evolve.
+- Sky Ribbon - Allows Eevee to evolve into Aereon when held.
+[Food items]
+- Big Ice Fruit - Edible item that restores hunger by 80 on consumption.
+- Big Palm Fruit - Edible item that restores hunger by 80 on consumption.
+- Big Yucca Fruit - Edible item that restores hunger by 80 on consumption.
+- Dark Fruit - Edible item that restores hunger by 40 on consumption. 10% chance to leave the Pokemon poison afterwards.
+- Ice Fruit - Edible item that restores hunger by 40 on consumption.
+- Palm Fruit - Edible item that restores hunger by 40 on consumption.
+- Tiny Apple (Originally from Pokemon Super Mystery Dungeon) - Edible item that restores hunger by 25 on consumption.
+- Tiny Dark Fruit - Edible item that restores hunger by 20 on consumption. 5% chance to leave the Pokemon poison afterwards.
+- Tiny Ice Fruit - Edible item that restores hunger by 20 on consumption.
+- Tiny Palm Fruit - Edible item that restores hunger by 20 on consumption.
+- Tiny Yucca Fruit - Edible item that restores hunger by 20 on consumption.
+- Yucca Fruit - Edible item that restores hunger by 40 on consumption.
+[Gummi items]
+- Rainbow Gummi - Edible item that permenantly increases a stat by 3; Making it 50% more powerful than a Wonder Gummi.
+[Held items]
+- Absorption Scarf (Based on PSMD's Absorption Emera) - A held item that makes the Pokemon restore 1/10 of total HP after defeating an enemy.
+- Anchor Belt (Based on PSMD's Anchor Emera) - A held item that prevents the Pokemon from being forced off of their location.
+- Aspear Scarf - A held item that prevents the Pokemon from being Frozen or becoming Frostbitten.
+- Barrage Band (Based on PSMD's Barrage Emera) - A held item that has a 20% chance to allow the Pokemon to act again after using a move or damaging the enemy.
+- Barrage-Guard Scarf (Based on PSMD's Barrage Guard Emera) - A held item that reduces damage taken from multi-hit moves.
+- Calcify Scarf - A held item that has a 20% chance to calcify the attacker upon the Pokemon being damaged.
+- Cheri Scarf (Based on PSMD's Paralysis Guard Emera) - A held item that prevents the Pokemon from being Paralyzed.
+- Chesto Scarf (Based on PSMD's Sleep Guard Emera) - A held item that prevents the Pokemon from falling Asleep or becoming Drowsy.
+- Clairvoyance Specs (Based on PSMD's Clairvoyance Emera) - A held item that allows the Pokemon to see all items on the floor.
+- Clutch Band (Based on PSMD's Clutch Emera) - A held item that boosts the Pokemon's Evasiveness when HP is 25% or less.
+- Composure Band (Based on PSMD's Self Control Emera) - A held item that prevents the Pokemon from damaging their own teammates.
+- Creepy Scarf - A held item that has a 20% chance to terrify the attacker upon the Pokemon being damaged.
+- Dizzy Scarf (Based on PSMD's Dizzying Payback Emera) - A held item that has a 20% chance to Confuse the attacker upon the Pokemon being damaged.
+- Dizzying Specs (Based on PSMD's Dizzying Stare Emera) - A held item that allows the Pokemon to Confuse the attacker upon damaging them. (25% chance)
+- Ferocious Band (Based on PSMD's Excessive Force Emera) - A held item that allows the Pokemon to damage surrounding enemies after defeating an enemy.
+- Flame Scarf - A held item that has a 20% chance to burn the attacker upon the Pokemon being damaged.
+- Focus Band (Originally from mainline Pokemon) - A held item that has a 25% chance to allow the Pokemon to endure an attack that would otherwise cause them to faint.
+- Focus Sash (Originally from mainline Pokemon) - A held item that allows the Pokemon to endure an attack if the move would cause them to faint in one hit. This item is dropped upon use.
+- Follow-Up Band (Based on PSMD's Additional Action Emera) - A held item that allows the Pokemon to act again after defeating an enemy.
+- Frost Scarf - A held item that has a 20% chance to leave the attacker frostbitten upon the Pokemon being damaged.
+- Item-Checker Specs (Based on PSMD's Item Checker Emera) - A held item that shows how many items are on a floor upon reaching a new one.
+- Leppa Scarf (Based on PSMD's PP Restore Emera) - A held item that restores some of the Pokemon's PP upon reaching a new floor.
+- Lullaby Scarf (Based on PSMD's Lullaby Emera) - A held item that allows the Pokemon to cause the attacker to fall Asleep upon damaging them. (25% chance)
+- Opportunity Scarf (Based on PSMD's Better Odds Emera) - A held item that has a chance to allow the Pokémon's attacks to never miss and always land a critical hit if all moves have the same PP.
+- Payback Scarf (Based on PSMD's Payback Emera) - A held item that has a 10% chance to reduce an attacker's HP to 1 upon damaging the Pokemon.
+- Pecha Scarf (Originally from mainline PMD) - A held item that prevents the Pokemon from being Poisoned.
+- Persim Band (Originally from mainline PMD) - A held item that prevents the Pokemon from being Confused.
+- Poison Scarf - A held item that has a 20% chance to poison the attacker upon the Pokemon being damaged.
+- Prosper Ribbon (Originally from mainline PMD) - A held item that allows the Pokemon to restore 1/10 of total HP and cures all Status effects upon picking up Poke.
+- Rabuta Scarf - A held item that prevents the Pokemon from becoming Petrified or Calcified.
+- Rawst Scarf (Based on PSMD's Burn Guard Emera) - A held item that prevents the Pokemon from becoming Burned.
+- Recovery Scarf - A held item that allows the Pokemon to recover faster from Status problems.
+- Slumber Scarf (Based on PSMD's Sleep Payback Emera) - A held item that has a 20% chance to cause the attacker to fall Asleep upon the Pokemon being damaged.
+- Snipe Band (Based on PSMD's Super Critical Emera) - A held item that boosts the Pokemon's Critical Hit chance if the move used is super-effective against the target.
+- Stairs-Sense Band (Based on PSMD's Stairs Sense Emera) - A held item that reveals the direction of the staircase upon reaching a new floor.
+- Stamina Band (Originally from mainline PMD) - A held item that reduces the Pokemon's hunger rate by 50%.
+- Status-Mirror Scarf (Based on PSMD's Status Mirror Emera) - A held item that allows the Pokemon to give the enemy the same status that they have.
+- Surveyor Specs (Based on PSMD's Surveyor Emera) - A held item that partially reveals the floor's layout upon reaching a new floor.
+- Tracking Specs (Based on PSMD's Distance Dodge Emera) - A held item that increases the Pokemon's Evasiveness from a target's ranged moves.
+- Transport Scarf (Based on PSMD's Mobility Emera) - A held item that allows the Pokemon to walk on Water and Lava tiles if they are not a Water and/or Fire-type already.
+- Twirl Scarf - A held item that prevents the Pokemon's Defense and Sp. Defense stats from being lowered.
+- Vision Specs - A held item that changes the Pokemon's map vision to Clear if the dungeon's visibility is set to Dark or Murky.
+- Spurn Scarf - A held item that causes the holder to be warped upon being attacked.
+- Weather Band (Originally from mainline PMD) - A held item that prevents the Pokemon from taking damage from Explosions and Weather.
+[Orbs]
+- All-Guard Orb - Drastically boosts the Defense and Sp. Defense stats of all Team Members within 5 tiles from the User.
+- All-Mach Orb (Originally from mainline PMD) - Drastically boosts the Movement Speed of all Team Members within 5 tiles from the User.
+- Blowback Orb (Originally from mainline PMD) - Flings all enemy targets away; Affects all enemies within a 5 tile cone from the User.
+- Burn Orb - Inflicts the Burn status on all enemies within 5 tiles from the User.
+- Calcify Orb - Inflicts the Calcified status on all enemies within 5 tiles from the User.
+- Clear-Sky Orb (Originally from PMU) - Removes any current Map Status (Weather) that is not the "default weather" already.
+- Cloudy Orb (Originally from PMU) - Sets the Map Status (Weather) to Cloudy.
+- Curse Orb - Inflicts the Curse status on all enemies within 5 tiles from the User.
+- Doze Orb - Inflicts the Drowsy status on all enemies within 5 tiles from the User.
+- Foe-Fear Orb (Originally from mainline PMD) - Inflicts the Terrified status on all enemies within 5 tiles from the User.
+- Foggy Orb (Originally from PMU) - Sets the Map Status (Weather) to Foggy.
+- Frost Orb - Inflicts the Frostbite status on all enemies within 5 tiles from the User.
+- Guiding Orb (Orb/nerfed version of PSMD's Guiding Wand) - Reveals the location of the staircase on the map when used.
+- Hail Orb (Originally from mainline PMD) - Sets the Map Status (Weather) to Hail.
+- Healing Orb - Fully restores the HP of all Team Members within 5 tiles from the User.
+- Lob Orb (Originally from mainline PMD) - Inflicts damage on all enemies within 5 tiles from the User.
+- Pathfinder Orb (Based on the item of the same name in PMU) - Sets the Map Vision to Clear for all Team Members within 5 tiles from the User if the map's vision is Dark or Murky by default.
+- Poison Orb - Inflicts the Poison status on all enemies within 5 tiles from the User.
+- Rainy Orb (Originally from mainline PMD) - Sets the Map Status (Weather) to Rainy.
+- Recovery Orb (Originally from PMU) - Restores all Status effects for all Team Members within 5 tiles from the User.
+- Sandy Orb (Originally from mainline PMD) - Sets the Map Status (Weather) to Sandstorm.
+- Snowy Orb (Originally from PMU) - Sets the Map Status (Weather) to Snowy.
+- Stun Orb (Originally from mainline PMD) - Inflicts the Paralyzed status on all enemies within 5 tiles from the User.
+- Sunny Orb (Originally from mainline PMD) - Sets the Map Status (Weather) to Sunny.
+- Weather-Protect Orb - Prevents all Team Members within 5 tiles from the User from taking damage from Explosions and the Weather for 100 turns.
+- Warp Orb - Warps all enemies within 5 tiles from the user.
+[Seeds]
+- Blind Seed - A seed that drastically decreases a Pokemon's line of vision.
+- Burn Seed (Based on PMU's Flame Seed) - A seed that inflicts the Burn status on a Pokemon.
+- Calcify Seed - A seed that inflicts the Calcify status on a Pokemon.
+- Curse Seed - A seed that inflicts the Curse status on a Pokemon.
+- Doze Seed - A seed that inflicts the Drowsy status on a Pokemon.
+- Encourage Seed (Originally from mainline PMD) - A seed that drastically boosts the Critical Hit ratio of a Pokemon while also ensuring that all of their moves land.
+- Energy Seed (Originally from mainline PMD) - A seed that raises a Pokemon's Accuracy stat to its highest level.
+- Frost Seed - A seed that inflicts the Frostbite status on a Pokemon.
+- Heal Seed (Originally from mainline PMD) - A seed that fully restores a Pokemon's HP and restoring all of their Status effects as well.
+- Infatuation Seed - A seed that inflicts the Infatuated status on a Pokemon.
+- Pathfinder Seed - A seed that sets a Pokemon's vision to Clear if the map's vision is originally Dark or Murky.
+- Petrify Seed - A seed that inflicts the Petrify status on a Pokemon.
+- Poison Seed - A seed that inflicts the Poison status on a Pokemon.
+- Quick Seed (Originally from mainline PMD) - A seed that boosts a Pokemon's Movement Speed by 1 stage.
+- Tiny Reviver Seed (Originally from PSMD) - A seed that restores a Pokemon's HP to 50% of its total when they are defeated.
+- Slip Seed (Originally from mainline PMD) - A seed that allows the Pokemon to walk on Water tiles if they are not a Water type already.
+- Soothing Seed (Originally from mainline PMD) - A seed that removes all Stat changes of the Pokemon.
+- Stun Seed (Originally from mainline PMD) - A seed that inflicts the Paralyze status on a Pokemon.
+- Totter Seed (Originally from mainline PMD) - A seed that inflicts the Confuse status on a Pokemon.
+- Violent Seed (Originally from mainline PMD) - A seed that raises a Pokemon's Attack and Sp. Attack stats to their highest levels.
+- Weather Seed - A seed that prevents the Pokemon from taking damage from Explosions and the Weather for 100 turns.
+[TMs]
+- Downburst - Teaches the Downburst move to a Pokemon.
+[Wands]
+- Blast Wand (Originally from mainline PMD) - When waved, the wand inflicts damage equal to 1.5x of the User's level in a 2x2 area; Also destroys tiles.
+- Burn Wand - When waved, the wand inflicts the Burn status to an enemy.
+- Calcify Wand - When waved, the wand inflicts the Calcify status to an enemy.
+- Doze Wand - When waved, the wand inflicts the Drowsy status to an enemy.
+- Frost Wand - When waved, the wand inflicts the Frostbite status to an enemy.
+- Half Wand (Based on PSMD's Quarter Wand) - When waved, the wand inflicts damage equal to 1/2 of the enemy's current HP.
+- Petrify Wand - When waved, the wand inflicts the Petrify status to an enemy.
+- Poison Wand - When waved, the wand inflicts the Poison status to an enemy.
+- Slumber Wand (Originally from mainline PMD) - When waved, the wand inflicts the Sleep status to an enemy.
+- Spook Wand - When waved, the wand causes the enemy to Flinch.
+- Stun Wand - When waved, the wand inflicts the Paralyzed status to an enemy.
+-----------------------------------------------------------------------------
+New Pokemon:
+- Aereon - Flying-type eeveelution
+- Eeveon - Normal-type eeveelution
+- Spectreon - Ghost-type eeveelution *
+- Terreon - Ground-type eeveelution *
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Changes from PMDO and/or mainline PMD games:
+- Added appropriate effects to the following unfinished PMDO items: Aspear Berry, Cheri Berry, Chesto Berry, Pecha Berry, Persim Berry, Rawst Berry, All-Aim Orb, All-Dodge Orb, All-Hit Orb, All Power-Up Orb, All-Protect Orb, Infatuation Wand, Topsy-Turvy Wand, Staywaway Wand, Totter Wand.
+- Ammo item stack changed from 9 to 99.
+- All berries that change typing now reduce that specific move type's damage by 33%.
+- Bitter Malice, Ice Fang, Ice Punch, Powder Snow and Tri-Attack now inflict the Frostbite status instead of the Freeze status.
+- Eevee can now evolve into Aereon by using a Sky Ribbon; A Flying-type Eeveelution.
+- Eevee can now evolve into Eeveon by reaching level 50 without a fairy move; A Normal-type Eeveelution.
+- Eevee can now evolve into Spectreon by using a Dusk Stone; A Ghost-type Eeveelution.
+- Eevee can now evolve into Terreon by using an Earth Stone; A Ground-type Eeveelution.
+- Fear Wand now inflicts the Terrified effect; Flinch effect moved to Spook Wand.
+- Galarian Yamask now evolves into Runerigus by using an Earth Stone.
+- Lovely Kiss and Spore now inflict the Drowsy status instead of the Sleep status.
+- The movesets of many Pokemon have been expanded upon.
+- Mud Sport now decreases the power of Electric-type moves instead of changing the Pokemon's type to Ground.
+- Petrify Orb now inflicts Petrify effect; Paralyze effect moved to Stun Orb.
+- Regular attack's power has been reduced to 20 from 30.
+- Removed cursed/sticky effect of the Heal Ribbon, making it a more viable held item.
+- Secret Power may inflict the Calcify status depending on what its type is.
+- Spurn Orb's effect has been changed to affect the party instead; Original effect moved to Warp Orb.
+- Various pricing changes for many items.
+- Wand stack changed from 9 to 40.
+- Warp Scarf's effect has been changed to warp the enemy on a chance-based basis instead of the user; Original effect moved to Spurn Scarf.
+- Water Sport now decreases the power of Fire-type moves instead of changing the Pokemon's type to Water.
+---------------------------------------------------------------------------------------------------------
+Changes to Pokemon moves and abilities:
+- Altaria - Now learns Downburst at level 43.
+- Anorith - Now learns Mineral Power at level 27.
+- Arbok - Now learns Poison Fang at level 35.
+- Archen - Now learns Stone Fang at level 43.
+- Archeops - Now learns Stone Fang at level 43.
+- Arctibax - Added the Frost Absorb ability.
+- Armaldo - Now learns Mineral Power at level 27.
+- Arrokuda - Added the Acceleration ability.
+- Baltoy - Now learns Dust Storm at level 49.
+- Barbaracle - Now learns Rock Punch at level 52.
+- Barboach - Now learns Muddy Terrain at level 42.
+- Barraskewda - Added the Acceleration ability.
+- Baxcalibur - Added the Frost Absorb ability.
+- Boldore - Now learns Sand Blast at level 28 and Dust Storm at level 51.
+- Caterpie - Now learns Bug Bite at level 9, Harden at level 12, Sleep Powder at level 15, Stun Spore at level 18, Struggle Bug at level 22, Lunge at level 25, Take Down at level 29, Supersonic at level 32, Pounce at level 35, Safeguard at level 39 and Flail at level 43.
+- Ceruledge - Added the Flame Absorb ability.
+- Chandelure - Now learns Ghostly Chill at level 18.
+- Charcadet - Added the Flame Absorb ability.
+- Charizard - Now learns Fire Up at level 13 and Flame Tail at level 44.
+- Charjabug - Added the Surge ability.
+- Charmander - Now learns Fire Up at level 13 and Flame Tail at level 31.
+- Charmeleon - Now learns Fire Up at level 13 and Flame Tail at level 36.
+- Chimchar - Now learns Fire Up at level 12 and Flame Tail at level 36.
+- Claydol - Now learns Dust Storm at level 49.
+- Cryogonal - Added the Frozen Body ability.
+- Cyndaquil - Now learns Fire Up at level 16.
+- Diglett - Now learns Sand Blast at level 20.
+- Drilbur - Now learns Dust Storm at level 50 and Muddy Terrain at level 53.
+- Dugtrio - Now learns Sand Blast at level 20.
+- Eeletrik - Added the Surge ability.
+- Eelektross - Added the Surge ability.
+- Espeon - Added the Clairvoyance ability.
+- Excadrill - Now learns Dust Storm at level 52 and Muddy Terrain at level 58.
+- Exploud - Added the Sound Boost ability.
+- Flareon - Added the Flame Absorb ability. Now learns Flame Charge at level 25 instead of Fire Spin and Flame Tail at level 37 instead of Lava Plume.
+- Flygon - Now learns Sand Blast at level 17, Sand Beam at level 33 and Dust Storm at level 50.
+- Frigibax - Added the Frost Absorb ability.
+- Gabite - Now learns Sand Blast at level 22, Sand Beam at level 36 and Dust Storm at level 44.
+- Garchomp - Now learns Sand Blast at level 22, Sand Beam at level 36 and Dust Storm at level 44.
+- Garganacl - Now learns Mineral Powder at level 20 and Rock Punch at level 47.
+- Gastly - Now learns Ghostly Chill at level 17 and Scourge at level 51.
+- Gastrodon - Now learns Muddy Terrain at level 35.
+- Gengar - Now learns Ghostly Chill at level 17, Shadow Beam at level 30 and Scourge at level 67.
+- Geodude - Now learns Rock Punch at level 32 and Muddy Terrain at level 38.
+- Gible - Now learns Sand Blast at level 22, Sand Beam at level 34 and Dust Storm at level 40.
+- Gigalith - Now learns Sand Blast at level 28 and Dust Storm at level 51.
+- Glaceon - Added the Frost Absorb ability.
+- Glimmet - Now learns Mineral Powder at level 24.
+- Glimmora - Now learns Mineral Powder at level 24.
+- Golem - Now learns Rock Punch at level 37 and Muddy Terrain at level 42.
+- Goodra - Now learns Caustic Breath at level 35.
+- Goodra (Hisuian) - Now learns Caustic Breath at level 39.
+- Goomy - Now learns Caustic Breath at level 35.
+- Graveler - Now learns Rock Punch at level 37 and Muddy Terrain at level 42.
+- Grimmsnarl - Now learns Drain Life at level 31.
+- Guzzlord - Now learns Drain Life at level 26.
+- Gyarados - Now learns Caustic Breath at level 53.
+- Haunter - Now learns Ghostly Chill at level 17, Shadow Beam at level 30 and Scourge at level 67.
+- Hippopotas - Now learns Sand Blast at level 28.
+- Hippowdon - Now learns Sand Blast at level 28.
+- Ho-Oh - Now learns Wind Beam at level 61 and Downburst at level 75.
+- Impidimp - Now learns Drain Life at level 30.
+- Infernape - Now learns Fire Up at level 12 and Flame Tail at level 47.
+- Kingler - Now learns Muddy Terrain at level 40.
+- Krabby - Now learns Muddy Terrain at level 43.
+- Krokorok - Now learns Sand Blast at level 24 and Dust Storm at level 50.
+- Krookodile - Now learns Sand Blast at level 24 and Dust Storm at level 50.
+- Lampent - Now learns Ghostly Chill at level 18.
+- Landorus - Now learns Sand Beam at level 28 and Dust Storm at level 64.
+- Larvitar - Now learns Sand Beam at level 35 and Dust Storm at level 52.
+- Litwick - Now learns Ghostly Chill at level 18.
+- Loudred - Added the Sound Boost ability.
+- Lunatone - Added the Terrifying Presence ability.
+- Lycanroc - Now learns Stone Fang at level 42.
+- Mamoswine - Now learns Muddy Terrain at level 49.
+- Marshtomp - Now learns Muddy Terrain at level 35.
+- Medicham - Added the Clairvoyance ability.
+- Meditite - Added the Clairvoyance ability.
+- Misdreavus - Now learns Ghostly Chill at level 16, Shadow Beam at level 34 and Scourge at level 60.
+- Mismagius - Now learns Shadow Beam at level 1.
+- Monferno - Now learns Fire Up at level 12 and Flame Tail at level 42.
+- Morgrem - Now learns Drain Life at level 31.
+- Mudbray - Now learns Muddy Terrain at level 48.
+- Mudkip - Now learns Muddy Terrain at level 38.
+- Nacli - Now learns Mineral Powder at level 22.
+- Naclstack - Now learns Mineral Powder at level 24.
+- Ninetales - Added the Flame Absorb ability.
+- Omanyte - Now learns Stone Fang at level 52.
+- Omastar - Now learns Stone Fang at level 61.
+- Onyx - Now learns Sand Blast at level 32, Dust Storm at level 55 and Muddy Terrain at level 58.
+- Palossand - Now learns Sand Blast at level 20, Sand Beam at level 25 and Dust Storm at level 65.
+- Pichu - Added the Surge ability.
+- Pikachu - Added the Surge ability.
+- Piloswine - Now learns Muddy Terrain at level 49.
+- Ponyta - Now learns Fire Up at level 19.
+- Pupitar - Now learns Sand Beam at level 37, Stone Fang at level 50 and Dust Storm at level 57.
+- Quagsire - Now learns Muddy Terrain at level 33.
+- Quilava - Now learns Fire Up at level 16.
+- Raichu - Added the Surge ability.
+- Rapidash - Now learns Fire Up at level 19.
+- Rayquaza - Now learns Wind Beam at level 25 and Downburst at level 40.
+- Regirock - Now learns Rock Punch at level 46.
+- Relicanth - Now learns Muddy Terrain at level 53.
+- Rhydon - Now learns Sand Blast at level 19.
+- Rhyhorn - Now learns Sand Blast at level 19.
+- Rhyperior - Now learns Sand Blast at level 19.
+- Rockruff - Now learns Stone Fang at level 42.
+- Roggenrola - Now learns Sand Blast at level 25 and Dust Storm at level 44.
+- Sandaconda - Now learns Sand Blast at level 17, Sand Beam at level 23 and Dust Storm at level 55.
+- Sandile - Now learns Sand Blast at level 24 and Dust Storm at level 49.
+- Sandshrew - Now learns Sand Blast at level 28, Sand Beam at level 36 and Dust Storm at level 50.
+- Sandslash - Now learns Sand Blast at level 30, Sand Beam at level 36 and Dust Storm at level 56.
+- Sandygast - Now learns Sand Blast at level 20, Sand Beam at level 25 and Dust Storm at level 58.
+- Shellos - Now learns Muddy Terrain at level 33.
+- Silicobra - Now learns Sand Blast at level 17, Sand Beam at level 23 and Dust Storm at level 55.
+- Sliggoo - Now learns Caustic Breath at level 35.
+- Sliggoo (Hisuian) - Now learns Caustic Breath at level 39.
+- Steelix - Now learns Sand Blast at level 32, Dust Storm at level 55 and Muddy Terrain at level 58.
+- Swampert - Now learns Muddy Terrain at level 35.
+- Swinub - Now learns Muddy Terrain at level 42.
+- Tatsugiri - Added the Purging Veil ability.
+- Trapinch - Now learns Sand Blast at level 17, Sand Beam at level 31 and Dust Storm at level 50.
+- Tynamo - Added the Surge ability.
+- Typhlosion - Now learns Fire Up at level 16.
+- Tyranitar - Now learns Sand Beam at level 37, Stone Fang at level 50 and Dust Storm at level 58.
+- Tyrantrum - Now learns Stone Fang at level 44.
+- Tyrunt - Now learns Stone Fang at level 42.
+- Umbreon - Added the Poison Touch ability.
+- Vaporeon - Added the Storm Drain ability.
+- Vibrava - Now learns Sand Blast at level 17, Sand Beam at level 31 and Dust Storm at level 50.
+- Vikavolt - Added the Surge ability.
+- Vulpix - Added the Flame Absorb ability.
+- Weedle - Now learns Tackle at level 9, Bug Bite at level 12, Twineedle at level 15, Return at level 18, Struggle Bug at level 22, Poison Tail at level 25, Take Down at level 29, Fury Attack at level 32, Pounce at level 35, Poison Jab at level 38 and Flail at level 43.
+- Whiscash - Now learns Muddy Terrain at level 42.
+- Whismur - Added the Sound Boost ability.
+- Wooper - Now learns Muddy Terrain at level 31.
+- Wurmple - Now learns Sting at level 9, Poison Powder at level 12, Bug Bite at level 15, Stun Spore at level 18, Struggle Bug at level 22, Lunge at level 25, Take Down at level 29, Poison Tail at level 32, Pounce at level 35, Poison Jab at level 38 and Flail at level 43.
+- Zoroark (Hisuian) - Now learns Ghostly Chill at level 22, Shadow Beam at level 31 and Scourge at level 64.
+- Zorua (Hisuian) - Now learns Ghostly Chill at level 22 and Scourge at level 52.
+---------------------------------------------------------------------------------
+Custom pokemon stats and moves:
+- Aereon - BST totals; HP: 65, Attack: 95, Defense: 60, Sp. Attack: 110, Sp. Defense: 65, Speed: 130. (Total: 525) | Type: Flying | Moves; Learns Helping Hand, Tackle and Tail Whip at level 1, Flash at level 5, Gust at level 9, Quick Attack at level 13, Air Cutter at level 17, Wind Beam at level 20, Aerial Ace at level 25, Tailwind at level 29, Recover at level 33, Downburst at level 37, Last Resort at level 41 and Hurricane at level 45.
+- Eeveon - BST totals; HP: 65, Attack: 110, Defense: 65, Sp. Attack: 60, Sp. Defense: 130, Speed: 95. (Total: 525) | Type: Normal | Moves; Learns Helping Hand, Tackle and Tail Whip at level 1, Sand Attack at level 5, Double Hit at level 9, Quick Attack at level 13, Covet at level 17, Headbutt at level 20, Wish at level 25, Screech at level 29, Barrier at level 33, Take Down at level 37, Last Resort at level 41 and Double-Edge at level 45.
+- Spectreon - BST totals; HP: 95, Attack: 60, Defense: 110, Sp. Attack: 130, Sp. Defense: 65, Speed: 65. (Total: 525) | Type: Ghost | Moves; Learns Helping Hand, Tackle and Tail Whip at level 1, Smokescreen at level 5, Ghostly Chill at level 9, Quick Attack at level 13, Hex at level 17, Shadow Beam at level 20, Bitter Malice at level 25, Light Screen at level 29, Mirror Coat at level 33, Shadow Ball at level 37, Last Resort at level 41 and Scourge at level 45.
+- Terreon - BST totals; HP: 110, Attack: 130, Defense: 95, Sp. Attack: 60, Sp. Defense: 65, Speed: 65. (Total: 525) | Type: Ground | Moves; Learns Helping Hand, Tackle and Tail Whip at level 1, Sand Attack at level 5, Sand Tomb at level 9, Quick Attack at level 13, Bulldoze at level 17, Headbutt at level 20, Recover at level 25, Barrier at level 29, Wide Guard at level 33, High Horsepower at level 37, Last Resort at level 41 and Earthquake at level 45.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Renamed official PMD dungeons:
+- Apex Mountain -> Mt. Qima
+- Fossil Excavation -> Ancient Pyramid
+- Hall of Magic -> Halls of Magic
+- Holey Meadow -> Sacred Meadow
+- Golden Suite -> Misty Swamp
+- Jewel Road -> Mt. Spire
+- Mysterious Geoglyph -> Mt. Glyph
+- Sandy Cave -> Ramil Cave
+- Secret Quarry -> Abandoned Quarry
+- Snowy Cave -> Mt. Sama
+- Stone Tree Mountain -> Mt. Crag
+- Thirsty Desert -> Atshan Desert
+- Valley of Strong Winds -> Gale Valley
+- Yellow Sand Labyrnth -> Labyrinth of Sand
+-------------------------------------------
+Notes:
+- Gen 7 had a cut Flying-type Eeveelution, there is much speculation on what design got the Pokemon cut, but I believe it was the fan design of Aereon.
+- PMD = Pokemon Mystery Dungeon
+- PMU = Pokemon Mystery Universe
+- PSMD = Pokemon Super Mystery Dungeon
+- Sell Price is around 20% of the buying price of an item.

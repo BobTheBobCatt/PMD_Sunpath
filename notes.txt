@@ -1,0 +1,12 @@
+Ground map index numbers for Test Zone;
+Personality Test - 0
+Dusty Dune - 1
+Abandoned Crossroads - 2
+Qahil Village Entrance - 3
+Qahil VIllage - 4
+Chief's Hut - 5
+Player's Tent - 6
+Partner's Tent - 7
+Sandhill Cave Entrance - 8
+Sandhill Cave - 9
+-----------------

@@ -1,0 +1,102 @@
+﻿{
+"Version": "0.8.11.0",
+"Object": {
+"$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
+"trap_trip": {
+"Name": {
+"DefaultText": "Trip Trap",
+"LocalTexts": {
+"fr": "Croche-Piège",
+"de": "Stolperfalle",
+"es": "Trampa Tropezón",
+"ko": "발걸기 함정",
+"zh-hans": "拍落陷阱"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"trap_boulder": {
+"Name": {
+"DefaultText": "Boulder Trap",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"trap_eruption": {
+"Name": {
+"DefaultText": "Eruption Trap",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"trap_flood": {
+"Name": {
+"DefaultText": "Flood Trap",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"trap_ice_spikes": {
+"Name": {
+"DefaultText": "Ice Spikes Trap",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"trap_poison_gas": {
+"Name": {
+"DefaultText": "Poison Gas Trap",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"trap_quake": {
+"Name": {
+"DefaultText": "Quake Trap",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"trap_shock": {
+"Name": {
+"DefaultText": "Shock Trap",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"trap_steel_spikes": {
+"Name": {
+"DefaultText": "Steel Spikes Trap",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"trap_thorns": {
+"Name": {
+"DefaultText": "Thorns Trap",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+}
+}
+}

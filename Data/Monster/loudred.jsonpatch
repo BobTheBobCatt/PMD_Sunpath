@@ -1,0 +1,17 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.11.0"
+  ],
+  "Object": {
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "Intrinsic2": [
+          "none",
+          "sound_boost"
+        ]
+      }
+    }
+  }
+}

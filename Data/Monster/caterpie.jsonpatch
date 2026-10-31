@@ -1,0 +1,82 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.12.0"
+  ],
+  "Object": {
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "2": {
+            "Level": [
+              15,
+              9
+            ]
+          },
+          "3": [
+            {
+              "Level": 12,
+              "Skill": "harden"
+            }
+          ],
+          "4": [
+            {
+              "Level": 15,
+              "Skill": "sleep_powder"
+            }
+          ],
+          "5": [
+            {
+              "Level": 18,
+              "Skill": "stun_spore"
+            }
+          ],
+          "6": [
+            {
+              "Level": 22,
+              "Skill": "struggle_bug"
+            }
+          ],
+          "7": [
+            {
+              "Level": 25,
+              "Skill": "lunge"
+            }
+          ],
+          "8": [
+            {
+              "Level": 29,
+              "Skill": "take_down"
+            }
+          ],
+          "9": [
+            {
+              "Level": 32,
+              "Skill": "supersonic"
+            }
+          ],
+          "10": [
+            {
+              "Level": 35,
+              "Skill": "pounce"
+            }
+          ],
+          "11": [
+            {
+              "Level": 39,
+              "Skill": "safeguard"
+            }
+          ],
+          "12": [
+            {
+              "Level": 43,
+              "Skill": "flail"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

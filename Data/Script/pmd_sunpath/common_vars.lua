@@ -1,0 +1,37 @@
+--[[
+    common_vars.lua
+    Save vars
+]]--
+
+-------------------------------
+--Nebula's Mission Board scripts
+-------------------------------
+
+---Check used in missiongen_settings to see if there is an active sidequest in the current zone
+function COMMON.HasSidequestInZone(zone)
+    for _, mission in pairs(SV.missions.Missions) do
+        if mission.DestZone == zone then
+            return true
+        end
+    end
+    return false
+end
+
+---Overrides origin function.
+function COMMON.ExitDungeonMissionCheckEx(result, rescue, zoneId, segmentID)
+    --specifically added for PMDO's base game. Resets the quest board reroll price to minimum at each day end. 
+    if SV.jobs.rerolls then SV.jobs.rerolls=0 end
+    --remove all guests from the dungeon
+    return MissionGen:ExitDungeonMissionCheckEx(result, rescue, zoneId, segmentID)
+end
+
+-------------------------------
+--Sunpath scripts
+-------------------------------
+
+--Todo; For Vars updating when I get around to them later on.
+--[[function COMMON.UpdateDayEndVarsSunpath()
+  
+  
+  
+end]]

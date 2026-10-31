@@ -1,0 +1,27 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.11.0"
+  ],
+  "Object": {
+    "Desc": {
+      "DefaultText": [
+        "@@ -0,0 +1,90 @@\n+The user attacks by pouncing on the target, which also lowers the target's Movement Speed.\n",
+        0,
+        2
+      ]
+    },
+    "HitboxAction": {
+      "StopAtHit": [
+        false,
+        true
+      ]
+    },
+    "Explosion": {
+      "TargetAlignments": [
+        0,
+        4
+      ]
+    }
+  }
+}

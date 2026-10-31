@@ -1,0 +1,42 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.11.0"
+  ],
+  "Object": {
+    "SkillGroup2": [
+      "",
+      "undiscovered"
+    ],
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "17": {
+            "Level": [
+              55,
+              52
+            ],
+            "Skill": [
+              "drill_run",
+              "dust_storm"
+            ]
+          },
+          "18": [
+            {
+              "Level": 55,
+              "Skill": "drill_run"
+            }
+          ],
+          "19": [
+            {
+              "Level": 58,
+              "Skill": "muddy_terrain"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

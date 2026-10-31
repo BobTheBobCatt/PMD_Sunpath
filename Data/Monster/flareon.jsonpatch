@@ -1,0 +1,26 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.12.0"
+  ],
+  "Object": {
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "Intrinsic2": [
+          "none",
+          "flame_absorb"
+        ],
+        "LevelSkills": {
+          "_t": "a",
+          "8": {
+            "Skill": [
+              "fire_spin",
+              "flame_charge"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

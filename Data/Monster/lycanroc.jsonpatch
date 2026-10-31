@@ -1,0 +1,48 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.11.0"
+  ],
+  "Object": {
+    "SkillGroup2": [
+      "",
+      "undiscovered"
+    ],
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "19": [
+            {
+              "Level": 42,
+              "Skill": "stone_fang"
+            }
+          ]
+        }
+      },
+      "1": {
+        "LevelSkills": {
+          "_t": "a",
+          "19": [
+            {
+              "Level": 42,
+              "Skill": "stone_fang"
+            }
+          ]
+        }
+      },
+      "2": {
+        "LevelSkills": {
+          "_t": "a",
+          "19": [
+            {
+              "Level": 42,
+              "Skill": "stone_fang"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

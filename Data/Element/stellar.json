@@ -1,0 +1,12 @@
+﻿{
+"Version": "0.8.12.0",
+"Object": {
+"$type": "RogueEssence.Data.ElementData, RogueEssence",
+"Name": {
+"DefaultText": "Stellar",
+"LocalTexts": {}
+},
+"Comment": "",
+"Symbol": ""
+}
+}

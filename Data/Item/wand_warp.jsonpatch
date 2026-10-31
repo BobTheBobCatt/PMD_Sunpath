@@ -1,0 +1,20 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.11.0"
+  ],
+  "Object": {
+    "Sprite": [
+      "Wand_Pink",
+      "Wand_Blue"
+    ],
+    "Price": [
+      5,
+      4
+    ],
+    "MaxStack": [
+      9,
+      40
+    ]
+  }
+}

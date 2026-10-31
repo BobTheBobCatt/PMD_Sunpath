@@ -1,0 +1,256 @@
+﻿{
+"Version": "0.8.12.0",
+"Object": {
+"$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
+"diamond_dust": {
+"Name": {
+"DefaultText": "Diamond Dust",
+"LocalTexts": {
+"ja": "ダイアモンド・ダスト",
+"ja-jp": "ダイアモンド・ダスト"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"fog": {
+"Name": {
+"DefaultText": "Fog",
+"LocalTexts": {
+"fr": "Brouillard",
+"de": "Nebel",
+"es": "Niebla",
+"it": "Nebbia",
+"ja": "きり",
+"ja-jp": "きり",
+"zh-hans": "起雾"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"rain": {
+"Name": {
+"DefaultText": "Rain",
+"LocalTexts": {
+"fr": "Pluvieux",
+"de": "Regen",
+"es": "Lluvioso",
+"it": "Pioggia",
+"ja": "あめ",
+"ja-jp": "あめ",
+"zh-hans": "下雨"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"wind": {
+"Name": {
+"DefaultText": "Wind",
+"LocalTexts": {
+"fr": "Courant d'Air",
+"de": "Wind",
+"es": "Viento",
+"it": "Vento",
+"zh-hans": "起风"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"acid_rain": {
+"Name": {
+"DefaultText": "Acid Rain",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"ashfall": {
+"Name": {
+"DefaultText": "Ashfall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"aurora": {
+"Name": {
+"DefaultText": "Aurora",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"blowing_wind": {
+"Name": {
+"DefaultText": "Blowing Wind",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"blowing_wind_fast": {
+"Name": {
+"DefaultText": "Blowing Wind (Fast)",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"darkness": {
+"Name": {
+"DefaultText": "Darkness",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"dusk": {
+"Name": {
+"DefaultText": "Dusk",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"firestorm": {
+"Name": {
+"DefaultText": "Firestorm",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"freezing_fog": {
+"Name": {
+"DefaultText": "Freezing Fog",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"misty": {
+"Name": {
+"DefaultText": "Misty",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"muddy_terrain": {
+"Name": {
+"DefaultText": "Muddy Terrain",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"night": {
+"Name": {
+"DefaultText": "Night",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"night_dark": {
+"Name": {
+"DefaultText": "Dark Night",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"pathfinder": {
+"Name": {
+"DefaultText": "Pathfinder",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"pollen_storm": {
+"Name": {
+"DefaultText": "Pollen Storm",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"red_rain": {
+"Name": {
+"DefaultText": "Red Rain",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"shadowy_aura": {
+"Name": {
+"DefaultText": "Shadowy Aura",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"steam": {
+"Name": {
+"DefaultText": "Steam",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "Taken from Halcyon. - Used in hot dungeons as a visual effect. \r\nDoesn't actually cause any gameplay differences.",
+"SortOrder": 0
+},
+"strong_winds": {
+"Name": {
+"DefaultText": "Strong Winds",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"thunderstorm": {
+"Name": {
+"DefaultText": "Thunderstorm",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"toxic_fog": {
+"Name": {
+"DefaultText": "Toxic Fog",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+}
+}
+}

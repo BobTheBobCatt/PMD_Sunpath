@@ -1,0 +1,48 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.12.0"
+  ],
+  "Object": {
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "10": {
+            "Level": [
+              65,
+              61
+            ],
+            "Skill": [
+              "safeguard",
+              "wind_beam"
+            ]
+          },
+          "11": {
+            "Level": [
+              71,
+              65
+            ],
+            "Skill": [
+              "recover",
+              "safeguard"
+            ]
+          },
+          "12": [
+            {
+              "Level": 71,
+              "Skill": "recover"
+            }
+          ],
+          "13": [
+            {
+              "Level": 75,
+              "Skill": "downburst"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

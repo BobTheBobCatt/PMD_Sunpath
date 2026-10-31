@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.8.8.0",
+"Version": "0.8.11.0",
 "Object": {
 "$type": "RogueEssence.Data.StatusData, RogueEssence",
 "Name": {
@@ -7,17 +7,17 @@
 "LocalTexts": {}
 },
 "Desc": {
-"DefaultText": "The Pokémon will take some damage every turn it attacks, and its Accuracy will be lowered.",
+"DefaultText": "The Pokémon is petrified and incapable of acting or being affected by moves. This status wears off after a few turns, or if the Pokémon is hit by a Steel-type or Ground-type attack.",
 "LocalTexts": {}
 },
 "Released": true,
-"Comment": "",
+"Comment": "Unfinished; Needs a new visual effect.",
 "MenuName": true,
 "CarryOver": false,
-"Emoticon": "Exclaim_Brown",
+"Emoticon": "",
 "DropEmoticon": "",
-"FreeEmote": "",
-"DrawEffect": -1,
+"FreeEmote": "X_Gray",
+"DrawEffect": 1,
 "Targeted": false,
 "StatusStates": [
 {
@@ -30,8 +30,8 @@
 "$type": "PMDC.Dungeon.TransferStatusState, PMDC"
 },
 {
-"$type": "PMDC.Dungeon.AttackedThisTurnState, PMDC",
-"Attacked": false
+"$type": "RogueEssence.Dungeon.CountDownState, RogueEssence",
+"Counter": 5
 }
 ],
 "OnSkillChanges": [],
@@ -177,6 +177,76 @@
 ]
 },
 "Value": {
+"$type": "PMDC.Dungeon.StatusAnimEvent, PMDC",
+"Emitter": {
+"$type": "RogueEssence.Content.FiniteReleaseEmitter, RogueEssence",
+"LocHeight": 0,
+"Anims": [
+{
+"$type": "RogueEssence.Content.ParticleAnim, RogueEssence",
+"Anim": {
+"AnimIndex": "Rock_Pieces",
+"FrameTime": 6,
+"StartFrame": 0,
+"EndFrame": 0,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"TotalTime": 0,
+"Cycles": 1,
+"FrameOffset": 0
+},
+{
+"$type": "RogueEssence.Content.ParticleAnim, RogueEssence",
+"Anim": {
+"AnimIndex": "Rock_Pieces",
+"FrameTime": 12,
+"StartFrame": 1,
+"EndFrame": 1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"TotalTime": 0,
+"Cycles": 1,
+"FrameOffset": 0
+},
+{
+"$type": "RogueEssence.Content.ParticleAnim, RogueEssence",
+"Anim": {
+"AnimIndex": "Rock_Pieces",
+"FrameTime": 12,
+"StartFrame": 1,
+"EndFrame": 1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"TotalTime": 0,
+"Cycles": 1,
+"FrameOffset": 0
+}
+],
+"Speed": 60,
+"Bursts": 4,
+"ParticlesPerBurst": 4,
+"BurstTime": 2,
+"StartDistance": 8,
+"Layer": 3
+},
+"Sound": "DUN_Rock_Tomb",
+"Delay": 0,
+"NeedSelf": true
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
 "$type": "PMDC.Dungeon.StatusBattleLogEvent, PMDC",
 "Message": {
 "Key": "MSG_PETRIFY_END"
@@ -188,8 +258,7 @@
 "OnMapStatusAdds": [],
 "OnMapStatusRemoves": [],
 "OnMapStarts": [],
-"OnTurnStarts": [],
-"OnTurnEnds": [
+"OnTurnStarts": [
 {
 "Key": {
 "str": [
@@ -197,18 +266,76 @@
 ]
 },
 "Value": {
-"$type": "PMDC.Dungeon.BurnEvent, PMDC",
-"HPFraction": 8
+"$type": "PMDC.Dungeon.CountDownRemoveEvent, PMDC",
+"ShowMessage": true
 }
 }
 ],
+"OnTurnEnds": [],
 "OnMapTurnEnds": [],
 "OnWalks": [],
 "OnDeaths": [],
-"OnRefresh": [],
-"BeforeTryActions": [],
-"BeforeActions": [],
-"OnActions": [
+"OnRefresh": [
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "PMDC.Dungeon.ImmobilizationEvent, PMDC",
+"States": []
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "PMDC.Dungeon.AttackOnlyEvent, PMDC"
+}
+}
+],
+"BeforeTryActions": [
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "PMDC.Dungeon.PreventActionEvent, PMDC",
+"Actions": [
+2
+],
+"Message": {
+"Key": "MSG_CANT_USE_ITEM"
+}
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "PMDC.Dungeon.PreventItemActionEvent, PMDC",
+"ExceptTypes": [
+{
+"assembly": "PMDC, Version=0.8.11.0, Culture=neutral, PublicKeyToken=null",
+"type": "PMDC.Dungeon.CurerState"
+}
+],
+"Message": {
+"Key": "MSG_CANT_USE_ITEM"
+}
+}
+}
+],
+"BeforeActions": [
 {
 "Key": {
 "str": [
@@ -217,17 +344,14 @@
 },
 "Value": {
 "$type": "RogueEssence.Dungeon.BattleScriptEvent, RogueEssence",
-"Script": "",
-"ArgTable": ""
+"Script": "PetrifyEvent",
+"ArgTable": "{}"
 }
 }
 ],
+"OnActions": [],
 "BeforeHittings": [],
-"BeforeBeingHits": [],
-"AfterHittings": [],
-"AfterBeingHits": [],
-"OnHitTiles": [],
-"AfterActions": [
+"BeforeBeingHits": [
 {
 "Key": {
 "str": [
@@ -235,15 +359,16 @@
 ]
 },
 "Value": {
-"$type": "PMDC.Dungeon.OnAggressionEvent, PMDC",
-"BaseEvents": [
-{
-"$type": "PMDC.Dungeon.AttackedThisTurnEvent, PMDC"
-}
-]
+"$type": "RogueEssence.Dungeon.BattleScriptEvent, RogueEssence",
+"Script": "PetrifyThawEvent",
+"ArgTable": "{}"
 }
 }
 ],
+"AfterHittings": [],
+"AfterBeingHits": [],
+"OnHitTiles": [],
+"AfterActions": [],
 "UserElementEffects": [],
 "TargetElementEffects": [],
 "ModifyHPs": [],

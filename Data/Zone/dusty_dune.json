@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.8.9.0",
+"Version": "0.8.11.0",
 "Object": {
 "$type": "RogueEssence.Data.ZoneData, RogueEssence",
 "Name": {
@@ -7,7 +7,7 @@
 "LocalTexts": {}
 },
 "Released": true,
-"Comment": "",
+"Comment": "First dungeon.",
 "NoEXP": false,
 "ExpPercent": 25,
 "Level": 5,
@@ -318,12 +318,35 @@
 },
 "Value": {
 "$type": "RogueEssence.LevelGen.MapTextureStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
-"GroundTileset": "northern_desert_1_floor",
-"BlockTileset": "northern_desert_1_wall",
-"WaterTileset": "northern_desert_2_secondary",
+"GroundTileset": "desert_region_floor",
+"BlockTileset": "desert_region_wall",
+"WaterTileset": "desert_region_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": "normal"
+"GroundElement": "normal",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 },
 {
@@ -499,7 +522,68 @@
 "AfterActions": [],
 "ElementEffects": [],
 "OnEquips": [],
-"OnPickups": [],
+"OnPickups": [
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueEssence.Dungeon.ItemScriptEvent, RogueEssence",
+"Script": "ItemTutorialFood",
+"ArgTable": "{}"
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueEssence.Dungeon.ItemScriptEvent, RogueEssence",
+"Script": "ItemTutorialOran",
+"ArgTable": "{}"
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueEssence.Dungeon.ItemScriptEvent, RogueEssence",
+"Script": "ItemTutorialLeppa",
+"ArgTable": "{}"
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueEssence.Dungeon.ItemScriptEvent, RogueEssence",
+"Script": "ItemTutorialSeed",
+"ArgTable": "{}"
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueEssence.Dungeon.ItemScriptEvent, RogueEssence",
+"Script": "ItemTutorialMoney",
+"ArgTable": "{}"
+}
+}
+],
 "BeforeStatusAdds": [],
 "OnStatusAdds": [],
 "OnStatusRemoves": [],
@@ -827,12 +911,35 @@
 },
 "Value": {
 "$type": "RogueEssence.LevelGen.MapTextureStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
-"GroundTileset": "northern_desert_1_floor",
-"BlockTileset": "northern_desert_1_wall",
-"WaterTileset": "northern_desert_2_secondary",
+"GroundTileset": "desert_region_floor",
+"BlockTileset": "desert_region_wall",
+"WaterTileset": "desert_region_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": "normal"
+"GroundElement": "normal",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 },
 {
@@ -1008,7 +1115,68 @@
 "AfterActions": [],
 "ElementEffects": [],
 "OnEquips": [],
-"OnPickups": [],
+"OnPickups": [
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueEssence.Dungeon.ItemScriptEvent, RogueEssence",
+"Script": "ItemTutorialFood",
+"ArgTable": "{}"
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueEssence.Dungeon.ItemScriptEvent, RogueEssence",
+"Script": "ItemTutorialOran",
+"ArgTable": "{}"
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueEssence.Dungeon.ItemScriptEvent, RogueEssence",
+"Script": "ItemTutorialLeppa",
+"ArgTable": "{}"
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueEssence.Dungeon.ItemScriptEvent, RogueEssence",
+"Script": "ItemTutorialSeed",
+"ArgTable": "{}"
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueEssence.Dungeon.ItemScriptEvent, RogueEssence",
+"Script": "ItemTutorialMoney",
+"ArgTable": "{}"
+}
+}
+],
 "BeforeStatusAdds": [],
 "OnStatusAdds": [],
 "OnStatusRemoves": [],
@@ -1336,12 +1504,35 @@
 },
 "Value": {
 "$type": "RogueEssence.LevelGen.MapTextureStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
-"GroundTileset": "northern_desert_1_floor",
-"BlockTileset": "northern_desert_1_wall",
-"WaterTileset": "northern_desert_2_secondary",
+"GroundTileset": "desert_region_floor",
+"BlockTileset": "desert_region_wall",
+"WaterTileset": "desert_region_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": "normal"
+"GroundElement": "normal",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 },
 {
@@ -1517,7 +1708,68 @@
 "AfterActions": [],
 "ElementEffects": [],
 "OnEquips": [],
-"OnPickups": [],
+"OnPickups": [
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueEssence.Dungeon.ItemScriptEvent, RogueEssence",
+"Script": "ItemTutorialFood",
+"ArgTable": "{}"
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueEssence.Dungeon.ItemScriptEvent, RogueEssence",
+"Script": "ItemTutorialOran",
+"ArgTable": "{}"
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueEssence.Dungeon.ItemScriptEvent, RogueEssence",
+"Script": "ItemTutorialLeppa",
+"ArgTable": "{}"
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueEssence.Dungeon.ItemScriptEvent, RogueEssence",
+"Script": "ItemTutorialSeed",
+"ArgTable": "{}"
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueEssence.Dungeon.ItemScriptEvent, RogueEssence",
+"Script": "ItemTutorialMoney",
+"ArgTable": "{}"
+}
+}
+],
 "BeforeStatusAdds": [],
 "OnStatusAdds": [],
 "OnStatusRemoves": [],
@@ -1845,12 +2097,35 @@
 },
 "Value": {
 "$type": "RogueEssence.LevelGen.MapTextureStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
-"GroundTileset": "northern_desert_1_floor",
-"BlockTileset": "northern_desert_1_wall",
-"WaterTileset": "northern_desert_2_secondary",
+"GroundTileset": "desert_region_floor",
+"BlockTileset": "desert_region_wall",
+"WaterTileset": "desert_region_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": "normal"
+"GroundElement": "normal",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 },
 {
@@ -2026,7 +2301,68 @@
 "AfterActions": [],
 "ElementEffects": [],
 "OnEquips": [],
-"OnPickups": [],
+"OnPickups": [
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueEssence.Dungeon.ItemScriptEvent, RogueEssence",
+"Script": "ItemTutorialFood",
+"ArgTable": "{}"
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueEssence.Dungeon.ItemScriptEvent, RogueEssence",
+"Script": "ItemTutorialOran",
+"ArgTable": "{}"
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueEssence.Dungeon.ItemScriptEvent, RogueEssence",
+"Script": "ItemTutorialLeppa",
+"ArgTable": "{}"
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueEssence.Dungeon.ItemScriptEvent, RogueEssence",
+"Script": "ItemTutorialSeed",
+"ArgTable": "{}"
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueEssence.Dungeon.ItemScriptEvent, RogueEssence",
+"Script": "ItemTutorialMoney",
+"ArgTable": "{}"
+}
+}
+],
 "BeforeStatusAdds": [],
 "OnStatusAdds": [],
 "OnStatusRemoves": [],
@@ -2354,12 +2690,35 @@
 },
 "Value": {
 "$type": "RogueEssence.LevelGen.MapTextureStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
-"GroundTileset": "northern_desert_1_floor",
-"BlockTileset": "northern_desert_1_wall",
-"WaterTileset": "northern_desert_2_secondary",
+"GroundTileset": "desert_region_floor",
+"BlockTileset": "desert_region_wall",
+"WaterTileset": "desert_region_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": "normal"
+"GroundElement": "normal",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 },
 {
@@ -2535,7 +2894,68 @@
 "AfterActions": [],
 "ElementEffects": [],
 "OnEquips": [],
-"OnPickups": [],
+"OnPickups": [
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueEssence.Dungeon.ItemScriptEvent, RogueEssence",
+"Script": "ItemTutorialFood",
+"ArgTable": "{}"
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueEssence.Dungeon.ItemScriptEvent, RogueEssence",
+"Script": "ItemTutorialOran",
+"ArgTable": "{}"
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueEssence.Dungeon.ItemScriptEvent, RogueEssence",
+"Script": "ItemTutorialLeppa",
+"ArgTable": "{}"
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueEssence.Dungeon.ItemScriptEvent, RogueEssence",
+"Script": "ItemTutorialSeed",
+"ArgTable": "{}"
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueEssence.Dungeon.ItemScriptEvent, RogueEssence",
+"Script": "ItemTutorialMoney",
+"ArgTable": "{}"
+}
+}
+],
 "BeforeStatusAdds": [],
 "OnStatusAdds": [],
 "OnStatusRemoves": [],
@@ -2889,7 +3309,7 @@
 },
 "Level": {
 "Min": 2,
-"Max": 2
+"Max": 3
 },
 "SpecifiedSkills": [
 "peck"
@@ -2904,44 +3324,6 @@
 {
 "$type": "PMDC.LevelGen.MobSpawnMovesOff, PMDC",
 "StartAt": 2,
-"Remove": false
-}
-]
-},
-"Role": 0
-},
-"Rate": 10,
-"Range": {
-"Min": 0,
-"Max": 5
-}
-},
-{
-"Spawn": {
-"Spawn": {
-"BaseForm": {
-"Species": "phanpy",
-"Form": 0,
-"Skin": "",
-"Gender": -1
-},
-"Level": {
-"Min": 2,
-"Max": 2
-},
-"SpecifiedSkills": [
-"tackle"
-],
-"Intrinsic": "pickup",
-"Tactic": "wander_dumb",
-"SpawnConditions": [],
-"SpawnFeatures": [
-{
-"$type": "PMDC.LevelGen.MobSpawnWeak, PMDC"
-},
-{
-"$type": "PMDC.LevelGen.MobSpawnMovesOff, PMDC",
-"StartAt": 1,
 "Remove": false
 }
 ]
@@ -2989,7 +3371,8 @@
 ],
 "GroundMaps": [
 "dusty_dune",
-"abandoned_crossroads"
+"abandoned_crossroads",
+"qahil_village"
 ]
 }
 }

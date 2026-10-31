@@ -1,0 +1,94 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.12.0"
+  ],
+  "Object": {
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "SecretSkills": {
+          "_t": "a",
+          "3": [
+            {
+              "Skill": "facade"
+            }
+          ]
+        },
+        "LevelSkills": {
+          "_t": "a",
+          "2": {
+            "Level": [
+              15,
+              9
+            ],
+            "Skill": [
+              "bug_bite",
+              "tackle"
+            ]
+          },
+          "3": [
+            {
+              "Level": 12,
+              "Skill": "bug_bite"
+            }
+          ],
+          "4": [
+            {
+              "Level": 15,
+              "Skill": "twineedle"
+            }
+          ],
+          "5": [
+            {
+              "Level": 18,
+              "Skill": "return"
+            }
+          ],
+          "6": [
+            {
+              "Level": 22,
+              "Skill": "struggle_bug"
+            }
+          ],
+          "7": [
+            {
+              "Level": 25,
+              "Skill": "poison_tail"
+            }
+          ],
+          "8": [
+            {
+              "Level": 29,
+              "Skill": "lunge"
+            }
+          ],
+          "9": [
+            {
+              "Level": 32,
+              "Skill": "fury_attack"
+            }
+          ],
+          "10": [
+            {
+              "Level": 35,
+              "Skill": "pounce"
+            }
+          ],
+          "11": [
+            {
+              "Level": 38,
+              "Skill": "poison_jab"
+            }
+          ],
+          "12": [
+            {
+              "Level": 43,
+              "Skill": "flail"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

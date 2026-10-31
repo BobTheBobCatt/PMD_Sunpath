@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.8.3.0",
+"Version": "0.8.11.0",
 "Object": {
 "$type": "RogueEssence.Data.StatusData, RogueEssence",
 "Name": {
@@ -7,7 +7,7 @@
 "LocalTexts": {}
 },
 "Desc": {
-"DefaultText": "The Pokémon is terrified and is rendered incapable of attacking or using any items. This status wears off after a few turns, or if the Pokémon is attacked.",
+"DefaultText": "The Pokémon is terrified and is rendered incapable of attacking or using any items. Enemy or allied Pokémon will also run away. This status wears off after a few turns.",
 "LocalTexts": {}
 },
 "Released": true,
@@ -17,7 +17,7 @@
 "Emoticon": "",
 "DropEmoticon": "",
 "FreeEmote": "",
-"DrawEffect": -1,
+"DrawEffect": 8,
 "Targeted": false,
 "StatusStates": [
 {
@@ -28,7 +28,7 @@
 },
 {
 "$type": "RogueEssence.Dungeon.CountDownState, RogueEssence",
-"Counter": 10
+"Counter": 11
 }
 ],
 "OnSkillChanges": [],
@@ -149,6 +149,18 @@
 },
 "Delay": true
 }
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueEssence.Dungeon.StatusScriptEvent, RogueEssence",
+"Script": "ChangeTacticEvent",
+"ArgTable": "{Tactic = 'fleeing'}"
+}
 }
 ],
 "OnStatusRemoves": [
@@ -164,6 +176,18 @@
 "Key": "MSG_TERRIFIED_END"
 },
 "Delay": false
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "RogueEssence.Dungeon.StatusScriptEvent, RogueEssence",
+"Script": "RestoreTacticEvent",
+"ArgTable": "{}"
 }
 }
 ],
@@ -278,18 +302,7 @@
 "BeforeHittings": [],
 "BeforeBeingHits": [],
 "AfterHittings": [],
-"AfterBeingHits": [
-{
-"Key": {
-"str": [
-0
-]
-},
-"Value": {
-"$type": "PMDC.Dungeon.ForceWakeEvent, PMDC"
-}
-}
-],
+"AfterBeingHits": [],
 "OnHitTiles": [],
 "AfterActions": [],
 "UserElementEffects": [],

@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.8.8.0",
+"Version": "0.8.11.0",
 "Object": {
 "$type": "RogueEssence.Data.ItemData, RogueEssence",
 "Name": {
@@ -7,7 +7,7 @@
 "LocalTexts": {}
 },
 "Desc": {
-"DefaultText": "An odd berry with a mix of bitter & sour flavors. It cures the Petrify status.",
+"DefaultText": "An odd berry with a mix of bitter & sour flavors. It cures the Calcify & Petrify statuses.",
 "LocalTexts": {}
 },
 "Released": true,
@@ -15,7 +15,7 @@
 "Sprite": "Berry_Rabuta",
 "Icon": 3,
 "SortCategory": 6,
-"Price": 12,
+"Price": 6,
 "Rarity": 0,
 "MaxStack": 0,
 "CannotDrop": false,
@@ -111,6 +111,18 @@
 "Msg": false,
 "AddMaxBelly": 0,
 "NeedFullBelly": false
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "PMDC.Dungeon.RemoveStatusBattleEvent, PMDC",
+"StatusID": "calcified",
+"AffectTarget": true
 }
 },
 {

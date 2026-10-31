@@ -1,0 +1,50 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.11.0"
+  ],
+  "Object": {
+    "Released": [
+      false,
+      true
+    ],
+    "Sprite": [
+      "",
+      "Wand_Tan"
+    ],
+    "Price": [
+      0,
+      8
+    ],
+    "MaxStack": [
+      9,
+      40
+    ],
+    "UseEvent": {
+      "OnHits": {
+        "_t": "a",
+        "0": [
+          {
+            "Key": {
+              "str": [
+                0
+              ]
+            },
+            "Value": {
+              "$type": "PMDC.Dungeon.StatusBattleEvent, PMDC",
+              "StatusID": "confuse",
+              "AffectTarget": true,
+              "SelfInflicted": false,
+              "SilentCheck": true,
+              "Anonymous": false,
+              "TriggerMsg": {
+                "Key": ""
+              },
+              "Anims": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

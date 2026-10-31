@@ -1,0 +1,26 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.11.0"
+  ],
+  "Object": {
+    "SkillGroup2": [
+      "",
+      "undiscovered"
+    ],
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "5": [
+            {
+              "Level": 16,
+              "Skill": "fire_up"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

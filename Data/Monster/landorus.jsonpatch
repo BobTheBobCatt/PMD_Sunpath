@@ -1,0 +1,169 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.11.0"
+  ],
+  "Object": {
+    "SkillGroup2": [
+      "",
+      "undiscovered"
+    ],
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "10": {
+            "Level": [
+              31,
+              28
+            ],
+            "Skill": [
+              "extrasensory",
+              "sand_beam"
+            ]
+          },
+          "11": {
+            "Level": [
+              37,
+              31
+            ],
+            "Skill": [
+              "swords_dance",
+              "extrasensory"
+            ]
+          },
+          "12": {
+            "Level": [
+              43,
+              37
+            ],
+            "Skill": [
+              "earth_power",
+              "swords_dance"
+            ]
+          },
+          "13": {
+            "Level": [
+              49,
+              43
+            ],
+            "Skill": [
+              "rock_slide",
+              "earth_power"
+            ]
+          },
+          "14": {
+            "Level": [
+              55,
+              49
+            ],
+            "Skill": [
+              "earthquake",
+              "rock_slide"
+            ]
+          },
+          "15": {
+            "Level": [
+              61,
+              55
+            ],
+            "Skill": [
+              "sandstorm",
+              "earthquake"
+            ]
+          },
+          "16": [
+            {
+              "Level": 61,
+              "Skill": "sandstorm"
+            }
+          ],
+          "17": [
+            {
+              "Level": 64,
+              "Skill": "dust_storm"
+            }
+          ]
+        }
+      },
+      "1": {
+        "LevelSkills": {
+          "_t": "a",
+          "10": {
+            "Level": [
+              31,
+              28
+            ],
+            "Skill": [
+              "extrasensory",
+              "sand_beam"
+            ]
+          },
+          "11": {
+            "Level": [
+              37,
+              31
+            ],
+            "Skill": [
+              "swords_dance",
+              "extrasensory"
+            ]
+          },
+          "12": {
+            "Level": [
+              43,
+              37
+            ],
+            "Skill": [
+              "earth_power",
+              "swords_dance"
+            ]
+          },
+          "13": {
+            "Level": [
+              49,
+              43
+            ],
+            "Skill": [
+              "rock_slide",
+              "earth_power"
+            ]
+          },
+          "14": {
+            "Level": [
+              55,
+              49
+            ],
+            "Skill": [
+              "earthquake",
+              "rock_slide"
+            ]
+          },
+          "15": {
+            "Level": [
+              61,
+              55
+            ],
+            "Skill": [
+              "sandstorm",
+              "earthquake"
+            ]
+          },
+          "16": [
+            {
+              "Level": 61,
+              "Skill": "sandstorm"
+            }
+          ],
+          "17": [
+            {
+              "Level": 64,
+              "Skill": "dust_storm"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

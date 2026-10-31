@@ -1,0 +1,68 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.11.0"
+  ],
+  "Object": {
+    "SkillGroup2": [
+      "",
+      "undiscovered"
+    ],
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "11": {
+            "Level": [
+              41,
+              37
+            ],
+            "Skill": [
+              "payback",
+              "sand_beam"
+            ]
+          },
+          "12": {
+            "Level": [
+              47,
+              41
+            ],
+            "Skill": [
+              "crunch",
+              "payback"
+            ]
+          },
+          "13": {
+            "Level": [
+              54,
+              47
+            ],
+            "Skill": [
+              "earthquake",
+              "crunch"
+            ]
+          },
+          "14": [
+            {
+              "Level": 50,
+              "Skill": "stone_fang"
+            }
+          ],
+          "15": [
+            {
+              "Level": 54,
+              "Skill": "earthquake"
+            }
+          ],
+          "16": [
+            {
+              "Level": 57,
+              "Skill": "dust_storm"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

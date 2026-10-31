@@ -1,0 +1,90 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.11.0"
+  ],
+  "Object": {
+    "Desc": {
+      "DefaultText": [
+        "@@ -14,76 +14,26 @@\n hat \n-speeds up the Pok%c3%a9mon's natural HP recovery. This item sticks when held\n+increases HP recovery\n .\n",
+        0,
+        2
+      ],
+      "LocalTexts": {
+        "fr": [
+          "@@ -16,13 +16,13 @@\n ui a\n-cc%c3%a9l%c3%a8\n+m%c3%a9lio\n re l\n@@ -40,78 +40,22 @@\n ion \n-naturelle \n des P\n-P\n+V\n  du \n-Pok%c3%a9mon. Cet objet devient collant lorsqu'il est tenu\n+porteur\n .\n",
+          0,
+          2
+        ],
+        "de": [
+          "@@ -18,107 +18,36 @@\n en. \n-Die nat%c3%bcrliche KP-Regeneration des Tr%c3%a4gers erh%c3%b6ht sich. Das Item wird klebrig, sobald es getragen wird\n+Verst%c3%a4rkt KP-stehlende Attacken\n .\n",
+          0,
+          2
+        ],
+        "es": [
+          "@@ -22,23 +22,23 @@\n ue a\n-celer\n+ument\n a la re\n-gen\n+cup\n erac\n@@ -50,57 +50,5 @@\n e PS\n- de un Pok%c3%a9mon. Este objeto se pega a quien lo lleve\n .\n",
+          0,
+          2
+        ],
+        "it": [
+          "@@ -11,15 +11,8 @@\n nto \n-tenuto \n da d\n@@ -34,14 +34,13 @@\n n. A\n-cceler\n+ument\n a il\n@@ -55,54 +55,11 @@\n ino \n-naturale dei PS. Diventa viscido una volta tenuto\n+dei PS\n .\n",
+          0,
+          2
+        ],
+        "ja": [
+          "かいふくスピードじょうしょう（仮テキスト）",
+          0,
+          0
+        ],
+        "ja-jp": [
+          "かいふくスピードじょうしょう（仮テキスト）",
+          0,
+          0
+        ],
+        "zh-hans": [
+          "一种携带道具。携带后，能够加快HP的自然回复速度。此道具携带后会被粘着。",
+          "硕大的根茎。携带后，能够增加自身HP的回复量。"
+        ],
+        "ko": [
+          "지니게 하면 모든 종류의 HP회복이 증가한다."
+        ]
+      }
+    },
+    "Price": [
+      250,
+      341
+    ],
+    "OnEquips": {
+      "_t": "a",
+      "_0": [
+        {
+          "Key": {
+            "str": [
+              1
+            ]
+          },
+          "Value": {
+            "$type": "PMDC.Dungeon.AutoCurseItemEvent, PMDC"
+          }
+        },
+        0,
+        0
+      ]
+    },
+    "ModifyHPs": {
+      "_t": "a",
+      "0": {
+        "Value": {
+          "Numerator": [
+            2,
+            3
+          ],
+          "Denominator": [
+            1,
+            2
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.11.0"
+  ],
+  "Object": {
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "5": {
+            "Level": [
+              20,
+              17
+            ],
+            "Skill": [
+              "headbutt",
+              "sand_blast"
+            ]
+          },
+          "6": {
+            "Level": [
+              25,
+              20
+            ],
+            "Skill": [
+              "glare",
+              "headbutt"
+            ]
+          },
+          "7": {
+            "Level": [
+              30,
+              23
+            ],
+            "Skill": [
+              "dig",
+              "sand_beam"
+            ]
+          },
+          "8": {
+            "Level": [
+              35,
+              25
+            ],
+            "Skill": [
+              "sandstorm",
+              "glare"
+            ]
+          },
+          "9": {
+            "Level": [
+              40,
+              30
+            ],
+            "Skill": [
+              "slam",
+              "dig"
+            ]
+          },
+          "10": {
+            "Level": [
+              45,
+              35
+            ],
+            "Skill": [
+              "coil",
+              "sandstorm"
+            ]
+          },
+          "11": {
+            "Level": [
+              50,
+              40
+            ],
+            "Skill": [
+              "sand_tomb",
+              "slam"
+            ]
+          },
+          "12": [
+            {
+              "Level": 45,
+              "Skill": "coil"
+            }
+          ],
+          "13": [
+            {
+              "Level": 50,
+              "Skill": "sand_tomb"
+            }
+          ],
+          "14": [
+            {
+              "Level": 55,
+              "Skill": "dust_storm"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

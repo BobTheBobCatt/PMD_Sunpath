@@ -1,0 +1,16 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.11.0"
+  ],
+  "Object": {
+    "BagSize": [
+      24,
+      1
+    ],
+    "Next": [
+      "normal",
+      "guildless"
+    ]
+  }
+}

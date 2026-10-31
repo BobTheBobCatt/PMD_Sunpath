@@ -1,0 +1,141 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.12.0"
+  ],
+  "Object": {
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "Intrinsic2": [
+          "none",
+          "fujiwhara_effect"
+        ],
+        "LevelSkills": {
+          "_t": "a",
+          "12": {
+            "Level": [
+              37,
+              34
+            ],
+            "Skill": [
+              "agility",
+              "wind_beam"
+            ]
+          },
+          "13": {
+            "Level": [
+              43,
+              37
+            ],
+            "Skill": [
+              "air_slash",
+              "agility"
+            ]
+          },
+          "14": {
+            "Level": [
+              49,
+              43
+            ],
+            "Skill": [
+              "crunch",
+              "air_slash"
+            ]
+          },
+          "15": {
+            "Level": [
+              55,
+              49
+            ],
+            "Skill": [
+              "tailwind",
+              "crunch"
+            ]
+          },
+          "16": [
+            {
+              "Level": 52,
+              "Skill": "wind_beam"
+            }
+          ],
+          "17": [
+            {
+              "Level": 55,
+              "Skill": "tailwind"
+            }
+          ],
+          "18": [
+            {
+              "Level": 58,
+              "Skill": "downburst"
+            }
+          ]
+        }
+      },
+      "1": {
+        "LevelSkills": {
+          "_t": "a",
+          "12": {
+            "Level": [
+              37,
+              34
+            ],
+            "Skill": [
+              "agility",
+              "wind_beam"
+            ]
+          },
+          "13": {
+            "Level": [
+              43,
+              37
+            ],
+            "Skill": [
+              "air_slash",
+              "agility"
+            ]
+          },
+          "14": {
+            "Level": [
+              49,
+              43
+            ],
+            "Skill": [
+              "crunch",
+              "air_slash"
+            ]
+          },
+          "15": {
+            "Level": [
+              55,
+              49
+            ],
+            "Skill": [
+              "tailwind",
+              "crunch"
+            ]
+          },
+          "16": [
+            {
+              "Level": 52,
+              "Skill": "wind_beam"
+            }
+          ],
+          "17": [
+            {
+              "Level": 55,
+              "Skill": "tailwind"
+            }
+          ],
+          "18": [
+            {
+              "Level": 58,
+              "Skill": "downburst"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

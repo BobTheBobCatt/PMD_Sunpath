@@ -1,0 +1,98 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.12.0"
+  ],
+  "Object": {
+    "Forms": {
+      "_t": "a",
+      "1": {
+        "LevelSkills": {
+          "_t": "a",
+          "7": {
+            "Level": [
+              24,
+              22
+            ],
+            "Skill": [
+              "knock_off",
+              "ghostly_chill"
+            ]
+          },
+          "8": {
+            "Level": [
+              28,
+              24
+            ],
+            "Skill": [
+              "spite",
+              "knock_off"
+            ]
+          },
+          "9": {
+            "Level": [
+              32,
+              28
+            ],
+            "Skill": [
+              "agility",
+              "spite"
+            ]
+          },
+          "10": {
+            "Level": [
+              36,
+              32
+            ],
+            "Skill": [
+              "shadow_ball",
+              "agility"
+            ]
+          },
+          "11": {
+            "Level": [
+              40,
+              36
+            ],
+            "Skill": [
+              "bitter_malice",
+              "shadow_ball"
+            ]
+          },
+          "12": {
+            "Level": [
+              44,
+              40
+            ],
+            "Skill": [
+              "nasty_plot",
+              "bitter_malice"
+            ]
+          },
+          "13": {
+            "Level": [
+              48,
+              44
+            ],
+            "Skill": [
+              "foul_play",
+              "nasty_plot"
+            ]
+          },
+          "14": [
+            {
+              "Level": 48,
+              "Skill": "foul_play"
+            }
+          ],
+          "15": [
+            {
+              "Level": 52,
+              "Skill": "scourge"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

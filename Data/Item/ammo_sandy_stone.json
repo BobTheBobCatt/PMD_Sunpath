@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.8.8.0",
+"Version": "0.8.11.0",
 "Object": {
 "$type": "RogueEssence.Data.ItemData, RogueEssence",
 "Name": {
@@ -7,7 +7,7 @@
 "LocalTexts": {}
 },
 "Desc": {
-"DefaultText": "A weapon to be thrown. It flies high in an arc to clear obstacles and strike the target's area, dealing Ground damage. May also lower the Accuracy of any Pokémon it hits.",
+"DefaultText": "A weapon to be thrown. It flies high in an arc to clear obstacles and strike the target's area, dealing Ground damage. May also leave the target calcified.",
 "LocalTexts": {}
 },
 "Released": true,
@@ -17,7 +17,7 @@
 "SortCategory": 2,
 "Price": 5,
 "Rarity": 0,
-"MaxStack": 9,
+"MaxStack": 99,
 "CannotDrop": false,
 "BagEffect": false,
 "ItemStates": [
@@ -124,7 +124,7 @@
 },
 {
 "$type": "PMDC.Dungeon.AdditionalEffectState, PMDC",
-"EffectChance": 33
+"EffectChance": 25
 }
 ],
 "BeforeTryActions": [],
@@ -153,10 +153,10 @@
 "$type": "PMDC.Dungeon.AdditionalEvent, PMDC",
 "BaseEvents": [
 {
-"$type": "PMDC.Dungeon.StatusStackBattleEvent, PMDC",
-"Stack": -1,
-"StatusID": "mod_accuracy",
+"$type": "PMDC.Dungeon.StatusBattleEvent, PMDC",
+"StatusID": "calcified",
 "AffectTarget": true,
+"SelfInflicted": false,
 "SilentCheck": true,
 "Anonymous": false,
 "TriggerMsg": {

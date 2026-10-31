@@ -1,12 +1,12 @@
 ﻿{
   "Version": [
     "0.0",
-    "0.8.8.0"
+    "0.8.11.0"
   ],
   "Object": {
     "Desc": {
       "DefaultText": [
-        "@@ -0,0 +1,111 @@\n+A dry-tasting berry with thick, tough skin. It gives the Sleepless status to the user & cures the Sleep status.\n",
+        "@@ -0,0 +1,124 @@\n+A dry-tasting berry with thick, tough skin. It gives the Sleepless status to the user & cures the Sleep and Drowsy statuses.\n",
         0,
         2
       ]
@@ -21,7 +21,7 @@
     ],
     "Price": [
       50,
-      12
+      6
     ],
     "UseAction": {
       "CharAnimData": {
@@ -73,6 +73,7 @@
               "$type": "PMDC.Dungeon.StatusBattleEvent, PMDC",
               "StatusID": "sleepless",
               "AffectTarget": true,
+              "SelfInflicted": false,
               "SilentCheck": false,
               "Anonymous": false,
               "TriggerMsg": {

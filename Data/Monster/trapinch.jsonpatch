@@ -1,0 +1,124 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.11.0"
+  ],
+  "Object": {
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "8": {
+            "Level": [
+              19,
+              17
+            ],
+            "Skill": [
+              "dig",
+              "sand_blast"
+            ]
+          },
+          "9": {
+            "Level": [
+              22,
+              19
+            ],
+            "Skill": [
+              "crunch",
+              "dig"
+            ]
+          },
+          "10": {
+            "Level": [
+              26,
+              22
+            ],
+            "Skill": [
+              "earth_power",
+              "crunch"
+            ]
+          },
+          "11": {
+            "Level": [
+              29,
+              26
+            ],
+            "Skill": [
+              "feint",
+              "earth_power"
+            ]
+          },
+          "12": {
+            "Level": [
+              33,
+              29
+            ],
+            "Skill": [
+              "earthquake",
+              "feint"
+            ]
+          },
+          "13": {
+            "Level": [
+              36,
+              31
+            ],
+            "Skill": [
+              "sandstorm",
+              "sand_beam"
+            ]
+          },
+          "14": {
+            "Level": [
+              40,
+              33
+            ],
+            "Skill": [
+              "superpower",
+              "earthquake"
+            ]
+          },
+          "15": {
+            "Level": [
+              43,
+              36
+            ],
+            "Skill": [
+              "hyper_beam",
+              "sandstorm"
+            ]
+          },
+          "16": {
+            "Level": [
+              47,
+              40
+            ],
+            "Skill": [
+              "fissure",
+              "superpower"
+            ]
+          },
+          "17": [
+            {
+              "Level": 43,
+              "Skill": "hyper_beam"
+            }
+          ],
+          "18": [
+            {
+              "Level": 47,
+              "Skill": "fissure"
+            }
+          ],
+          "19": [
+            {
+              "Level": 50,
+              "Skill": "dust_storm"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

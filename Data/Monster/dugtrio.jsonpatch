@@ -1,0 +1,37 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.11.0"
+  ],
+  "Object": {
+    "SkillGroup2": [
+      "",
+      "undiscovered"
+    ],
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "11": [
+            {
+              "Level": 20,
+              "Skill": "sand_blast"
+            }
+          ]
+        }
+      },
+      "1": {
+        "LevelSkills": {
+          "_t": "a",
+          "13": [
+            {
+              "Level": 20,
+              "Skill": "sand_blast"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

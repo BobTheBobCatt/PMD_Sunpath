@@ -1,0 +1,21 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.11.0"
+  ],
+  "Object": {
+    "SkillGroup2": [
+      "",
+      "undiscovered"
+    ],
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "Intrinsic2": [
+          "none",
+          "acceleration"
+        ]
+      }
+    }
+  }
+}

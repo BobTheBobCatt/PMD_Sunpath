@@ -1,0 +1,29 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.12.0"
+  ],
+  "Object": {
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "Intrinsic2": [
+          "none",
+          "purging_veil"
+        ]
+      },
+      "1": {
+        "Intrinsic2": [
+          "none",
+          "purging_veil"
+        ]
+      },
+      "2": {
+        "Intrinsic2": [
+          "none",
+          "purging_veil"
+        ]
+      }
+    }
+  }
+}

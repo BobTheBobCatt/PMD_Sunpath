@@ -1,0 +1,46 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.12.0"
+  ],
+  "Object": {
+    "Desc": {
+      "DefaultText": [
+        "@@ -91,8 +91,13 @@\n  fro\n-z\n+stbitt\n en.\n",
+        0,
+        2
+      ],
+      "LocalTexts": {
+        "zh-hans": [
+          "用令人毛骨悚然的怨念进行攻击。有时还会让对手陷入冰冻状态。",
+          0,
+          0
+        ]
+      }
+    },
+    "Data": {
+      "OnHits": {
+        "_t": "a",
+        "1": {
+          "Value": {
+            "BaseEvents": {
+              "_t": "a",
+              "0": {
+                "StatusID": [
+                  "freeze",
+                  "frostbite"
+                ],
+                "TriggerMsg": {
+                  "Key": [
+                    null,
+                    ""
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

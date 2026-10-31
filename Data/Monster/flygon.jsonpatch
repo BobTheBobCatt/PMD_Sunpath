@@ -1,0 +1,144 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.11.0"
+  ],
+  "Object": {
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "8": {
+            "Level": [
+              19,
+              17
+            ],
+            "Skill": [
+              "supersonic",
+              "sand_blast"
+            ]
+          },
+          "9": {
+            "Level": [
+              22,
+              19
+            ],
+            "Skill": [
+              "screech",
+              "supersonic"
+            ]
+          },
+          "10": {
+            "Level": [
+              26,
+              22
+            ],
+            "Skill": [
+              "earth_power",
+              "screech"
+            ]
+          },
+          "11": {
+            "Level": [
+              29,
+              26
+            ],
+            "Skill": [
+              "dragon_tail",
+              "earth_power"
+            ]
+          },
+          "12": {
+            "Level": [
+              33,
+              29
+            ],
+            "Skill": [
+              "earthquake",
+              "dragon_tail"
+            ]
+          },
+          "13": {
+            "Level": [
+              35,
+              31
+            ],
+            "Skill": [
+              "dragon_breath",
+              "sand_beam"
+            ]
+          },
+          "14": {
+            "Level": [
+              36,
+              33
+            ],
+            "Skill": [
+              "sandstorm",
+              "earthquake"
+            ]
+          },
+          "15": {
+            "Level": [
+              40,
+              35
+            ],
+            "Skill": [
+              "uproar",
+              "dragon_breath"
+            ]
+          },
+          "16": {
+            "Level": [
+              43,
+              36
+            ],
+            "Skill": [
+              "hyper_beam",
+              "sandstorm"
+            ]
+          },
+          "17": {
+            "Level": [
+              45,
+              40
+            ],
+            "Skill": [
+              "dragon_claw",
+              "uproar"
+            ]
+          },
+          "18": {
+            "Level": [
+              47,
+              43
+            ],
+            "Skill": [
+              "dragon_rush",
+              "hyper_beam"
+            ]
+          },
+          "19": [
+            {
+              "Level": 45,
+              "Skill": "dragon_claw"
+            }
+          ],
+          "20": [
+            {
+              "Level": 47,
+              "Skill": "dragon_rush"
+            }
+          ],
+          "21": [
+            {
+              "Level": 50,
+              "Skill": "dust_storm"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

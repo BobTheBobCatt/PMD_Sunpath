@@ -1,4 +1,4 @@
-require 'origin.common'
+require 'pmd_sunpath.common'
 GeneralFunctions = {}
 
 --[[These are functions/procedures that are useful in a multitude of different maps or situations. Things such as
@@ -11,6 +11,10 @@ nil otherwise, but may be used in future to flag other party members/npcs as bei
 AddBack: Marks the character to be added back when the party is reset,value is the slot to add them back at.
 If it's nil then don't add them back. Set it to nil after adding them back
 ]]--
+
+--------------------------
+--Halcyon scripts
+--------------------------
 
 function GeneralFunctions.UpdateDailyFlags()
 	SV.DailyFlags = 
@@ -27,13 +31,13 @@ function GeneralFunctions.UpdateDailyFlags()
 	}
 	
 	--reset cafe special
-    SV.metano_cafe.CafeSpecial = ""
+    --[[SV.metano_cafe.CafeSpecial = ""
 	SV.metano_cafe.BoughtSpecial = false
 	
 	--finish fermenting any pending items if there are any
 	if SV.metano_cafe.FermentedItem ~= "" then 
 		SV.metano_cafe.ItemFinishedFermenting = true
-	end
+	end]]
 	
 	--Reset amount of times audino was summoned on that day 
 	SV.TemporaryFlags.AudinoSummonCount = 0
@@ -163,320 +167,13 @@ function GeneralFunctions.NumToDir(num)
 	return dir
 end
 
-
-function GeneralFunctions.ShakeHead(chara, turnframes, startLeft)
 	
-	if turnframes == nil then turnframes = 4 end
-	if startLeft == nil then startLeft = true end 
-	
-	initDir = chara.Direction
-	local leftDir = GeneralFunctions.NumToDir(GeneralFunctions.DirToNum(chara.Direction) - 1)
-	local rightDir = GeneralFunctions.NumToDir(GeneralFunctions.DirToNum(chara.Direction) + 1)
-	if startLeft then
-		GROUND:CharAnimateTurnTo(chara, leftDir, turnframes)
-		GROUND:CharAnimateTurnTo(chara, rightDir, turnframes)
-		GROUND:CharAnimateTurnTo(chara, leftDir, turnframes)
-		GROUND:CharAnimateTurnTo(chara, rightDir, turnframes)
-		GROUND:CharAnimateTurnTo(chara, initDir, turnframes)
-	else
-		GROUND:CharAnimateTurnTo(chara, rightDir, turnframes)
-		GROUND:CharAnimateTurnTo(chara, leftDir, turnframes)
-		GROUND:CharAnimateTurnTo(chara, rightDir, turnframes)
-		GROUND:CharAnimateTurnTo(chara, leftDir, turnframes)
-		GROUND:CharAnimateTurnTo(chara, initDir, turnframes)
-	end
-	
-end
-
---chara looks around in a rotations amount of directions, turning for turnframes frames, 
---ending facing in enddir direction. if alldirections is true, can look in all directions, otherwise can only face +-2 from original direction
-function GeneralFunctions.LookAround(chara, rotations, turnframes, allDirections, sound, startLeft, enddir)
-
-
-	if allDirections == nil then allDirections = true end 
-	if sound == nil then sound = true end 
-	if startLeft == nil then startLeft = true end 
-	if enddir == nil then enddir = chara.Direction end
-
-	local dir = 0
-	
-	--play the looking around sfx if we want a sound to be made
-	if sound then SOUND:PlaySE("EVT_Emote_Confused_2") end
-
-	--if all directions, look in any of the 8 directions randomly (except the one we are already facing)
-	--if not all directions, alternate between looking 90 degrees left and right from current direction
-	--at the end, face towards the enddir if specified
-	if allDirections then 
-		for i = 1, rotations, 1 do
-			local currentDir = chara.Direction
-			local numDir = GeneralFunctions.DirToNum(currentDir)
-			local diff = 0
-			local rand = 0
-			repeat
-				rand = math.random(0, 7)--pick a random direction
-				diff = math.abs(numDir - rand)
-			until (diff > 1 and diff < 7)--chosen direction must be at least 90 degrees different 
-			dir = GeneralFunctions.NumToDir(rand)
-			GROUND:CharAnimateTurnTo(chara, dir, turnframes)
-			GAME:WaitFrames(20)--pause
-		end 
-	else--this is much less random 
-		local leftDir = GeneralFunctions.NumToDir(GeneralFunctions.DirToNum(chara.Direction) - 2)
-		local rightDir = GeneralFunctions.NumToDir(GeneralFunctions.DirToNum(chara.Direction) + 2)
-		local originalDir = chara.Direction
-		local turnLeft = startLeft --start by looking left if that's what's been specified, otherwise start by looking right
-		for i = 1, rotations, 1 do
-			if turnLeft then
-				GROUND:CharAnimateTurn(chara, leftDir, turnframes, turnLeft)
-				GAME:WaitFrames(10)--pause
-				turnLeft = false
-			else
-				GROUND:CharAnimateTurn(chara, rightDir, turnframes, turnLeft)
-				GAME:WaitFrames(10)--pause
-				turnLeft = true
-			end
-		end
-	end
-	if enddir ~= Direction.None and enddir ~= dir then--if a direction to end on was specified and we aren't facing that way, turn there 
-		GROUND:CharAnimateTurnTo(chara, enddir, turnframes)
-	else GAME:WaitFrames(turnframes * 2)--wait for some time based off how long it could have taken to turn if we dont turn at the end 
-	end
-	GAME:WaitFrames(6)--Wait a short duration before ending
-
-end
-	
---This function makes it easy to keep the camera in sync with a character moving
-function GeneralFunctions.MoveCharAndCamera(chara, x, y, run, charSpeed, cameraFrames)
-	local startX = chara.Position.X
-	local startY = chara.Position.Y
-	--characters position starts from their top left corner. 
-	local camX = x + 8
-	local camY = y + 8
-	local default = false
-	
-	--cameraSpeed should only be given when a custom frame count needs to be used for some reason
-	--otherwise, calculate the number of frames needed for smooth transition
-	if cameraFrames == nil then cameraFrames = GeneralFunctions.CalculateCameraFrames(startX, startY, x, y, charSpeed) end
-	--default run to false 
-	if run == nil then run = false end 
-
-	local coro1 = TASK:BranchCoroutine(function() GAME:MoveCamera(camX, camY, cameraFrames, false) end)
-	local coro2 = TASK:BranchCoroutine(function() GROUND:MoveToPosition(chara, x, y, run, charSpeed) end)
-	TASK:JoinCoroutines({coro1, coro2})
-
-
-end
-
 --easy speed control on camera movements
 function GeneralFunctions.MoveCamera(x, y, speed)
 	if speed == nil then speed = 2 end
 	
 	local cameraFrames = GeneralFunctions.CalculateCameraFrames(GAME:GetCameraCenter().X, GAME:GetCameraCenter().Y, x, y, speed)
 	GAME:MoveCamera(x, y, cameraFrames, false)
-end
-
---old movetoposition behavior
---move diagonially, then on one axis to get to the destination (2 movements)
---only moves in 8 directions 
-function GeneralFunctions.EightWayMove(chara, x, y, run, speed)
-
-	local diffX = x - chara.Position.X
-	local diffY = y - chara.Position.Y
-	
-	
-	local xSign = 1
-	local ySign = 1
-	
-	if diffX < 0 then xSign = -1 end
-	if diffY < 0 then ySign = -1 end
-
-	diffX = math.abs(diffX)
-	diffY = math.abs(diffY)
-	
-	
-	local diff = 0 
-	
-	if diffX < diffY then
-		diff = diffX
-		GROUND:MoveToPosition(chara, chara.Position.X + (diff * xSign), chara.Position.Y + (diff * ySign), run, speed)
-	elseif math.abs(diffX) > math.abs(diffY) then
-		diff = diffY
-		GROUND:MoveToPosition(chara, chara.Position.X + (diff * xSign), chara.Position.Y + (diff * ySign), run, speed)
-	end
-	
-	GROUND:MoveToPosition(chara, x, y, run, speed)
-end
-
---shortcut for doing hero dialogue (i.e., no sfx, no nameplate at the start)
-function GeneralFunctions.HeroDialogue(chara, str, emotion)
-	UI:SetSpeaker('', false, chara.CurrentForm.Species, chara.CurrentForm.Form, chara.CurrentForm.Skin, chara.CurrentForm.Gender)
-	UI:SetSpeakerEmotion(emotion)
-	UI:WaitShowDialogue(str)
-end
-
---walking in place to "talk"
-function GeneralFunctions.HeroSpeak(chara, duration, anim)
-	--anim is the animation we do after walking in place
-	if anim == nil then anim = 'None' end 
-	GROUND:CharSetAnim(chara, "Walk", true)
-	GAME:WaitFrames(duration)
-	--GROUND:CharSetAnim(chara, anim, true)
-	GROUND:CharEndAnim(chara)
-end
-
-
---wait frames, then move to target location. Intended use is to desync characters that are walking together to make it look more natural
---This function got phased out when I realized I could fit multiple commands into one coroutine
-function GeneralFunctions.WaitThenMove(chara, x, y, run, speed, waitFrames)
-	GAME:WaitFrames(waitFrames)
-	GROUND:MoveToPosition(chara, x, y, run, speed)
-end
-
---generic emote function with standardized SFX and pause duration. Shouldn't ALWAYS be used to emote, but is useful to cut down on lines...
-function GeneralFunctions.EmoteAndPause(chara, emote, sound, repetitions)
-	local sfx = 'null'
-	local emt = 'null'
-	local pause = 0
-	
-	if repetitions == nil then repetitions = 1 end
-	
-	if emote == 'Happy' then
-		emt = "happy"
-		sfx = "EVT_Emote_Startled_2"
-		pause = 20--test this one 
-	elseif emote == 'Notice' then --this one is the 3 lines
-		emt = "notice"
-		sfx = 'EVT_Emote_Exclaim'
-		pause = 30
-	elseif emote == 'Exclaim' then --this one is the !
-		emt = "exclaim"
-		sfx = 'EVT_Emote_Exclaim_2'
-		pause = 20
-	elseif emote == 'Glowing' then 
-		emt = "glowing"
-		sfx = 'EVT_Emote_Startled_2'
-		pause = 20--test this one
-	elseif emote == 'Sweating' then
-		emt = "sweating"
-		sfx = 'EVT_Emote_Sweating'
-		pause = 40 
-	elseif emote == 'Question' then
-		emt = "question"
-		sfx = 'EVT_Emote_Confused'
-		pause = 40
-	elseif emote == 'Angry' then
-		emt = "angry"
-		sfx = 'EVT_Emote_Complain_2'
-		pause = 40 --test this one
-	elseif emote == 'Shock' then
-		emt = "shock"
-		sfx = 'EVT_Emote_Shock'
-		pause = 40
-	else--sweatdrop
-		emt = "sweatdrop"
-		sfx = 'EVT_Emote_Sweatdrop'
-		pause = 40
-	end
-	
-	GROUND:CharSetEmote(chara, emt, repetitions)
-	
-	if sound and sfx ~= 'null' then 
-		SOUND:PlayBattleSE(sfx)
-	end	
-	GAME:WaitFrames(pause)
-end
-
---generic function to do an animation once then go back to the anim you were doing before (i.e. nod, get up, be surprised) 
---Has standardized wait times
---has some special instances... 
-function GeneralFunctions.DoAnimation(chara, anim, sound)
-	if sound == nil then sound = false end
-	--[[local pause = 0
-	--todo: return character to their animation from before. For now just end the anim...
-	--local prevAnim = 'None'
-	
-	if anim == 'Nod' then 
-		pause = 20
-	elseif anim == 'Wake' then
-		pause = 40
-	elseif anim == 'Hop' then
-		pause = 24
-	elseif anim == 'DeepBreath' then
-		pause = 80
-	end
-	]]--
-	GROUND:CharWaitAnim(chara, anim)
-	GROUND:CharEndAnim(chara)
-
-end
-
--- Used to get proper pronoun depending on gender of character (gender check command)
--- Form should be given as they, them, their, theirs, themself, or they're.
--- If uppercase is truthy, then the first letter will be capitalized.
-function GeneralFunctions.GetPronoun(chara, form, uppercase)
-    local gender = chara.CurrentForm.Gender
-    local value = ""
-    
-    if gender == Gender.Female then
-        local female_pronouns = {
-            ["they"] = "she", -- nominative
-            ["them"] = "her", -- objective
-            ["their"] = "her", -- possessive
-            ["theirs"] = "hers", -- possessive, no following noun
-            ["themself"] = "herself", -- reflexive
-            ["they're"] = "she's", -- nominative + "be" contraction
-            ["are"] = "is", -- "be" present indicative
-			["were"] = "was",
-			["don't"] = "doesn't"
-        }
-        value = female_pronouns[form]
-    elseif gender == Gender.Male then
-        local male_pronouns = {
-            ["they"] = "he", -- nominative
-            ["them"] = "him", -- objective
-            ["their"] = "his", -- possessive
-            ["theirs"] = "his", -- possessive, no following noun
-            ["themself"] = "himself", -- reflexive
-            ["they're"] = "he's", -- nominative + "be" contraction
-            ["are"] = "is", -- "be" present indicative
-			["were"] = "was",
-			["don't"] = "doesn't"
-        }
-        value = male_pronouns[form]
-    else -- if neither male or female, use they/them, so just return the form 
-        value = form
-    end
-
-    return uppercase and value:gsub("^%l", string.upper) or value
-    
-end
-
---used to conjugate certain verbs appropriately, to be used with the above function typically
---this will need to be updated to be more sophisticated as the use cases arrive. For now, KISS.
-function GeneralFunctions.Conjugate(chara, verb)
-    local gender = chara.CurrentForm.Gender
-    local value = verb
-    
-    if gender ~= Gender.Genderless then 
-		if string.sub(verb, -1) == 's' then 
-			value = value .. 'es'
-		else
-			value = value .. 's'
-		end
-    end
-
-	return value
-    
-end
-
-
-function GeneralFunctions.NameStutter(chara)
-	--used to get a stutter on a character's name with proper coloring
-	local name = chara.Nickname
-	local prefix = "[color=#00FFFF]" .. string.sub(name, 1, 1) .. "[color]-"
-	
-	return prefix .. chara:GetDisplayName()
-
 end
 
 --centers the camera on the given characters. Moves at a rate of speed.
@@ -538,123 +235,11 @@ function GeneralFunctions.PanCamera(startX, startY, toPlayer, speed, endX, endY)
 	
 end
 
---useful for having characters face constantly towards someone who's moving
---offset is if you want the characters to look at 
-function GeneralFunctions.FaceMovingCharacter(chara, target, turnFrames, breakDirection)
-	local currentLocX = -999
-	local currentLocY = -999
-	turnFrames = turnFrames or 4
-
-	breakDirection = breakDirection or Direction.None
-	
-	GAME:WaitFrames(1)--gives the pokemon a chance to start moving
-	while not (currentLocX == target.Position.X and currentLocY == target.Position.Y) do
-		if chara.Direction == breakDirection then break end
-		GROUND:CharTurnToCharAnimated(chara, target, turnFrames)
-		currentLocX = target.Position.X
-		currentLocY = target.Position.Y
-		GAME:WaitFrames(1)
-	end
-end
-
-
---todo?
-function GeneralFunctions.DialogueWithEmote(chara, emote, str)
-	
-end 
-
---shorthand function 
-function GeneralFunctions.TeleportToMarker(chara, marker)
-	GROUND:TeleportTo(chara, marker.Position.X, marker.Position.Y, marker.Direction)
-end
-
---[[
-
---todo: add some way to interrupt the loop for whatever arbitrary reason
---has characters emote at each other randomly as though they were talking amongst themselves
---this should always be used as a coroutine, as it's intended for background characters
-function GeneralFunctions.Converse(charaList, turnWhenEmoting)
-	
-	--turn towards another while emoting, then turn back afterwards if this is true
-	if turnWhenEmoting == nil then turnWhenEmoting = false end
-	local length = #charaList
-	local rand = 0
-	local repetitions = 0
-	local chara = 0
-	while true do
-		--if false then break end--todo
-		print(turnWhenEmoting)
-		--todo: get current animation
-		
-		--todo: do a couple little hops before emoting if randomly chosen...
-		--local rand = math.random(1, 2)
-		
-		--if rand == 1 then
-			--todo: do the hops
-		--end 
-		
-		--set one of 4 emotes, bias towards picking happy emote
-		local index = math.random(1, length)
-		--print('index ' .. tostring(index))
-		chara = charaList[index]
-		
-		
-		rand = math.random(1, 6)
-	--	print('length ' .. tostring(length))
-	--	print('emote rand' .. tostring(rand))
-		local emote = -1
-		if rand == 1 then--exclaim emote
-			emote = 3
-			repetitions = 1
-		elseif rand == 2 then --glowing emote
-			emote = 4
-			repetitions = 0
-		elseif rand == 3 then--question emote
-			emote = 6
-			repetitions = 1
-		else--happy emote
-			emote = 1
-			repetitions = 0
-		end
-		
-		local olddir = chara.Direction
-		local turnTo = 0
-		
-		--Emote for a random amount of frames, then pause for a random amount of frames before having someone else talk			
-		GROUND:CharSetEmote(chara, emote, repetitions)
-		
-		--turn towards a random person in the conversation
-		if turnWhenEmoting then 
-			while turnTo == index do--dont turn to ourselves
-				turnTo = math.random(1, length)
-			--	print('turnto ' .. tostring(turnTo))
-			end
-			local charTurn = charaList[turnTo]--get the character to turn to
-			GROUND:CharTurnToCharAnimated(chara, charTurn, 4)
-		end
-		
-		
-		if repetitions == 1 then rand = math.random(0, 40) else rand = math.random(120, 160) end
-		GAME:WaitFrames(rand)
-		--print('emote wait rand' .. tostring(rand))
-		GROUND:CharSetEmote(chara, "", 0)
-		
-		if turnWhenEmoting then
-			GROUND:CharAnimateTurnTo(chara, olddir, 4)
-		end
-		
-		rand = math.random(100, 140)
-		--print('wait rand '.. tostring(rand))
-		GAME:WaitFrames(rand)
-		
-		
-	end 
-end
-]]--
-
---set party to Hero as 1st, partner as 2nd member. 
---Just those two if others is false, allow other party members to remain in 3/4 slot if false
---if spawn is true run spawners for teammates 1 (through 3 if applicable)
+--Edited Halcyon script for Sunpath
+--Notes are from Halcyon:
+--set party to Hero as 1st, partner as 2nd member, second partner as 3rd member. 
+--Just those two if others is false, allow other party members to remain in 4th slot if false
+--if spawn is true run spawners for teammates 1 and teammate 2 (through 3 if applicable)
 --this is somewhat shoddily written, i feel like it will break with the right conditions...
 function GeneralFunctions.DefaultParty(spawn, others, in_dungeon)
 	--Clear party 
@@ -670,12 +255,12 @@ function GeneralFunctions.DefaultParty(spawn, others, in_dungeon)
 	  GAME:RemovePlayerTeam(i-1)
 	  GAME:AddPlayerAssembly(p)
 	  tbl = LTBL(p)
-	  if tbl.Importance ~= 'Hero' and tbl.Importance ~= 'Partner' and tbl.Importance ~= 'Partner2' and others then
+	  if tbl.Importance ~= 'Hero' and tbl.Importance ~= 'Partner' and tbl.Important ~= 'Partner2' and others then
 		tbl.AddBack = i
 	  end
 	end
     
-	--set party (player then partner, then 2nd partner)
+	--set party (player then partner)
 	local assemblyCount = GAME:GetPlayerAssemblyCount()
 	local found = 1 --start at 1 due to indexing
 	local bufferTable = {'dummy', 'dummy', 'dummy', 'dummy'}
@@ -697,13 +282,100 @@ function GeneralFunctions.DefaultParty(spawn, others, in_dungeon)
 			--	GROUND:SpawnerSetSpawn('TEAMMATE_1', p)
 			--	GROUND:SpawnerDoSpawn("TEAMMATE_1", p)
 			--end
-		elseif tbl.Importance == 'Partner2' then --2nd partner in slot 3
+		elseif tbl.Importance == 'Partner2' then --partner in slot 2
 			GAME:RemovePlayerAssembly(i-found)
 			bufferTable[3] = p
 			found = found + 1
-			--if spawn then --call teammate 1 spawner
+			--if spawn then --call teammate 2 spawner
 			--	GROUND:SpawnerSetSpawn('TEAMMATE_2', p)
 			--	GROUND:SpawnerDoSpawn("TEAMMATE_2", p)
+			--end
+		elseif tbl.AddBack ~= nil then--misc goons go in remaining slots
+			GAME:RemovePlayerAssembly(i-found)
+			bufferTable[tbl.AddBack] = p
+			found = found + 1
+			--if spawn then --WARNING: Most places won't have teammate 3 spawners.
+			--	GROUND:SpawnerSetSpawn('TEAMMATE_' .. tostring(tbl.AddBack - 1), p)
+			--	GROUND:SpawnerDoSpawn("TEAMMATE_" .. tostring(tbl.AddBack - 1), p)	
+			--	GROUND:SpawnerDoSpawn("TEAMMATE_" .. tostring(tbl.AddBack - 1), p)	
+			--end
+			tbl.AddBack = nil--clear addback flag
+		end
+	end 
+	
+	--add characters back into team in order, set leader to 1st member
+	for i = 1, found - 1, 1 do
+		GAME:AddPlayerTeam(bufferTable[i])
+	end
+	
+	--TODO: Remove this when audino updates set team leader index to work in dungeons. Only dungeon init scripts should have the in dungeon parameter set
+	if in_dungeon then
+		_DATA.Save.ActiveTeam.LeaderIndex = 0
+	else 
+		GAME:SetTeamLeaderIndex(0)--this doesn't work in dungeons right now
+	end
+	
+	
+	--guests are temporary and are for plot or missions. Delete them all, if they're needed again, whatever put them into your team will place them back in
+	local guestCount = GAME:GetPlayerGuestCount()
+	for i = 1, guestCount, 1 do 
+		local g = GAME:RemovePlayerGuest(i-1)
+	end
+
+	
+	if spawn then 	
+		COMMON.RespawnAllies()
+		--AI:SetCharacterAI(CH('Teammate1'), "origin.ai.ground_partner", CH('PLAYER'),CH('Teammate1').Position)
+		--AI:SetCharacterAI(CH('Teammate2'), "origin.ai.ground_partner", CH('PLAYER'),CH('Teammate2').Position)
+	end
+	_DATA.Save:UpdateTeamProfile(true)
+
+		
+		
+end
+
+--The default party before the second partner is met
+--Edited Halcyon script for Sunpath
+function GeneralFunctions.DefaultPartyCH1(spawn, others, in_dungeon)
+	--Clear party 
+	local partyCount = GAME:GetPlayerPartyCount()
+	local p = 0
+	local tbl = 0
+	others = others or false
+	in_dungeon = in_dungeon or false
+	
+	--this depends on partner and hero not being able to be shifted out of slot 1 and 2... keep in mind
+    for i = partyCount,1,-1 do
+      p = GAME:GetPlayerPartyMember(i-1)
+	  GAME:RemovePlayerTeam(i-1)
+	  GAME:AddPlayerAssembly(p)
+	  tbl = LTBL(p)
+	  if tbl.Importance ~= 'Hero' and tbl.Importance ~= 'Partner' and others then
+		tbl.AddBack = i
+	  end
+	end
+    
+	--set party (player then partner)
+	local assemblyCount = GAME:GetPlayerAssemblyCount()
+	local found = 1 --start at 1 due to indexing
+	local bufferTable = {'dummy', 'dummy', 'dummy', 'dummy'}
+	
+	for i = 1, assemblyCount, 1 do
+		p = GAME:GetPlayerAssemblyMember(i - found)
+		tbl = LTBL(p)
+		--print(tbl.Importance)
+		--print(p.Nickname)
+		if tbl.Importance == 'Hero' then --hero goes in slot 1
+			GAME:RemovePlayerAssembly(i-found)
+			bufferTable[1] = p
+			found = found + 1
+		elseif tbl.Importance == 'Partner' then --partner in slot 2
+			GAME:RemovePlayerAssembly(i-found)
+			bufferTable[2] = p
+			found = found + 1
+			--if spawn then --call teammate 1 spawner
+			--	GROUND:SpawnerSetSpawn('TEAMMATE_1', p)
+			--	GROUND:SpawnerDoSpawn("TEAMMATE_1", p)
 			--end
 		elseif tbl.AddBack ~= nil then--misc goons go in remaining slots
 			GAME:RemovePlayerAssembly(i-found)
@@ -738,88 +410,14 @@ function GeneralFunctions.DefaultParty(spawn, others, in_dungeon)
 
 	
 	if spawn then 	
-		COMMON.RespawnAllies()
-		--AI:SetCharacterAI(CH('Teammate1'), "ai.ground_partner", CH('PLAYER'),CH('Teammate1').Position)
-		--AI:SetCharacterAI(CH('Teammate2'), "ai.ground_partner2", CH('PLAYER'),CH('Teammate2').Position)
+		COMMON.RespawnAlliesChapter1And2()
+		--AI:SetCharacterAI(CH('Teammate1'), "origin.ai.ground_partner", CH('PLAYER'),CH('Teammate1').Position)
 	end
 	_DATA.Save:UpdateTeamProfile(true)
 
 		
 		
 end
-
---does a monologue, centering the text, having it appear instantly and turning off the keysound, then turn centering and auto finish off after.
-function GeneralFunctions.Monologue(str)
-	UI:ResetSpeaker(false)
-	UI:SetCenter(true)
-	UI:SetAutoFinish(true)
-	UI:WaitShowDialogue(str)
-	UI:SetAutoFinish(false)
-	UI:SetCenter(false)
-end 
-
-function GeneralFunctions.Hop(chara, anim, height, duration, pause, sound)
-	anim = anim or 'None'
-	height = height or 10
-	duration = duration or 10
-	if pause == nil then pause = true end
-	if sound == nil then sound = false end
-
-	local animId = RogueEssence.Content.GraphicsManager.GetAnimIndex(anim)
-	GROUND:CharSetAction(chara, RogueEssence.Ground.HopGroundAction(chara.Position, chara.Direction, animId, height, duration))
-	
-	if sound then
-		SOUND:PlayBattleSE("EVT_Emote_Startled")
-	end
-	
-	if pause then 
-		GAME:WaitFrames(duration)
-	end
-
-end
-
---do two hops instead of just one
-function GeneralFunctions.DoubleHop(chara, anim, height, duration, pause, sound)
-	anim = anim or 'None'
-	height = height or 10
-	duration = duration or 10
-	if pause == nil then pause = true end
-	
-	if sound then
-		SOUND:PlayBattleSE("EVT_Emote_Startled_2")
-	end
-	
-	local animId = RogueEssence.Content.GraphicsManager.GetAnimIndex(anim)
-	GROUND:CharSetAction(chara, RogueEssence.Ground.HopGroundAction(chara.Position, chara.Direction, animId, height, duration))
-	GAME:WaitFrames(duration)--need to pause no matter what here because only one hop will show otherwise
-	GROUND:CharSetAction(chara, RogueEssence.Ground.HopGroundAction(chara.Position, chara.Direction, animId, height, duration))
-
-	if pause then --only pause on 2nd hop if pause needed
-		GAME:WaitFrames(duration)
-	end
-
-end
-
-
-
-function GeneralFunctions.Recoil(chara, anim, height, duration, sound, emote)
-
-	anim = anim or 'Hurt'
-	height = height or 10
-	duration = duration or 10
-	if sound == nil then sound = true end
-	if emote == nil then emote = true end
-	
-	if emote then GROUND:CharSetEmote(chara, "shock", 1) end
-	if sound then SOUND:PlayBattleSE('EVT_Emote_Startled') end
-	local animId = RogueEssence.Content.GraphicsManager.GetAnimIndex(anim)
-	GROUND:CharSetAction(chara, RogueEssence.Ground.HopGroundAction(chara.Position, chara.Direction, animId, height, duration))
-	GAME:WaitFrames(duration)
-	if emote then GROUND:CharSetEmote(chara, "", 0) end
-	
-end
-
-
 
 function GeneralFunctions.PromptSaveAndQuit()
 	UI:ResetSpeaker()
@@ -866,14 +464,14 @@ function GeneralFunctions.PromptChapterSaveAndQuit(ground, marker, ground_id)
 	local result = UI:ChoiceResult()
 	if result == 1 then 
 		UI:ResetSpeaker()
-		_DATA.Save.NextDest = RogueEssence.Dungeon.ZoneLoc("master_zone", -1, ground_id, 0)--set next destination to whatever map we were going to go to on a continue. Just in case player quits out after selecting this option.
+		_DATA.Save.NextDest = RogueEssence.Dungeon.ZoneLoc("sp_test_zone", -1, ground_id, 0)--set next destination to whatever map we were going to go to on a continue. Just in case player quits out after selecting this option.
 		GAME:GroundSave()
 		UI:WaitShowDialogue("Game saved!")
 		GAME:EnterGroundMap(ground, marker)
 	elseif result == 2 then 
 		UI:ResetSpeaker()
 		GAME:FadeOut(false, 40)
-		_DATA.Save.NextDest = RogueEssence.Dungeon.ZoneLoc("master_zone", -1, ground_id, 0)--set next destination to whatever map we were going to go to on a continue
+		_DATA.Save.NextDest = RogueEssence.Dungeon.ZoneLoc("sp_test_zone", -1, ground_id, 0)--set next destination to whatever map we were going to go to on a continue
 		GAME:GroundSave()
 		UI:WaitShowDialogue("Game saved! Returning to title.")
 		GAME:RestartToTitle()
@@ -1012,7 +610,7 @@ function GeneralFunctions.RewardPoints(amount, silent)
 end
 
 
---Notifies the player they ranked up, what they rewarded for ranking up, 
+--Notifies the player they ranked up, what they rewarded for ranking up
 function GeneralFunctions.RankUp(leftover_points)
 	local current_rank = _DATA.Save.ActiveTeam.Rank
 	local next_rank = _DATA:GetRank(current_rank).Next
@@ -1039,7 +637,9 @@ function GeneralFunctions.RankUp(leftover_points)
 	--depending on the specific rank up achieved, reward the player with different goodies.
 	--The goodies and actual rewards are up for change, but this should serve fine for now. Should review in future though.
 	local reward_id
-	if next_rank == "bronze" then 
+	if next_rank == "copper" then 
+		reward_id = "boost_hp_up"
+	elseif next_rank == "bronze" then 
 		reward_id = "boost_hp_up"
 	elseif next_rank == "silver" then 
 		reward_id = "boost_protein"
@@ -1049,15 +649,15 @@ function GeneralFunctions.RankUp(leftover_points)
 		reward_id = "boost_calcium"
 	elseif next_rank == "diamond" then 
 		reward_id = "boost_zinc"
-	elseif next_rank == "super" then 
+	elseif next_rank == "ace" then 
 		reward_id = "boost_carbos"
-	elseif next_rank == "ultra" then 
+	elseif next_rank == "super" then 
 		reward_id = "boost_nectar"
+	elseif next_rank == "ultra" then 
+		reward_id = "gummi_wonder"
 	elseif next_rank == "hyper" then 
 		reward_id = "gummi_wonder"
 	elseif next_rank == "master" then 
-		reward_id = "gummi_wonder"
-	elseif next_rank == "guildmaster" then 
 		reward_id = "seed_joy"
 	elseif next_rank == "grandmaster" then 
 		reward_id = "seed_golden"
@@ -1118,73 +718,6 @@ function GeneralFunctions.GetFavoriteGummi(chara)
 					
 end
 
---have both player and partner turn towards chara at the same time
---shortcut function
-function GeneralFunctions.DuoTurnTowardsChar(chara, heroDelay, turnFrames)
-	local hero = CH('PLAYER')
-	local partner = CH('Teammate1')
-	
-	turnFrames = turnFrames or 4
-	heroDelay = heroDelay or 4
-	
-	local coro1 = TASK:BranchCoroutine(function() GAME:WaitFrames(heroDelay) GROUND:CharTurnToCharAnimated(hero, chara, 4) end)
-	local coro2 = TASK:BranchCoroutine(function() GROUND:CharTurnToCharAnimated(partner, chara, 4) end)
-	
-	TASK:JoinCoroutines({coro1, coro2})
-
-end 
-
-function GeneralFunctions.TrioTurnTowardsChar(chara, heroDelay, turnFrames)
-	local hero = CH('PLAYER')
-	local partner = CH('Teammate1')
-	local partner2 = CH('Teammate2')
-	
-	turnFrames = turnFrames or 4
-	heroDelay = heroDelay or 4
-	
-	local coro1 = TASK:BranchCoroutine(function() GAME:WaitFrames(heroDelay) GROUND:CharTurnToCharAnimated(hero, chara, 4) end)
-	local coro2 = TASK:BranchCoroutine(function() GROUND:CharTurnToCharAnimated(partner, chara, 4) end)
-	local coro3 = TASK:BranchCoroutine(function() GROUND:CharTurnToCharAnimated(partner2, chara, 4) end)
-	
-	TASK:JoinCoroutines({coro1, coro2})
-
-end 
-
---set speaker and emotion beforehand!
-function GeneralFunctions.DuoTurnTowardsCharWithDialogue(chara, dialogue, heroDelay, turnFrames)
-	local hero = CH('PLAYER')
-	local partner = CH('Teammate1')
-	
-	turnFrames = turnFrames or 4
-	heroDelay = heroDelay or 4
-	
-	local coro1 = TASK:BranchCoroutine(function() GAME:WaitFrames(heroDelay) GROUND:CharTurnToCharAnimated(hero, chara, 4) end)
-	local coro2 = TASK:BranchCoroutine(function() GROUND:CharTurnToCharAnimated(partner, chara, 4) end)
-	UI:WaitShowDialogue(dialogue)
-	
-	TASK:JoinCoroutines({coro1, coro2, coro3})
-
-end 
-
-function GeneralFunctions.TrioTurnTowardsCharWithDialogue(chara, dialogue, heroDelay, turnFrames)
-	local hero = CH('PLAYER')
-	local partner = CH('Teammate1')
-	local partner2 = CH('Teammate2')
-	
-	turnFrames = turnFrames or 4
-	heroDelay = heroDelay or 4
-	
-	local coro1 = TASK:BranchCoroutine(function() GAME:WaitFrames(heroDelay) GROUND:CharTurnToCharAnimated(hero, chara, 4) end)
-	local coro2 = TASK:BranchCoroutine(function() GROUND:CharTurnToCharAnimated(partner, chara, 4) end)
-	local coro3 = TASK:BranchCoroutine(function() GROUND:CharTurnToCharAnimated(partner2, chara, 4) end)
-	UI:WaitShowDialogue(dialogue)
-	
-	TASK:JoinCoroutines({coro1, coro2, coro3})
-
-end 
-
-
-
 --feed it a list of pairs of values and weights, it will return a value randomly with regards to the weights
  --[[
 	Example:
@@ -1210,21 +743,6 @@ function GeneralFunctions.WeightedRandom (weights)
             return value[1]--, weight
         end
     end
-end
-
-
---initially used for playing tag in numel cutscene, may have uses elsewhere
-function GeneralFunctions.RunInCircle(chara, duration, speed, clockwise, run)
-	local originalDir = chara.Direction
-	local numDir = GeneralFunctions.DirToNum(chara.Direction)
-	if clockwise then clockwise = 1 else clockwise = -1 end 
-	
-	for i = 0, 7, 1 do 
-		GROUND:MoveInDirection(chara, GeneralFunctions.NumToDir(numDir + (i * clockwise)), duration, run, speed)
-	end
-	
-	GROUND:EntTurn(chara, originalDir)
-	
 end
 
 
@@ -1267,289 +785,6 @@ function GeneralFunctions.GroundInteract(chara, target)
   GeneralFunctions.EndConversation(target)
 end
 
-
---used to start a coroutine to have partner turn towards target NPC while having a conversation start.
---also stops their animations 
-function GeneralFunctions.StartConversation(target, dialogue, emotion, npcTurn, changeNPCanimation, changeSpeaker, animation, turnframes)
-	if emotion == nil then emotion = 'Normal' end
-	if changeSpeaker == nil then changeSpeaker = true end 
-	if npcTurn == nil then npcTurn = true end--should NPC turn to face you?
-	if changeNPCanimation == nil then changeNPCanimation = true end--should NPC change their animation? useful for flying npcs too
-	if animation == nil then animation = 'None' end 
-	if turnframes == nil then turnframes = 4 end
-	
-	
-	local hero = CH('PLAYER')
-	local partner = CH('Teammate1')
-	partner.IsInteracting = true
-	SV.TemporaryFlags.OldDirection = target.Direction
-	if changeSpeaker then UI:SetSpeaker(target) end
-	UI:SetSpeakerEmotion(emotion)
-	GROUND:CharSetAnim(partner, animation, true)
-	GROUND:CharSetAnim(hero, animation, true)
-	if changeNPCanimation then GROUND:CharSetAnim(target, animation, true) end
-		
-    GROUND:CharTurnToChar(hero, target)
-    if npcTurn then GROUND:CharTurnToChar(target, hero) end
-    local coro1 = TASK:BranchCoroutine(function() GROUND:CharTurnToCharAnimated(partner, target, turnframes) end)
-
-    UI:WaitShowDialogue(dialogue)
-
-    TASK:JoinCoroutines({coro1})
-	UI:WaitDialog()
-	
-end 
-
---used to start a coroutine to have 2nd partner turn towards target NPC while having a conversation start.
---also stops their animations 
-function GeneralFunctions.StartConversation(target, dialogue, emotion, npcTurn, changeNPCanimation, changeSpeaker, animation, turnframes)
-	if emotion == nil then emotion = 'Normal' end
-	if changeSpeaker == nil then changeSpeaker = true end 
-	if npcTurn == nil then npcTurn = true end--should NPC turn to face you?
-	if changeNPCanimation == nil then changeNPCanimation = true end--should NPC change their animation? useful for flying npcs too
-	if animation == nil then animation = 'None' end 
-	if turnframes == nil then turnframes = 4 end
-	
-	
-	local hero = CH('PLAYER')
-	local partner2 = CH('Teammate2')
-	partner2.IsInteracting = true
-	SV.TemporaryFlags.OldDirection = target.Direction
-	if changeSpeaker then UI:SetSpeaker(target) end
-	UI:SetSpeakerEmotion(emotion)
-	GROUND:CharSetAnim(partner2, animation, true)
-	GROUND:CharSetAnim(hero, animation, true)
-	if changeNPCanimation then GROUND:CharSetAnim(target, animation, true) end
-		
-    GROUND:CharTurnToChar(hero, target)
-    if npcTurn then GROUND:CharTurnToChar(target, hero) end
-    local coro1 = TASK:BranchCoroutine(function() GROUND:CharTurnToCharAnimated(partner2, target, turnframes) end)
-
-    UI:WaitShowDialogue(dialogue)
-
-    TASK:JoinCoroutines({coro1})
-	UI:WaitDialog()
-	
-end 
-
---used to start a coroutine to have both partners turn towards target NPC while having a conversation start.
---also stops their animations 
-function GeneralFunctions.StartConversation(target, dialogue, emotion, npcTurn, changeNPCanimation, changeSpeaker, animation, turnframes)
-	if emotion == nil then emotion = 'Normal' end
-	if changeSpeaker == nil then changeSpeaker = true end 
-	if npcTurn == nil then npcTurn = true end--should NPC turn to face you?
-	if changeNPCanimation == nil then changeNPCanimation = true end--should NPC change their animation? useful for flying npcs too
-	if animation == nil then animation = 'None' end 
-	if turnframes == nil then turnframes = 4 end
-	
-	
-	local hero = CH('PLAYER')
-	local partner = CH('Teammate1')
-	local partner2 = CH('Teammate2')
-	partner.IsInteracting = true
-	partner2.IsInteracting = true
-	SV.TemporaryFlags.OldDirection = target.Direction
-	if changeSpeaker then UI:SetSpeaker(target) end
-	UI:SetSpeakerEmotion(emotion)
-	GROUND:CharSetAnim(partner, animation, true)
-	GROUND:CharSetAnim(partner2, animation, true)
-	GROUND:CharSetAnim(hero, animation, true)
-	if changeNPCanimation then GROUND:CharSetAnim(target, animation, true) end
-		
-    GROUND:CharTurnToChar(hero, target)
-    if npcTurn then GROUND:CharTurnToChar(target, hero) end
-    local coro1 = TASK:BranchCoroutine(function() GROUND:CharTurnToCharAnimated(partner, target, turnframes) end)
-	local coro2 = TASK:BranchCoroutine(function() GROUND:CharTurnToCharAnimated(partner2, target, turnframes) end)
-
-    UI:WaitShowDialogue(dialogue)
-
-    TASK:JoinCoroutines({coro1, coro2})
-	UI:WaitDialog()
-	
-end 
-
---call this at the end of an npc conversation, sister function of above StartConversation function 
-function GeneralFunctions.EndConversation(target, changeNPCanimation)
-	if changeNPCanimation == nil then changeNPCanimation = true end--should NPC change their animation? useful for flying npcs too
-
-	local hero = CH('PLAYER')
-	local partner = CH('Teammate1')
-	local partner2 = CH('Teammate2')
-	
-	if target ~= partner then--if partner conversation was started don't turn them back around after
-		if SV.TemporaryFlags.OldDirection ~= Direction.None then GROUND:EntTurn(target, SV.TemporaryFlags.OldDirection) end 
-		SV.TemporaryFlags.OldDirection = Direction.None -- Clear flag 
-	elseif target ~= partner2 then--if 2nd partner conversation was started don't turn them back around after
-		if SV.TemporaryFlags.OldDirection ~= Direction.None then GROUND:EntTurn(target, SV.TemporaryFlags.OldDirection) end 
-		SV.TemporaryFlags.OldDirection = Direction.None -- Clear flag 
-	end
-	
-	GROUND:CharEndAnim(partner)
-	GROUND:CharEndAnim(partner2)
-	GROUND:CharEndAnim(hero)
-	if changeNPCanimation and target ~= partner then GROUND:CharEndAnim(target) end
-	
-	partner.IsInteracting = false
-	partner2.IsInteracting = false
-
-end
-
-
-
-
-
---used to start a conversation between the player and the partner when it's the partner trying to start a conversation w/ the player
-function GeneralFunctions.StartPartnerConversation(dialogue, emotion, heroTurn)
-	if heroTurn == nil then heroTurn = true end
-	if emotion == nil then emotion = 'Normal' end	
-	
-	
-	local hero = CH('PLAYER')
-	local partner = CH('Teammate1')
-	partner.IsInteracting = true
-	UI:SetSpeaker(partner)
-	UI:SetSpeakerEmotion(emotion)
-	GROUND:CharSetAnim(partner, 'None', true)
-	GROUND:CharSetAnim(hero, 'None', true)
-		
-    GROUND:CharTurnToCharAnimated(partner, hero, 4)
-
-    UI:WaitShowDialogue(dialogue)
-	
-	--hero turns towards partner after 1st line of dialogue
-	if heroTurn then GROUND:CharTurnToCharAnimated(hero, partner, 4) end
-	
-end 
-
---used to start a conversation between the player and the 2nd partner when it's the partner trying to start a conversation w/ the player
-function GeneralFunctions.StartPartnerConversation(dialogue, emotion, heroTurn)
-	if heroTurn == nil then heroTurn = true end
-	if emotion == nil then emotion = 'Normal' end	
-	
-	
-	local hero = CH('PLAYER')
-	local partner2 = CH('Teammate2')
-	partner2.IsInteracting = true
-	UI:SetSpeaker(partner)
-	UI:SetSpeakerEmotion(emotion)
-	GROUND:CharSetAnim(partner2, 'None', true)
-	GROUND:CharSetAnim(hero, 'None', true)
-		
-    GROUND:CharTurnToCharAnimated(partner2, hero, 4)
-
-    UI:WaitShowDialogue(dialogue)
-	
-	--hero turns towards partner after 1st line of dialogue
-	if heroTurn then GROUND:CharTurnToCharAnimated(hero, partner2, 4) end
-	
-end 
-
---used to start a conversation between the player and the partners when it's the partner trying to start a conversation w/ the player
-function GeneralFunctions.StartPartnerConversation(dialogue, emotion, heroTurn)
-	if heroTurn == nil then heroTurn = true end
-	if emotion == nil then emotion = 'Normal' end	
-	
-	
-	local hero = CH('PLAYER')
-	local partner = CH('Teammate1')
-	local partner2 = CH('Teammate2')
-	partner.IsInteracting = true
-	partner2.IsInteracting = true
-	UI:SetSpeaker(partner)
-	UI:SetSpeaker(partner2)
-	UI:SetSpeakerEmotion(emotion)
-	GROUND:CharSetAnim(partner, 'None', true)
-	GROUND:CharSetAnim(partner2, 'None', true)
-	GROUND:CharSetAnim(hero, 'None', true)
-		
-    GROUND:CharTurnToCharAnimated(partner, hero, 4)
-    GROUND:CharTurnToCharAnimated(partner2, hero, 4)
-
-    UI:WaitShowDialogue(dialogue)
-	
-	--hero turns towards partner after 1st line of dialogue
-	if heroTurn then GROUND:CharTurnToCharAnimated(hero, partner, 4) end
-	if heroTurn then GROUND:CharTurnToCharAnimated(hero, partner2, 4) end
-	
-end 
-
---character hops twice and makes angry noise 
-function GeneralFunctions.Complain(chara, emote)
-	if emote == nil then emote = false end 
-	
-	SOUND:PlayBattleSE('EVT_Emote_Complain_2')
-	GeneralFunctions.Hop(chara)
-	GeneralFunctions.Hop(chara)
-	if emote then GROUND:CharSetEmote(chara, "angry", 0) end 
-	
-end
-
-
---use common.BossTransition for now.
-function GeneralFunctions.BossTransition()
-
-end
-
---do a quick shake in place.
-function GeneralFunctions.Shake(chara)
-  --GROUND:CharSetAction(CH('PLAYER'), RogueEssence.Ground.FrameGroundAction(CH('PLAYER').Position, CH('PLAYER').Direction, animId, 5))
-  GROUND:CharSetDrawEffect(chara, DrawEffect.Trembling)
-  GAME:WaitFrames(8)
-  GROUND:CharEndDrawEffect(chara, DrawEffect.Trembling)
-end
-
---shake in place until told to stop. Change animation to the first frame of walking while doing so.
---if you don't want that first frame of walk, use GROUND:CharSetDrawEffect and GROUND:CharEndDrawEffect
-function GeneralFunctions.StartTremble(chara)
-  GROUND:CharSetAction(chara, RogueEssence.Ground.FrameGroundAction(chara.Position, chara.Direction, RogueEssence.Content.GraphicsManager.GetAnimIndex("Walk"), 0))
-  GROUND:CharSetDrawEffect(chara, DrawEffect.Trembling)
-
-end 
-
-function GeneralFunctions.StopTremble(chara)
-  GROUND:CharEndAnim(chara)
-  GROUND:CharEndDrawEffect(chara, DrawEffect.Trembling)
-
-end 
-
---used to turn towards a specified position which is needed if chara's position is dynamic
-function GeneralFunctions.TurnTowardsLocation(chara, targetX, targetY, turnduration)
-
-	local x = chara.Position.X + 8
-	local y = chara.Position.Y + 8
-	turnduration = turnduration or 4
-
-
-	--In a normal setting, +y is up, but in pmdo +y is down. So I need to flip the sign on the difference in y between char1 and char2
-	local y = -1 * (targetY - y)
-	local x = targetX - x
-	
-	local angle = math.atan(y, x)--this is in radians
-	local ratio = math.pi / 8 --for readability
-
-	if angle <= (ratio) and angle >= (-1 * ratio) then 
-		GROUND:CharAnimateTurnTo(chara, Direction.Right, turnduration)
-	elseif angle > (ratio) and angle < (3 * ratio) then
-		GROUND:CharAnimateTurnTo(chara, Direction.UpRight, turnduration)
-	elseif angle >= (3 * ratio) and angle <= (5 * ratio) then
-		GROUND:CharAnimateTurnTo(chara, Direction.Up, turnduration)
-	elseif angle > (5 * ratio) and angle < (7 * ratio) then
-		GROUND:CharAnimateTurnTo(chara, Direction.UpLeft, turnduration)
-	elseif angle >= (7 * ratio) or angle <= (-7 * ratio) then
-		GROUND:CharAnimateTurnTo(chara, Direction.Left, turnduration)
-	elseif angle > (-7 * ratio) and angle < (-5 * ratio) then
-		GROUND:CharAnimateTurnTo(chara, Direction.DownLeft, turnduration)
-	elseif angle >= (-5 * ratio) and angle <= (-3 * ratio) then
-		GROUND:CharAnimateTurnTo(chara, Direction.Down, turnduration)
-	elseif angle > (-3 * ratio) and angle < (-1 * ratio) then
-		GROUND:CharAnimateTurnTo(chara, Direction.DownRight, turnduration)
-	else
-		--i screwed up with the logic somewhere if one of the above cases isn't selected
-		--Spin around like a moron if this statement is reached
-		--this should be changed to some sort of error, but i dont know how to log errors properly in PMDO
-		GROUND:CharSetAnim(chara, 'Spin', true)
-	end
-end
 
 function GeneralFunctions.RemoveCharEffects(char)
 	char.StatusEffects:Clear();
@@ -1677,23 +912,28 @@ end
 
 
 --debug function used to print plot variables
+--Edited Halcyon script for Sunpath
 function GeneralFunctions.PrintPlotVariables()
 	print("Chapter = " .. tostring(SV.ChapterProgression.Chapter))
 	print("Chapter 1")
 	print("PlayedIntroCutscene = " .. tostring(SV.Chapter1.PlayedIntroCutscene))
-	print("PartnerEnteredDune = " .. tostring(SV.Chapter1.PartnerEnteredForest))
-	print('PlayerCompletedDune = ' .. tostring(SV.Chapter1.ParnterCompletedForest))
-	print('PartnerMetHero = ' .. tostring(SV.Chapter1.PartnerMetHero))
-	print('Partner2MetHero = ' .. tostring(SV.Chapter1.PartnerMetHero))
-	print('TeamCompletedDune = ' .. tostring(SV.Chapter1.TeamCompletedForest))
-	print('TeamJoinedGuild = ' .. tostring(SV.Chapter1.TeamJoinedGuild))
-	print('MetX = ' .. tostring(SV.Chapter1.MetX))
-	print('PartnerSecondFloorDialogue = ' .. tostring(SV.Chapter1.PartnerSecondFloorDialogue))
+	print("PlayerEnteredDune = " .. tostring(SV.Chapter1.PlayerEnteredDune))
+	print('PlayerCompletedDune = ' .. tostring(SV.Chapter1.PlayerCompletedDune))
+	print("PartnerEnteredDune = " .. tostring(SV.Chapter1.PartnerEnteredDune))
+	print('PartnerCompletedDune = ' .. tostring(SV.Chapter1.PartnerCompletedDune))
+	print('PlayerEnteredVillage = ' .. tostring(SV.Chapter1.PlayerEnteredVillage))
+	print('PlayerAllowedInVillage = ' .. tostring(SV.Chapter1.PlayerAllowedInVillage))
+	print('PartnerEnteredVillage = ' .. tostring(SV.Chapter1.PartnerEnteredVillage))
+	print('PlayerSleptInVillage = ' .. tostring(SV.Chapter1.PlayerSleptInVillage))
+	print('PlayerMetPartner = ' .. tostring(SV.Chapter1.PlayerMetPartner))
+	--print('MetX = ' .. tostring(SV.Chapter1.MetX))
 	print('TutorialProgression = ' .. tostring(SV.Chapter1.TutorialProgression))
 	
-	print("Chapter 2")
+	--print("Chapter 2")
+	--print('PlayerMetPartner2 = ' .. tostring(SV.Chapter2.PlayerMetPartner2))
+	--print('TeamJoinedGuild = ' .. tostring(SV.Chapter2.TeamJoinedGuild))
 
-	print("Chapter 3")
+	--print("Chapter 3")
 
 end 
 
@@ -1738,41 +978,6 @@ function GeneralFunctions.RemoveAllGuests()
 		GAME:RemovePlayerGuest(0)
 	end
 end
-
-function GeneralFunctions.RestoreIdleAnim()
-	local player_count = GAME:GetPlayerPartyCount()
-	local guest_count = GAME:GetPlayerGuestCount()
-	for i = 0, player_count - 1, 1 do 
-		local player = GAME:GetPlayerPartyMember(i)
-		local anim = RogueEssence.Dungeon.CharAnimIdle(player.CharLoc, player.CharDir)
-		TASK:WaitTask(player:StartAnim(anim))
-	end
-
-	for i = 0, guest_count - 1, 1 do
-		local guest = GAME:GetPlayerGuestMember(i)
-		local anim = RogueEssence.Dungeon.CharAnimIdle(guest.CharLoc, guest.CharDir)
-		TASK:WaitTask(guest:StartAnim(anim))
-	end
-end
-
-function GeneralFunctions.TeamTurnTo(char) 
-	local player_count = GAME:GetPlayerPartyCount()
-	local guest_count = GAME:GetPlayerGuestCount()
-	for i = 0, player_count - 1, 1 do 
-		local player = GAME:GetPlayerPartyMember(i)
-		if not player.Dead then
-			DUNGEON:CharTurnToChar(player, char)
-		end
-	end
-
-	for i = 0, guest_count - 1, 1 do
-		local guest = GAME:GetPlayerGuestMember(i)
-		if not guest.Dead then
-			DUNGEON:CharTurnToChar(guest, char)
-		end
-	end
-end
-
 
 --When you need a multipaged Choice Menu. Returns the result, so use it as the BeginChoiceMenu, WaitFroChoice, and UIChoiceResult block.
 --One potential byproduct of using this menu is that it sets the text speed to instant, then back to normal. If you set text speed before to instant
@@ -1857,3 +1062,82 @@ function GeneralFunctions.PrintMissionType(mission)
 		PrintInfo("=====OUTLAW_ITEM=====")
   end
 end 
+
+
+function GeneralFunctions.Kangashkhan_Rock_Interact(obj, activator)
+	local hero = CH('PLAYER')
+    local partner = CH('Teammate1')
+    partner.IsInteracting = true
+    GROUND:CharSetAnim(partner, 'None', true)
+    GROUND:CharSetAnim(hero, 'None', true)		
+    GeneralFunctions.TurnTowardsLocation(hero, obj.Position.X + obj.Width // 2, obj.Position.Y + obj.Height // 2)
+    GeneralFunctions.TurnTowardsLocation(partner, obj.Position.X + obj.Width // 2, obj.Position.Y + obj.Height // 2)
+	
+	
+	local state = 0
+
+	while state > - 1 do 
+		local has_items = GAME:GetPlayerBagCount() > 0
+		local has_equipment = GAME:GetPlayerEquippedCount() > 0
+		local has_storage = GAME:GetPlayerStorageCount() > 0
+				
+		local choices = { { STRINGS:FormatKey('MENU_STORAGE_STORE'), has_items or has_equipment},
+		{ STRINGS:FormatKey('MENU_STORAGE_TAKE_ITEM'), has_storage},
+		{ STRINGS:FormatKey('MENU_STORAGE_STORE_ALL'), has_items},
+		{ STRINGS:FormatKey('MENU_STORAGE_MONEY'), true},
+		{ "Save", true},
+		{ STRINGS:FormatKey("MENU_CANCEL"), true}}	
+	
+		UI:ResetSpeaker()
+		UI:SetCenter(true)
+		UI:SetAutoFinish(true)
+		UI:BeginChoiceMenu("What would you like to do?", choices, 1, #choices)
+		UI:WaitForChoice()
+		local result = UI:ChoiceResult()
+		UI:SetCenter(false)
+		UI:SetAutoFinish(false)
+		
+		
+		if result == 1 then
+			UI:StorageMenu()
+			UI:WaitForChoice()
+		elseif result == 2 then
+			UI:WithdrawMenu()
+			UI:WaitForChoice()
+		elseif result == 3 then
+			GeneralFunctions.SendInvToStorage(true, false, true)
+			UI:SetCenter(true)
+			UI:WaitShowDialogue("All unequipped items have been stored.")
+			UI:SetCenter(false)
+		elseif result == 4 then
+			UI:BankMenu()
+			UI:WaitForChoice()
+		elseif result == 5 then
+			state = -1
+			GeneralFunctions.PromptSaveAndQuit()
+		else
+			state = -1
+		end
+	end
+	
+	partner.IsInteracting = false
+	
+	GROUND:CharEndAnim(partner)
+	GROUND:CharEndAnim(hero)
+	
+end
+
+--------------------------
+--Knightcore scripts
+--------------------------
+
+function GeneralFunctions.FadeOutRefreshParty()
+    GAME:FadeOut(false, 20)
+	COMMON.RespawnAllies()
+    GAME:FadeIn(20)
+end
+
+--------------------------
+--Sunpath scripts
+--------------------------
+

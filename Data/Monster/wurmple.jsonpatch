@@ -1,0 +1,86 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.12.0"
+  ],
+  "Object": {
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "3": {
+            "Level": [
+              15,
+              9
+            ],
+            "Skill": [
+              "bug_bite",
+              "sting"
+            ]
+          },
+          "4": [
+            {
+              "Level": 12,
+              "Skill": "poison_powder"
+            }
+          ],
+          "5": [
+            {
+              "Level": 15,
+              "Skill": "bug_bite"
+            }
+          ],
+          "6": [
+            {
+              "Level": 18,
+              "Skill": "stun_spore"
+            }
+          ],
+          "7": [
+            {
+              "Level": 22,
+              "Skill": "struggle_bug"
+            }
+          ],
+          "8": [
+            {
+              "Level": 25,
+              "Skill": "lunge"
+            }
+          ],
+          "9": [
+            {
+              "Level": 29,
+              "Skill": "take_down"
+            }
+          ],
+          "10": [
+            {
+              "Level": 32,
+              "Skill": "poison_tail"
+            }
+          ],
+          "11": [
+            {
+              "Level": 35,
+              "Skill": "pounce"
+            }
+          ],
+          "12": [
+            {
+              "Level": 38,
+              "Skill": "poison_jab"
+            }
+          ],
+          "13": [
+            {
+              "Level": 43,
+              "Skill": "flail"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

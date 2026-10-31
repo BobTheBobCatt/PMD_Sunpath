@@ -1,0 +1,121 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.12.0"
+  ],
+  "Object": {
+    "Emitter": {
+      "$type": [
+        "@@ -18,18 +18,19 @@\n ent.\n-ScreenRain\n+MultiSwitch\n Emit\n",
+        0,
+        2
+      ],
+      "Anim": [
+        {
+          "AnimIndex": "Rain",
+          "FrameTime": 1,
+          "StartFrame": 0,
+          "EndFrame": 0,
+          "AnimDir": -1,
+          "Alpha": 255,
+          "AnimFlip": 0
+        },
+        0,
+        0
+      ],
+      "ResultAnim": [
+        {
+          "AnimIndex": "Rain",
+          "FrameTime": 1,
+          "StartFrame": 1,
+          "EndFrame": -1,
+          "AnimDir": -1,
+          "Alpha": 255,
+          "AnimFlip": 0
+        },
+        0,
+        0
+      ],
+      "Layer": [
+        4,
+        0,
+        0
+      ],
+      "ParticlesPerBurst": [
+        2,
+        0,
+        0
+      ],
+      "BurstTime": [
+        3,
+        0,
+        0
+      ],
+      "HeightSpeed": [
+        -360,
+        0,
+        0
+      ],
+      "SpeedDiff": [
+        120,
+        0,
+        0
+      ],
+      "Emitters": [
+        [
+          {
+            "$type": "RogueEssence.Content.ScreenRainEmitter, RogueEssence",
+            "LocHeight": 0,
+            "finished": false,
+            "Anim": {
+              "AnimIndex": "Rain",
+              "FrameTime": 1,
+              "StartFrame": 0,
+              "EndFrame": 0,
+              "AnimDir": -1,
+              "Alpha": 255,
+              "AnimFlip": 0
+            },
+            "ResultAnim": {
+              "AnimIndex": "Rain",
+              "FrameTime": 1,
+              "StartFrame": 1,
+              "EndFrame": -1,
+              "AnimDir": -1,
+              "Alpha": 255,
+              "AnimFlip": 0
+            },
+            "Layer": 4,
+            "ParticlesPerBurst": 2,
+            "BurstTime": 3,
+            "HeightSpeed": -360,
+            "SpeedDiff": 120
+          },
+          {
+            "$type": "RogueEssence.Content.OverlayEmitter, RogueEssence",
+            "LocHeight": 0,
+            "finished": false,
+            "Offset": 0,
+            "Anim": {
+              "AnimIndex": "Fog_2",
+              "FrameTime": 1,
+              "StartFrame": -1,
+              "EndFrame": -1,
+              "AnimDir": -1,
+              "Alpha": 255,
+              "AnimFlip": 0
+            },
+            "Movement": {
+              "X": 0,
+              "Y": 20
+            },
+            "FadeIn": 0,
+            "FadeOut": 0,
+            "Layer": 4,
+            "Color": "64, 64, 64, 127"
+          }
+        ]
+      ]
+    }
+  }
+}

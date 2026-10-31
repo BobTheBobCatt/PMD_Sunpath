@@ -1,0 +1,68 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.12.0"
+  ],
+  "Object": {
+    "Desc": {
+      "DefaultText": [
+        "",
+        "Restores HP if hit by an Ground-type move."
+      ]
+    },
+    "Released": [
+      false,
+      true
+    ],
+    "BeforeBeingHits": {
+      "_t": "a",
+      "0": [
+        {
+          "Key": {
+            "str": [
+              0
+            ]
+          },
+          "Value": {
+            "$type": "PMDC.Dungeon.AbsorbElementEvent, PMDC",
+            "AbsorbElement": "ground",
+            "SingleDraw": false,
+            "GiveMsg": true,
+            "BaseEvents": [
+              {
+                "$type": "PMDC.Dungeon.RestoreHPEvent, PMDC",
+                "Numerator": 1,
+                "Denominator": 4,
+                "AffectTarget": true
+              }
+            ],
+            "Emitter": {
+              "$type": "RogueEssence.Content.SingleEmitter, RogueEssence",
+              "LocHeight": 0,
+              "finished": false,
+              "Offset": 0,
+              "Anim": {
+                "$type": "RogueEssence.Content.StaticAnim, RogueEssence",
+                "Anim": {
+                  "AnimIndex": "Circle_Small_Yellow_In",
+                  "FrameTime": 1,
+                  "StartFrame": -1,
+                  "EndFrame": -1,
+                  "AnimDir": -1,
+                  "Alpha": 255,
+                  "AnimFlip": 0
+                },
+                "TotalTime": 0,
+                "Cycles": 1,
+                "FrameOffset": 0
+              },
+              "Layer": 2,
+              "UseDest": false
+            },
+            "Sound": "DUN_Drink"
+          }
+        }
+      ]
+    }
+  }
+}

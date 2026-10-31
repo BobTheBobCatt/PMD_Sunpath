@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.8.3.0",
+"Version": "0.8.12.0",
 "Object": {
 "$type": "RogueEssence.Data.IntrinsicData, RogueEssence",
 "Name": {
@@ -7,10 +7,10 @@
 "LocalTexts": {}
 },
 "Desc": {
-"DefaultText": "Lowers the Speed stat of opposing Pokémon nearby.",
+"DefaultText": "Contact with the Pokémon may leave the attacker terrified.",
 "LocalTexts": {}
 },
-"Released": false,
+"Released": true,
 "Comment": "",
 "IndexNum": 22,
 "ProximityEvent": {
@@ -34,22 +34,7 @@
 "OnRefresh": [],
 "BeforeTryActions": [],
 "BeforeActions": [],
-"OnActions": [
-{
-"Key": {
-"str": [
-0
-]
-},
-"Value": {
-"$type": "PMDC.Dungeon.MultiplyCategoryEvent, PMDC",
-"Category": 2,
-"Numerator": 2,
-"Denominator": 3,
-"Anims": []
-}
-}
-],
+"OnActions": [],
 "BeforeHittings": [],
 "BeforeBeingHits": [],
 "AfterHittings": [],
@@ -82,7 +67,37 @@
 "BeforeHittings": [],
 "BeforeBeingHits": [],
 "AfterHittings": [],
-"AfterBeingHits": [],
+"AfterBeingHits": [
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "PMDC.Dungeon.HitCounterEvent, PMDC",
+"BaseEvents": [
+{
+"$type": "PMDC.Dungeon.StatusBattleEvent, PMDC",
+"StatusID": "terrified",
+"AffectTarget": false,
+"SelfInflicted": false,
+"SilentCheck": true,
+"Anonymous": false,
+"TriggerMsg": {
+"Key": "MSG_TERRIFYING_PRESENCE"
+},
+"Anims": []
+}
+],
+"Targets": 6,
+"RequireDamage": true,
+"RequireContact": true,
+"RequireSurvive": false,
+"Chance": 35
+}
+}
+],
 "OnHitTiles": [],
 "AfterActions": [],
 "UserElementEffects": [],

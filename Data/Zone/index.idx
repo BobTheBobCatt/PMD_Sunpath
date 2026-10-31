@@ -1,7 +1,449 @@
 ﻿{
-"Version": "0.8.9.0",
+"Version": "0.8.12.0",
 "Object": {
 "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
+"abandoned_quarry": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 50,
+"Level": 30,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Abandoned Quarry",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"ahmar_desert": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 50,
+"Level": 18,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Ahmar Desert",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"ancient_pyramid": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 30,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 9,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8
+]
+],
+"Name": {
+"DefaultText": "Ancient Pyramid",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"atshan_desert": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 35,
+"Level": 18,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 13,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12
+]
+],
+"Name": {
+"DefaultText": "Atshan Desert",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"charged_hills": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 35,
+"Level": 30,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Charged Hills",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"coastal_cave": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 50,
+"Level": 30,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Coastal Cave",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"dark_cave": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 40,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Dark Cave",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"dark_desert": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 35,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Dark Desert",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"dark_forest": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 35,
+"Level": 30,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Dark Forest",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"dark_glacier": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 45,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Dark Glacier",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"dark_meadow": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 35,
+"Level": 30,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Dark Meadow",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"dark_mountain": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 40,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Dark Mountain",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"direlict_pyramid": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 50,
+"Level": 50,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 11,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10
+]
+],
+"Name": {
+"DefaultText": "Direlict Pyramid",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"dry_woods": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 35,
+"Level": 5,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 7,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6
+]
+],
+"Name": {
+"DefaultText": "Dry Woods",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "Third dungeon.",
+"SortOrder": 0
+},
 "dusty_dune": {
 "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
 "ExpPercent": 25,
@@ -19,7 +461,8 @@
 "Rogue": 0,
 "Grounds": [
 "dusty_dune",
-"abandoned_crossroads"
+"abandoned_crossroads",
+"qahil_village"
 ],
 "Maps": [
 [
@@ -35,6 +478,1051 @@
 "LocalTexts": {}
 },
 "Released": true,
+"Comment": "First dungeon.",
+"SortOrder": 0
+},
+"enigma_forest": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 35,
+"Level": 30,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Enigma Forest",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"fireblast_cave": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 50,
+"Level": 45,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Fireblast Cave",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"fire_island_ashlands": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 35,
+"Level": 40,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Fire Island Ashlands",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"fire_island_volcano": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 50,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Fire Island Volcano",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"flooded_cave": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 50,
+"Level": 30,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Flooded Cave",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"forgotten_ruin": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 40,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Forgotten Ruin",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"frosty_cave": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 50,
+"Level": 25,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Frosty Cave",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"frozen_island": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 50,
+"Level": 25,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Frozen Island",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"gale_valley": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 20,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Gale Valley",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"halls_of_magic": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 30,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Halls of Magic",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"labyrinth_of_sand": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 50,
+"Level": 30,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Labyrinth of Sand",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"lunar_tower": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 40,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Lunar Tower",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"magical_forest": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 35,
+"Level": 30,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Magical Forest",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"misty_swamp": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 35,
+"Level": 30,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Misty Swamp",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"mt_chill": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 50,
+"Level": 35,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Mt. Chill",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"mt_crag": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 40,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Mt. Crag",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"mt_glyph": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 40,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Mt. Glyph",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"mt_qima": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 25,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Mt. Qima",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"mt_sahil": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 35,
+"Level": 10,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 9,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8
+]
+],
+"Name": {
+"DefaultText": "Mt. Sahil",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "Fifth dungeon.",
+"SortOrder": 0
+},
+"mt_sama": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 40,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Mt. Sama",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"mt_spire": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 30,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Mt. Spire",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"nightmare": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 10,
+"Level": 40,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 6,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5
+]
+],
+"Name": {
+"DefaultText": "Nightmare",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"nightmare_2": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 10,
+"Level": 40,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Nightmare 2",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"parched_steppes": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 35,
+"Level": 5,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 7,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6
+]
+],
+"Name": {
+"DefaultText": "Parched Steppes",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"rainy_forest": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 35,
+"Level": 16,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 12,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11
+]
+],
+"Name": {
+"DefaultText": "Rainy Forest",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"ramil_cave": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 50,
+"Level": 30,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Ramil Cave",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"sacred_meadow": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 35,
+"Level": 14,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 11,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10
+]
+],
+"Name": {
+"DefaultText": "Sacred Meadow",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"sandhill_cave": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 5,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 6,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5
+]
+],
+"Name": {
+"DefaultText": "Sandhill Cave",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "Second dungeon.",
+"SortOrder": 0
+},
+"sand_dune_of_spirits": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 35,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 10,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9
+]
+],
+"Name": {
+"DefaultText": "Sand Dune of Spirits",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"snare_of_sand": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 50,
+"Level": 30,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Snare of Sand",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"snowshroud_forest": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 25,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Snowshroud Forest",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"solar_tower": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 45,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 6,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5
+]
+],
+"Name": {
+"DefaultText": "Solar Tower",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"southern_desert": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 50,
+"Level": 18,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Southern Desert",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"southern_wetlands": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 35,
+"Level": 30,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Southern Wetlands",
+"LocalTexts": {}
+},
+"Released": false,
 "Comment": "",
 "SortOrder": 0
 },
@@ -57,7 +1545,15 @@
 "personality_test",
 "dusty_dune",
 "abandoned_crossroads",
-"qahil_village_entrance"
+"qahil_village_entrance",
+"qahil_village",
+"chiefs_hut",
+"players_tent",
+"partners_tent",
+"sandhill_cave_entrance",
+"sandhill_cave",
+"base_camp",
+"test_grounds"
 ],
 "Maps": [
 [
@@ -222,6 +1718,510 @@
 }
 },
 "Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"test_dungeon": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": 5,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 5,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4
+]
+],
+"Name": {
+"DefaultText": "Test Dungeon",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"test_dungeon_2": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": 5,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Test Dungeon",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"test_dungeon_3": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": 5,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Test Dungeon",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"torrid_valley": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 28,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Torrid Valley",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"toxic_cave": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 50,
+"Level": 35,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Toxic Cave",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"tree_of_life": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 60,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Tree of Life",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"tropical_coast": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 35,
+"Level": 8,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 8,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7
+]
+],
+"Name": {
+"DefaultText": "Tropical Coast",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "Fourth dungeon.",
+"SortOrder": 0
+},
+"twilight_forest": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 35,
+"Level": 30,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Twilight Forest",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"ultra_space_abyss": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 45,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Ultra Space: Abyss",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"ultra_space_bladed_forest": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 45,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Ultra Space: Bladed Forest",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"ultra_space_cave": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 45,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Ultra Space: Cave",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"ultra_space_crater": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 45,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Ultra Space: Crater",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"ultra_space_crystal_desert": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 45,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Ultra Space: Crystal Desert",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"ultra_space_deep_sea": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 45,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Ultra Space: Deep Sea",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"ultra_space_mighty_jungle": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 45,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Ultra Space: Mighty Jungle",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"ultra_space_wasteland": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 50,
+"Level": 40,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Ultra Space: Wasteland",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"voltage_cave": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 50,
+"Level": 25,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 1,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Voltage Cave",
+"LocalTexts": {}
+},
+"Released": false,
 "Comment": "",
 "SortOrder": 0
 }

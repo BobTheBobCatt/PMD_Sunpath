@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.8.9.0",
+"Version": "0.8.11.0",
 "Object": {
 "$type": "RogueEssence.Data.ZoneData, RogueEssence",
 "Name": {
@@ -81190,6 +81190,26 @@
 "Y": 12
 },
 {
+"X": 22,
+"Y": 12
+},
+{
+"X": 24,
+"Y": 12
+},
+{
+"X": 26,
+"Y": 12
+},
+{
+"X": 28,
+"Y": 12
+},
+{
+"X": 30,
+"Y": 12
+},
+{
 "X": 2,
 "Y": 14
 },
@@ -81227,6 +81247,26 @@
 },
 {
 "X": 20,
+"Y": 14
+},
+{
+"X": 22,
+"Y": 14
+},
+{
+"X": 24,
+"Y": 14
+},
+{
+"X": 26,
+"Y": 14
+},
+{
+"X": 28,
+"Y": 14
+},
+{
+"X": 30,
 "Y": 14
 }
 ],
@@ -81372,6 +81412,71 @@
 "X": 0,
 "Y": 0
 },
+"ID": "trap_spikes",
+"Revealed": true,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"$type": "RogueElements.PresetPicker`1[[RogueEssence.Dungeon.EffectTile, RogueEssence]], RogueElements",
+"ToSpawn": {
+"TileLoc": {
+"X": 0,
+"Y": 0
+},
+"ID": "trap_eruption",
+"Revealed": true,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"$type": "RogueElements.PresetPicker`1[[RogueEssence.Dungeon.EffectTile, RogueEssence]], RogueElements",
+"ToSpawn": {
+"TileLoc": {
+"X": 0,
+"Y": 0
+},
+"ID": "trap_flood",
+"Revealed": true,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"$type": "RogueElements.PresetPicker`1[[RogueEssence.Dungeon.EffectTile, RogueEssence]], RogueElements",
+"ToSpawn": {
+"TileLoc": {
+"X": 0,
+"Y": 0
+},
+"ID": "trap_poison_gas",
+"Revealed": true,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"$type": "RogueElements.PresetPicker`1[[RogueEssence.Dungeon.EffectTile, RogueEssence]], RogueElements",
+"ToSpawn": {
+"TileLoc": {
+"X": 0,
+"Y": 0
+},
+"ID": "trap_thorns",
+"Revealed": true,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"$type": "RogueElements.PresetPicker`1[[RogueEssence.Dungeon.EffectTile, RogueEssence]], RogueElements",
+"ToSpawn": {
+"TileLoc": {
+"X": 0,
+"Y": 0
+},
 "ID": "trap_hunger",
 "Revealed": true,
 "Owner": 0,
@@ -81494,6 +81599,71 @@
 "Owner": 0,
 "TileStates": []
 }
+},
+{
+"$type": "RogueElements.PresetPicker`1[[RogueEssence.Dungeon.EffectTile, RogueEssence]], RogueElements",
+"ToSpawn": {
+"TileLoc": {
+"X": 0,
+"Y": 0
+},
+"ID": "trap_boulder",
+"Revealed": true,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"$type": "RogueElements.PresetPicker`1[[RogueEssence.Dungeon.EffectTile, RogueEssence]], RogueElements",
+"ToSpawn": {
+"TileLoc": {
+"X": 0,
+"Y": 0
+},
+"ID": "trap_shock",
+"Revealed": true,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"$type": "RogueElements.PresetPicker`1[[RogueEssence.Dungeon.EffectTile, RogueEssence]], RogueElements",
+"ToSpawn": {
+"TileLoc": {
+"X": 0,
+"Y": 0
+},
+"ID": "trap_steel_spikes",
+"Revealed": true,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"$type": "RogueElements.PresetPicker`1[[RogueEssence.Dungeon.EffectTile, RogueEssence]], RogueElements",
+"ToSpawn": {
+"TileLoc": {
+"X": 0,
+"Y": 0
+},
+"ID": "trap_ice_spikes",
+"Revealed": true,
+"Owner": 0,
+"TileStates": []
+}
+},
+{
+"$type": "RogueElements.PresetPicker`1[[RogueEssence.Dungeon.EffectTile, RogueEssence]], RogueElements",
+"ToSpawn": {
+"TileLoc": {
+"X": 0,
+"Y": 0
+},
+"ID": "trap_quake",
+"Revealed": true,
+"Owner": 0,
+"TileStates": []
+}
 }
 ]
 }
@@ -81513,7 +81683,30 @@
 "WaterTileset": "test_dungeon_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": "none"
+"GroundElement": "none",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 },
 {
@@ -83562,7 +83755,30 @@
 "WaterTileset": "test_dungeon_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": "none"
+"GroundElement": "none",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 },
 {
@@ -89763,7 +89979,30 @@
 "WaterTileset": "sky_peak_4th_pass_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": "normal"
+"GroundElement": "normal",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 },
 {
@@ -91681,7 +91920,30 @@
 "WaterTileset": "mt_travail_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": "ground"
+"GroundElement": "ground",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 },
 {
@@ -92404,7 +92666,30 @@
 "WaterTileset": "magma_cavern_2_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": "fire"
+"GroundElement": "fire",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 },
 {
@@ -93270,7 +93555,30 @@
 "WaterTileset": "crystal_cave_2_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": "rock"
+"GroundElement": "rock",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 },
 {
@@ -95861,7 +96169,30 @@ false
 "WaterTileset": "sky_peak_4th_pass_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": "normal"
+"GroundElement": "normal",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 },
 {
@@ -99098,7 +99429,30 @@ false
 "WaterTileset": "sky_peak_4th_pass_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": "normal"
+"GroundElement": "normal",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 },
 {
@@ -99921,7 +100275,30 @@ false
 "WaterTileset": "sky_tower_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": "flying"
+"GroundElement": "flying",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 },
 {
@@ -105128,7 +105505,30 @@ false
 "WaterTileset": "sky_peak_4th_pass_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": "normal"
+"GroundElement": "normal",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 },
 {
@@ -111216,7 +111616,30 @@ false
 "WaterTileset": "sky_peak_4th_pass_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": "normal"
+"GroundElement": "normal",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 }
 ],
@@ -132263,7 +132686,30 @@ false
 "WaterTileset": "tiny_woods_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": ""
+"GroundElement": "",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 }
 ],
@@ -153302,7 +153748,30 @@ false
 "WaterTileset": "thunderwave_cave_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": ""
+"GroundElement": "",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 }
 ],
@@ -174341,7 +174810,30 @@ false
 "WaterTileset": "mt_steel_1_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": ""
+"GroundElement": "",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 }
 ],
@@ -195380,7 +195872,30 @@ false
 "WaterTileset": "mt_steel_2_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": ""
+"GroundElement": "",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 }
 ],
@@ -216419,7 +216934,30 @@ false
 "WaterTileset": "grass_maze_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": ""
+"GroundElement": "",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 }
 ],
@@ -258571,7 +259109,30 @@ false
 "WaterTileset": "test_dungeon_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": "normal"
+"GroundElement": "normal",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 },
 {
@@ -300900,7 +301461,30 @@ false
 "WaterTileset": "test_dungeon_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": "normal"
+"GroundElement": "normal",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 },
 {
@@ -343229,7 +343813,30 @@ false
 "WaterTileset": "test_dungeon_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": "normal"
+"GroundElement": "normal",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 },
 {
@@ -344078,7 +344685,30 @@ false
 "WaterTileset": "test_dungeon_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": "ghost"
+"GroundElement": "ghost",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 },
 {
@@ -344881,7 +345511,30 @@ false
 "WaterTileset": "test_dungeon_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": "ghost"
+"GroundElement": "ghost",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 },
 {
@@ -345684,7 +346337,30 @@ false
 "WaterTileset": "test_dungeon_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": "ghost"
+"GroundElement": "ghost",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 },
 {
@@ -346487,7 +347163,30 @@ false
 "WaterTileset": "test_dungeon_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": "ghost"
+"GroundElement": "ghost",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 },
 {
@@ -347290,7 +347989,30 @@ false
 "WaterTileset": "test_dungeon_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": "ghost"
+"GroundElement": "ghost",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 },
 {
@@ -347906,7 +348628,30 @@ false
 "WaterTileset": "test_dungeon_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": "ghost"
+"GroundElement": "ghost",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 },
 {
@@ -348522,7 +349267,30 @@ false
 "WaterTileset": "test_dungeon_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": "ghost"
+"GroundElement": "ghost",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 },
 {
@@ -349138,7 +349906,30 @@ false
 "WaterTileset": "test_dungeon_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": "ghost"
+"GroundElement": "ghost",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 },
 {
@@ -349754,7 +350545,30 @@ false
 "WaterTileset": "test_dungeon_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": "ghost"
+"GroundElement": "ghost",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 },
 {
@@ -350370,7 +351184,30 @@ false
 "WaterTileset": "test_dungeon_secondary",
 "LayeredGround": false,
 "IndependentGround": false,
-"GroundElement": "ghost"
+"GroundElement": "ghost",
+"Background": {
+"$type": "RogueEssence.Dungeon.MapBG, RogueEssence",
+"MapLoc": {
+"X": 0,
+"Y": 0
+},
+"BGAnim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"BGMovement": {
+"X": 0,
+"Y": 0
+},
+"Parallax": "0, 0",
+"RepeatX": false,
+"RepeatY": false
+}
 }
 },
 {
@@ -353828,7 +354665,15 @@ false
 "personality_test",
 "dusty_dune",
 "abandoned_crossroads",
-"qahil_village_entrance"
+"qahil_village_entrance",
+"qahil_village",
+"chiefs_hut",
+"players_tent",
+"partners_tent",
+"sandhill_cave_entrance",
+"sandhill_cave",
+"base_camp",
+"test_grounds"
 ]
 }
 }

@@ -1,0 +1,92 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.11.0"
+  ],
+  "Object": {
+    "SkillGroup2": [
+      "",
+      "undiscovered"
+    ],
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "12": {
+            "Level": [
+              25,
+              24
+            ],
+            "Skill": [
+              "swagger",
+              "sand_blast"
+            ]
+          },
+          "13": {
+            "Level": [
+              28,
+              25
+            ],
+            "Skill": [
+              "crunch",
+              "swagger"
+            ]
+          },
+          "14": {
+            "Level": [
+              32,
+              28
+            ],
+            "Skill": [
+              "dig",
+              "crunch"
+            ]
+          },
+          "15": {
+            "Level": [
+              36,
+              32
+            ],
+            "Skill": [
+              "scary_face",
+              "dig"
+            ]
+          },
+          "16": {
+            "Level": [
+              42,
+              36
+            ],
+            "Skill": [
+              "foul_play",
+              "scary_face"
+            ]
+          },
+          "17": {
+            "Level": [
+              48,
+              42
+            ],
+            "Skill": [
+              "sandstorm",
+              "foul_play"
+            ]
+          },
+          "18": [
+            {
+              "Level": 48,
+              "Skill": "sandstorm"
+            }
+          ],
+          "19": [
+            {
+              "Level": 51,
+              "Skill": "dust_storm"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

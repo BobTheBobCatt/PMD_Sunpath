@@ -1,0 +1,189 @@
+﻿{
+"Version": "0.8.12.0",
+"Object": {
+"$type": "RogueEssence.Data.SkillData, RogueEssence",
+"Name": {
+"DefaultText": "Ghostly Chill",
+"LocalTexts": {}
+},
+"Desc": {
+"DefaultText": "The user attacks the target by chilling the air around it. This may also leave the target immobolized.",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"IndexNum": 10016,
+"BaseCharges": 18,
+"Strikes": 1,
+"HitboxAction": {
+"$type": "RogueEssence.Dungeon.ThrowAction, RogueEssence",
+"Anim": {
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"Emitter": {
+"$type": "RogueEssence.Content.EmptyAttachEmitter, RogueEssence"
+},
+"Range": 2,
+"Speed": 0,
+"Coverage": 2,
+"ItemSprite": "",
+"CharAnimData": {
+"$type": "RogueEssence.Dungeon.CharAnimFrameType, RogueEssence",
+"ActionType": 36
+},
+"TargetAlignments": 4,
+"TileEmitter": {
+"$type": "RogueEssence.Content.EmptyFiniteEmitter, RogueEssence",
+"LocHeight": 0
+},
+"PreActions": [],
+"ActionFX": {
+"Delay": 0,
+"AbsoluteDelay": false,
+"Sound": "DUN_Night_Shade",
+"Emitter": {
+"$type": "RogueEssence.Content.EmptyFiniteEmitter, RogueEssence",
+"LocHeight": 0
+},
+"ScreenMovement": {
+"MinShake": 0,
+"MaxShake": 0,
+"MaxShakeTime": 0
+}
+},
+"LagBehindTime": 0
+},
+"Explosion": {
+"TargetAlignments": 4,
+"HitTiles": false,
+"Range": 0,
+"Speed": 0,
+"TileEmitter": {
+"$type": "RogueEssence.Content.EmptyFiniteEmitter, RogueEssence",
+"LocHeight": 0
+},
+"Emitter": {
+"$type": "RogueEssence.Content.EmptyCircleSquareEmitter, RogueEssence",
+"LocHeight": 0
+},
+"IntroFX": [],
+"ExplodeFX": {
+"Delay": 0,
+"AbsoluteDelay": false,
+"Sound": "",
+"Emitter": {
+"$type": "RogueEssence.Content.EmptyFiniteEmitter, RogueEssence",
+"LocHeight": 0
+},
+"ScreenMovement": {
+"MinShake": 0,
+"MaxShake": 0,
+"MaxShakeTime": 0
+}
+}
+},
+"Data": {
+"Element": "ghost",
+"Category": 2,
+"HitRate": 100,
+"SkillStates": [
+{
+"$type": "RogueEssence.Dungeon.BasePowerState, RogueEssence",
+"Power": 40
+},
+{
+"$type": "PMDC.Dungeon.AdditionalEffectState, PMDC",
+"EffectChance": 25
+}
+],
+"BeforeTryActions": [],
+"BeforeActions": [],
+"OnActions": [],
+"BeforeExplosions": [],
+"BeforeHits": [],
+"OnHits": [
+{
+"Key": {
+"str": [
+-1
+]
+},
+"Value": {
+"$type": "PMDC.Dungeon.DamageFormulaEvent, PMDC"
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "PMDC.Dungeon.AdditionalEvent, PMDC",
+"BaseEvents": [
+{
+"$type": "PMDC.Dungeon.StatusBattleEvent, PMDC",
+"StatusID": "immobilized",
+"AffectTarget": true,
+"SelfInflicted": false,
+"SilentCheck": true,
+"Anonymous": false,
+"TriggerMsg": {
+"Key": ""
+},
+"Anims": []
+}
+]
+}
+}
+],
+"OnHitTiles": [],
+"AfterActions": [],
+"ElementEffects": [],
+"IntroFX": [],
+"HitFX": {
+"Delay": 0,
+"AbsoluteDelay": false,
+"Sound": "DUN_Nightmare",
+"Emitter": {
+"$type": "RogueEssence.Content.SingleEmitter, RogueEssence",
+"LocHeight": 24,
+"finished": false,
+"Offset": 0,
+"Anim": {
+"$type": "RogueEssence.Content.StaticAnim, RogueEssence",
+"Anim": {
+"AnimIndex": "Spite",
+"FrameTime": 3,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"TotalTime": 0,
+"Cycles": 1,
+"FrameOffset": 0
+},
+"Layer": 1,
+"UseDest": false
+},
+"ScreenMovement": {
+"MinShake": 0,
+"MaxShake": 0,
+"MaxShakeTime": 0
+}
+},
+"HitCharAction": {
+"$type": "RogueEssence.Dungeon.CharAnimFrameType, RogueEssence",
+"ActionType": 0
+}
+}
+}
+}

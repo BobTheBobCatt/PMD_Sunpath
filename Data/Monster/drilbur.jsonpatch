@@ -1,0 +1,32 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.11.0"
+  ],
+  "Object": {
+    "SkillGroup2": [
+      "",
+      "undiscovered"
+    ],
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "15": [
+            {
+              "Level": 50,
+              "Skill": "dust_storm"
+            }
+          ],
+          "16": [
+            {
+              "Level": 53,
+              "Skill": "muddy_terrain"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

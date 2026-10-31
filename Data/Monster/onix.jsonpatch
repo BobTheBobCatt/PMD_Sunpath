@@ -1,0 +1,108 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.11.0"
+  ],
+  "Object": {
+    "SkillGroup2": [
+      "",
+      "undiscovered"
+    ],
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "15": {
+            "Level": [
+              34,
+              32
+            ],
+            "Skill": [
+              "rock_slide",
+              "sand_blast"
+            ]
+          },
+          "16": {
+            "Level": [
+              37,
+              34
+            ],
+            "Skill": [
+              "sand_tomb",
+              "rock_slide"
+            ]
+          },
+          "17": {
+            "Level": [
+              40,
+              37
+            ],
+            "Skill": [
+              "iron_tail",
+              "sand_tomb"
+            ]
+          },
+          "18": {
+            "Level": [
+              43,
+              40
+            ],
+            "Skill": [
+              "dig",
+              "iron_tail"
+            ]
+          },
+          "19": {
+            "Level": [
+              46,
+              43
+            ],
+            "Skill": [
+              "stone_edge",
+              "dig"
+            ]
+          },
+          "20": {
+            "Level": [
+              49,
+              46
+            ],
+            "Skill": [
+              "double_edge",
+              "stone_edge"
+            ]
+          },
+          "21": {
+            "Level": [
+              52,
+              49
+            ],
+            "Skill": [
+              "sandstorm",
+              "double_edge"
+            ]
+          },
+          "22": [
+            {
+              "Level": 52,
+              "Skill": "sandstorm"
+            }
+          ],
+          "23": [
+            {
+              "Level": 55,
+              "Skill": "dust_storm"
+            }
+          ],
+          "24": [
+            {
+              "Level": 58,
+              "Skill": "muddy_terrain"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

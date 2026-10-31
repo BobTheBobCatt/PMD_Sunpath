@@ -1,0 +1,98 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.12.0"
+  ],
+  "Object": {
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "7": {
+            "Level": [
+              14,
+              12
+            ],
+            "Skill": [
+              "mach_punch",
+              "fire_up"
+            ]
+          },
+          "8": {
+            "Level": [
+              16,
+              14
+            ],
+            "Skill": [
+              "fury_swipes",
+              "mach_punch"
+            ]
+          },
+          "9": {
+            "Level": [
+              19,
+              16
+            ],
+            "Skill": [
+              "flame_wheel",
+              "fury_swipes"
+            ]
+          },
+          "10": {
+            "Level": [
+              26,
+              19
+            ],
+            "Skill": [
+              "feint",
+              "flame_wheel"
+            ]
+          },
+          "11": {
+            "Level": [
+              29,
+              26
+            ],
+            "Skill": [
+              "punishment",
+              "feint"
+            ]
+          },
+          "12": {
+            "Level": [
+              36,
+              29
+            ],
+            "Skill": [
+              "close_combat",
+              "punishment"
+            ]
+          },
+          "13": {
+            "Level": [
+              42,
+              36
+            ],
+            "Skill": [
+              "fire_spin",
+              "close_combat"
+            ]
+          },
+          "14": [
+            {
+              "Level": 42,
+              "Skill": "fire_spin"
+            }
+          ],
+          "15": [
+            {
+              "Level": 47,
+              "Skill": "flame_tail"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.11.0"
+  ],
+  "Object": {
+    "Desc": {
+      "DefaultText": [
+        "@@ -38,40 +38,56 @@\n his \n-adds the Water-type to their typing\n+weakens the power of Fire-type moves for many turns\n .\n",
+        0,
+        2
+      ],
+      "LocalTexts": {
+        "de": [
+          "Der Anwender tränkt jeden mit Wasser. Dies fügt jedem den Typ Wasser zu ihren eigentlichen Typen hinzu.",
+          0,
+          0
+        ],
+        "it": [
+          "Il Pokémon sparge acqua sugli avversari. Aggiunge il tipo Acqua ai Pokémon.",
+          0,
+          0
+        ],
+        "ko": [
+          "주위를 물로 흠뻑 젖게 만든다. 젖어버린 포켓몬은 타입에 물 타입이 추가된다.",
+          0,
+          0
+        ],
+        "zh-hans": [
+          "用水湿透周围。使大家的属性都增加水属性。",
+          0,
+          0
+        ]
+      }
+    },
+    "HitboxAction": {
+      "Range": [
+        2,
+        5
+      ]
+    },
+    "Data": {
+      "OnHits": {
+        "_t": "a",
+        "0": {
+          "Value": {
+            "$type": [
+              "PMDC.Dungeon.AddElementEvent, PMDC",
+              "PMDC.Dungeon.StatusBattleEvent, PMDC"
+            ],
+            "TargetElement": [
+              "water",
+              0,
+              0
+            ],
+            "StatusID": [
+              "water_sport"
+            ],
+            "AffectTarget": [
+              true
+            ],
+            "SelfInflicted": [
+              false
+            ],
+            "SilentCheck": [
+              true
+            ],
+            "Anonymous": [
+              false
+            ],
+            "TriggerMsg": [
+              {
+                "Key": ""
+              }
+            ],
+            "Anims": [
+              []
+            ]
+          }
+        }
+      }
+    }
+  }
+}

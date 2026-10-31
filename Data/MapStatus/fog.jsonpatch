@@ -1,0 +1,59 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.11.0"
+  ],
+  "Object": {
+    "Desc": {
+      "DefaultText": [
+        "",
+        "Accuracy of all moves are reduced."
+      ]
+    },
+    "Released": [
+      false,
+      true
+    ],
+    "Emitter": {
+      "Movement": {
+        "X": [
+          0,
+          20
+        ]
+      }
+    },
+    "OnMapStatusAdds": {
+      "_t": "a",
+      "2": [
+        {
+          "Key": {
+            "str": [
+              0
+            ]
+          },
+          "Value": {
+            "$type": "PMDC.Dungeon.MapStatusSoundEvent, PMDC",
+            "Sound": "DUN_Foggy"
+          }
+        }
+      ]
+    },
+    "OnActions": {
+      "_t": "a",
+      "0": [
+        {
+          "Key": {
+            "str": [
+              0
+            ]
+          },
+          "Value": {
+            "$type": "PMDC.Dungeon.MultiplyAccuracyEvent, PMDC",
+            "Numerator": 3,
+            "Denominator": 4
+          }
+        }
+      ]
+    }
+  }
+}

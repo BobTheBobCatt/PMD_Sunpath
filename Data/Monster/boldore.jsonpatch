@@ -1,0 +1,72 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.11.0"
+  ],
+  "Object": {
+    "SkillGroup2": [
+      "",
+      "undiscovered"
+    ],
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "12": {
+            "Level": [
+              30,
+              28
+            ],
+            "Skill": [
+              "rock_slide",
+              "sand_blast"
+            ]
+          },
+          "13": {
+            "Level": [
+              36,
+              30
+            ],
+            "Skill": [
+              "stealth_rock",
+              "rock_slide"
+            ]
+          },
+          "14": {
+            "Level": [
+              42,
+              36
+            ],
+            "Skill": [
+              "sandstorm",
+              "stealth_rock"
+            ]
+          },
+          "15": {
+            "Level": [
+              48,
+              42
+            ],
+            "Skill": [
+              "stone_edge",
+              "sandstorm"
+            ]
+          },
+          "16": [
+            {
+              "Level": 48,
+              "Skill": "stone_edge"
+            }
+          ],
+          "17": [
+            {
+              "Level": 51,
+              "Skill": "dust_storm"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

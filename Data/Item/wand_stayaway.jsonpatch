@@ -1,0 +1,71 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.11.0"
+  ],
+  "Object": {
+    "Released": [
+      false,
+      true
+    ],
+    "Sprite": [
+      "",
+      "Wand_Green"
+    ],
+    "Price": [
+      0,
+      10
+    ],
+    "MaxStack": [
+      9,
+      40
+    ],
+    "UseEvent": {
+      "OnHits": {
+        "_t": "a",
+        "0": [
+          {
+            "Key": {
+              "str": [
+                0
+              ]
+            },
+            "Value": {
+              "$type": "PMDC.Dungeon.StatusStateBattleEvent, PMDC",
+              "States": [
+                {
+                  "$type": "RogueEssence.Dungeon.CountDownState, RogueEssence",
+                  "Counter": -1
+                }
+              ],
+              "StatusID": "sleep",
+              "AffectTarget": true,
+              "SelfInflicted": false,
+              "SilentCheck": false,
+              "Anonymous": false,
+              "TriggerMsg": {
+                "Key": ""
+              },
+              "Anims": []
+            }
+          }
+        ],
+        "1": [
+          {
+            "Key": {
+              "str": [
+                0
+              ]
+            },
+            "Value": {
+              "$type": "PMDC.Dungeon.WarpToEndEvent, PMDC",
+              "Distance": 80,
+              "DiffRange": 0,
+              "AffectTarget": true
+            }
+          }
+        ]
+      }
+    }
+  }
+}

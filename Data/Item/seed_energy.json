@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.8.3.0",
+"Version": "0.8.11.0",
 "Object": {
 "$type": "RogueEssence.Data.ItemData, RogueEssence",
 "Name": {
@@ -7,7 +7,7 @@
 "LocalTexts": {}
 },
 "Desc": {
-"DefaultText": "A seed that fully restores HP & belly, and increases Movement Speed by 2 stages.",
+"DefaultText": "A seed that raises the Pokémon's Accuracy to its highest level.",
 "LocalTexts": {}
 },
 "Released": true,
@@ -15,7 +15,7 @@
 "Sprite": "Seed_Red",
 "Icon": 4,
 "SortCategory": 7,
-"Price": 150,
+"Price": 24,
 "Rarity": 0,
 "MaxStack": 0,
 "CannotDrop": false,
@@ -44,6 +44,7 @@
 "PreActions": [],
 "ActionFX": {
 "Delay": 0,
+"AbsoluteDelay": false,
 "Sound": "",
 "Emitter": {
 "$type": "RogueEssence.Content.EmptyFiniteEmitter, RogueEssence",
@@ -73,6 +74,7 @@
 "IntroFX": [],
 "ExplodeFX": {
 "Delay": 0,
+"AbsoluteDelay": false,
 "Sound": "",
 "Emitter": {
 "$type": "RogueEssence.Content.EmptyFiniteEmitter, RogueEssence",
@@ -104,9 +106,10 @@
 },
 "Value": {
 "$type": "PMDC.Dungeon.StatusStackBattleEvent, PMDC",
-"Stack": 3,
-"StatusID": "mod_speed",
+"Stack": 6,
+"StatusID": "mod_accuracy",
 "AffectTarget": true,
+"SelfInflicted": false,
 "SilentCheck": false,
 "Anonymous": false,
 "TriggerMsg": {
@@ -122,22 +125,9 @@
 ]
 },
 "Value": {
-"$type": "PMDC.Dungeon.RestoreHPEvent, PMDC",
-"Numerator": 1,
-"Denominator": 1,
-"AffectTarget": true
-}
-},
-{
-"Key": {
-"str": [
-0
-]
-},
-"Value": {
 "$type": "PMDC.Dungeon.RestoreBellyEvent, PMDC",
 "BoostAnims": [],
-"Heal": 100,
+"Heal": 5,
 "Msg": false,
 "AddMaxBelly": 0,
 "NeedFullBelly": false
@@ -150,6 +140,7 @@
 "IntroFX": [],
 "HitFX": {
 "Delay": 15,
+"AbsoluteDelay": false,
 "Sound": "DUN_Berry",
 "Emitter": {
 "$type": "RogueEssence.Content.SingleEmitter, RogueEssence",

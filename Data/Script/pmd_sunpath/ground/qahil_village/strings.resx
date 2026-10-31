@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="Shop_Intro" xml:space="preserve">
+    <value>Hello there! Welcome to my shop.</value>
+  </data>
+  <data name="Shop_Intro_Return" xml:space="preserve">
+    <value>Is there anything else you need?</value>
+  </data>
+  <data name="Shop_Option_Buy" xml:space="preserve">
+    <value>Buy</value>
+  </data>
+  <data name="Shop_Option_Sell" xml:space="preserve">
+    <value>Sell</value>
+  </data>
+  <data name="Shop_Buy" xml:space="preserve">
+    <value>Take a look! I'm sure you can find something. (You can use {0} to sell multiple items.)</value>
+  </data>
+  <data name="Shop_Buy_Empty" xml:space="preserve">
+    <value>Oops, I don't have anything else to sell you. Check back Tomorrow, though.</value>
+  </data>
+  <data name="Shop_Sell" xml:space="preserve">
+    <value>Alrighty! What are you going to sell me? (You can use {0} to sell multiple items.)</value>
+  </data>
+  <data name="Shop_Bag_Empty" xml:space="preserve">
+    <value>Next time, check your bag before wasting my time.</value>
+  </data>
+  <data name="Shop_Info_001" xml:space="preserve">
+    <value>I sell items in this shop.</value>
+  </data>
+  <data name="Shop_Info_002" xml:space="preserve">
+    <value>Items that can potentially be used for dungeoneering.</value>
+  </data>
+  <data name="Shop_Info_003" xml:space="preserve">
+    <value>Every item has their own use for certain situations!</value>
+  </data>
+  <data name="Shop_Info_004" xml:space="preserve">
+    <value>If my shop runs out of items, I'll have a new stock by the next day.</value>
+  </data>
+  <data name="Shop_Info_005" xml:space="preserve">
+    <value>In the meantime, take a look around; Maybe do a dungeon or two.</value>
+  </data>
+  <data name="Shop_Goodbye" xml:space="preserve">
+    <value>Thank you, do come again!</value>
+  </data>
+  <data name="Shop_Bag_Full" xml:space="preserve">
+    <value>Empty your bag before you buy anything, would you?</value>
+  </data>
+  <data name="Shop_Buy_No_Money" xml:space="preserve">
+    <value>You don't have the money for that!</value>
+  </data>
+  <data name="Shop_Buy_One" xml:space="preserve">
+    <value>That {1} will be {0}.</value>
+  </data>
+  <data name="Shop_Buy_Multi" xml:space="preserve">
+    <value>Everything will be {0}, are you fine with that?</value>
+  </data>
+  <data name="Shop_Buy_Complete" xml:space="preserve">
+    <value>Thanks! These are all yours!</value>
+  </data>
+  <data name="Shop_Sell_One" xml:space="preserve">
+    <value>I'll pay {0} for that {1}. Is that fine with you?</value>
+  </data>
+  <data name="Shop_Sell_Multi" xml:space="preserve">
+    <value>I'll pay {0} for all of that. Are you ok with that?</value>
+  </data>
+  <data name="Shop_Sell_Complete" xml:space="preserve">
+    <value>Transaction completed, thanks!</value>
+  </data>
+  <data name="Storage_Intro" xml:space="preserve">
+    <value>Hello! Welcome to my storage.</value>
+  </data>
+  <data name="Storage_Intro_Return" xml:space="preserve">
+    <value>Need anything else?</value>
+  </data>
+  <data name="Storage_Store" xml:space="preserve">
+    <value>Which items would you like to store? (You can use {0} to select multiple items.)</value>
+  </data>
+  <data name="Storage_Stored_Items" xml:space="preserve">
+    <value>To the storage they go! Safe as can be.</value>
+  </data>
+  <data name="Storage_Withdraw" xml:space="preserve">
+    <value>Which items do you want to take out? (You can use {0} to select multiple items.)</value>
+  </data>
+  <data name="Storage_Withdrew_Items" xml:space="preserve">
+    <value>Here you go, as you requested.</value>
+  </data>
+  <data name="Storage_Info_1" xml:space="preserve">
+    <value>I can store any items you may not want to lose.</value>
+  </data>
+  <data name="Storage_Info_2" xml:space="preserve">
+    <value>When you faint in a dungeon, you will lose most items that you are carrying.</value>
+  </data>
+  <data name="Storage_Info_3" xml:space="preserve">
+    <value>However, any items you have stored are not lost! Great, right?</value>
+  </data>
+  <data name="Storage_Info_4" xml:space="preserve">
+    <value>If you want anything stored or taken out, just speak with me!</value>
+  </data>
+  <data name="Storage_Info_5" xml:space="preserve">
+    <value>Storage boxes found in dungeons can also access the storage as well.</value>
+  </data>
+  <data name="Storage_Goodbye" xml:space="preserve">
+    <value>Thank you, come again!</value>
+  </data>
+  <data name="Bank_Intro" xml:space="preserve">
+    <value>Welcome, welcome!\nYour balance is [color=#00FFFF]{0}[color] \uE024, what will you need Today?</value>
+  </data>
+  <data name="Bank_Intro_Return" xml:space="preserve">
+    <value>Anything else you'll be needing?</value>
+  </data>
+  <data name="Bank_Interact" xml:space="preserve">
+    <value>Opening up your file now.</value>
+  </data>
+  <data name="Bank_Stored_Money" xml:space="preserve">
+    <value>[color=#00FFFF]{0}[color] \uE024, stored safe and sound.</value>
+  </data>
+  <data name="Bank_Withdrew_Money" xml:space="preserve">
+    <value>[color=#00FFFF]{0}[color] \uE024, coming out of the bank and into your bag.</value>
+  </data>
+  <data name="Bank_Canceled" xml:space="preserve">
+    <value>Decided no to the transaction? Very well, then.</value>
+  </data>
+  <data name="Bank_Info_1" xml:space="preserve">
+    <value>When you faint in dungeons, you will lose most of the money you have on you.</value>
+  </data>
+  <data name="Bank_Info_2" xml:space="preserve">
+    <value>When your money is with me, though? Safe! Very much, so.</value>
+  </data>
+  <data name="Bank_Info_3" xml:space="preserve">
+    <value>It's all about risk and being safe, you see. Whatever you choose.</value>
+  </data>
+  <data name="Bank_Info_4" xml:space="preserve">
+    <value>Storage boxes can access your bank's savings in a dungeon, if you need it.</value>
+  </data>
+  <data name="Bank_Goodbye" xml:space="preserve">
+    <value>Aight, later then.</value>
+  </data>
+  <data name="Storage_Stored_All_Items" xml:space="preserve">
+    <value>Alright, storing everything that you don't have equipped!</value>
+  </data>
+</root>

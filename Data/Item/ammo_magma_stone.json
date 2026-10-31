@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.8.8.0",
+"Version": "0.8.11.0",
 "Object": {
 "$type": "RogueEssence.Data.ItemData, RogueEssence",
 "Name": {
@@ -17,7 +17,7 @@
 "SortCategory": 2,
 "Price": 10,
 "Rarity": 0,
-"MaxStack": 9,
+"MaxStack": 99,
 "CannotDrop": false,
 "BagEffect": false,
 "ItemStates": [
@@ -156,6 +156,7 @@
 "$type": "PMDC.Dungeon.StatusBattleEvent, PMDC",
 "StatusID": "burn",
 "AffectTarget": true,
+"SelfInflicted": false,
 "SilentCheck": true,
 "Anonymous": false,
 "TriggerMsg": {

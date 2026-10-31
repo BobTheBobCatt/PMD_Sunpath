@@ -1,7 +1,7 @@
 ﻿{
   "Version": [
     "0.0",
-    "0.8.8.0"
+    "0.8.11.0"
   ],
   "Object": {
     "Forms": {
@@ -9,10 +9,10 @@
       "0": {
         "LevelSkills": {
           "_t": "a",
-          "14": [
+          "11": [
             {
-              "Level": 31,
-              "Skill": "rock_punch"
+              "Level": 19,
+              "Skill": "sand_blast"
             }
           ]
         }

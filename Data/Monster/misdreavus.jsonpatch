@@ -1,0 +1,124 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.12.0"
+  ],
+  "Object": {
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "5": {
+            "Level": [
+              19,
+              16
+            ],
+            "Skill": [
+              "mean_look",
+              "ghostly_chill"
+            ]
+          },
+          "6": {
+            "Level": [
+              23,
+              19
+            ],
+            "Skill": [
+              "hex",
+              "mean_look"
+            ]
+          },
+          "7": {
+            "Level": [
+              28,
+              23
+            ],
+            "Skill": [
+              "psybeam",
+              "hex"
+            ]
+          },
+          "8": {
+            "Level": [
+              32,
+              28
+            ],
+            "Skill": [
+              "pain_split",
+              "psybeam"
+            ]
+          },
+          "9": {
+            "Level": [
+              37,
+              32
+            ],
+            "Skill": [
+              "payback",
+              "pain_split"
+            ]
+          },
+          "10": {
+            "Level": [
+              41,
+              34
+            ],
+            "Skill": [
+              "shadow_ball",
+              "shadow_beam"
+            ]
+          },
+          "11": {
+            "Level": [
+              46,
+              37
+            ],
+            "Skill": [
+              "perish_song",
+              "payback"
+            ]
+          },
+          "12": {
+            "Level": [
+              50,
+              41
+            ],
+            "Skill": [
+              "grudge",
+              "shadow_ball"
+            ]
+          },
+          "13": {
+            "Level": [
+              55,
+              46
+            ],
+            "Skill": [
+              "power_gem",
+              "perish_song"
+            ]
+          },
+          "14": [
+            {
+              "Level": 50,
+              "Skill": "grudge"
+            }
+          ],
+          "15": [
+            {
+              "Level": 55,
+              "Skill": "power_gem"
+            }
+          ],
+          "16": [
+            {
+              "Level": 60,
+              "Skill": "scourge"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

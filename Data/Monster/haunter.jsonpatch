@@ -1,0 +1,134 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.12.0"
+  ],
+  "Object": {
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "7": {
+            "Level": [
+              19,
+              17
+            ],
+            "Skill": [
+              "confuse_ray",
+              "ghostly_chill"
+            ]
+          },
+          "8": {
+            "Level": [
+              22,
+              19
+            ],
+            "Skill": [
+              "sucker_punch",
+              "confuse_ray"
+            ]
+          },
+          "9": {
+            "Level": [
+              25,
+              22
+            ],
+            "Skill": [
+              "shadow_punch",
+              "sucker_punch"
+            ]
+          },
+          "10": {
+            "Level": [
+              28,
+              25
+            ],
+            "Skill": [
+              "payback",
+              "shadow_punch"
+            ]
+          },
+          "11": {
+            "Level": [
+              33,
+              28
+            ],
+            "Skill": [
+              "shadow_ball",
+              "payback"
+            ]
+          },
+          "12": {
+            "Level": [
+              39,
+              30
+            ],
+            "Skill": [
+              "dream_eater",
+              "shadow_beam"
+            ]
+          },
+          "13": {
+            "Level": [
+              44,
+              33
+            ],
+            "Skill": [
+              "dark_pulse",
+              "shadow_ball"
+            ]
+          },
+          "14": {
+            "Level": [
+              50,
+              39
+            ],
+            "Skill": [
+              "destiny_bond",
+              "dream_eater"
+            ]
+          },
+          "15": {
+            "Level": [
+              55,
+              44
+            ],
+            "Skill": [
+              "hex",
+              "dark_pulse"
+            ]
+          },
+          "16": {
+            "Level": [
+              61,
+              50
+            ],
+            "Skill": [
+              "nightmare",
+              "destiny_bond"
+            ]
+          },
+          "17": [
+            {
+              "Level": 55,
+              "Skill": "hex"
+            }
+          ],
+          "18": [
+            {
+              "Level": 61,
+              "Skill": "nightmare"
+            }
+          ],
+          "19": [
+            {
+              "Level": 67,
+              "Skill": "scourge"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

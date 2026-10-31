@@ -1,0 +1,63 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.11.0"
+  ],
+  "Object": {
+    "SkillGroup2": [
+      "",
+      "undiscovered"
+    ],
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "12": {
+            "Level": [
+              34,
+              32
+            ],
+            "Skill": [
+              "earthquake",
+              "rock_punch"
+            ]
+          },
+          "13": {
+            "Level": [
+              36,
+              34
+            ],
+            "Skill": [
+              "explosion",
+              "earthquake"
+            ]
+          },
+          "14": [
+            {
+              "Level": 36,
+              "Skill": "explosion"
+            }
+          ],
+          "15": [
+            {
+              "Level": 38,
+              "Skill": "muddy_terrain"
+            }
+          ]
+        }
+      },
+      "1": {
+        "LevelSkills": {
+          "_t": "a",
+          "12": [
+            {
+              "Level": 32,
+              "Skill": "rock_punch"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

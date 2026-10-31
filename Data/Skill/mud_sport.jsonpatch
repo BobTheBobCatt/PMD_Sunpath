@@ -1,0 +1,84 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.11.0"
+  ],
+  "Object": {
+    "Desc": {
+      "DefaultText": [
+        "@@ -37,41 +37,60 @@\n his \n-adds the Ground-type to their typing\n+weakens the power of Electric-type moves for many turns\n .\n",
+        0,
+        2
+      ],
+      "LocalTexts": {
+        "de": [
+          "Der Anwender verteilt Matsch, sodass bei allen die getroffen werden der Boden-Typ zu ihren Typen hinzugefügt wird.",
+          0,
+          0
+        ],
+        "it": [
+          "Il Pokémon copre tutti gli altri di fango, aggiundo loro il tipo Terra.",
+          0,
+          0
+        ],
+        "ko": [
+          "주위를 진흙투성이로 만든다. 맞은 포켓몬은 자신의 타입에 땅 타입이 추가된다.",
+          0,
+          0
+        ],
+        "zh-hans": [
+          "用泥浆覆盖所有人。使大家的属性都增加地面属性。",
+          0,
+          0
+        ]
+      }
+    },
+    "HitboxAction": {
+      "Range": [
+        2,
+        5
+      ]
+    },
+    "Data": {
+      "OnHits": {
+        "_t": "a",
+        "0": {
+          "Value": {
+            "$type": [
+              "PMDC.Dungeon.AddElementEvent, PMDC",
+              "PMDC.Dungeon.StatusBattleEvent, PMDC"
+            ],
+            "TargetElement": [
+              "ground",
+              0,
+              0
+            ],
+            "StatusID": [
+              "mud_sport"
+            ],
+            "AffectTarget": [
+              true
+            ],
+            "SelfInflicted": [
+              false
+            ],
+            "SilentCheck": [
+              true
+            ],
+            "Anonymous": [
+              false
+            ],
+            "TriggerMsg": [
+              {
+                "Key": ""
+              }
+            ],
+            "Anims": [
+              []
+            ]
+          }
+        }
+      }
+    }
+  }
+}

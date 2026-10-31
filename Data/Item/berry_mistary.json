@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.8.3.0",
+"Version": "0.8.11.0",
 "Object": {
 "$type": "RogueEssence.Data.ItemData, RogueEssence",
 "Name": {
@@ -10,7 +10,7 @@
 "DefaultText": "A small, but sweet berry. It restores 5 PP.",
 "LocalTexts": {}
 },
-"Released": true,
+"Released": false,
 "Comment": "",
 "Sprite": "Fruit_DarkBlue",
 "Icon": 3,
@@ -44,6 +44,7 @@
 "PreActions": [],
 "ActionFX": {
 "Delay": 0,
+"AbsoluteDelay": false,
 "Sound": "",
 "Emitter": {
 "$type": "RogueEssence.Content.EmptyFiniteEmitter, RogueEssence",
@@ -73,6 +74,7 @@
 "IntroFX": [],
 "ExplodeFX": {
 "Delay": 0,
+"AbsoluteDelay": false,
 "Sound": "",
 "Emitter": {
 "$type": "RogueEssence.Content.EmptyFiniteEmitter, RogueEssence",
@@ -129,6 +131,7 @@
 "IntroFX": [],
 "HitFX": {
 "Delay": 15,
+"AbsoluteDelay": false,
 "Sound": "DUN_Berry",
 "Emitter": {
 "$type": "RogueEssence.Content.SingleEmitter, RogueEssence",

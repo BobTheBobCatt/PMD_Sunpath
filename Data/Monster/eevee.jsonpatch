@@ -1,0 +1,55 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.12.0"
+  ],
+  "Object": {
+    "Promotions": {
+      "_t": "a",
+      "8": [
+        {
+          "Result": "aereon",
+          "Details": [
+            {
+              "$type": "PMDC.Data.EvoItem, PMDC",
+              "ItemNum": "evo_sky_ribbon"
+            }
+          ]
+        }
+      ],
+      "9": [
+        {
+          "Result": "terreon",
+          "Details": [
+            {
+              "$type": "PMDC.Data.EvoItem, PMDC",
+              "ItemNum": "evo_earth_stone"
+            }
+          ]
+        }
+      ],
+      "10": [
+        {
+          "Result": "eeveon",
+          "Details": [
+            {
+              "$type": "PMDC.Data.EvoLevel, PMDC",
+              "Level": 50
+            }
+          ]
+        }
+      ],
+      "11": [
+        {
+          "Result": "spectreon",
+          "Details": [
+            {
+              "$type": "PMDC.Data.EvoItem, PMDC",
+              "ItemNum": "evo_dusk_stone"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+"Version": "0.8.11.0",
+"Object": {
+"$type": "RogueEssence.Data.RankData, RogueEssence",
+"Name": {
+"DefaultText": "Guildless",
+"LocalTexts": {}
+},
+"Comment": "",
+"BagSize": 8,
+"FameToNext": 1,
+"Next": "rookie"
+}
+}

@@ -5,7 +5,7 @@
   <Namespace>pmd_sunpath</Namespace>
   <UUID>611FE4D3-2F26-416C-9B83-4CC28BCD0D55</UUID>
   <Version>0.1</Version>
-  <GameVersion>0.8.3</GameVersion>
+  <GameVersion>0.8.10</GameVersion>
   <ModType>Quest</ModType>
   <Relationships>
     <RelatedMod>

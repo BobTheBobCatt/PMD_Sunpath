@@ -1,7 +1,2235 @@
 ﻿{
-"Version": "0.8.8.0",
+"Version": "0.8.12.0",
 "Object": {
 "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
+"altaria": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Altaria",
+"LocalTexts": {
+"ja": "チルタリス",
+"ko": "파비코리",
+"zh-hant": "七夕青鳥",
+"fr": "Altaria",
+"de": "Altaria",
+"es": "Altaria",
+"it": "Altaria",
+"ja-jp": "チルタリス",
+"zh-hans": "七夕青鸟"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Mega Altaria",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Méga-Altaria",
+"de": "Mega-Altaria",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": false,
+"Temporary": true
+}
+],
+"Name": {
+"DefaultText": "Altaria",
+"LocalTexts": {
+"ja": "チルタリス",
+"ko": "파비코리",
+"zh-hant": "七夕青鳥",
+"fr": "Altaria",
+"de": "Altaria",
+"es": "Altaria",
+"it": "Altaria",
+"ja-jp": "チルタリス",
+"zh-hans": "七夕青鸟"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 334
+},
+"anorith": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Anorith",
+"LocalTexts": {
+"ja": "アノプス",
+"ko": "아노딥스",
+"zh-hant": "太古羽蟲",
+"fr": "Anorith",
+"de": "Anorith",
+"es": "Anorith",
+"it": "Anorith",
+"ja-jp": "アノプス",
+"zh-hans": "太古羽虫"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Anorith",
+"LocalTexts": {
+"ja": "アノプス",
+"ko": "아노딥스",
+"zh-hant": "太古羽蟲",
+"fr": "Anorith",
+"de": "Anorith",
+"es": "Anorith",
+"it": "Anorith",
+"ja-jp": "アノプス",
+"zh-hans": "太古羽虫"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 347
+},
+"arbok": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Arbok",
+"LocalTexts": {
+"ja": "アーボック",
+"ko": "아보크",
+"zh-hant": "阿柏怪",
+"fr": "Arbok",
+"de": "Arbok",
+"es": "Arbok",
+"it": "Arbok",
+"ja-jp": "アーボック",
+"zh-hans": "阿柏怪"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Arbok",
+"LocalTexts": {
+"ja": "アーボック",
+"ko": "아보크",
+"zh-hant": "阿柏怪",
+"fr": "Arbok",
+"de": "Arbok",
+"es": "Arbok",
+"it": "Arbok",
+"ja-jp": "アーボック",
+"zh-hans": "阿柏怪"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 24
+},
+"archen": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Archen",
+"LocalTexts": {
+"ja": "アーケン",
+"ko": "아켄",
+"zh-hant": "始祖小鳥",
+"fr": "Arkéapti",
+"de": "Flapteryx",
+"es": "Archen",
+"it": "Archen",
+"ja-jp": "アーケン",
+"zh-hans": "始祖小鸟"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Archen",
+"LocalTexts": {
+"ja": "アーケン",
+"ko": "아켄",
+"zh-hant": "始祖小鳥",
+"fr": "Arkéapti",
+"de": "Flapteryx",
+"es": "Archen",
+"it": "Archen",
+"ja-jp": "アーケン",
+"zh-hans": "始祖小鸟"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 566
+},
+"archeops": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Archeops",
+"LocalTexts": {
+"ja": "アーケオス",
+"ko": "아케오스",
+"zh-hant": "始祖大鳥",
+"fr": "Aéroptéryx",
+"de": "Aeropteryx",
+"es": "Archeops",
+"it": "Archeops",
+"ja-jp": "アーケオス",
+"zh-hans": "始祖大鸟"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Archeops",
+"LocalTexts": {
+"ja": "アーケオス",
+"ko": "아케오스",
+"zh-hant": "始祖大鳥",
+"fr": "Aéroptéryx",
+"de": "Aeropteryx",
+"es": "Archeops",
+"it": "Archeops",
+"ja-jp": "アーケオス",
+"zh-hans": "始祖大鸟"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 567
+},
+"arctibax": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Arctibax",
+"LocalTexts": {
+"ja": "セゴール",
+"ko": "드니꽁",
+"zh-hant": "凍脊龍",
+"fr": "Cryodo",
+"de": "Cryospino",
+"ja-jp": "セゴール",
+"zh-hans": "冻脊龙"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Arctibax",
+"LocalTexts": {
+"ja": "セゴール",
+"ko": "드니꽁",
+"zh-hant": "凍脊龍",
+"fr": "Cryodo",
+"de": "Cryospino",
+"ja-jp": "セゴール",
+"zh-hans": "冻脊龙"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 997
+},
+"armaldo": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Armaldo",
+"LocalTexts": {
+"ja": "アーマルド",
+"ko": "아말도",
+"zh-hant": "太古盔甲",
+"fr": "Armaldo",
+"de": "Armaldo",
+"es": "Armaldo",
+"it": "Armaldo",
+"ja-jp": "アーマルド",
+"zh-hans": "太古盔甲"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Armaldo",
+"LocalTexts": {
+"ja": "アーマルド",
+"ko": "아말도",
+"zh-hant": "太古盔甲",
+"fr": "Armaldo",
+"de": "Armaldo",
+"es": "Armaldo",
+"it": "Armaldo",
+"ja-jp": "アーマルド",
+"zh-hans": "太古盔甲"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 348
+},
+"arrokuda": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Arrokuda",
+"LocalTexts": {
+"ja": "サシカマス",
+"ko": "찌로꼬치",
+"zh-hant": "刺梭魚",
+"fr": "Embrochet",
+"de": "Pikuda",
+"es": "Arrokuda",
+"it": "Arrokuda",
+"ja-jp": "サシカマス",
+"zh-hans": "刺梭鱼"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Arrokuda",
+"LocalTexts": {
+"ja": "サシカマス",
+"ko": "찌로꼬치",
+"zh-hant": "刺梭魚",
+"fr": "Embrochet",
+"de": "Pikuda",
+"es": "Arrokuda",
+"it": "Arrokuda",
+"ja-jp": "サシカマス",
+"zh-hans": "刺梭鱼"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 846
+},
+"baltoy": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Baltoy",
+"LocalTexts": {
+"ja": "ヤジロン",
+"ko": "오뚝군",
+"zh-hant": "天秤偶",
+"fr": "Balbuto",
+"de": "Puppance",
+"es": "Baltoy",
+"it": "Baltoy",
+"ja-jp": "ヤジロン",
+"zh-hans": "天秤偶"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Baltoy",
+"LocalTexts": {
+"ja": "ヤジロン",
+"ko": "오뚝군",
+"zh-hant": "天秤偶",
+"fr": "Balbuto",
+"de": "Puppance",
+"es": "Baltoy",
+"it": "Baltoy",
+"ja-jp": "ヤジロン",
+"zh-hans": "天秤偶"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 343
+},
+"barbaracle": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Barbaracle",
+"LocalTexts": {
+"ja": "ガメノデス",
+"ko": "거북손데스",
+"zh-hant": "龜足巨鎧",
+"fr": "Golgopathe",
+"de": "Thanathora",
+"es": "Barbaracle",
+"it": "Barbaracle",
+"ja-jp": "ガメノデス",
+"zh-hans": "龟足巨铠"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Barbaracle",
+"LocalTexts": {
+"ja": "ガメノデス",
+"ko": "거북손데스",
+"zh-hant": "龜足巨鎧",
+"fr": "Golgopathe",
+"de": "Thanathora",
+"es": "Barbaracle",
+"it": "Barbaracle",
+"ja-jp": "ガメノデス",
+"zh-hans": "龟足巨铠"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 689
+},
+"barboach": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Barboach",
+"LocalTexts": {
+"ja": "ドジョッチ",
+"ko": "미꾸리",
+"zh-hant": "泥泥鰍",
+"fr": "Barloche",
+"de": "Schmerbe",
+"es": "Barboach",
+"it": "Barboach",
+"ja-jp": "ドジョッチ",
+"zh-hans": "泥泥鳅"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Barboach",
+"LocalTexts": {
+"ja": "ドジョッチ",
+"ko": "미꾸리",
+"zh-hant": "泥泥鰍",
+"fr": "Barloche",
+"de": "Schmerbe",
+"es": "Barboach",
+"it": "Barboach",
+"ja-jp": "ドジョッチ",
+"zh-hans": "泥泥鳅"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 339
+},
+"barraskewda": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Barraskewda",
+"LocalTexts": {
+"ja": "カマスジョー",
+"ko": "꼬치조",
+"zh-hant": "戽斗尖梭",
+"fr": "Hastacuda",
+"de": "Barrakiefa",
+"es": "Barraskewda",
+"it": "Barraskewda",
+"ja-jp": "カマスジョー",
+"zh-hans": "戽斗尖梭"
+}
+},
+"Released": false,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Barraskewda",
+"LocalTexts": {
+"ja": "カマスジョー",
+"ko": "꼬치조",
+"zh-hant": "戽斗尖梭",
+"fr": "Hastacuda",
+"de": "Barrakiefa",
+"es": "Barraskewda",
+"it": "Barraskewda",
+"ja-jp": "カマスジョー",
+"zh-hans": "戽斗尖梭"
+}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 847
+},
+"baxcalibur": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Baxcalibur",
+"LocalTexts": {
+"ja": "セグレイブ",
+"ko": "드닐레이브",
+"zh-hant": "戟脊龍",
+"fr": "Glaivodo",
+"de": "Espinodon",
+"ja-jp": "セグレイブ",
+"zh-hans": "戟脊龙"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Baxcalibur",
+"LocalTexts": {
+"ja": "セグレイブ",
+"ko": "드닐레이브",
+"zh-hant": "戟脊龍",
+"fr": "Glaivodo",
+"de": "Espinodon",
+"ja-jp": "セグレイブ",
+"zh-hans": "戟脊龙"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 998
+},
+"boldore": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Boldore",
+"LocalTexts": {
+"ja": "ガントル",
+"ko": "암트르",
+"zh-hant": "地幔岩",
+"fr": "Géolithe",
+"de": "Sedimantur",
+"es": "Boldore",
+"it": "Boldore",
+"ja-jp": "ガントル",
+"zh-hans": "地幔岩"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Boldore",
+"LocalTexts": {
+"ja": "ガントル",
+"ko": "암트르",
+"zh-hant": "地幔岩",
+"fr": "Géolithe",
+"de": "Sedimantur",
+"es": "Boldore",
+"it": "Boldore",
+"ja-jp": "ガントル",
+"zh-hans": "地幔岩"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 525
+},
+"bramblin": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Bramblin",
+"LocalTexts": {
+"ja": "アノクサ",
+"ko": "그푸리",
+"zh-hant": "納噬草",
+"fr": "Virovent",
+"de": "Weherba",
+"ja-jp": "アノクサ",
+"zh-hans": "纳噬草"
+}
+},
+"Released": false,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Bramblin",
+"LocalTexts": {
+"ja": "アノクサ",
+"ko": "그푸리",
+"zh-hant": "納噬草",
+"fr": "Virovent",
+"de": "Weherba",
+"ja-jp": "アノクサ",
+"zh-hans": "纳噬草"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 946
+},
+"caterpie": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Caterpie",
+"LocalTexts": {
+"ja": "キャタピー",
+"ko": "캐터피",
+"zh-hant": "綠毛蟲",
+"fr": "Chenipan",
+"de": "Raupy",
+"es": "Caterpie",
+"it": "Caterpie",
+"ja-jp": "キャタピー",
+"zh-hans": "绿毛虫"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Caterpie",
+"LocalTexts": {
+"ja": "キャタピー",
+"ko": "캐터피",
+"zh-hant": "綠毛蟲",
+"fr": "Chenipan",
+"de": "Raupy",
+"es": "Caterpie",
+"it": "Caterpie",
+"ja-jp": "キャタピー",
+"zh-hans": "绿毛虫"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 10
+},
+"ceruledge": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Ceruledge",
+"LocalTexts": {
+"ja": "ソウブレイズ",
+"ko": "파라블레이즈",
+"zh-hant": "蒼炎刃鬼",
+"fr": "Malvalame",
+"de": "Azugladis",
+"ja-jp": "ソウブレイズ",
+"zh-hans": "苍炎刃鬼"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Ceruledge",
+"LocalTexts": {
+"ja": "ソウブレイズ",
+"ko": "파라블레이즈",
+"zh-hant": "蒼炎刃鬼",
+"fr": "Malvalame",
+"de": "Azugladis",
+"ja-jp": "ソウブレイズ",
+"zh-hans": "苍炎刃鬼"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 937
+},
+"charcadet": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Charcadet",
+"LocalTexts": {
+"ja": "カルボウ",
+"ko": "카르본",
+"zh-hant": "炭小侍",
+"fr": "Charbambin",
+"de": "Knarbon",
+"ja-jp": "カルボウ",
+"zh-hans": "炭小侍"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Charcadet",
+"LocalTexts": {
+"ja": "カルボウ",
+"ko": "카르본",
+"zh-hant": "炭小侍",
+"fr": "Charbambin",
+"de": "Knarbon",
+"ja-jp": "カルボウ",
+"zh-hans": "炭小侍"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 935
+},
+"charizard": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Charizard",
+"LocalTexts": {
+"ja": "リザードン",
+"ko": "리자몽",
+"zh-hant": "噴火龍",
+"fr": "Dracaufeu",
+"de": "Glurak",
+"es": "Charizard",
+"it": "Charizard",
+"ja-jp": "リザードン",
+"zh-hans": "喷火龙"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Mega Charizard X",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Méga-Dracaufeu X",
+"de": "Mega-Glurak X",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": true,
+"Temporary": true
+},
+{
+"Name": {
+"DefaultText": "Mega Charizard Y",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Méga-Dracaufeu Y",
+"de": "Mega-Glurak Y",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": false,
+"Temporary": true
+},
+{
+"Name": {
+"DefaultText": "Gigantamax Charizard",
+"LocalTexts": {
+"fr": "Dracaufeu Gigamax",
+"de": "Gigadynamax-Glurak"
+}
+},
+"Released": true,
+"Temporary": true
+}
+],
+"Name": {
+"DefaultText": "Charizard",
+"LocalTexts": {
+"ja": "リザードン",
+"ko": "리자몽",
+"zh-hant": "噴火龍",
+"fr": "Dracaufeu",
+"de": "Glurak",
+"es": "Charizard",
+"it": "Charizard",
+"ja-jp": "リザードン",
+"zh-hans": "喷火龙"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"charjabug": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Charjabug",
+"LocalTexts": {
+"ja": "デンヂムシ",
+"ko": "전지충이",
+"zh-hant": "蟲電寶",
+"fr": "Chrysapile",
+"de": "Akkup",
+"es": "Charjabug",
+"it": "Charjabug",
+"ja-jp": "デンヂムシ",
+"zh-hans": "虫电宝"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Charjabug",
+"LocalTexts": {
+"ja": "デンヂムシ",
+"ko": "전지충이",
+"zh-hant": "蟲電寶",
+"fr": "Chrysapile",
+"de": "Akkup",
+"es": "Charjabug",
+"it": "Charjabug",
+"ja-jp": "デンヂムシ",
+"zh-hans": "虫电宝"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 737
+},
+"charmander": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Charmander",
+"LocalTexts": {
+"ja": "ヒトカゲ",
+"ko": "파이리",
+"zh-hant": "小火龍",
+"fr": "Salamèche",
+"de": "Glumanda",
+"es": "Charmander",
+"it": "Charmander",
+"ja-jp": "ヒトカゲ",
+"zh-hans": "小火龙"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Charmander",
+"LocalTexts": {
+"ja": "ヒトカゲ",
+"ko": "파이리",
+"zh-hant": "小火龍",
+"fr": "Salamèche",
+"de": "Glumanda",
+"es": "Charmander",
+"it": "Charmander",
+"ja-jp": "ヒトカゲ",
+"zh-hans": "小火龙"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 4
+},
+"charmeleon": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Charmeleon",
+"LocalTexts": {
+"ja": "リザード",
+"ko": "리자드",
+"zh-hant": "火恐龍",
+"fr": "Reptincel",
+"de": "Glutexo",
+"es": "Charmeleon",
+"it": "Charmeleon",
+"ja-jp": "リザード",
+"zh-hans": "火恐龙"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Charmeleon",
+"LocalTexts": {
+"ja": "リザード",
+"ko": "리자드",
+"zh-hant": "火恐龍",
+"fr": "Reptincel",
+"de": "Glutexo",
+"es": "Charmeleon",
+"it": "Charmeleon",
+"ja-jp": "リザード",
+"zh-hans": "火恐龙"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 5
+},
+"chimchar": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Chimchar",
+"LocalTexts": {
+"ja": "ヒコザル",
+"ko": "불꽃숭이",
+"zh-hant": "小火焰猴",
+"fr": "Ouisticram",
+"de": "Panflam",
+"es": "Chimchar",
+"it": "Chimchar",
+"ja-jp": "ヒコザル",
+"zh-hans": "小火焰猴"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Chimchar",
+"LocalTexts": {
+"ja": "ヒコザル",
+"ko": "불꽃숭이",
+"zh-hant": "小火焰猴",
+"fr": "Ouisticram",
+"de": "Panflam",
+"es": "Chimchar",
+"it": "Chimchar",
+"ja-jp": "ヒコザル",
+"zh-hans": "小火焰猴"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 390
+},
+"claydol": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Claydol",
+"LocalTexts": {
+"ja": "ネンドール",
+"ko": "점토도리",
+"zh-hant": "念力土偶",
+"fr": "Kaorine",
+"de": "Lepumentas",
+"es": "Claydol",
+"it": "Claydol",
+"ja-jp": "ネンドール",
+"zh-hans": "念力土偶"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Claydol",
+"LocalTexts": {
+"ja": "ネンドール",
+"ko": "점토도리",
+"zh-hant": "念力土偶",
+"fr": "Kaorine",
+"de": "Lepumentas",
+"es": "Claydol",
+"it": "Claydol",
+"ja-jp": "ネンドール",
+"zh-hans": "念力土偶"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 344
+},
+"cofagrigus": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Cofagrigus",
+"LocalTexts": {
+"ja": "デスカーン",
+"ko": "데스니칸",
+"zh-hant": "死神棺",
+"fr": "Tutankafer",
+"de": "Echnatoll",
+"es": "Cofagrigus",
+"it": "Cofagrigus",
+"ja-jp": "デスカーン",
+"zh-hans": "迭失棺"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Cofagrigus",
+"LocalTexts": {
+"ja": "デスカーン",
+"ko": "데스니칸",
+"zh-hant": "死神棺",
+"fr": "Tutankafer",
+"de": "Echnatoll",
+"es": "Cofagrigus",
+"it": "Cofagrigus",
+"ja-jp": "デスカーン",
+"zh-hans": "迭失棺"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 563
+},
+"cryogonal": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Cryogonal",
+"LocalTexts": {
+"ja": "フリージオ",
+"ko": "프리지오",
+"zh-hant": "幾何雪花",
+"fr": "Hexagel",
+"de": "Frigometri",
+"es": "Cryogonal",
+"it": "Cryogonal",
+"ja-jp": "フリージオ",
+"zh-hans": "几何雪花"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Cryogonal",
+"LocalTexts": {
+"ja": "フリージオ",
+"ko": "프리지오",
+"zh-hant": "幾何雪花",
+"fr": "Hexagel",
+"de": "Frigometri",
+"es": "Cryogonal",
+"it": "Cryogonal",
+"ja-jp": "フリージオ",
+"zh-hans": "几何雪花"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 615
+},
+"cyndaquil": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Cyndaquil",
+"LocalTexts": {
+"ja": "ヒノアラシ",
+"ko": "브케인",
+"zh-hant": "火球鼠",
+"fr": "Héricendre",
+"de": "Feurigel",
+"es": "Cyndaquil",
+"it": "Cyndaquil",
+"ja-jp": "ヒノアラシ",
+"zh-hans": "火球鼠"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Cyndaquil",
+"LocalTexts": {
+"ja": "ヒノアラシ",
+"ko": "브케인",
+"zh-hant": "火球鼠",
+"fr": "Héricendre",
+"de": "Feurigel",
+"es": "Cyndaquil",
+"it": "Cyndaquil",
+"ja-jp": "ヒノアラシ",
+"zh-hans": "火球鼠"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 155
+},
+"diglett": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Diglett",
+"LocalTexts": {
+"ja": "ディグダ",
+"ko": "디그다",
+"zh-hant": "地鼠",
+"fr": "Taupiqueur",
+"de": "Digda",
+"es": "Diglett",
+"it": "Diglett",
+"ja-jp": "ディグダ",
+"zh-hans": "地鼠"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Alolan Diglett",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Taupiqueur d'Alola",
+"de": "Alola Digda",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Diglett",
+"LocalTexts": {
+"ja": "ディグダ",
+"ko": "디그다",
+"zh-hant": "地鼠",
+"fr": "Taupiqueur",
+"de": "Digda",
+"es": "Diglett",
+"it": "Diglett",
+"ja-jp": "ディグダ",
+"zh-hans": "地鼠"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 50
+},
+"drilbur": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Drilbur",
+"LocalTexts": {
+"ja": "モグリュー",
+"ko": "두더류",
+"zh-hant": "螺釘地鼠",
+"fr": "Rototaupe",
+"de": "Rotomurf",
+"es": "Drilbur",
+"it": "Drilbur",
+"ja-jp": "モグリュー",
+"zh-hans": "螺钉地鼠"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Drilbur",
+"LocalTexts": {
+"ja": "モグリュー",
+"ko": "두더류",
+"zh-hant": "螺釘地鼠",
+"fr": "Rototaupe",
+"de": "Rotomurf",
+"es": "Drilbur",
+"it": "Drilbur",
+"ja-jp": "モグリュー",
+"zh-hans": "螺钉地鼠"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 529
+},
+"dugtrio": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Dugtrio",
+"LocalTexts": {
+"ja": "ダグトリオ",
+"ko": "닥트리오",
+"zh-hant": "三地鼠",
+"fr": "Triopikeur",
+"de": "Digdri",
+"es": "Dugtrio",
+"it": "Dugtrio",
+"ja-jp": "ダグトリオ",
+"zh-hans": "三地鼠"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Alolan Dugtrio",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Triopikeur d'Alola",
+"de": "Alola Digdri",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Dugtrio",
+"LocalTexts": {
+"ja": "ダグトリオ",
+"ko": "닥트리오",
+"zh-hant": "三地鼠",
+"fr": "Triopikeur",
+"de": "Digdri",
+"es": "Dugtrio",
+"it": "Dugtrio",
+"ja-jp": "ダグトリオ",
+"zh-hans": "三地鼠"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 51
+},
+"dwebble": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Dwebble",
+"LocalTexts": {
+"ja": "イシズマイ",
+"ko": "돌살이",
+"zh-hant": "石居蟹",
+"fr": "Crabicoque",
+"de": "Lithomith",
+"es": "Dwebble",
+"it": "Dwebble",
+"ja-jp": "イシズマイ",
+"zh-hans": "石居蟹"
+}
+},
+"Released": false,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Dwebble",
+"LocalTexts": {
+"ja": "イシズマイ",
+"ko": "돌살이",
+"zh-hant": "石居蟹",
+"fr": "Crabicoque",
+"de": "Lithomith",
+"es": "Dwebble",
+"it": "Dwebble",
+"ja-jp": "イシズマイ",
+"zh-hans": "石居蟹"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 557
+},
+"eelektrik": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Eelektrik",
+"LocalTexts": {
+"ja": "シビビール",
+"ko": "저리릴",
+"zh-hant": "麻麻鰻",
+"fr": "Lampéroie",
+"de": "Zapplalek",
+"es": "Eelektrik",
+"it": "Eelektrik",
+"ja-jp": "シビビール",
+"zh-hans": "麻麻鳗"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Eelektrik",
+"LocalTexts": {
+"ja": "シビビール",
+"ko": "저리릴",
+"zh-hant": "麻麻鰻",
+"fr": "Lampéroie",
+"de": "Zapplalek",
+"es": "Eelektrik",
+"it": "Eelektrik",
+"ja-jp": "シビビール",
+"zh-hans": "麻麻鳗"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 603
+},
+"eelektross": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Eelektross",
+"LocalTexts": {
+"ja": "シビルドン",
+"ko": "저리더프",
+"zh-hant": "麻麻鰻魚王",
+"fr": "Ohmassacre",
+"de": "Zapplarang",
+"es": "Eelektross",
+"it": "Eelektross",
+"ja-jp": "シビルドン",
+"zh-hans": "麻麻鳗鱼王"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Eelektross",
+"LocalTexts": {
+"ja": "シビルドン",
+"ko": "저리더프",
+"zh-hant": "麻麻鰻魚王",
+"fr": "Ohmassacre",
+"de": "Zapplarang",
+"es": "Eelektross",
+"it": "Eelektross",
+"ja-jp": "シビルドン",
+"zh-hans": "麻麻鳗鱼王"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 604
+},
+"eevee": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Eevee",
+"LocalTexts": {
+"ja": "イーブイ",
+"ko": "이브이",
+"zh-hant": "伊布",
+"fr": "Évoli",
+"de": "Evoli",
+"es": "Eevee",
+"it": "Eevee",
+"ja-jp": "イーブイ",
+"zh-hans": "伊布"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Eevee",
+"LocalTexts": {
+"ja": "イーブイ",
+"ko": "이브이",
+"zh-hant": "伊布",
+"fr": "Évoli",
+"de": "Evoli",
+"es": "Eevee",
+"it": "Eevee",
+"ja-jp": "イーブイ",
+"zh-hans": "伊布"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 133
+},
+"espeon": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Espeon",
+"LocalTexts": {
+"ja": "エーフィ",
+"ko": "에브이",
+"zh-hant": "太陽伊布",
+"fr": "Mentali",
+"de": "Psiana",
+"es": "Espeon",
+"it": "Espeon",
+"ja-jp": "エーフィ",
+"zh-hans": "太阳伊布"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Espeon",
+"LocalTexts": {
+"ja": "エーフィ",
+"ko": "에브이",
+"zh-hant": "太陽伊布",
+"fr": "Mentali",
+"de": "Psiana",
+"es": "Espeon",
+"it": "Espeon",
+"ja-jp": "エーフィ",
+"zh-hans": "太阳伊布"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 196
+},
+"excadrill": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Excadrill",
+"LocalTexts": {
+"ja": "ドリュウズ",
+"ko": "몰드류",
+"zh-hant": "龍頭地鼠",
+"fr": "Minotaupe",
+"de": "Stalobor",
+"es": "Excadrill",
+"it": "Excadrill",
+"ja-jp": "ドリュウズ",
+"zh-hans": "龙头地鼠"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Excadrill",
+"LocalTexts": {
+"ja": "ドリュウズ",
+"ko": "몰드류",
+"zh-hant": "龍頭地鼠",
+"fr": "Minotaupe",
+"de": "Stalobor",
+"es": "Excadrill",
+"it": "Excadrill",
+"ja-jp": "ドリュウズ",
+"zh-hans": "龙头地鼠"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 530
+},
+"exploud": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Exploud",
+"LocalTexts": {
+"ja": "バクオング",
+"ko": "폭음룡",
+"zh-hant": "爆音怪",
+"fr": "Brouhabam",
+"de": "Krawumms",
+"es": "Exploud",
+"it": "Exploud",
+"ja-jp": "バクオング",
+"zh-hans": "爆音怪"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Exploud",
+"LocalTexts": {
+"ja": "バクオング",
+"ko": "폭음룡",
+"zh-hant": "爆音怪",
+"fr": "Brouhabam",
+"de": "Krawumms",
+"es": "Exploud",
+"it": "Exploud",
+"ja-jp": "バクオング",
+"zh-hans": "爆音怪"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 295
+},
+"flareon": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Flareon",
+"LocalTexts": {
+"ja": "ブースター",
+"ko": "부스터",
+"zh-hant": "火伊布",
+"fr": "Pyroli",
+"de": "Flamara",
+"es": "Flareon",
+"it": "Flareon",
+"ja-jp": "ブースター",
+"zh-hans": "火伊布"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Flareon",
+"LocalTexts": {
+"ja": "ブースター",
+"ko": "부스터",
+"zh-hant": "火伊布",
+"fr": "Pyroli",
+"de": "Flamara",
+"es": "Flareon",
+"it": "Flareon",
+"ja-jp": "ブースター",
+"zh-hans": "火伊布"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 136
+},
+"flygon": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Flygon",
+"LocalTexts": {
+"ja": "フライゴン",
+"ko": "플라이곤",
+"zh-hant": "沙漠蜻蜓",
+"fr": "Libégon",
+"de": "Libelldra",
+"es": "Flygon",
+"it": "Flygon",
+"ja-jp": "フライゴン",
+"zh-hans": "沙漠蜻蜓"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Flygon",
+"LocalTexts": {
+"ja": "フライゴン",
+"ko": "플라이곤",
+"zh-hant": "沙漠蜻蜓",
+"fr": "Libégon",
+"de": "Libelldra",
+"es": "Flygon",
+"it": "Flygon",
+"ja-jp": "フライゴン",
+"zh-hans": "沙漠蜻蜓"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 330
+},
+"frigibax": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Frigibax",
+"LocalTexts": {
+"ja": "セビエ",
+"ko": "드니차",
+"zh-hant": "涼脊龍",
+"fr": "Frigodo",
+"de": "Frospino",
+"ja-jp": "セビエ",
+"zh-hans": "凉脊龙"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Frigibax",
+"LocalTexts": {
+"ja": "セビエ",
+"ko": "드니차",
+"zh-hant": "涼脊龍",
+"fr": "Frigodo",
+"de": "Frospino",
+"ja-jp": "セビエ",
+"zh-hans": "凉脊龙"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 996
+},
+"gabite": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Gabite",
+"LocalTexts": {
+"ja": "ガバイト",
+"ko": "한바이트",
+"zh-hant": "尖牙陸鯊",
+"fr": "Carmache",
+"de": "Knarksel",
+"es": "Gabite",
+"it": "Gabite",
+"ja-jp": "ガバイト",
+"zh-hans": "尖牙陆鲨"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Gabite",
+"LocalTexts": {
+"ja": "ガバイト",
+"ko": "한바이트",
+"zh-hant": "尖牙陸鯊",
+"fr": "Carmache",
+"de": "Knarksel",
+"es": "Gabite",
+"it": "Gabite",
+"ja-jp": "ガバイト",
+"zh-hans": "尖牙陆鲨"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 444
+},
+"garchomp": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Garchomp",
+"LocalTexts": {
+"ja": "ガブリアス",
+"ko": "한카리아스",
+"zh-hant": "烈咬陸鯊",
+"fr": "Carchacrok",
+"de": "Knakrack",
+"es": "Garchomp",
+"it": "Garchomp",
+"ja-jp": "ガブリアス",
+"zh-hans": "烈咬陆鲨"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Mega Garchomp",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Méga-Carchacrok",
+"de": "Mega-Knakrack",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": false,
+"Temporary": true
+}
+],
+"Name": {
+"DefaultText": "Garchomp",
+"LocalTexts": {
+"ja": "ガブリアス",
+"ko": "한카리아스",
+"zh-hant": "烈咬陸鯊",
+"fr": "Carchacrok",
+"de": "Knakrack",
+"es": "Garchomp",
+"it": "Garchomp",
+"ja-jp": "ガブリアス",
+"zh-hans": "烈咬陆鲨"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 445
+},
+"garganacl": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Garganacl",
+"LocalTexts": {
+"ja": "キョジオーン",
+"ko": "콜로솔트",
+"zh-hant": "鹽石巨靈",
+"fr": "Gigansel",
+"de": "Saltigant",
+"ja-jp": "キョジオーン",
+"zh-hans": "盐石巨灵"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Garganacl",
+"LocalTexts": {
+"ja": "キョジオーン",
+"ko": "콜로솔트",
+"zh-hant": "鹽石巨靈",
+"fr": "Gigansel",
+"de": "Saltigant",
+"ja-jp": "キョジオーン",
+"zh-hans": "盐石巨灵"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 934
+},
+"gastly": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Gastly",
+"LocalTexts": {
+"ja": "ゴース",
+"ko": "고오스",
+"zh-hant": "鬼斯",
+"fr": "Fantominus",
+"de": "Nebulak",
+"es": "Gastly",
+"it": "Gastly",
+"ja-jp": "ゴース",
+"zh-hans": "鬼斯"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Gastly",
+"LocalTexts": {
+"ja": "ゴース",
+"ko": "고오스",
+"zh-hant": "鬼斯",
+"fr": "Fantominus",
+"de": "Nebulak",
+"es": "Gastly",
+"it": "Gastly",
+"ja-jp": "ゴース",
+"zh-hans": "鬼斯"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 92
+},
+"gastrodon": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "West Gastrodon",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Tritosor Occident",
+"de": "Westliches Gastrodon",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "East Gastrodon",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Tritosor Orient",
+"de": "Östliches Gastrodon",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Gastrodon",
+"LocalTexts": {
+"ja": "トリトドン",
+"ko": "트리토돈",
+"zh-hant": "海兔獸",
+"fr": "Tritosor",
+"de": "Gastrodon",
+"es": "Gastrodon",
+"it": "Gastrodon",
+"ja-jp": "トリトドン",
+"zh-hans": "海兔兽"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 423
+},
+"gengar": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Gengar",
+"LocalTexts": {
+"ja": "ゲンガー",
+"ko": "팬텀",
+"zh-hant": "耿鬼",
+"fr": "Ectoplasma",
+"de": "Gengar",
+"es": "Gengar",
+"it": "Gengar",
+"ja-jp": "ゲンガー",
+"zh-hans": "耿鬼"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Mega Gengar",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Méga-Ectoplasma",
+"de": "Mega-Gengar",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": true,
+"Temporary": true
+},
+{
+"Name": {
+"DefaultText": "Gigantamax Gengar",
+"LocalTexts": {
+"fr": "Ectoplasma Gigamax",
+"de": "Gigadynamax-Gengar"
+}
+},
+"Released": false,
+"Temporary": true
+}
+],
+"Name": {
+"DefaultText": "Gengar",
+"LocalTexts": {
+"ja": "ゲンガー",
+"ko": "팬텀",
+"zh-hant": "耿鬼",
+"fr": "Ectoplasma",
+"de": "Gengar",
+"es": "Gengar",
+"it": "Gengar",
+"ja-jp": "ゲンガー",
+"zh-hans": "耿鬼"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 94
+},
+"geodude": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Geodude",
+"LocalTexts": {
+"ja": "イシツブテ",
+"ko": "꼬마돌",
+"zh-hant": "小拳石",
+"fr": "Racaillou",
+"de": "Kleinstein",
+"es": "Geodude",
+"it": "Geodude",
+"ja-jp": "イシツブテ",
+"zh-hans": "小拳石"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Alolan Geodude",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Racaillou d'Alola",
+"de": "Alola Kleinstein",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Geodude",
+"LocalTexts": {
+"ja": "イシツブテ",
+"ko": "꼬마돌",
+"zh-hant": "小拳石",
+"fr": "Racaillou",
+"de": "Kleinstein",
+"es": "Geodude",
+"it": "Geodude",
+"ja-jp": "イシツブテ",
+"zh-hans": "小拳石"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 74
+},
+"gible": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Gible",
+"LocalTexts": {
+"ja": "フカマル",
+"ko": "딥상어동",
+"zh-hant": "圓陸鯊",
+"fr": "Griknot",
+"de": "Kaumalat",
+"es": "Gible",
+"it": "Gible",
+"ja-jp": "フカマル",
+"zh-hans": "圆陆鲨"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Gible",
+"LocalTexts": {
+"ja": "フカマル",
+"ko": "딥상어동",
+"zh-hant": "圓陸鯊",
+"fr": "Griknot",
+"de": "Kaumalat",
+"es": "Gible",
+"it": "Gible",
+"ja-jp": "フカマル",
+"zh-hans": "圆陆鲨"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 443
+},
+"gigalith": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Gigalith",
+"LocalTexts": {
+"ja": "ギガイアス",
+"ko": "기가이어스",
+"zh-hant": "龐岩怪",
+"fr": "Gigalithe",
+"de": "Brockoloss",
+"es": "Gigalith",
+"it": "Gigalith",
+"ja-jp": "ギガイアス",
+"zh-hans": "庞岩怪"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Gigalith",
+"LocalTexts": {
+"ja": "ギガイアス",
+"ko": "기가이어스",
+"zh-hant": "龐岩怪",
+"fr": "Gigalithe",
+"de": "Brockoloss",
+"es": "Gigalith",
+"it": "Gigalith",
+"ja-jp": "ギガイアス",
+"zh-hans": "庞岩怪"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 526
+},
+"glaceon": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Glaceon",
+"LocalTexts": {
+"ja": "グレイシア",
+"ko": "글레이시아",
+"zh-hant": "冰伊布",
+"fr": "Givrali",
+"de": "Glaziola",
+"es": "Glaceon",
+"it": "Glaceon",
+"ja-jp": "グレイシア",
+"zh-hans": "冰伊布"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Glaceon",
+"LocalTexts": {
+"ja": "グレイシア",
+"ko": "글레이시아",
+"zh-hant": "冰伊布",
+"fr": "Givrali",
+"de": "Glaziola",
+"es": "Glaceon",
+"it": "Glaceon",
+"ja-jp": "グレイシア",
+"zh-hans": "冰伊布"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 471
+},
+"glimmet": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Glimmet",
+"LocalTexts": {
+"ja": "キラーメ",
+"ko": "초롱순",
+"zh-hant": "晶光芽",
+"fr": "Germéclat",
+"de": "Lumispross",
+"ja-jp": "キラーメ",
+"zh-hans": "晶光芽"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Glimmet",
+"LocalTexts": {
+"ja": "キラーメ",
+"ko": "초롱순",
+"zh-hant": "晶光芽",
+"fr": "Germéclat",
+"de": "Lumispross",
+"ja-jp": "キラーメ",
+"zh-hans": "晶光芽"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 969
+},
+"glimmora": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Glimmora",
+"LocalTexts": {
+"ja": "キラフロル",
+"ko": "킬라플로르",
+"zh-hant": "晶光花",
+"fr": "Floréclat",
+"de": "Lumiflora",
+"ja-jp": "キラフロル",
+"zh-hans": "晶光花"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Glimmora",
+"LocalTexts": {
+"ja": "キラフロル",
+"ko": "킬라플로르",
+"zh-hant": "晶光花",
+"fr": "Floréclat",
+"de": "Lumiflora",
+"ja-jp": "キラフロル",
+"zh-hans": "晶光花"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 970
+},
 "golem": {
 "$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
 "Forms": [
@@ -59,6 +2287,99 @@
 "Released": true,
 "Comment": "",
 "SortOrder": 76
+},
+"goodra": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Goodra",
+"LocalTexts": {
+"ja": "ヌメルゴン",
+"ko": "미끄래곤",
+"zh-hant": "黏美龍",
+"fr": "Muplodocus",
+"de": "Viscogon",
+"es": "Goodra",
+"it": "Goodra",
+"ja-jp": "ヌメルゴン",
+"zh-hans": "黏美龙"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Hisuian Goodra",
+"LocalTexts": {
+"ja": "",
+"fr": "Muplodocus de Hisui",
+"de": "Hisui Viscogon",
+"ja-jp": ""
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Goodra",
+"LocalTexts": {
+"ja": "ヌメルゴン",
+"ko": "미끄래곤",
+"zh-hant": "黏美龍",
+"fr": "Muplodocus",
+"de": "Viscogon",
+"es": "Goodra",
+"it": "Goodra",
+"ja-jp": "ヌメルゴン",
+"zh-hans": "黏美龙"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 706
+},
+"goomy": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Goomy",
+"LocalTexts": {
+"ja": "ヌメラ",
+"ko": "미끄메라",
+"zh-hant": "黏黏寶",
+"fr": "Mucuscule",
+"de": "Viscora",
+"es": "Goomy",
+"it": "Goomy",
+"ja-jp": "ヌメラ",
+"zh-hans": "黏黏宝"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Goomy",
+"LocalTexts": {
+"ja": "ヌメラ",
+"ko": "미끄메라",
+"zh-hant": "黏黏寶",
+"fr": "Mucuscule",
+"de": "Viscora",
+"es": "Goomy",
+"it": "Goomy",
+"ja-jp": "ヌメラ",
+"zh-hans": "黏黏宝"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 704
 },
 "graveler": {
 "$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
@@ -118,22 +2439,22 @@
 "Comment": "",
 "SortOrder": 75
 },
-"houndoom": {
+"grimmsnarl": {
 "$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
 "Forms": [
 {
 "Name": {
-"DefaultText": "Houndoom",
+"DefaultText": "Grimmsnarl",
 "LocalTexts": {
-"ja": "ヘルガー",
-"ko": "헬가",
-"zh-hant": "黑魯加",
-"fr": "Démolosse",
-"de": "Hundemon",
-"es": "Houndoom",
-"it": "Houndoom",
-"ja-jp": "ヘルガー",
-"zh-hans": "黑鲁加"
+"ja": "オーロンゲ",
+"ko": "오롱털",
+"zh-hant": "長毛巨魔",
+"fr": "Angoliath",
+"de": "Olangaar",
+"es": "Grimmsnarl",
+"it": "Grimmsnarl",
+"ja-jp": "オーロンゲ",
+"zh-hans": "长毛巨魔"
 }
 },
 "Released": true,
@@ -141,13 +2462,2080 @@
 },
 {
 "Name": {
-"DefaultText": "Mega Houndoom",
+"DefaultText": "Gigantamax Grimmsnarl",
+"LocalTexts": {
+"fr": "Angoliath Gigamax",
+"de": "Gigadynamax-Olangaar"
+}
+},
+"Released": false,
+"Temporary": true
+}
+],
+"Name": {
+"DefaultText": "Grimmsnarl",
+"LocalTexts": {
+"ja": "オーロンゲ",
+"ko": "오롱털",
+"zh-hant": "長毛巨魔",
+"fr": "Angoliath",
+"de": "Olangaar",
+"es": "Grimmsnarl",
+"it": "Grimmsnarl",
+"ja-jp": "オーロンゲ",
+"zh-hans": "长毛巨魔"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 861
+},
+"guzzlord": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Guzzlord",
+"LocalTexts": {
+"ja": "アクジキング",
+"ko": "악식킹",
+"zh-hant": "惡食大王",
+"fr": "Engloutyran",
+"de": "Schlingking",
+"es": "Guzzlord",
+"it": "Guzzlord",
+"ja-jp": "アクジキング",
+"zh-hans": "恶食大王"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Guzzlord",
+"LocalTexts": {
+"ja": "アクジキング",
+"ko": "악식킹",
+"zh-hant": "惡食大王",
+"fr": "Engloutyran",
+"de": "Schlingking",
+"es": "Guzzlord",
+"it": "Guzzlord",
+"ja-jp": "アクジキング",
+"zh-hans": "恶食大王"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 799
+},
+"gyarados": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Gyarados",
+"LocalTexts": {
+"ja": "ギャラドス",
+"ko": "갸라도스",
+"zh-hant": "暴鯉龍",
+"fr": "Léviator",
+"de": "Garados",
+"es": "Gyarados",
+"it": "Gyarados",
+"ja-jp": "ギャラドス",
+"zh-hans": "暴鲤龙"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Mega Gyarados",
 "LocalTexts": {
 "ja": "",
 "ko": "",
 "zh-hant": "",
-"fr": "Méga-Démolosse",
-"de": "Mega-Hundemon",
+"fr": "Méga-Léviator",
+"de": "Mega-Garados",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": false,
+"Temporary": true
+}
+],
+"Name": {
+"DefaultText": "Gyarados",
+"LocalTexts": {
+"ja": "ギャラドス",
+"ko": "갸라도스",
+"zh-hant": "暴鯉龍",
+"fr": "Léviator",
+"de": "Garados",
+"es": "Gyarados",
+"it": "Gyarados",
+"ja-jp": "ギャラドス",
+"zh-hans": "暴鲤龙"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 130
+},
+"haunter": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Haunter",
+"LocalTexts": {
+"ja": "ゴースト",
+"ko": "고우스트",
+"zh-hant": "鬼斯通",
+"fr": "Spectrum",
+"de": "Alpollo",
+"es": "Haunter",
+"it": "Haunter",
+"ja-jp": "ゴースト",
+"zh-hans": "鬼斯通"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Haunter",
+"LocalTexts": {
+"ja": "ゴースト",
+"ko": "고우스트",
+"zh-hant": "鬼斯通",
+"fr": "Spectrum",
+"de": "Alpollo",
+"es": "Haunter",
+"it": "Haunter",
+"ja-jp": "ゴースト",
+"zh-hans": "鬼斯通"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 93
+},
+"hippopotas": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Hippopotas",
+"LocalTexts": {
+"ja": "ヒポポタス",
+"ko": "히포포타스",
+"zh-hant": "沙河馬",
+"fr": "Hippopotas",
+"de": "Hippopotas",
+"es": "Hippopotas",
+"it": "Hippopotas",
+"ja-jp": "ヒポポタス",
+"zh-hans": "沙河马"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Hippopotas",
+"LocalTexts": {
+"ja": "ヒポポタス",
+"ko": "히포포타스",
+"zh-hant": "沙河馬",
+"fr": "Hippopotas",
+"de": "Hippopotas",
+"es": "Hippopotas",
+"it": "Hippopotas",
+"ja-jp": "ヒポポタス",
+"zh-hans": "沙河马"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 449
+},
+"hippowdon": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Hippowdon",
+"LocalTexts": {
+"ja": "カバルドン",
+"ko": "하마돈",
+"zh-hant": "河馬獸",
+"fr": "Hippodocus",
+"de": "Hippoterus",
+"es": "Hippowdon",
+"it": "Hippowdon",
+"ja-jp": "カバルドン",
+"zh-hans": "河马兽"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Hippowdon",
+"LocalTexts": {
+"ja": "カバルドン",
+"ko": "하마돈",
+"zh-hant": "河馬獸",
+"fr": "Hippodocus",
+"de": "Hippoterus",
+"es": "Hippowdon",
+"it": "Hippowdon",
+"ja-jp": "カバルドン",
+"zh-hans": "河马兽"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 450
+},
+"ho_oh": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Ho-Oh",
+"LocalTexts": {
+"ja": "ホウオウ",
+"ko": "칠색조",
+"zh-hant": "鳳王",
+"fr": "Ho-Oh",
+"de": "Ho-Oh",
+"es": "Ho-Oh",
+"it": "Ho-Oh",
+"ja-jp": "ホウオウ",
+"zh-hans": "凤王"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Ho-Oh",
+"LocalTexts": {
+"ja": "ホウオウ",
+"ko": "칠색조",
+"zh-hant": "鳳王",
+"fr": "Ho-Oh",
+"de": "Ho-Oh",
+"es": "Ho-Oh",
+"it": "Ho-Oh",
+"ja-jp": "ホウオウ",
+"zh-hans": "凤王"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 250
+},
+"impidimp": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Impidimp",
+"LocalTexts": {
+"ja": "ベロバー",
+"ko": "메롱꿍",
+"zh-hant": "搗蛋小妖",
+"fr": "Grimalin",
+"de": "Bähmon",
+"es": "Impidimp",
+"it": "Impidimp",
+"ja-jp": "ベロバー",
+"zh-hans": "捣蛋小妖"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Impidimp",
+"LocalTexts": {
+"ja": "ベロバー",
+"ko": "메롱꿍",
+"zh-hant": "搗蛋小妖",
+"fr": "Grimalin",
+"de": "Bähmon",
+"es": "Impidimp",
+"it": "Impidimp",
+"ja-jp": "ベロバー",
+"zh-hans": "捣蛋小妖"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 859
+},
+"infernape": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Infernape",
+"LocalTexts": {
+"ja": "ゴウカザル",
+"ko": "초염몽",
+"zh-hant": "烈焰猴",
+"fr": "Simiabraz",
+"de": "Panferno",
+"es": "Infernape",
+"it": "Infernape",
+"ja-jp": "ゴウカザル",
+"zh-hans": "烈焰猴"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Infernape",
+"LocalTexts": {
+"ja": "ゴウカザル",
+"ko": "초염몽",
+"zh-hant": "烈焰猴",
+"fr": "Simiabraz",
+"de": "Panferno",
+"es": "Infernape",
+"it": "Infernape",
+"ja-jp": "ゴウカザル",
+"zh-hans": "烈焰猴"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 392
+},
+"kingler": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Kingler",
+"LocalTexts": {
+"ja": "キングラー",
+"ko": "킹크랩",
+"zh-hant": "巨鉗蟹",
+"fr": "Krabboss",
+"de": "Kingler",
+"es": "Kingler",
+"it": "Kingler",
+"ja-jp": "キングラー",
+"zh-hans": "巨钳蟹"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Gigantamax Kingler",
+"LocalTexts": {
+"fr": "Leviator Gigamax",
+"de": "Gigadynamax-Kingler"
+}
+},
+"Released": false,
+"Temporary": true
+}
+],
+"Name": {
+"DefaultText": "Kingler",
+"LocalTexts": {
+"ja": "キングラー",
+"ko": "킹크랩",
+"zh-hant": "巨鉗蟹",
+"fr": "Krabboss",
+"de": "Kingler",
+"es": "Kingler",
+"it": "Kingler",
+"ja-jp": "キングラー",
+"zh-hans": "巨钳蟹"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 99
+},
+"klink": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Klink",
+"LocalTexts": {
+"ja": "ギアル",
+"ko": "기어르",
+"zh-hant": "齒輪兒",
+"fr": "Tic",
+"de": "Klikk",
+"es": "Klink",
+"it": "Klink",
+"ja-jp": "ギアル",
+"zh-hans": "齿轮儿"
+}
+},
+"Released": false,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Klink",
+"LocalTexts": {
+"ja": "ギアル",
+"ko": "기어르",
+"zh-hant": "齒輪兒",
+"fr": "Tic",
+"de": "Klikk",
+"es": "Klink",
+"it": "Klink",
+"ja-jp": "ギアル",
+"zh-hans": "齿轮儿"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 599
+},
+"krabby": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Krabby",
+"LocalTexts": {
+"ja": "クラブ",
+"ko": "크랩",
+"zh-hant": "大鉗蟹",
+"fr": "Krabby",
+"de": "Krabby",
+"es": "Krabby",
+"it": "Krabby",
+"ja-jp": "クラブ",
+"zh-hans": "大钳蟹"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Krabby",
+"LocalTexts": {
+"ja": "クラブ",
+"ko": "크랩",
+"zh-hant": "大鉗蟹",
+"fr": "Krabby",
+"de": "Krabby",
+"es": "Krabby",
+"it": "Krabby",
+"ja-jp": "クラブ",
+"zh-hans": "大钳蟹"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 98
+},
+"krokorok": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Krokorok",
+"LocalTexts": {
+"ja": "ワルビル",
+"ko": "악비르",
+"zh-hant": "混混鱷",
+"fr": "Escroco",
+"de": "Rokkaiman",
+"es": "Krokorok",
+"it": "Krokorok",
+"ja-jp": "ワルビル",
+"zh-hans": "混混鳄"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Krokorok",
+"LocalTexts": {
+"ja": "ワルビル",
+"ko": "악비르",
+"zh-hant": "混混鱷",
+"fr": "Escroco",
+"de": "Rokkaiman",
+"es": "Krokorok",
+"it": "Krokorok",
+"ja-jp": "ワルビル",
+"zh-hans": "混混鳄"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 552
+},
+"krookodile": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Krookodile",
+"LocalTexts": {
+"ja": "ワルビアル",
+"ko": "악비아르",
+"zh-hant": "流氓鱷",
+"fr": "Crocorible",
+"de": "Rabigator",
+"es": "Krookodile",
+"it": "Krookodile",
+"ja-jp": "ワルビアル",
+"zh-hans": "流氓鳄"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Krookodile",
+"LocalTexts": {
+"ja": "ワルビアル",
+"ko": "악비아르",
+"zh-hant": "流氓鱷",
+"fr": "Crocorible",
+"de": "Rabigator",
+"es": "Krookodile",
+"it": "Krookodile",
+"ja-jp": "ワルビアル",
+"zh-hans": "流氓鳄"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 553
+},
+"lampent": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Lampent",
+"LocalTexts": {
+"ja": "ランプラー",
+"ko": "램프라",
+"zh-hant": "燈火幽靈",
+"fr": "Mélancolux",
+"de": "Laternecto",
+"es": "Lampent",
+"it": "Lampent",
+"ja-jp": "ランプラー",
+"zh-hans": "灯火幽灵"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Lampent",
+"LocalTexts": {
+"ja": "ランプラー",
+"ko": "램프라",
+"zh-hant": "燈火幽靈",
+"fr": "Mélancolux",
+"de": "Laternecto",
+"es": "Lampent",
+"it": "Lampent",
+"ja-jp": "ランプラー",
+"zh-hans": "灯火幽灵"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 608
+},
+"landorus": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Incarnate Landorus",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Démétéros Avatar",
+"de": "Demeteros",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Therian Landorus",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Démétéros Totémique",
+"de": "Demeteros (Tiergeist)",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Landorus",
+"LocalTexts": {
+"ja": "ランドロス",
+"ko": "랜드로스",
+"zh-hant": "土地雲",
+"fr": "Démétéros",
+"de": "Demeteros",
+"es": "Landorus",
+"it": "Landorus",
+"ja-jp": "ランドロス",
+"zh-hans": "土地云"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 645
+},
+"larvitar": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Larvitar",
+"LocalTexts": {
+"ja": "ヨーギラス",
+"ko": "애버라스",
+"zh-hant": "幼基拉斯",
+"fr": "Embrylex",
+"de": "Larvitar",
+"es": "Larvitar",
+"it": "Larvitar",
+"ja-jp": "ヨーギラス",
+"zh-hans": "幼基拉斯"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Larvitar",
+"LocalTexts": {
+"ja": "ヨーギラス",
+"ko": "애버라스",
+"zh-hant": "幼基拉斯",
+"fr": "Embrylex",
+"de": "Larvitar",
+"es": "Larvitar",
+"it": "Larvitar",
+"ja-jp": "ヨーギラス",
+"zh-hans": "幼基拉斯"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 246
+},
+"litwick": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Litwick",
+"LocalTexts": {
+"ja": "ヒトモシ",
+"ko": "불켜미",
+"zh-hant": "燭光靈",
+"fr": "Funécire",
+"de": "Lichtel",
+"es": "Litwick",
+"it": "Litwick",
+"ja-jp": "ヒトモシ",
+"zh-hans": "烛光灵"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Litwick",
+"LocalTexts": {
+"ja": "ヒトモシ",
+"ko": "불켜미",
+"zh-hant": "燭光靈",
+"fr": "Funécire",
+"de": "Lichtel",
+"es": "Litwick",
+"it": "Litwick",
+"ja-jp": "ヒトモシ",
+"zh-hans": "烛光灵"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 607
+},
+"loudred": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Loudred",
+"LocalTexts": {
+"ja": "ドゴーム",
+"ko": "노공룡",
+"zh-hant": "吼爆彈",
+"fr": "Ramboum",
+"de": "Krakeelo",
+"es": "Loudred",
+"it": "Loudred",
+"ja-jp": "ドゴーム",
+"zh-hans": "吼爆弹"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Loudred",
+"LocalTexts": {
+"ja": "ドゴーム",
+"ko": "노공룡",
+"zh-hant": "吼爆彈",
+"fr": "Ramboum",
+"de": "Krakeelo",
+"es": "Loudred",
+"it": "Loudred",
+"ja-jp": "ドゴーム",
+"zh-hans": "吼爆弹"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 294
+},
+"lunatone": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Lunatone",
+"LocalTexts": {
+"ja": "ルナトーン",
+"ko": "루나톤",
+"zh-hant": "月石",
+"fr": "Séléroc",
+"de": "Lunastein",
+"es": "Lunatone",
+"it": "Lunatone",
+"ja-jp": "ルナトーン",
+"zh-hans": "月石"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Lunatone",
+"LocalTexts": {
+"ja": "ルナトーン",
+"ko": "루나톤",
+"zh-hant": "月石",
+"fr": "Séléroc",
+"de": "Lunastein",
+"es": "Lunatone",
+"it": "Lunatone",
+"ja-jp": "ルナトーン",
+"zh-hans": "月石"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 337
+},
+"lycanroc": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Midday Lycanroc",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "",
+"de": "Wolwerock (Tag)",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Midnight Lycanroc",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Lougaroc Forme Nocturne",
+"de": "Wolwerock (Nacht)",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Dusk Lycanroc",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Lougaroc Forme Crépusculaire",
+"de": "Wolwerock (Zwielicht)",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Lycanroc",
+"LocalTexts": {
+"ja": "ルガルガン",
+"ko": "루가루암",
+"zh-hant": "鬃岩狼人",
+"fr": "Lougaroc",
+"de": "Wolwerock",
+"es": "Lycanroc",
+"it": "Lycanroc",
+"ja-jp": "ルガルガン",
+"zh-hans": "鬃岩狼人"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 745
+},
+"mamoswine": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Mamoswine",
+"LocalTexts": {
+"ja": "マンムー",
+"ko": "맘모꾸리",
+"zh-hant": "象牙豬",
+"fr": "Mammochon",
+"de": "Mamutel",
+"es": "Mamoswine",
+"it": "Mamoswine",
+"ja-jp": "マンムー",
+"zh-hans": "象牙猪"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Mamoswine",
+"LocalTexts": {
+"ja": "マンムー",
+"ko": "맘모꾸리",
+"zh-hant": "象牙豬",
+"fr": "Mammochon",
+"de": "Mamutel",
+"es": "Mamoswine",
+"it": "Mamoswine",
+"ja-jp": "マンムー",
+"zh-hans": "象牙猪"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 473
+},
+"marshtomp": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Marshtomp",
+"LocalTexts": {
+"ja": "ヌマクロー",
+"ko": "늪짱이",
+"zh-hant": "沼躍魚",
+"fr": "Flobio",
+"de": "Moorabbel",
+"es": "Marshtomp",
+"it": "Marshtomp",
+"ja-jp": "ヌマクロー",
+"zh-hans": "沼跃鱼"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Marshtomp",
+"LocalTexts": {
+"ja": "ヌマクロー",
+"ko": "늪짱이",
+"zh-hant": "沼躍魚",
+"fr": "Flobio",
+"de": "Moorabbel",
+"es": "Marshtomp",
+"it": "Marshtomp",
+"ja-jp": "ヌマクロー",
+"zh-hans": "沼跃鱼"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 259
+},
+"medicham": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Medicham",
+"LocalTexts": {
+"ja": "チャーレム",
+"ko": "요가램",
+"zh-hant": "恰雷姆",
+"fr": "Charmina",
+"de": "Meditalis",
+"es": "Medicham",
+"it": "Medicham",
+"ja-jp": "チャーレム",
+"zh-hans": "恰雷姆"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Mega Medicham",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Méga-Charmina",
+"de": "Mega-Meditalis",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": false,
+"Temporary": true
+}
+],
+"Name": {
+"DefaultText": "Medicham",
+"LocalTexts": {
+"ja": "チャーレム",
+"ko": "요가램",
+"zh-hant": "恰雷姆",
+"fr": "Charmina",
+"de": "Meditalis",
+"es": "Medicham",
+"it": "Medicham",
+"ja-jp": "チャーレム",
+"zh-hans": "恰雷姆"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 308
+},
+"meditite": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Meditite",
+"LocalTexts": {
+"ja": "アサナン",
+"ko": "요가랑",
+"zh-hant": "瑪沙那",
+"fr": "Méditikka",
+"de": "Meditie",
+"es": "Meditite",
+"it": "Meditite",
+"ja-jp": "アサナン",
+"zh-hans": "玛沙那"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Meditite",
+"LocalTexts": {
+"ja": "アサナン",
+"ko": "요가랑",
+"zh-hant": "瑪沙那",
+"fr": "Méditikka",
+"de": "Meditie",
+"es": "Meditite",
+"it": "Meditite",
+"ja-jp": "アサナン",
+"zh-hans": "玛沙那"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 307
+},
+"misdreavus": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Misdreavus",
+"LocalTexts": {
+"ja": "ムウマ",
+"ko": "무우마",
+"zh-hant": "夢妖",
+"fr": "Feuforêve",
+"de": "Traunfugil",
+"es": "Misdreavus",
+"it": "Misdreavus",
+"ja-jp": "ムウマ",
+"zh-hans": "梦妖"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Misdreavus",
+"LocalTexts": {
+"ja": "ムウマ",
+"ko": "무우마",
+"zh-hant": "夢妖",
+"fr": "Feuforêve",
+"de": "Traunfugil",
+"es": "Misdreavus",
+"it": "Misdreavus",
+"ja-jp": "ムウマ",
+"zh-hans": "梦妖"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 200
+},
+"mismagius": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Mismagius",
+"LocalTexts": {
+"ja": "ムウマージ",
+"ko": "무우마직",
+"zh-hant": "夢妖魔",
+"fr": "Magirêve",
+"de": "Traunmagil",
+"es": "Mismagius",
+"it": "Mismagius",
+"ja-jp": "ムウマージ",
+"zh-hans": "梦妖魔"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Mismagius",
+"LocalTexts": {
+"ja": "ムウマージ",
+"ko": "무우마직",
+"zh-hant": "夢妖魔",
+"fr": "Magirêve",
+"de": "Traunmagil",
+"es": "Mismagius",
+"it": "Mismagius",
+"ja-jp": "ムウマージ",
+"zh-hans": "梦妖魔"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 429
+},
+"monferno": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Monferno",
+"LocalTexts": {
+"ja": "モウカザル",
+"ko": "파이숭이",
+"zh-hant": "猛火猴",
+"fr": "Chimpenfeu",
+"de": "Panpyro",
+"es": "Monferno",
+"it": "Monferno",
+"ja-jp": "モウカザル",
+"zh-hans": "猛火猴"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Monferno",
+"LocalTexts": {
+"ja": "モウカザル",
+"ko": "파이숭이",
+"zh-hant": "猛火猴",
+"fr": "Chimpenfeu",
+"de": "Panpyro",
+"es": "Monferno",
+"it": "Monferno",
+"ja-jp": "モウカザル",
+"zh-hans": "猛火猴"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 391
+},
+"morgrem": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Morgrem",
+"LocalTexts": {
+"ja": "ギモー",
+"ko": "쏘겨모",
+"zh-hant": "詐唬魔",
+"fr": "Fourbelin",
+"de": "Pelzebub",
+"es": "Morgrem",
+"it": "Morgrem",
+"ja-jp": "ギモー",
+"zh-hans": "诈唬魔"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Morgrem",
+"LocalTexts": {
+"ja": "ギモー",
+"ko": "쏘겨모",
+"zh-hant": "詐唬魔",
+"fr": "Fourbelin",
+"de": "Pelzebub",
+"es": "Morgrem",
+"it": "Morgrem",
+"ja-jp": "ギモー",
+"zh-hans": "诈唬魔"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 860
+},
+"mudbray": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Mudbray",
+"LocalTexts": {
+"ja": "ドロバンコ",
+"ko": "머드나기",
+"zh-hant": "泥驢仔",
+"fr": "Tiboudet",
+"de": "Pampuli",
+"es": "Mudbray",
+"it": "Mudbray",
+"ja-jp": "ドロバンコ",
+"zh-hans": "泥驴仔"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Mudbray",
+"LocalTexts": {
+"ja": "ドロバンコ",
+"ko": "머드나기",
+"zh-hant": "泥驢仔",
+"fr": "Tiboudet",
+"de": "Pampuli",
+"es": "Mudbray",
+"it": "Mudbray",
+"ja-jp": "ドロバンコ",
+"zh-hans": "泥驴仔"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 749
+},
+"mudkip": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Mudkip",
+"LocalTexts": {
+"ja": "ミズゴロウ",
+"ko": "물짱이",
+"zh-hant": "水躍魚",
+"fr": "Gobou",
+"de": "Hydropi",
+"es": "Mudkip",
+"it": "Mudkip",
+"ja-jp": "ミズゴロウ",
+"zh-hans": "水跃鱼"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Mudkip",
+"LocalTexts": {
+"ja": "ミズゴロウ",
+"ko": "물짱이",
+"zh-hant": "水躍魚",
+"fr": "Gobou",
+"de": "Hydropi",
+"es": "Mudkip",
+"it": "Mudkip",
+"ja-jp": "ミズゴロウ",
+"zh-hans": "水跃鱼"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 258
+},
+"nacli": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Nacli",
+"LocalTexts": {
+"ja": "コジオ",
+"ko": "베베솔트",
+"zh-hant": "鹽石寶",
+"fr": "Selutin",
+"de": "Geosali",
+"ja-jp": "コジオ",
+"zh-hans": "盐石宝"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Nacli",
+"LocalTexts": {
+"ja": "コジオ",
+"ko": "베베솔트",
+"zh-hant": "鹽石寶",
+"fr": "Selutin",
+"de": "Geosali",
+"ja-jp": "コジオ",
+"zh-hans": "盐石宝"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 932
+},
+"naclstack": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Naclstack",
+"LocalTexts": {
+"ja": "ジオヅム",
+"ko": "스태솔트",
+"zh-hant": "鹽石壘",
+"fr": "Amassel",
+"de": "Sedisal",
+"ja-jp": "ジオヅム",
+"zh-hans": "盐石垒"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Naclstack",
+"LocalTexts": {
+"ja": "ジオヅム",
+"ko": "스태솔트",
+"zh-hant": "鹽石壘",
+"fr": "Amassel",
+"de": "Sedisal",
+"ja-jp": "ジオヅム",
+"zh-hans": "盐石垒"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 933
+},
+"ninetales": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Ninetales",
+"LocalTexts": {
+"ja": "キュウコン",
+"ko": "나인테일",
+"zh-hant": "九尾",
+"fr": "Feunard",
+"de": "Vulnona",
+"es": "Ninetales",
+"it": "Ninetales",
+"ja-jp": "キュウコン",
+"zh-hans": "九尾"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Alolan Ninetales",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Feunard d'Alola",
+"de": "Alola Vulnona",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Ninetales",
+"LocalTexts": {
+"ja": "キュウコン",
+"ko": "나인테일",
+"zh-hant": "九尾",
+"fr": "Feunard",
+"de": "Vulnona",
+"es": "Ninetales",
+"it": "Ninetales",
+"ja-jp": "キュウコン",
+"zh-hans": "九尾"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 38
+},
+"omanyte": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Omanyte",
+"LocalTexts": {
+"ja": "オムナイト",
+"ko": "암나이트",
+"zh-hant": "菊石獸",
+"fr": "Amonita",
+"de": "Amonitas",
+"es": "Omanyte",
+"it": "Omanyte",
+"ja-jp": "オムナイト",
+"zh-hans": "菊石兽"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Omanyte",
+"LocalTexts": {
+"ja": "オムナイト",
+"ko": "암나이트",
+"zh-hant": "菊石獸",
+"fr": "Amonita",
+"de": "Amonitas",
+"es": "Omanyte",
+"it": "Omanyte",
+"ja-jp": "オムナイト",
+"zh-hans": "菊石兽"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 138
+},
+"omastar": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Omastar",
+"LocalTexts": {
+"ja": "オムスター",
+"ko": "암스타",
+"zh-hant": "多刺菊石獸",
+"fr": "Amonistar",
+"de": "Amoroso",
+"es": "Omastar",
+"it": "Omastar",
+"ja-jp": "オムスター",
+"zh-hans": "多刺菊石兽"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Omastar",
+"LocalTexts": {
+"ja": "オムスター",
+"ko": "암스타",
+"zh-hant": "多刺菊石獸",
+"fr": "Amonistar",
+"de": "Amoroso",
+"es": "Omastar",
+"it": "Omastar",
+"ja-jp": "オムスター",
+"zh-hans": "多刺菊石兽"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 139
+},
+"onix": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Onix",
+"LocalTexts": {
+"ja": "イワーク",
+"ko": "롱스톤",
+"zh-hant": "大岩蛇",
+"fr": "Onix",
+"de": "Onix",
+"es": "Onix",
+"it": "Onix",
+"ja-jp": "イワーク",
+"zh-hans": "大岩蛇"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Onix",
+"LocalTexts": {
+"ja": "イワーク",
+"ko": "롱스톤",
+"zh-hant": "大岩蛇",
+"fr": "Onix",
+"de": "Onix",
+"es": "Onix",
+"it": "Onix",
+"ja-jp": "イワーク",
+"zh-hans": "大岩蛇"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 95
+},
+"palossand": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Palossand",
+"LocalTexts": {
+"ja": "シロデスナ",
+"ko": "모래성이당",
+"zh-hant": "噬沙堡爺",
+"fr": "Trépassable",
+"de": "Colossand",
+"es": "Palossand",
+"it": "Palossand",
+"ja-jp": "シロデスナ",
+"zh-hans": "噬沙堡爷"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Palossand",
+"LocalTexts": {
+"ja": "シロデスナ",
+"ko": "모래성이당",
+"zh-hant": "噬沙堡爺",
+"fr": "Trépassable",
+"de": "Colossand",
+"es": "Palossand",
+"it": "Palossand",
+"ja-jp": "シロデスナ",
+"zh-hans": "噬沙堡爷"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 770
+},
+"pichu": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Pichu",
+"LocalTexts": {
+"ja": "ピチュー",
+"ko": "피츄",
+"zh-hant": "皮丘",
+"fr": "Pichu",
+"de": "Pichu",
+"es": "Pichu",
+"it": "Pichu",
+"ja-jp": "ピチュー",
+"zh-hans": "皮丘"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Pichu",
+"LocalTexts": {
+"ja": "ピチュー",
+"ko": "피츄",
+"zh-hant": "皮丘",
+"fr": "Pichu",
+"de": "Pichu",
+"es": "Pichu",
+"it": "Pichu",
+"ja-jp": "ピチュー",
+"zh-hans": "皮丘"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 172
+},
+"pikachu": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Pikachu",
+"LocalTexts": {
+"ja": "ピカチュウ",
+"ko": "피카츄",
+"zh-hant": "皮卡丘",
+"fr": "Pikachu",
+"de": "Pikachu",
+"es": "Pikachu",
+"it": "Pikachu",
+"ja-jp": "ピカチュウ",
+"zh-hans": "皮卡丘"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Gigantamax Pikachu",
+"LocalTexts": {
+"fr": "Pikachu Gigamax",
+"de": "Gigadynamax-Pikachu"
+}
+},
+"Released": false,
+"Temporary": true
+}
+],
+"Name": {
+"DefaultText": "Pikachu",
+"LocalTexts": {
+"ja": "ピカチュウ",
+"ko": "피카츄",
+"zh-hant": "皮卡丘",
+"fr": "Pikachu",
+"de": "Pikachu",
+"es": "Pikachu",
+"it": "Pikachu",
+"ja-jp": "ピカチュウ",
+"zh-hans": "皮卡丘"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 25
+},
+"piloswine": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Piloswine",
+"LocalTexts": {
+"ja": "イノムー",
+"ko": "메꾸리",
+"zh-hant": "長毛豬",
+"fr": "Cochignon",
+"de": "Keifel",
+"es": "Piloswine",
+"it": "Piloswine",
+"ja-jp": "イノムー",
+"zh-hans": "长毛猪"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Piloswine",
+"LocalTexts": {
+"ja": "イノムー",
+"ko": "메꾸리",
+"zh-hant": "長毛豬",
+"fr": "Cochignon",
+"de": "Keifel",
+"es": "Piloswine",
+"it": "Piloswine",
+"ja-jp": "イノムー",
+"zh-hans": "长毛猪"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 221
+},
+"ponyta": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Ponyta",
+"LocalTexts": {
+"ja": "ポニータ",
+"ko": "포니타",
+"zh-hant": "小火馬",
+"fr": "Ponyta",
+"de": "Ponita",
+"es": "Ponyta",
+"it": "Ponyta",
+"ja-jp": "ポニータ",
+"zh-hans": "小火马"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Galarian Ponyta",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Ponyta de Galar",
+"de": "Galar Ponita",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Ponyta",
+"LocalTexts": {
+"ja": "ポニータ",
+"ko": "포니타",
+"zh-hant": "小火馬",
+"fr": "Ponyta",
+"de": "Ponita",
+"es": "Ponyta",
+"it": "Ponyta",
+"ja-jp": "ポニータ",
+"zh-hans": "小火马"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 77
+},
+"pupitar": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Pupitar",
+"LocalTexts": {
+"ja": "サナギラス",
+"ko": "데기라스",
+"zh-hant": "沙基拉斯",
+"fr": "Ymphect",
+"de": "Pupitar",
+"es": "Pupitar",
+"it": "Pupitar",
+"ja-jp": "サナギラス",
+"zh-hans": "沙基拉斯"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Pupitar",
+"LocalTexts": {
+"ja": "サナギラス",
+"ko": "데기라스",
+"zh-hant": "沙基拉斯",
+"fr": "Ymphect",
+"de": "Pupitar",
+"es": "Pupitar",
+"it": "Pupitar",
+"ja-jp": "サナギラス",
+"zh-hans": "沙基拉斯"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 247
+},
+"quagsire": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Quagsire",
+"LocalTexts": {
+"ja": "ヌオー",
+"ko": "누오",
+"zh-hant": "沼王",
+"fr": "Maraiste",
+"de": "Morlord",
+"es": "Quagsire",
+"it": "Quagsire",
+"ja-jp": "ヌオー",
+"zh-hans": "沼王"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Quagsire",
+"LocalTexts": {
+"ja": "ヌオー",
+"ko": "누오",
+"zh-hant": "沼王",
+"fr": "Maraiste",
+"de": "Morlord",
+"es": "Quagsire",
+"it": "Quagsire",
+"ja-jp": "ヌオー",
+"zh-hans": "沼王"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 195
+},
+"quilava": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Quilava",
+"LocalTexts": {
+"ja": "マグマラシ",
+"ko": "마그케인",
+"zh-hant": "火岩鼠",
+"fr": "Feurisson",
+"de": "Igelavar",
+"es": "Quilava",
+"it": "Quilava",
+"ja-jp": "マグマラシ",
+"zh-hans": "火岩鼠"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Quilava",
+"LocalTexts": {
+"ja": "マグマラシ",
+"ko": "마그케인",
+"zh-hant": "火岩鼠",
+"fr": "Feurisson",
+"de": "Igelavar",
+"es": "Quilava",
+"it": "Quilava",
+"ja-jp": "マグマラシ",
+"zh-hans": "火岩鼠"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 156
+},
+"raichu": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Raichu",
+"LocalTexts": {
+"ja": "ライチュウ",
+"ko": "라이츄",
+"zh-hant": "雷丘",
+"fr": "Raichu",
+"de": "Raichu",
+"es": "Raichu",
+"it": "Raichu",
+"ja-jp": "ライチュウ",
+"zh-hans": "雷丘"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Alolan Raichu",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Raichu d'Alola",
+"de": "Alola Raichu",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Raichu",
+"LocalTexts": {
+"ja": "ライチュウ",
+"ko": "라이츄",
+"zh-hant": "雷丘",
+"fr": "Raichu",
+"de": "Raichu",
+"es": "Raichu",
+"it": "Raichu",
+"ja-jp": "ライチュウ",
+"zh-hans": "雷丘"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 26
+},
+"rapidash": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Rapidash",
+"LocalTexts": {
+"ja": "ギャロップ",
+"ko": "날쌩마",
+"zh-hant": "烈焰馬",
+"fr": "Galopa",
+"de": "Gallopa",
+"es": "Rapidash",
+"it": "Rapidash",
+"ja-jp": "ギャロップ",
+"zh-hans": "烈焰马"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Galarian Rapidash",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Galopa de Galar",
+"de": "Galar Gallopa",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Rapidash",
+"LocalTexts": {
+"ja": "ギャロップ",
+"ko": "날쌩마",
+"zh-hant": "烈焰馬",
+"fr": "Galopa",
+"de": "Gallopa",
+"es": "Rapidash",
+"it": "Rapidash",
+"ja-jp": "ギャロップ",
+"zh-hans": "烈焰马"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 78
+},
+"rayquaza": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Rayquaza",
+"LocalTexts": {
+"ja": "レックウザ",
+"ko": "레쿠쟈",
+"zh-hant": "烈空坐",
+"fr": "Rayquaza",
+"de": "Rayquaza",
+"es": "Rayquaza",
+"it": "Rayquaza",
+"ja-jp": "レックウザ",
+"zh-hans": "烈空坐"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Mega Rayquaza",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Méga-Rayquaza",
+"de": "Mega-Rayquaza",
 "es": "",
 "it": "",
 "ja-jp": "",
@@ -159,142 +4547,22 @@
 }
 ],
 "Name": {
-"DefaultText": "Houndoom",
+"DefaultText": "Rayquaza",
 "LocalTexts": {
-"ja": "ヘルガー",
-"ko": "헬가",
-"zh-hant": "黑魯加",
-"fr": "Démolosse",
-"de": "Hundemon",
-"es": "Houndoom",
-"it": "Houndoom",
-"ja-jp": "ヘルガー",
-"zh-hans": "黑鲁加"
+"ja": "レックウザ",
+"ko": "레쿠쟈",
+"zh-hant": "烈空坐",
+"fr": "Rayquaza",
+"de": "Rayquaza",
+"es": "Rayquaza",
+"it": "Rayquaza",
+"ja-jp": "レックウザ",
+"zh-hans": "烈空坐"
 }
 },
 "Released": true,
 "Comment": "",
-"SortOrder": 229
-},
-"houndour": {
-"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
-"Forms": [
-{
-"Name": {
-"DefaultText": "Houndour",
-"LocalTexts": {
-"ja": "デルビル",
-"ko": "델빌",
-"zh-hant": "戴魯比",
-"fr": "Malosse",
-"de": "Hunduster",
-"es": "Houndour",
-"it": "Houndour",
-"ja-jp": "デルビル",
-"zh-hans": "戴鲁比"
-}
-},
-"Released": true,
-"Temporary": false
-}
-],
-"Name": {
-"DefaultText": "Houndour",
-"LocalTexts": {
-"ja": "デルビル",
-"ko": "델빌",
-"zh-hant": "戴魯比",
-"fr": "Malosse",
-"de": "Hunduster",
-"es": "Houndour",
-"it": "Houndour",
-"ja-jp": "デルビル",
-"zh-hans": "戴鲁比"
-}
-},
-"Released": true,
-"Comment": "",
-"SortOrder": 228
-},
-"luxio": {
-"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
-"Forms": [
-{
-"Name": {
-"DefaultText": "Luxio",
-"LocalTexts": {
-"ja": "ルクシオ",
-"ko": "럭시오",
-"zh-hant": "勒克貓",
-"fr": "Luxio",
-"de": "Luxio",
-"es": "Luxio",
-"it": "Luxio",
-"ja-jp": "ルクシオ",
-"zh-hans": "勒克猫"
-}
-},
-"Released": true,
-"Temporary": false
-}
-],
-"Name": {
-"DefaultText": "Luxio",
-"LocalTexts": {
-"ja": "ルクシオ",
-"ko": "럭시오",
-"zh-hant": "勒克貓",
-"fr": "Luxio",
-"de": "Luxio",
-"es": "Luxio",
-"it": "Luxio",
-"ja-jp": "ルクシオ",
-"zh-hans": "勒克猫"
-}
-},
-"Released": true,
-"Comment": "",
-"SortOrder": 404
-},
-"luxray": {
-"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
-"Forms": [
-{
-"Name": {
-"DefaultText": "Luxray",
-"LocalTexts": {
-"ja": "レントラー",
-"ko": "렌트라",
-"zh-hant": "倫琴貓",
-"fr": "Luxray",
-"de": "Luxtra",
-"es": "Luxray",
-"it": "Luxray",
-"ja-jp": "レントラー",
-"zh-hans": "伦琴猫"
-}
-},
-"Released": true,
-"Temporary": false
-}
-],
-"Name": {
-"DefaultText": "Luxray",
-"LocalTexts": {
-"ja": "レントラー",
-"ko": "렌트라",
-"zh-hant": "倫琴貓",
-"fr": "Luxray",
-"de": "Luxtra",
-"es": "Luxray",
-"it": "Luxray",
-"ja-jp": "レントラー",
-"zh-hans": "伦琴猫"
-}
-},
-"Released": true,
-"Comment": "",
-"SortOrder": 405
+"SortOrder": 384
 },
 "regirock": {
 "$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
@@ -336,6 +4604,82 @@
 "Comment": "",
 "SortOrder": 377
 },
+"relicanth": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Relicanth",
+"LocalTexts": {
+"ja": "ジーランス",
+"ko": "시라칸",
+"zh-hant": "古空棘魚",
+"fr": "Relicanth",
+"de": "Relicanth",
+"es": "Relicanth",
+"it": "Relicanth",
+"ja-jp": "ジーランス",
+"zh-hans": "古空棘鱼"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Relicanth",
+"LocalTexts": {
+"ja": "ジーランス",
+"ko": "시라칸",
+"zh-hant": "古空棘魚",
+"fr": "Relicanth",
+"de": "Relicanth",
+"es": "Relicanth",
+"it": "Relicanth",
+"ja-jp": "ジーランス",
+"zh-hans": "古空棘鱼"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 369
+},
+"rellor": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Rellor",
+"LocalTexts": {
+"ja": "シガロコ",
+"ko": "구르데",
+"zh-hant": "蟲滾泥",
+"fr": "Léboulérou",
+"de": "Relluk",
+"ja-jp": "シガロコ",
+"zh-hans": "虫滚泥"
+}
+},
+"Released": false,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Rellor",
+"LocalTexts": {
+"ja": "シガロコ",
+"ko": "구르데",
+"zh-hant": "蟲滾泥",
+"fr": "Léboulérou",
+"de": "Relluk",
+"ja-jp": "シガロコ",
+"zh-hans": "虫滚泥"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 953
+},
 "rhydon": {
 "$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
 "Forms": [
@@ -375,6 +4719,46 @@
 "Released": true,
 "Comment": "",
 "SortOrder": 112
+},
+"rhyhorn": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Rhyhorn",
+"LocalTexts": {
+"ja": "サイホーン",
+"ko": "뿔카노",
+"zh-hant": "獨角犀牛",
+"fr": "Rhinocorne",
+"de": "Rihorn",
+"es": "Rhyhorn",
+"it": "Rhyhorn",
+"ja-jp": "サイホーン",
+"zh-hans": "独角犀牛"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Rhyhorn",
+"LocalTexts": {
+"ja": "サイホーン",
+"ko": "뿔카노",
+"zh-hant": "獨角犀牛",
+"fr": "Rhinocorne",
+"de": "Rihorn",
+"es": "Rhyhorn",
+"it": "Rhyhorn",
+"ja-jp": "サイホーン",
+"zh-hans": "独角犀牛"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 111
 },
 "rhyperior": {
 "$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
@@ -416,22 +4800,22 @@
 "Comment": "",
 "SortOrder": 464
 },
-"shinx": {
+"rockruff": {
 "$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
 "Forms": [
 {
 "Name": {
-"DefaultText": "Shinx",
+"DefaultText": "Rockruff",
 "LocalTexts": {
-"ja": "コリンク",
-"ko": "꼬링크",
-"zh-hant": "小貓怪",
-"fr": "Lixy",
-"de": "Sheinux",
-"es": "Shinx",
-"it": "Shinx",
-"ja-jp": "コリンク",
-"zh-hans": "小猫怪"
+"ja": "イワンコ",
+"ko": "암멍이",
+"zh-hant": "岩狗狗",
+"fr": "Rocabot",
+"de": "Wuffels",
+"es": "Rockruff",
+"it": "Rockruff",
+"ja-jp": "イワンコ",
+"zh-hans": "岩狗狗"
 }
 },
 "Released": true,
@@ -439,22 +4823,875 @@
 }
 ],
 "Name": {
-"DefaultText": "Shinx",
+"DefaultText": "Rockruff",
 "LocalTexts": {
-"ja": "コリンク",
-"ko": "꼬링크",
-"zh-hant": "小貓怪",
-"fr": "Lixy",
-"de": "Sheinux",
-"es": "Shinx",
-"it": "Shinx",
-"ja-jp": "コリンク",
-"zh-hans": "小猫怪"
+"ja": "イワンコ",
+"ko": "암멍이",
+"zh-hant": "岩狗狗",
+"fr": "Rocabot",
+"de": "Wuffels",
+"es": "Rockruff",
+"it": "Rockruff",
+"ja-jp": "イワンコ",
+"zh-hans": "岩狗狗"
 }
 },
 "Released": true,
 "Comment": "",
-"SortOrder": 403
+"SortOrder": 744
+},
+"roggenrola": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Roggenrola",
+"LocalTexts": {
+"ja": "ダンゴロ",
+"ko": "단굴",
+"zh-hant": "石丸子",
+"fr": "Nodulithe",
+"de": "Kiesling",
+"es": "Roggenrola",
+"it": "Roggenrola",
+"ja-jp": "ダンゴロ",
+"zh-hans": "石丸子"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Roggenrola",
+"LocalTexts": {
+"ja": "ダンゴロ",
+"ko": "단굴",
+"zh-hant": "石丸子",
+"fr": "Nodulithe",
+"de": "Kiesling",
+"es": "Roggenrola",
+"it": "Roggenrola",
+"ja-jp": "ダンゴロ",
+"zh-hans": "石丸子"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 524
+},
+"sandaconda": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Sandaconda",
+"LocalTexts": {
+"ja": "サダイジャ",
+"ko": "사다이사",
+"zh-hant": "沙螺蟒",
+"fr": "Dunaconda",
+"de": "Sanaconda",
+"es": "Sandaconda",
+"it": "Sandaconda",
+"ja-jp": "サダイジャ",
+"zh-hans": "沙螺蟒"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Gigantamax Sandaconda",
+"LocalTexts": {
+"fr": "Dunaconda",
+"de": "Gigadynamax-Sanaconda"
+}
+},
+"Released": false,
+"Temporary": true
+}
+],
+"Name": {
+"DefaultText": "Sandaconda",
+"LocalTexts": {
+"ja": "サダイジャ",
+"ko": "사다이사",
+"zh-hant": "沙螺蟒",
+"fr": "Dunaconda",
+"de": "Sanaconda",
+"es": "Sandaconda",
+"it": "Sandaconda",
+"ja-jp": "サダイジャ",
+"zh-hans": "沙螺蟒"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 844
+},
+"sandile": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Sandile",
+"LocalTexts": {
+"ja": "メグロコ",
+"ko": "깜눈크",
+"zh-hant": "黑眼鱷",
+"fr": "Mascaïman",
+"de": "Ganovil",
+"es": "Sandile",
+"it": "Sandile",
+"ja-jp": "メグロコ",
+"zh-hans": "黑眼鳄"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Sandile",
+"LocalTexts": {
+"ja": "メグロコ",
+"ko": "깜눈크",
+"zh-hant": "黑眼鱷",
+"fr": "Mascaïman",
+"de": "Ganovil",
+"es": "Sandile",
+"it": "Sandile",
+"ja-jp": "メグロコ",
+"zh-hans": "黑眼鳄"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 551
+},
+"sandshrew": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Sandshrew",
+"LocalTexts": {
+"ja": "サンド",
+"ko": "모래두지",
+"zh-hant": "穿山鼠",
+"fr": "Sabelette",
+"de": "Sandan",
+"es": "Sandshrew",
+"it": "Sandshrew",
+"ja-jp": "サンド",
+"zh-hans": "穿山鼠"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Alolan Sandshrew",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Sabelette d'Alola",
+"de": "Alola Sandan",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Sandshrew",
+"LocalTexts": {
+"ja": "サンド",
+"ko": "모래두지",
+"zh-hant": "穿山鼠",
+"fr": "Sabelette",
+"de": "Sandan",
+"es": "Sandshrew",
+"it": "Sandshrew",
+"ja-jp": "サンド",
+"zh-hans": "穿山鼠"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 27
+},
+"sandslash": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Sandslash",
+"LocalTexts": {
+"ja": "サンドパン",
+"ko": "고지",
+"zh-hant": "穿山王",
+"fr": "Sablaireau",
+"de": "Sandamer",
+"es": "Sandslash",
+"it": "Sandslash",
+"ja-jp": "サンドパン",
+"zh-hans": "穿山王"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Alolan Sandslash",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Sablaireau d'Alola",
+"de": "Alola Sandamer",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Sandslash",
+"LocalTexts": {
+"ja": "サンドパン",
+"ko": "고지",
+"zh-hant": "穿山王",
+"fr": "Sablaireau",
+"de": "Sandamer",
+"es": "Sandslash",
+"it": "Sandslash",
+"ja-jp": "サンドパン",
+"zh-hans": "穿山王"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 28
+},
+"sandygast": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Sandygast",
+"LocalTexts": {
+"ja": "スナバァ",
+"ko": "모래꿍",
+"zh-hant": "沙丘娃",
+"fr": "Bacabouh",
+"de": "Sankabuh",
+"es": "Sandygast",
+"it": "Sandygast",
+"ja-jp": "スナバァ",
+"zh-hans": "沙丘娃"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Sandygast",
+"LocalTexts": {
+"ja": "スナバァ",
+"ko": "모래꿍",
+"zh-hant": "沙丘娃",
+"fr": "Bacabouh",
+"de": "Sankabuh",
+"es": "Sandygast",
+"it": "Sandygast",
+"ja-jp": "スナバァ",
+"zh-hans": "沙丘娃"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 769
+},
+"shellos": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "West Shellos",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Sancoki Occident",
+"de": "Westliches Schalellos",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "East Shellos",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Sancoki Orient",
+"de": "Östliches Schalellos",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Shellos",
+"LocalTexts": {
+"ja": "カラナクシ",
+"ko": "깝질무",
+"zh-hant": "無殼海兔",
+"fr": "Sancoki",
+"de": "Schalellos",
+"es": "Shellos",
+"it": "Shellos",
+"ja-jp": "カラナクシ",
+"zh-hans": "无壳海兔"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 422
+},
+"silicobra": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Silicobra",
+"LocalTexts": {
+"ja": "スナヘビ",
+"ko": "모래뱀",
+"zh-hant": "沙包蛇",
+"fr": "Dunaja",
+"de": "Salanga",
+"es": "Silicobra",
+"it": "Silicobra",
+"ja-jp": "スナヘビ",
+"zh-hans": "沙包蛇"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Silicobra",
+"LocalTexts": {
+"ja": "スナヘビ",
+"ko": "모래뱀",
+"zh-hant": "沙包蛇",
+"fr": "Dunaja",
+"de": "Salanga",
+"es": "Silicobra",
+"it": "Silicobra",
+"ja-jp": "スナヘビ",
+"zh-hans": "沙包蛇"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 843
+},
+"sliggoo": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Sliggoo",
+"LocalTexts": {
+"ja": "ヌメイル",
+"ko": "미끄네일",
+"zh-hant": "黏美兒",
+"fr": "Colimucus",
+"de": "Viscargot",
+"es": "Sliggoo",
+"it": "Sliggoo",
+"ja-jp": "ヌメイル",
+"zh-hans": "黏美儿"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Hisuian Sliggoo",
+"LocalTexts": {
+"ja": "",
+"fr": "Colimucus de Hisui",
+"de": "Hisui Viscargot",
+"ja-jp": ""
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Sliggoo",
+"LocalTexts": {
+"ja": "ヌメイル",
+"ko": "미끄네일",
+"zh-hant": "黏美兒",
+"fr": "Colimucus",
+"de": "Viscargot",
+"es": "Sliggoo",
+"it": "Sliggoo",
+"ja-jp": "ヌメイル",
+"zh-hans": "黏美儿"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 705
+},
+"steelix": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Steelix",
+"LocalTexts": {
+"ja": "ハガネール",
+"ko": "강철톤",
+"zh-hant": "大鋼蛇",
+"fr": "Steelix",
+"de": "Stahlos",
+"es": "Steelix",
+"it": "Steelix",
+"ja-jp": "ハガネール",
+"zh-hans": "大钢蛇"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Mega Steelix",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Méga-Steelix",
+"de": "Mega-Stahlos",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": false,
+"Temporary": true
+}
+],
+"Name": {
+"DefaultText": "Steelix",
+"LocalTexts": {
+"ja": "ハガネール",
+"ko": "강철톤",
+"zh-hant": "大鋼蛇",
+"fr": "Steelix",
+"de": "Stahlos",
+"es": "Steelix",
+"it": "Steelix",
+"ja-jp": "ハガネール",
+"zh-hans": "大钢蛇"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 208
+},
+"swampert": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Swampert",
+"LocalTexts": {
+"ja": "ラグラージ",
+"ko": "대짱이",
+"zh-hant": "巨沼怪",
+"fr": "Laggron",
+"de": "Sumpex",
+"es": "Swampert",
+"it": "Swampert",
+"ja-jp": "ラグラージ",
+"zh-hans": "巨沼怪"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Mega Swampert",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Méga-Laggron",
+"de": "Mega-Sumpex",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": false,
+"Temporary": true
+}
+],
+"Name": {
+"DefaultText": "Swampert",
+"LocalTexts": {
+"ja": "ラグラージ",
+"ko": "대짱이",
+"zh-hant": "巨沼怪",
+"fr": "Laggron",
+"de": "Sumpex",
+"es": "Swampert",
+"it": "Swampert",
+"ja-jp": "ラグラージ",
+"zh-hans": "巨沼怪"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 260
+},
+"swinub": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Swinub",
+"LocalTexts": {
+"ja": "ウリムー",
+"ko": "꾸꾸리",
+"zh-hant": "小山豬",
+"fr": "Marcacrin",
+"de": "Quiekel",
+"es": "Swinub",
+"it": "Swinub",
+"ja-jp": "ウリムー",
+"zh-hans": "小山猪"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Swinub",
+"LocalTexts": {
+"ja": "ウリムー",
+"ko": "꾸꾸리",
+"zh-hant": "小山豬",
+"fr": "Marcacrin",
+"de": "Quiekel",
+"es": "Swinub",
+"it": "Swinub",
+"ja-jp": "ウリムー",
+"zh-hans": "小山猪"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 220
+},
+"tatsugiri": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Tatsugiri",
+"LocalTexts": {
+"ja": "シャリタツ",
+"ko": "싸리용",
+"zh-hant": "米立龍",
+"fr": "Nigirigon",
+"de": "Nigiragi",
+"ja-jp": "シャリタツ",
+"zh-hans": "米立龙"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Tatsugiri",
+"LocalTexts": {
+"ja": "シャリタツ",
+"ko": "싸리용",
+"zh-hant": "米立龍",
+"fr": "Nigirigon",
+"de": "Nigiragi",
+"ja-jp": "シャリタツ",
+"zh-hans": "米立龙"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Tatsugiri",
+"LocalTexts": {
+"ja": "シャリタツ",
+"ko": "싸리용",
+"zh-hant": "米立龍",
+"fr": "Nigirigon",
+"de": "Nigiragi",
+"ja-jp": "シャリタツ",
+"zh-hans": "米立龙"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Tatsugiri",
+"LocalTexts": {
+"ja": "シャリタツ",
+"ko": "싸리용",
+"zh-hant": "米立龍",
+"fr": "Nigirigon",
+"de": "Nigiragi",
+"ja-jp": "シャリタツ",
+"zh-hans": "米立龙"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 978
+},
+"tornadus": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Incarnate Tornadus",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Boréas Avatar",
+"de": "Boreos",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Therian Tornadus",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Boréas Totémique",
+"de": "Boreos (Tiergeist)",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": false,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Tornadus",
+"LocalTexts": {
+"ja": "トルネロス",
+"ko": "토네로스",
+"zh-hant": "龍捲雲",
+"fr": "Boréas",
+"de": "Boreos",
+"es": "Tornadus",
+"it": "Tornadus",
+"ja-jp": "トルネロス",
+"zh-hans": "龙卷云"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 641
+},
+"trapinch": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Trapinch",
+"LocalTexts": {
+"ja": "ナックラー",
+"ko": "톱치",
+"zh-hant": "大顎蟻",
+"fr": "Kraknoix",
+"de": "Knacklion",
+"es": "Trapinch",
+"it": "Trapinch",
+"ja-jp": "ナックラー",
+"zh-hans": "大颚蚁"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Trapinch",
+"LocalTexts": {
+"ja": "ナックラー",
+"ko": "톱치",
+"zh-hant": "大顎蟻",
+"fr": "Kraknoix",
+"de": "Knacklion",
+"es": "Trapinch",
+"it": "Trapinch",
+"ja-jp": "ナックラー",
+"zh-hans": "大颚蚁"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 328
+},
+"tynamo": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Tynamo",
+"LocalTexts": {
+"ja": "シビシラス",
+"ko": "저리어",
+"zh-hant": "麻麻小魚",
+"fr": "Anchwatt",
+"de": "Zapplardin",
+"es": "Tynamo",
+"it": "Tynamo",
+"ja-jp": "シビシラス",
+"zh-hans": "麻麻小鱼"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Tynamo",
+"LocalTexts": {
+"ja": "シビシラス",
+"ko": "저리어",
+"zh-hant": "麻麻小魚",
+"fr": "Anchwatt",
+"de": "Zapplardin",
+"es": "Tynamo",
+"it": "Tynamo",
+"ja-jp": "シビシラス",
+"zh-hans": "麻麻小鱼"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 602
+},
+"typhlosion": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Typhlosion",
+"LocalTexts": {
+"ja": "バクフーン",
+"ko": "블레이범",
+"zh-hant": "火爆獸",
+"fr": "Typhlosion",
+"de": "Tornupto",
+"es": "Typhlosion",
+"it": "Typhlosion",
+"ja-jp": "バクフーン",
+"zh-hans": "火暴兽"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Hisuian Typhlosion",
+"LocalTexts": {
+"ja": "",
+"fr": "Typhlosion de Hisui",
+"de": "Hisui Tornupto",
+"ja-jp": ""
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Typhlosion",
+"LocalTexts": {
+"ja": "バクフーン",
+"ko": "블레이범",
+"zh-hant": "火爆獸",
+"fr": "Typhlosion",
+"de": "Tornupto",
+"es": "Typhlosion",
+"it": "Typhlosion",
+"ja-jp": "バクフーン",
+"zh-hans": "火暴兽"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 157
 },
 "tyranitar": {
 "$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
@@ -513,6 +5750,766 @@
 "Released": true,
 "Comment": "",
 "SortOrder": 248
+},
+"tyrantrum": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Tyrantrum",
+"LocalTexts": {
+"ja": "ガチゴラス",
+"ko": "견고라스",
+"zh-hant": "怪顎龍",
+"fr": "Rexillius",
+"de": "Monargoras",
+"es": "Tyrantrum",
+"it": "Tyrantrum",
+"ja-jp": "ガチゴラス",
+"zh-hans": "怪颚龙"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Tyrantrum",
+"LocalTexts": {
+"ja": "ガチゴラス",
+"ko": "견고라스",
+"zh-hant": "怪顎龍",
+"fr": "Rexillius",
+"de": "Monargoras",
+"es": "Tyrantrum",
+"it": "Tyrantrum",
+"ja-jp": "ガチゴラス",
+"zh-hans": "怪颚龙"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 697
+},
+"tyrunt": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Tyrunt",
+"LocalTexts": {
+"ja": "チゴラス",
+"ko": "티고라스",
+"zh-hant": "寶寶暴龍",
+"fr": "Ptyranidur",
+"de": "Balgoras",
+"es": "Tyrunt",
+"it": "Tyrunt",
+"ja-jp": "チゴラス",
+"zh-hans": "宝宝暴龙"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Tyrunt",
+"LocalTexts": {
+"ja": "チゴラス",
+"ko": "티고라스",
+"zh-hant": "寶寶暴龍",
+"fr": "Ptyranidur",
+"de": "Balgoras",
+"es": "Tyrunt",
+"it": "Tyrunt",
+"ja-jp": "チゴラス",
+"zh-hans": "宝宝暴龙"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 696
+},
+"umbreon": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Umbreon",
+"LocalTexts": {
+"ja": "ブラッキー",
+"ko": "블래키",
+"zh-hant": "月亮伊布",
+"fr": "Noctali",
+"de": "Nachtara",
+"es": "Umbreon",
+"it": "Umbreon",
+"ja-jp": "ブラッキー",
+"zh-hans": "月亮伊布"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Umbreon",
+"LocalTexts": {
+"ja": "ブラッキー",
+"ko": "블래키",
+"zh-hant": "月亮伊布",
+"fr": "Noctali",
+"de": "Nachtara",
+"es": "Umbreon",
+"it": "Umbreon",
+"ja-jp": "ブラッキー",
+"zh-hans": "月亮伊布"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 197
+},
+"vaporeon": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Vaporeon",
+"LocalTexts": {
+"ja": "シャワーズ",
+"ko": "샤미드",
+"zh-hant": "水伊布",
+"fr": "Aquali",
+"de": "Aquana",
+"es": "Vaporeon",
+"it": "Vaporeon",
+"ja-jp": "シャワーズ",
+"zh-hans": "水伊布"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Vaporeon",
+"LocalTexts": {
+"ja": "シャワーズ",
+"ko": "샤미드",
+"zh-hant": "水伊布",
+"fr": "Aquali",
+"de": "Aquana",
+"es": "Vaporeon",
+"it": "Vaporeon",
+"ja-jp": "シャワーズ",
+"zh-hans": "水伊布"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 134
+},
+"vibrava": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Vibrava",
+"LocalTexts": {
+"ja": "ビブラーバ",
+"ko": "비브라바",
+"zh-hant": "超音波幼蟲",
+"fr": "Vibraninf",
+"de": "Vibrava",
+"es": "Vibrava",
+"it": "Vibrava",
+"ja-jp": "ビブラーバ",
+"zh-hans": "超音波幼虫"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Vibrava",
+"LocalTexts": {
+"ja": "ビブラーバ",
+"ko": "비브라바",
+"zh-hant": "超音波幼蟲",
+"fr": "Vibraninf",
+"de": "Vibrava",
+"es": "Vibrava",
+"it": "Vibrava",
+"ja-jp": "ビブラーバ",
+"zh-hans": "超音波幼虫"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 329
+},
+"vikavolt": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Vikavolt",
+"LocalTexts": {
+"ja": "クワガノン",
+"ko": "투구뿌논",
+"zh-hant": "鍬農炮蟲",
+"fr": "Lucanon",
+"de": "Donarion",
+"es": "Vikavolt",
+"it": "Vikavolt",
+"ja-jp": "クワガノン",
+"zh-hans": "锹农炮虫"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Vikavolt",
+"LocalTexts": {
+"ja": "クワガノン",
+"ko": "투구뿌논",
+"zh-hant": "鍬農炮蟲",
+"fr": "Lucanon",
+"de": "Donarion",
+"es": "Vikavolt",
+"it": "Vikavolt",
+"ja-jp": "クワガノン",
+"zh-hans": "锹农炮虫"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 738
+},
+"vulpix": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Vulpix",
+"LocalTexts": {
+"ja": "ロコン",
+"ko": "식스테일",
+"zh-hant": "六尾",
+"fr": "Goupix",
+"de": "Vulpix",
+"es": "Vulpix",
+"it": "Vulpix",
+"ja-jp": "ロコン",
+"zh-hans": "六尾"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Alolan Vulpix",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Goupix d'Alola",
+"de": "Alola Vulpix",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Vulpix",
+"LocalTexts": {
+"ja": "ロコン",
+"ko": "식스테일",
+"zh-hant": "六尾",
+"fr": "Goupix",
+"de": "Vulpix",
+"es": "Vulpix",
+"it": "Vulpix",
+"ja-jp": "ロコン",
+"zh-hans": "六尾"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 37
+},
+"weedle": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Weedle",
+"LocalTexts": {
+"ja": "ビードル",
+"ko": "뿔충이",
+"zh-hant": "獨角蟲",
+"fr": "Aspicot",
+"de": "Hornliu",
+"es": "Weedle",
+"it": "Weedle",
+"ja-jp": "ビードル",
+"zh-hans": "独角虫"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Weedle",
+"LocalTexts": {
+"ja": "ビードル",
+"ko": "뿔충이",
+"zh-hant": "獨角蟲",
+"fr": "Aspicot",
+"de": "Hornliu",
+"es": "Weedle",
+"it": "Weedle",
+"ja-jp": "ビードル",
+"zh-hans": "独角虫"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 13
+},
+"whiscash": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Whiscash",
+"LocalTexts": {
+"ja": "ナマズン",
+"ko": "메깅",
+"zh-hant": "鯰魚王",
+"fr": "Barbicha",
+"de": "Welsar",
+"es": "Whiscash",
+"it": "Whiscash",
+"ja-jp": "ナマズン",
+"zh-hans": "鲶鱼王"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Whiscash",
+"LocalTexts": {
+"ja": "ナマズン",
+"ko": "메깅",
+"zh-hant": "鯰魚王",
+"fr": "Barbicha",
+"de": "Welsar",
+"es": "Whiscash",
+"it": "Whiscash",
+"ja-jp": "ナマズン",
+"zh-hans": "鲶鱼王"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 340
+},
+"whismur": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Whismur",
+"LocalTexts": {
+"ja": "ゴニョニョ",
+"ko": "소곤룡",
+"zh-hant": "咕妞妞",
+"fr": "Chuchmur",
+"de": "Flurmel",
+"es": "Whismur",
+"it": "Whismur",
+"ja-jp": "ゴニョニョ",
+"zh-hans": "咕妞妞"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Whismur",
+"LocalTexts": {
+"ja": "ゴニョニョ",
+"ko": "소곤룡",
+"zh-hant": "咕妞妞",
+"fr": "Chuchmur",
+"de": "Flurmel",
+"es": "Whismur",
+"it": "Whismur",
+"ja-jp": "ゴニョニョ",
+"zh-hans": "咕妞妞"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 293
+},
+"wooper": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Wooper",
+"LocalTexts": {
+"ja": "ウパー",
+"ko": "우파",
+"zh-hant": "烏波",
+"fr": "Axoloto",
+"de": "Felino",
+"es": "Wooper",
+"it": "Wooper",
+"ja-jp": "ウパー",
+"zh-hans": "乌波"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Wooper",
+"LocalTexts": {
+"ja": "ウパー",
+"ko": "우파",
+"zh-hant": "烏波",
+"fr": "Axoloto",
+"de": "Felino",
+"es": "Wooper",
+"it": "Wooper",
+"ja-jp": "ウパー",
+"zh-hans": "乌波"
+}
+},
+"Released": false,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Wooper",
+"LocalTexts": {
+"ja": "ウパー",
+"ko": "우파",
+"zh-hant": "烏波",
+"fr": "Axoloto",
+"de": "Felino",
+"es": "Wooper",
+"it": "Wooper",
+"ja-jp": "ウパー",
+"zh-hans": "乌波"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 194
+},
+"wurmple": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Wurmple",
+"LocalTexts": {
+"ja": "ケムッソ",
+"ko": "개무소",
+"zh-hant": "刺尾蟲",
+"fr": "Chenipotte",
+"de": "Waumpel",
+"es": "Wurmple",
+"it": "Wurmple",
+"ja-jp": "ケムッソ",
+"zh-hans": "刺尾虫"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Wurmple",
+"LocalTexts": {
+"ja": "ケムッソ",
+"ko": "개무소",
+"zh-hant": "刺尾蟲",
+"fr": "Chenipotte",
+"de": "Waumpel",
+"es": "Wurmple",
+"it": "Wurmple",
+"ja-jp": "ケムッソ",
+"zh-hans": "刺尾虫"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 265
+},
+"yamask": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Yamask",
+"LocalTexts": {
+"ja": "デスマス",
+"ko": "데스마스",
+"zh-hant": "哭哭面具",
+"fr": "Tutafeh",
+"de": "Makabaja",
+"es": "Yamask",
+"it": "Yamask",
+"ja-jp": "デスマス",
+"zh-hans": "哭哭面具"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Galarian Yamask",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Tutafeh de Galar",
+"de": "Galar Makabaja",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": false,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Yamask",
+"LocalTexts": {
+"ja": "デスマス",
+"ko": "데스마스",
+"zh-hant": "哭哭面具",
+"fr": "Tutafeh",
+"de": "Makabaja",
+"es": "Yamask",
+"it": "Yamask",
+"ja-jp": "デスマス",
+"zh-hans": "哭哭面具"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 562
+},
+"zoroark": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Zoroark",
+"LocalTexts": {
+"ja": "ゾロアーク",
+"ko": "조로아크",
+"zh-hant": "索羅亞克",
+"fr": "Zoroark",
+"de": "Zoroark",
+"es": "Zoroark",
+"it": "Zoroark",
+"ja-jp": "ゾロアーク",
+"zh-hans": "索罗亚克"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Hisuian Zoroark",
+"LocalTexts": {
+"ja": "",
+"fr": "Zoroark de Hisui",
+"de": "Hisui Zoroark",
+"ja-jp": ""
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Zoroark",
+"LocalTexts": {
+"ja": "ゾロアーク",
+"ko": "조로아크",
+"zh-hant": "索羅亞克",
+"fr": "Zoroark",
+"de": "Zoroark",
+"es": "Zoroark",
+"it": "Zoroark",
+"ja-jp": "ゾロアーク",
+"zh-hans": "索罗亚克"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 571
+},
+"zorua": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Zorua",
+"LocalTexts": {
+"ja": "ゾロア",
+"ko": "조로아",
+"zh-hant": "索羅亞",
+"fr": "Zorua",
+"de": "Zorua",
+"es": "Zorua",
+"it": "Zorua",
+"ja-jp": "ゾロア",
+"zh-hans": "索罗亚"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Hisuian Zorua",
+"LocalTexts": {
+"ja": "",
+"fr": "Zorua de Hisui",
+"de": "Hisui Zorua",
+"ja-jp": ""
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Zorua",
+"LocalTexts": {
+"ja": "ゾロア",
+"ko": "조로아",
+"zh-hant": "索羅亞",
+"fr": "Zorua",
+"de": "Zorua",
+"es": "Zorua",
+"it": "Zorua",
+"ja-jp": "ゾロア",
+"zh-hans": "索罗亚"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 570
+},
+"aereon": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Aereon",
+"LocalTexts": {}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Aereon",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "Fakemon designer: DragonMaple",
+"SortOrder": 10000
+},
+"eeveon": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Eeveon",
+"LocalTexts": {}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Eeveon",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "Fakemon designer: EeveeSanta",
+"SortOrder": 10001
+},
+"spectreon": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Spectreon",
+"LocalTexts": {}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Spectreon",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "Fakemon designer: Xadoku",
+"SortOrder": 10003
+},
+"terreon": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Terreon",
+"LocalTexts": {}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Terreon",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "Fakemon designer: EeveeSanta",
+"SortOrder": 10002
 }
 }
 }

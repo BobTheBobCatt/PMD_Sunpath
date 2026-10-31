@@ -1,0 +1,118 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.11.0"
+  ],
+  "Object": {
+    "SkillGroup2": [
+      "",
+      "undiscovered"
+    ],
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "6": {
+            "Level": [
+              23,
+              20
+            ],
+            "Skill": [
+              "bulldoze",
+              "sand_blast"
+            ]
+          },
+          "7": {
+            "Level": [
+              27,
+              23
+            ],
+            "Skill": [
+              "hypnosis",
+              "bulldoze"
+            ]
+          },
+          "8": {
+            "Level": [
+              32,
+              25
+            ],
+            "Skill": [
+              "iron_defense",
+              "sand_beam"
+            ]
+          },
+          "9": {
+            "Level": [
+              36,
+              27
+            ],
+            "Skill": [
+              "giga_drain",
+              "hypnosis"
+            ]
+          },
+          "10": {
+            "Level": [
+              41,
+              32
+            ],
+            "Skill": [
+              "shadow_ball",
+              "iron_defense"
+            ]
+          },
+          "11": {
+            "Level": [
+              45,
+              36
+            ],
+            "Skill": [
+              "earth_power",
+              "giga_drain"
+            ]
+          },
+          "12": {
+            "Level": [
+              50,
+              41
+            ],
+            "Skill": [
+              "shore_up",
+              "shadow_ball"
+            ]
+          },
+          "13": {
+            "Level": [
+              54,
+              45
+            ],
+            "Skill": [
+              "sandstorm",
+              "earth_power"
+            ]
+          },
+          "14": [
+            {
+              "Level": 50,
+              "Skill": "shore_up"
+            }
+          ],
+          "15": [
+            {
+              "Level": 54,
+              "Skill": "sandstorm"
+            }
+          ],
+          "16": [
+            {
+              "Level": 58,
+              "Skill": "dust_storm"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

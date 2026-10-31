@@ -1,0 +1,251 @@
+﻿{
+"Version": "0.8.12.0",
+"Object": {
+"$type": "RogueEssence.Data.SkillData, RogueEssence",
+"Name": {
+"DefaultText": "Stone Fang",
+"LocalTexts": {}
+},
+"Desc": {
+"DefaultText": "The user bites with rock-covered fangs. This may also make the target flinch or leave it calcified.",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"IndexNum": 10001,
+"BaseCharges": 18,
+"Strikes": 1,
+"HitboxAction": {
+"$type": "RogueEssence.Dungeon.AttackAction, RogueEssence",
+"HitTiles": true,
+"BurstTiles": 0,
+"Emitter": {
+"$type": "RogueEssence.Content.SingleEmitter, RogueEssence",
+"LocHeight": 0,
+"finished": false,
+"Offset": 0,
+"Anim": {
+"$type": "RogueEssence.Content.StaticAnim, RogueEssence",
+"Anim": {
+"AnimIndex": "Stone_Fang_Fang",
+"FrameTime": 2,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"TotalTime": 0,
+"Cycles": 1,
+"FrameOffset": 0
+},
+"Layer": 2,
+"UseDest": false
+},
+"WideAngle": 0,
+"CharAnimData": {
+"$type": "RogueEssence.Dungeon.CharAnimFrameType, RogueEssence",
+"ActionType": 18
+},
+"TargetAlignments": 4,
+"TileEmitter": {
+"$type": "RogueEssence.Content.EmptyFiniteEmitter, RogueEssence",
+"LocHeight": 0
+},
+"PreActions": [],
+"ActionFX": {
+"Delay": 0,
+"AbsoluteDelay": false,
+"Sound": "DUN_Bite",
+"Emitter": {
+"$type": "RogueEssence.Content.EmptyFiniteEmitter, RogueEssence",
+"LocHeight": 0
+},
+"ScreenMovement": {
+"MinShake": 0,
+"MaxShake": 0,
+"MaxShakeTime": 0
+}
+},
+"LagBehindTime": 10
+},
+"Explosion": {
+"TargetAlignments": 4,
+"HitTiles": false,
+"Range": 0,
+"Speed": 0,
+"TileEmitter": {
+"$type": "RogueEssence.Content.EmptyFiniteEmitter, RogueEssence",
+"LocHeight": 0
+},
+"Emitter": {
+"$type": "RogueEssence.Content.EmptyCircleSquareEmitter, RogueEssence",
+"LocHeight": 0
+},
+"IntroFX": [],
+"ExplodeFX": {
+"Delay": 0,
+"AbsoluteDelay": false,
+"Sound": "",
+"Emitter": {
+"$type": "RogueEssence.Content.EmptyFiniteEmitter, RogueEssence",
+"LocHeight": 0
+},
+"ScreenMovement": {
+"MinShake": 0,
+"MaxShake": 0,
+"MaxShakeTime": 0
+}
+}
+},
+"Data": {
+"Element": "rock",
+"Category": 1,
+"HitRate": 100,
+"SkillStates": [
+{
+"$type": "PMDC.Dungeon.ContactState, PMDC"
+},
+{
+"$type": "PMDC.Dungeon.JawState, PMDC"
+},
+{
+"$type": "RogueEssence.Dungeon.BasePowerState, RogueEssence",
+"Power": 65
+},
+{
+"$type": "PMDC.Dungeon.AdditionalEffectState, PMDC",
+"EffectChance": 50
+}
+],
+"BeforeTryActions": [],
+"BeforeActions": [],
+"OnActions": [],
+"BeforeExplosions": [],
+"BeforeHits": [],
+"OnHits": [
+{
+"Key": {
+"str": [
+-1
+]
+},
+"Value": {
+"$type": "PMDC.Dungeon.DamageFormulaEvent, PMDC"
+}
+},
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "PMDC.Dungeon.AdditionalEvent, PMDC",
+"BaseEvents": [
+{
+"$type": "PMDC.Dungeon.StatusBattleEvent, PMDC",
+"StatusID": "calcified",
+"AffectTarget": true,
+"SelfInflicted": false,
+"SilentCheck": true,
+"Anonymous": false,
+"TriggerMsg": {
+"Key": ""
+},
+"Anims": []
+},
+{
+"$type": "PMDC.Dungeon.StatusBattleEvent, PMDC",
+"StatusID": "flinch",
+"AffectTarget": true,
+"SelfInflicted": false,
+"SilentCheck": true,
+"Anonymous": false,
+"TriggerMsg": {
+"Key": ""
+},
+"Anims": []
+}
+]
+}
+}
+],
+"OnHitTiles": [],
+"AfterActions": [],
+"ElementEffects": [],
+"IntroFX": [],
+"HitFX": {
+"Delay": 0,
+"AbsoluteDelay": false,
+"Sound": "DUN_Rock_Wrecker",
+"Emitter": {
+"$type": "RogueEssence.Content.FiniteReleaseEmitter, RogueEssence",
+"LocHeight": 0,
+"Anims": [
+{
+"$type": "RogueEssence.Content.ParticleAnim, RogueEssence",
+"Anim": {
+"AnimIndex": "Rock_Pieces",
+"FrameTime": 6,
+"StartFrame": 0,
+"EndFrame": 0,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"TotalTime": 0,
+"Cycles": 1,
+"FrameOffset": 0
+},
+{
+"$type": "RogueEssence.Content.ParticleAnim, RogueEssence",
+"Anim": {
+"AnimIndex": "Rock_Pieces",
+"FrameTime": 12,
+"StartFrame": 1,
+"EndFrame": 1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"TotalTime": 0,
+"Cycles": 1,
+"FrameOffset": 0
+},
+{
+"$type": "RogueEssence.Content.ParticleAnim, RogueEssence",
+"Anim": {
+"AnimIndex": "Rock_Pieces",
+"FrameTime": 12,
+"StartFrame": 1,
+"EndFrame": 1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"TotalTime": 0,
+"Cycles": 1,
+"FrameOffset": 0
+}
+],
+"Speed": 60,
+"Bursts": 4,
+"ParticlesPerBurst": 4,
+"BurstTime": 2,
+"StartDistance": 4,
+"Layer": 2
+},
+"ScreenMovement": {
+"MinShake": 0,
+"MaxShake": 0,
+"MaxShakeTime": 0
+}
+},
+"HitCharAction": {
+"$type": "RogueEssence.Dungeon.CharAnimFrameType, RogueEssence",
+"ActionType": 0
+}
+}
+}
+}

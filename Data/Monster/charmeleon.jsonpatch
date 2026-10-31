@@ -1,0 +1,68 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.12.0"
+  ],
+  "Object": {
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "5": {
+            "Level": [
+              17,
+              13
+            ],
+            "Skill": [
+              "dragon_rage",
+              "fire_up"
+            ]
+          },
+          "6": {
+            "Level": [
+              21,
+              17
+            ],
+            "Skill": [
+              "scary_face",
+              "dragon_rage"
+            ]
+          },
+          "7": {
+            "Level": [
+              28,
+              21
+            ],
+            "Skill": [
+              "fire_fang",
+              "scary_face"
+            ]
+          },
+          "8": {
+            "Level": [
+              32,
+              28
+            ],
+            "Skill": [
+              "flame_burst",
+              "fire_fang"
+            ]
+          },
+          "9": [
+            {
+              "Level": 32,
+              "Skill": "flame_burst"
+            }
+          ],
+          "10": [
+            {
+              "Level": 36,
+              "Skill": "flame_tail"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

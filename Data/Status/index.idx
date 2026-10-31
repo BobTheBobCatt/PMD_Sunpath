@@ -1,17 +1,62 @@
 ﻿{
-"Version": "0.8.8.0",
+"Version": "0.8.11.0",
 "Object": {
 "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
+"sleepless": {
+"Name": {
+"DefaultText": "Sleepless",
+"LocalTexts": {
+"fr": "Insomniaque",
+"de": "Schlaflos",
+"es": "Desvelado",
+"it": "Veglia",
+"zh-hans": "不眠"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"blind": {
+"Name": {
+"DefaultText": "Blind",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"calcified": {
+"Name": {
+"DefaultText": "Calcified",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"critical_health": {
+"Name": {
+"DefaultText": "Critical Health",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"drowsy": {
+"Name": {
+"DefaultText": "Drowsy",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
 "fired_up": {
 "Name": {
 "DefaultText": "Fired Up",
-"LocalTexts": {
-"fr": "Chargeur",
-"de": "Aufgeladen",
-"es": "Carga",
-"it": "Sottocarica",
-"zh-hans": "充电"
-}
+"LocalTexts": {}
 },
 "Released": true,
 "Comment": "",
@@ -26,13 +71,31 @@
 "Comment": "",
 "SortOrder": 0
 },
+"mud_sport": {
+"Name": {
+"DefaultText": "Mud Sport",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"night_vision": {
+"Name": {
+"DefaultText": "Night Vision",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
 "petrified": {
 "Name": {
 "DefaultText": "Petrified",
 "LocalTexts": {}
 },
 "Released": true,
-"Comment": "",
+"Comment": "Unfinished; Needs a new visual effect.",
 "SortOrder": 0
 },
 "terrified": {
@@ -47,6 +110,24 @@
 "type_resistant": {
 "Name": {
 "DefaultText": "Type-Resistant",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"water_sport": {
+"Name": {
+"DefaultText": "Water Sport",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"weather_protection": {
+"Name": {
+"DefaultText": "Weather Protection",
 "LocalTexts": {}
 },
 "Released": true,

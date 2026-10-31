@@ -1,0 +1,74 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.11.0"
+  ],
+  "Object": {
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "7": {
+            "Level": [
+              24,
+              22
+            ],
+            "Skill": [
+              "dual_chop",
+              "sand_blast"
+            ]
+          },
+          "8": {
+            "Level": [
+              28,
+              24
+            ],
+            "Skill": [
+              "slash",
+              "dual_chop"
+            ]
+          },
+          "9": {
+            "Level": [
+              33,
+              28
+            ],
+            "Skill": [
+              "dragon_claw",
+              "slash"
+            ]
+          },
+          "10": {
+            "Level": [
+              40,
+              33
+            ],
+            "Skill": [
+              "dig",
+              "dragon_claw"
+            ]
+          },
+          "11": [
+            {
+              "Level": 36,
+              "Skill": "sand_beam"
+            }
+          ],
+          "12": [
+            {
+              "Level": 40,
+              "Skill": "dig"
+            }
+          ],
+          "13": [
+            {
+              "Level": 44,
+              "Skill": "dust_storm"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

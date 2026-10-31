@@ -1,0 +1,112 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.11.0"
+  ],
+  "Object": {
+    "SkillGroup2": [
+      "",
+      "undiscovered"
+    ],
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "9": {
+            "Level": [
+              25,
+              24
+            ],
+            "Skill": [
+              "swagger",
+              "sand_blast"
+            ]
+          },
+          "10": {
+            "Level": [
+              28,
+              25
+            ],
+            "Skill": [
+              "crunch",
+              "swagger"
+            ]
+          },
+          "11": {
+            "Level": [
+              31,
+              28
+            ],
+            "Skill": [
+              "dig",
+              "crunch"
+            ]
+          },
+          "12": {
+            "Level": [
+              34,
+              31
+            ],
+            "Skill": [
+              "scary_face",
+              "dig"
+            ]
+          },
+          "13": {
+            "Level": [
+              37,
+              34
+            ],
+            "Skill": [
+              "foul_play",
+              "scary_face"
+            ]
+          },
+          "14": {
+            "Level": [
+              40,
+              37
+            ],
+            "Skill": [
+              "sandstorm",
+              "foul_play"
+            ]
+          },
+          "15": {
+            "Level": [
+              43,
+              40
+            ],
+            "Skill": [
+              "earthquake",
+              "sandstorm"
+            ]
+          },
+          "16": {
+            "Level": [
+              46,
+              43
+            ],
+            "Skill": [
+              "thrash",
+              "earthquake"
+            ]
+          },
+          "17": [
+            {
+              "Level": 46,
+              "Skill": "thrash"
+            }
+          ],
+          "18": [
+            {
+              "Level": 49,
+              "Skill": "dust_storm"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

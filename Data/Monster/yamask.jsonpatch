@@ -1,0 +1,106 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.12.0"
+  ],
+  "Object": {
+    "Promotions": {
+      "_t": "a",
+      "1": {
+        "Details": {
+          "_t": "a",
+          "1": {
+            "$type": [
+              "PMDC.Data.EvoWeather, PMDC",
+              "PMDC.Data.EvoItem, PMDC"
+            ],
+            "Weather": [
+              "sandstorm",
+              0,
+              0
+            ],
+            "ItemNum": [
+              "evo_earth_stone"
+            ]
+          }
+        }
+      }
+    },
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "9": {
+            "Level": [
+              33,
+              31
+            ],
+            "Skill": [
+              "power_split",
+              "shadow_beam"
+            ]
+          },
+          "10": {
+            "Skill": [
+              "guard_split",
+              "power_split"
+            ]
+          },
+          "11": {
+            "Level": [
+              37,
+              33
+            ],
+            "Skill": [
+              "shadow_ball",
+              "guard_split"
+            ]
+          },
+          "12": {
+            "Level": [
+              41,
+              37
+            ],
+            "Skill": [
+              "grudge",
+              "shadow_ball"
+            ]
+          },
+          "13": {
+            "Level": [
+              45,
+              41
+            ],
+            "Skill": [
+              "mean_look",
+              "grudge"
+            ]
+          },
+          "14": {
+            "Level": [
+              49,
+              45
+            ],
+            "Skill": [
+              "destiny_bond",
+              "mean_look"
+            ]
+          },
+          "15": [
+            {
+              "Level": 49,
+              "Skill": "destiny_bond"
+            }
+          ],
+          "16": [
+            {
+              "Level": 53,
+              "Skill": "scourge"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

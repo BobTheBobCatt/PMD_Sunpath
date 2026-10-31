@@ -1,0 +1,180 @@
+﻿{
+"Version": "0.8.12.0",
+"Object": {
+"$type": "RogueEssence.Data.SkillData, RogueEssence",
+"Name": {
+"DefaultText": "Mineral Powder",
+"LocalTexts": {}
+},
+"Desc": {
+"DefaultText": "The user scatters a cloud of dust made of rocky materials that calcifies the target.",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"IndexNum": 10005,
+"BaseCharges": 16,
+"Strikes": 1,
+"HitboxAction": {
+"$type": "RogueEssence.Dungeon.AreaAction, RogueEssence",
+"Emitter": {
+"$type": "RogueEssence.Content.CircleSquareSprinkleEmitter, RogueEssence",
+"LocHeight": 0,
+"Anims": [
+{
+"$type": "RogueEssence.Content.ParticleAnim, RogueEssence",
+"Anim": {
+"AnimIndex": "Spores_RSE_Gray",
+"FrameTime": 6,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"TotalTime": 60,
+"Cycles": 0,
+"FrameOffset": 0
+}
+],
+"ParticlesPerTile": 3.0,
+"HeightSpeed": -15,
+"SpeedDiff": 15,
+"StartHeight": 24,
+"Layer": 2
+},
+"HitTiles": true,
+"BurstTiles": 0,
+"HitArea": 0,
+"Range": 2,
+"Speed": 5,
+"CharAnimData": {
+"$type": "RogueEssence.Dungeon.CharAnimFrameType, RogueEssence",
+"ActionType": 19
+},
+"TargetAlignments": 4,
+"TileEmitter": {
+"$type": "RogueEssence.Content.EmptyFiniteEmitter, RogueEssence",
+"LocHeight": 0
+},
+"PreActions": [],
+"ActionFX": {
+"Delay": 0,
+"AbsoluteDelay": false,
+"Sound": "_UNK_DUN_Rustle",
+"Emitter": {
+"$type": "RogueEssence.Content.EmptyFiniteEmitter, RogueEssence",
+"LocHeight": 0
+},
+"ScreenMovement": {
+"MinShake": 0,
+"MaxShake": 0,
+"MaxShakeTime": 0
+}
+},
+"LagBehindTime": 30
+},
+"Explosion": {
+"TargetAlignments": 4,
+"HitTiles": false,
+"Range": 0,
+"Speed": 0,
+"TileEmitter": {
+"$type": "RogueEssence.Content.EmptyFiniteEmitter, RogueEssence",
+"LocHeight": 0
+},
+"Emitter": {
+"$type": "RogueEssence.Content.EmptyCircleSquareEmitter, RogueEssence",
+"LocHeight": 0
+},
+"IntroFX": [],
+"ExplodeFX": {
+"Delay": 0,
+"AbsoluteDelay": false,
+"Sound": "",
+"Emitter": {
+"$type": "RogueEssence.Content.EmptyFiniteEmitter, RogueEssence",
+"LocHeight": 0
+},
+"ScreenMovement": {
+"MinShake": 0,
+"MaxShake": 0,
+"MaxShakeTime": 0
+}
+}
+},
+"Data": {
+"Element": "rock",
+"Category": 3,
+"HitRate": 70,
+"SkillStates": [],
+"BeforeTryActions": [],
+"BeforeActions": [],
+"OnActions": [],
+"BeforeExplosions": [],
+"BeforeHits": [],
+"OnHits": [
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "PMDC.Dungeon.StatusBattleEvent, PMDC",
+"StatusID": "calcified",
+"AffectTarget": true,
+"SelfInflicted": false,
+"SilentCheck": false,
+"Anonymous": false,
+"TriggerMsg": {
+"Key": ""
+},
+"Anims": []
+}
+}
+],
+"OnHitTiles": [],
+"AfterActions": [],
+"ElementEffects": [],
+"IntroFX": [],
+"HitFX": {
+"Delay": 0,
+"AbsoluteDelay": false,
+"Sound": "",
+"Emitter": {
+"$type": "RogueEssence.Content.SingleEmitter, RogueEssence",
+"LocHeight": 0,
+"finished": false,
+"Offset": 0,
+"Anim": {
+"$type": "RogueEssence.Content.StaticAnim, RogueEssence",
+"Anim": {
+"AnimIndex": "Puff_White",
+"FrameTime": 3,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"TotalTime": 0,
+"Cycles": 1,
+"FrameOffset": 0
+},
+"Layer": 2,
+"UseDest": false
+},
+"ScreenMovement": {
+"MinShake": 0,
+"MaxShake": 0,
+"MaxShakeTime": 0
+}
+},
+"HitCharAction": {
+"$type": "RogueEssence.Dungeon.CharAnimFrameType, RogueEssence",
+"ActionType": 0
+}
+}
+}
+}

@@ -1,0 +1,85 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.12.0"
+  ],
+  "Object": {
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "4": {
+            "Level": [
+              30,
+              25
+            ],
+            "Skill": [
+              "air_slash",
+              "wind_beam"
+            ]
+          },
+          "5": {
+            "Level": [
+              35,
+              30
+            ],
+            "Skill": [
+              "rest",
+              "air_slash"
+            ]
+          },
+          "6": [
+            {
+              "Level": 35,
+              "Skill": "rest"
+            }
+          ],
+          "7": [
+            {
+              "Level": 40,
+              "Skill": "downburst"
+            }
+          ]
+        }
+      },
+      "1": {
+        "LevelSkills": {
+          "_t": "a",
+          "4": {
+            "Level": [
+              30,
+              25
+            ],
+            "Skill": [
+              "air_slash",
+              "wind_beam"
+            ]
+          },
+          "5": {
+            "Level": [
+              35,
+              30
+            ],
+            "Skill": [
+              "rest",
+              "air_slash"
+            ]
+          },
+          "6": [
+            {
+              "Level": 35,
+              "Skill": "rest"
+            }
+          ],
+          "7": [
+            {
+              "Level": 40,
+              "Skill": "downburst"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

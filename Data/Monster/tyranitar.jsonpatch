@@ -1,22 +1,64 @@
 ﻿{
   "Version": [
     "0.0",
-    "0.8.8.0"
+    "0.8.11.0"
   ],
   "Object": {
     "SkillGroup2": [
       "",
-      "amorphous"
+      "undiscovered"
     ],
     "Forms": {
       "_t": "a",
       "0": {
         "LevelSkills": {
           "_t": "a",
-          "13": [
+          "14": {
+            "Level": [
+              41,
+              37
+            ],
+            "Skill": [
+              "payback",
+              "sand_beam"
+            ]
+          },
+          "15": {
+            "Level": [
+              47,
+              41
+            ],
+            "Skill": [
+              "crunch",
+              "payback"
+            ]
+          },
+          "16": {
+            "Level": [
+              54,
+              47
+            ],
+            "Skill": [
+              "earthquake",
+              "crunch"
+            ]
+          },
+          "17": [
             {
-              "Level": 31,
-              "Skill": "rock_punch"
+              "Level": 50,
+              "Skill": "stone_fang"
+            }
+          ],
+          "18": [
+            {
+              "Level": 54,
+              "Skill": "earthquake"
+            }
+          ],
+          "19": [
+            {
+              "Level": 58,
+              "Skill": "dust_storm"
             }
           ]
         }
@@ -24,10 +66,52 @@
       "1": {
         "LevelSkills": {
           "_t": "a",
-          "13": [
+          "14": {
+            "Level": [
+              41,
+              37
+            ],
+            "Skill": [
+              "payback",
+              "sand_beam"
+            ]
+          },
+          "15": {
+            "Level": [
+              47,
+              41
+            ],
+            "Skill": [
+              "crunch",
+              "payback"
+            ]
+          },
+          "16": {
+            "Level": [
+              54,
+              47
+            ],
+            "Skill": [
+              "earthquake",
+              "crunch"
+            ]
+          },
+          "17": [
             {
-              "Level": 31,
-              "Skill": "rock_punch"
+              "Level": 50,
+              "Skill": "stone_fang"
+            }
+          ],
+          "18": [
+            {
+              "Level": 54,
+              "Skill": "earthquake"
+            }
+          ],
+          "19": [
+            {
+              "Level": 58,
+              "Skill": "dust_storm"
             }
           ]
         }

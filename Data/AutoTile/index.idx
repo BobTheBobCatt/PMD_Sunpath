@@ -1,0 +1,861 @@
+﻿{
+"Version": "0.8.12.0",
+"Object": {
+"$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
+"ancient_pyramid_floor": {
+"Name": {
+"DefaultText": "Ancient Pyramid Floor",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"ancient_pyramid_secondary": {
+"Name": {
+"DefaultText": "Ancient Pyramid Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"ancient_pyramid_wall": {
+"Name": {
+"DefaultText": "Ancient Pyramid Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"autumn_isle_floor": {
+"Name": {
+"DefaultText": "Autumn Isle Floor",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"autumn_isle_secondary": {
+"Name": {
+"DefaultText": "Autumn Isle Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"autumn_isle_wall": {
+"Name": {
+"DefaultText": "Autumn Isle Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"coastal_cave_secondary": {
+"Name": {
+"DefaultText": "Coastal Cave Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"dark_cave_floor": {
+"Name": {
+"DefaultText": "Dark Cave Floor",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"dark_cave_secondary": {
+"Name": {
+"DefaultText": "Dark Cave Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"dark_cave_wall": {
+"Name": {
+"DefaultText": "Dark Cave Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"dark_desert_floor": {
+"Name": {
+"DefaultText": "Dark Desert Floor",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"dark_desert_secondary": {
+"Name": {
+"DefaultText": "Dark Desert Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"dark_desert_wall": {
+"Name": {
+"DefaultText": "Dark Desert Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"dark_forest_floor": {
+"Name": {
+"DefaultText": "Dark Forest Floor",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"dark_forest_secondary": {
+"Name": {
+"DefaultText": "Dark Forest Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"dark_forest_wall": {
+"Name": {
+"DefaultText": "Dark Forest Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"dark_meadow_floor": {
+"Name": {
+"DefaultText": "Dark Meadow Floor",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"dark_meadow_secondary": {
+"Name": {
+"DefaultText": "Dark Meadow Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"dark_meadow_wall": {
+"Name": {
+"DefaultText": "Dark Meadow Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"dark_mountain_floor": {
+"Name": {
+"DefaultText": "Dark Mountain Floor",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"dark_mountain_secondary": {
+"Name": {
+"DefaultText": "Dark Mountain Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"dark_mountain_wall": {
+"Name": {
+"DefaultText": "Dark Mountain Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"direlict_pyramid_floor": {
+"Name": {
+"DefaultText": "Direlict Pyramid Floor",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"direlict_pyramid_secondary": {
+"Name": {
+"DefaultText": "Direlict Pyramid Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"direlict_pyramid_wall": {
+"Name": {
+"DefaultText": "Direlict Pyramid Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"fire_island_ashlands_floor": {
+"Name": {
+"DefaultText": "Fire Island Ashlands Floor",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"fire_island_ashlands_secondary": {
+"Name": {
+"DefaultText": "Fire Island Ashlands Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"fire_island_ashlands_wall": {
+"Name": {
+"DefaultText": "Fire Island Ashlands Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"fire_island_volcano_floor": {
+"Name": {
+"DefaultText": "Fire Island Volcano Floor",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"fire_island_volcano_secondary": {
+"Name": {
+"DefaultText": "Fire Island Volcano Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"fire_island_volcano_wall": {
+"Name": {
+"DefaultText": "Fire Island Volcano Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"gale_valley_2_floor": {
+"Name": {
+"DefaultText": "Gale Valley 2 Floor",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"gale_valley_2_secondary": {
+"Name": {
+"DefaultText": "Gale Valley 2 Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"gale_valley_2_wall": {
+"Name": {
+"DefaultText": "Gale Valley 2 Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"gale_valley_floor": {
+"Name": {
+"DefaultText": "Gale Valley Floor",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"gale_valley_secondary": {
+"Name": {
+"DefaultText": "Gale Valley Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"gale_valley_wall": {
+"Name": {
+"DefaultText": "Gale Valley Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"lunar_tower_floor": {
+"Name": {
+"DefaultText": "Lunar Tower Floor",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"lunar_tower_secondary": {
+"Name": {
+"DefaultText": "Lunar Tower Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"lunar_tower_wall": {
+"Name": {
+"DefaultText": "Lunar Tower Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"magical_forest_floor": {
+"Name": {
+"DefaultText": "Magical Forest Floor",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"magical_forest_secondary": {
+"Name": {
+"DefaultText": "Magical Forest Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"magical_forest_wall": {
+"Name": {
+"DefaultText": "Magical Forest Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"misty_swamp_floor": {
+"Name": {
+"DefaultText": "Misty Swamp Floor",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"misty_swamp_secondary": {
+"Name": {
+"DefaultText": "Misty Swamp Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"misty_swamp_wall": {
+"Name": {
+"DefaultText": "Misty Swamp Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"mt_qima_floor": {
+"Name": {
+"DefaultText": "Mt Qima Floor",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"mt_qima_secondary": {
+"Name": {
+"DefaultText": "Mt Qima Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"mt_qima_wall": {
+"Name": {
+"DefaultText": "Mt Qima Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"mt_spire_floor": {
+"Name": {
+"DefaultText": "Mt Spire Floor",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"mt_spire_wall": {
+"Name": {
+"DefaultText": "Mt Spire Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"nightmare_2_floor": {
+"Name": {
+"DefaultText": "Nightmare 2 Floor",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"nightmare_2_secondary": {
+"Name": {
+"DefaultText": "Nightmare 2 Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"nightmare_2_wall": {
+"Name": {
+"DefaultText": "Nightmare 2 Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"parched_steppes_floor": {
+"Name": {
+"DefaultText": "Parched Steppes Floor",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"parched_steppes_secondary": {
+"Name": {
+"DefaultText": "Parched Steppes Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"parched_steppes_wall": {
+"Name": {
+"DefaultText": "Parched Steppes Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"purity_forest_4_alt_wall": {
+"Name": {
+"DefaultText": "Purity Forest 4 Alt Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"purity_forest_6_alt_wall": {
+"Name": {
+"DefaultText": "Purity Forest 6 Wall Alt",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"qahil_village_1_secondary": {
+"Name": {
+"DefaultText": "Qahil Village 1 Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"ramil_cave_floor": {
+"Name": {
+"DefaultText": "Ramil Cave Floor",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"ramil_cave_secondary": {
+"Name": {
+"DefaultText": "Ramil Cave Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"ramil_cave_wall": {
+"Name": {
+"DefaultText": "Ramil Cave Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"sand_dune_of_spirits_floor": {
+"Name": {
+"DefaultText": "Sand Dune of Spirits Floor",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"sand_dune_of_spirits_secondary": {
+"Name": {
+"DefaultText": "Sand Dune of Spirits Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"sand_dune_of_spirits_wall": {
+"Name": {
+"DefaultText": "Sand Dune of Spirits Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"snare_of_sand_floor": {
+"Name": {
+"DefaultText": "Snare of Sand Floor",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"snare_of_sand_secondary": {
+"Name": {
+"DefaultText": "Snare of Sand Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"snare_of_sand_wall": {
+"Name": {
+"DefaultText": "Snare of Sand Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"solar_tower_floor": {
+"Name": {
+"DefaultText": "Solar Tower Floor",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"solar_tower_secondary": {
+"Name": {
+"DefaultText": "Solar Tower Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"solar_tower_wall": {
+"Name": {
+"DefaultText": "Solar Tower Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"southern_desert_floor": {
+"Name": {
+"DefaultText": "Southern Desert Floor",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"southern_desert_own_wall": {
+"Name": {
+"DefaultText": "Southern Desert Own Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"southern_desert_secondary": {
+"Name": {
+"DefaultText": "Southern Desert Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"southern_desert_wall": {
+"Name": {
+"DefaultText": "Southern Desert Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"torrid_valley_floor": {
+"Name": {
+"DefaultText": "Torrid Valley Floor",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"torrid_valley_own_wall": {
+"Name": {
+"DefaultText": "Torrid Valley Own Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"torrid_valley_secondary": {
+"Name": {
+"DefaultText": "Torrid Valley Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"torrid_valley_wall": {
+"Name": {
+"DefaultText": "Torrid Valley Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"tree_of_life_floor": {
+"Name": {
+"DefaultText": "Tree of Life Floor",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"tree_of_life_secondary": {
+"Name": {
+"DefaultText": "Tree of Life Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"tree_of_life_wall": {
+"Name": {
+"DefaultText": "Tree of Life Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"ultra_space_cave_floor": {
+"Name": {
+"DefaultText": "Ultra Space Cave Floor",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"ultra_space_cave_secondary": {
+"Name": {
+"DefaultText": "Ultra Space Cave Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"ultra_space_cave_wall": {
+"Name": {
+"DefaultText": "Ultra Space Cave Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"ultra_space_deep_sea_floor": {
+"Name": {
+"DefaultText": "Ultra Space Deep Sea Floor",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"ultra_space_deep_sea_secondary": {
+"Name": {
+"DefaultText": "Ultra Space Deep Sea Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"ultra_space_deep_sea_wall": {
+"Name": {
+"DefaultText": "Ultra Space Deep Sea Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"ultra_space_desert_floor": {
+"Name": {
+"DefaultText": "Ultra Space Desert Floor",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"ultra_space_desert_secondary": {
+"Name": {
+"DefaultText": "Ultra Space Desert Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"ultra_space_desert_wall": {
+"Name": {
+"DefaultText": "Ultra Space Desert Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"ultra_space_wasteland_floor": {
+"Name": {
+"DefaultText": "Ultra Space Wasteland Floor",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"ultra_space_wasteland_secondary": {
+"Name": {
+"DefaultText": "Ultra Space Wasteland Secondary",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"ultra_space_wasteland_wall": {
+"Name": {
+"DefaultText": "Ultra Space Wasteland Wall",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+}
+}
+}

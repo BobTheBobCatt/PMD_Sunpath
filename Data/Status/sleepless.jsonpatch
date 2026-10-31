@@ -1,0 +1,28 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.10.0"
+  ],
+  "Object": {
+    "BeforeStatusAdds": {
+      "_t": "a",
+      "3": [
+        {
+          "Key": {
+            "str": [
+              0
+            ]
+          },
+          "Value": {
+            "$type": "PMDC.Dungeon.PreventStatusCheck, PMDC",
+            "StatusID": "drowsy",
+            "Message": {
+              "Key": "MSG_SLEEPLESS"
+            },
+            "Anims": []
+          }
+        }
+      ]
+    }
+  }
+}

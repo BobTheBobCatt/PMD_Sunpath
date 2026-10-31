@@ -1,0 +1,82 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.11.0"
+  ],
+  "Object": {
+    "SkillGroup2": [
+      "",
+      "undiscovered"
+    ],
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "11": {
+            "Level": [
+              24,
+              20
+            ],
+            "Skill": [
+              "salt_cure",
+              "mineral_powder"
+            ]
+          },
+          "12": {
+            "Level": [
+              30,
+              24
+            ],
+            "Skill": [
+              "recover",
+              "salt_cure"
+            ]
+          },
+          "13": {
+            "Level": [
+              34,
+              30
+            ],
+            "Skill": [
+              "rock_slide",
+              "recover"
+            ]
+          },
+          "14": {
+            "Level": [
+              40,
+              34
+            ],
+            "Skill": [
+              "stealth_rock",
+              "rock_slide"
+            ]
+          },
+          "15": {
+            "Level": [
+              44,
+              40
+            ],
+            "Skill": [
+              "heavy_slam",
+              "stealth_rock"
+            ]
+          },
+          "16": [
+            {
+              "Level": 44,
+              "Skill": "heavy_slam"
+            }
+          ],
+          "17": [
+            {
+              "Level": 47,
+              "Skill": "rock_punch"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

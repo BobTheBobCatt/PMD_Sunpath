@@ -1,0 +1,28 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.12.0"
+  ],
+  "Object": {
+    "Sprite": [
+      "Medicine_Orange",
+      "Medicine_3_Green"
+    ],
+    "Price": [
+      750,
+      1200
+    ],
+    "GroundUseActions": {
+      "_t": "a",
+      "0": [
+        {
+          "$type": "RogueEssence.Ground.ScriptItemEvent, RogueEssence",
+          "Script": "GroundVitaminEvent",
+          "ArgTable": "{ BoostedStat = \"hp\", Change = 4 }",
+          "GroundUsageType": 5,
+          "Selection": 1
+        }
+      ]
+    }
+  }
+}

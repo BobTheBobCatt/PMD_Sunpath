@@ -1,7 +1,132 @@
 ﻿{
-"Version": "0.8.3.0",
+"Version": "0.8.12.0",
 "Object": {
 "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
+"earth_eater": {
+"Name": {
+"DefaultText": "Earth Eater",
+"LocalTexts": {
+"fr": "Absorbe-Terre",
+"de": "Bodenschmaus",
+"es": "Geofagia",
+"it": "Mangiaterra",
+"ja": "どしょく",
+"ja-jp": "どしょく",
+"zh-hans": "食土"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 297
+},
+"acceleration": {
+"Name": {
+"DefaultText": "Acceleration",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 89
+},
+"adrenaline_rush": {
+"Name": {
+"DefaultText": "Adrenaline Rush",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 201
+},
+"clairvoyance": {
+"Name": {
+"DefaultText": "Clairvoyance",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 22
+},
+"cloud_guard": {
+"Name": {
+"DefaultText": "Cloud Guard",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 102
+},
+"flame_absorb": {
+"Name": {
+"DefaultText": "Flame Absorb",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 11
+},
+"frost_absorb": {
+"Name": {
+"DefaultText": "Frost Absorb",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 11
+},
+"frozen_body": {
+"Name": {
+"DefaultText": "Frozen Body",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 49
+},
+"fujiwhara_effect": {
+"Name": {
+"DefaultText": "Fujiwhara Effect",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 31
+},
+"poison_absorb": {
+"Name": {
+"DefaultText": "Poison Absorb",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 11
+},
+"purging_veil": {
+"Name": {
+"DefaultText": "Purging Veil",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 22
+},
+"sound_boost": {
+"Name": {
+"DefaultText": "Sound Boost",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 89
+},
+"surge": {
+"Name": {
+"DefaultText": "Surge",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 66
+},
 "terrifying_presence": {
 "Name": {
 "DefaultText": "Terrifying Presence",

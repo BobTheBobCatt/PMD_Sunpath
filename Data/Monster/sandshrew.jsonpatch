@@ -1,0 +1,88 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.11.0"
+  ],
+  "Object": {
+    "SkillGroup2": [
+      "",
+      "undiscovered"
+    ],
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "12": {
+            "Level": [
+              30,
+              28
+            ],
+            "Skill": [
+              "dig",
+              "sand_blast"
+            ]
+          },
+          "13": {
+            "Level": [
+              34,
+              30
+            ],
+            "Skill": [
+              "gyro_ball",
+              "dig"
+            ]
+          },
+          "14": {
+            "Level": [
+              38,
+              34
+            ],
+            "Skill": [
+              "swords_dance",
+              "gyro_ball"
+            ]
+          },
+          "15": {
+            "Level": [
+              42,
+              36
+            ],
+            "Skill": [
+              "sandstorm",
+              "sand_beam"
+            ]
+          },
+          "16": {
+            "Level": [
+              46,
+              38
+            ],
+            "Skill": [
+              "earthquake",
+              "swords_dance"
+            ]
+          },
+          "17": [
+            {
+              "Level": 42,
+              "Skill": "sandstorm"
+            }
+          ],
+          "18": [
+            {
+              "Level": 46,
+              "Skill": "earthquake"
+            }
+          ],
+          "19": [
+            {
+              "Level": 50,
+              "Skill": "dust_storm"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

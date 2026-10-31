@@ -1,0 +1,174 @@
+﻿{
+"Version": "0.8.12.0",
+"Object": {
+"$type": "RogueEssence.Data.IntrinsicData, RogueEssence",
+"Name": {
+"DefaultText": "Fujiwhara Effect",
+"LocalTexts": {}
+},
+"Desc": {
+"DefaultText": "The Pokémon draws in all Wind-based moves. Instead of being hit by WInd-based moves, it boosts its Sp. Atk.",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"IndexNum": 31,
+"ProximityEvent": {
+"Radius": 3,
+"TargetAlignments": 4,
+"BeforeExplosions": [
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "PMDC.Dungeon.DrawAttackEvent, PMDC",
+"Element": "electric",
+"DrawFrom": 2,
+"Msg": {
+"Key": "MSG_DRAW_ATTACK"
+}
+}
+}
+],
+"OnEquips": [],
+"OnPickups": [],
+"BeforeStatusAdds": [],
+"BeforeStatusAddings": [],
+"OnStatusAdds": [],
+"OnStatusRemoves": [],
+"OnMapStatusAdds": [],
+"OnMapStatusRemoves": [],
+"OnMapStarts": [],
+"OnTurnStarts": [],
+"OnTurnEnds": [],
+"OnMapTurnEnds": [],
+"OnWalks": [],
+"OnDeaths": [],
+"OnRefresh": [],
+"BeforeTryActions": [],
+"BeforeActions": [],
+"OnActions": [],
+"BeforeHittings": [],
+"BeforeBeingHits": [],
+"AfterHittings": [],
+"AfterBeingHits": [],
+"OnHitTiles": [],
+"AfterActions": [],
+"UserElementEffects": [],
+"TargetElementEffects": [],
+"ModifyHPs": [],
+"RestoreHPs": []
+},
+"OnEquips": [],
+"OnPickups": [],
+"BeforeStatusAdds": [],
+"BeforeStatusAddings": [],
+"OnStatusAdds": [],
+"OnStatusRemoves": [],
+"OnMapStatusAdds": [],
+"OnMapStatusRemoves": [],
+"OnMapStarts": [],
+"OnTurnStarts": [],
+"OnTurnEnds": [],
+"OnMapTurnEnds": [],
+"OnWalks": [],
+"OnDeaths": [],
+"OnRefresh": [],
+"BeforeTryActions": [],
+"BeforeActions": [],
+"OnActions": [],
+"BeforeHittings": [],
+"BeforeBeingHits": [
+{
+"Key": {
+"str": [
+5
+]
+},
+"Value": {
+"$type": "PMDC.Dungeon.SpecificSkillNeededEvent, PMDC",
+"BaseEvent": {
+"$type": "PMDC.Dungeon.StatusStackBattleEvent, PMDC",
+"Stack": 1,
+"StatusID": "mod_special_attack",
+"AffectTarget": true,
+"SelfInflicted": false,
+"SilentCheck": false,
+"Anonymous": false,
+"TriggerMsg": {
+"Key": ""
+},
+"Anims": []
+},
+"AcceptedMoves": [
+"gust",
+"air_cutter",
+"air_slash",
+"hurricane",
+"downburst",
+"wind_beam",
+"razor_wind",
+"icy_wind",
+"fairy_wind",
+"ominous_wind",
+"silver_wind"
+]
+}
+},
+{
+"Key": {
+"str": [
+5
+]
+},
+"Value": {
+"$type": "PMDC.Dungeon.SpecificSkillNeededEvent, PMDC",
+"BaseEvent": {
+"$type": "PMDC.Dungeon.MultiplyDamageEvent, PMDC",
+"Numerator": 0,
+"Denominator": 1,
+"Anims": []
+},
+"AcceptedMoves": [
+"gust",
+"air_cutter",
+"air_slash",
+"hurricane",
+"downburst",
+"wind_beam",
+"razor_wind",
+"icy_wind",
+"fairy_wind",
+"ominous_wind",
+"silver_wind"
+]
+}
+},
+{
+"Key": {
+"str": [
+5
+]
+},
+"Value": {
+"$type": "PMDC.Dungeon.AddContextStateEvent, PMDC",
+"AddedState": {
+"$type": "PMDC.Dungeon.SingleDrawAbsorb, PMDC"
+},
+"Global": true
+}
+}
+],
+"AfterHittings": [],
+"AfterBeingHits": [],
+"OnHitTiles": [],
+"AfterActions": [],
+"UserElementEffects": [],
+"TargetElementEffects": [],
+"ModifyHPs": [],
+"RestoreHPs": []
+}
+}

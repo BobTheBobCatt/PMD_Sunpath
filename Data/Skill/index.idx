@@ -1,7 +1,224 @@
 ﻿{
-"Version": "0.8.8.0",
+"Version": "0.8.12.0",
 "Object": {
 "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
+"attack": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "none",
+"Category": 1,
+"BasePower": 20,
+"BaseCharges": 0,
+"HitRate": 90,
+"RangeDescription": "Foe in Front",
+"Description": {
+"DefaultText": "A regular attack.",
+"LocalTexts": {
+"de": "Ein normaler Angriff.",
+"pt": "Um golpe normal.",
+"it": "Un normale attacco.",
+"zh-hans": "普通的攻击。"
+}
+},
+"Name": {
+"DefaultText": "Attack",
+"LocalTexts": {
+"de": "Angriff",
+"pt": "Golpe",
+"it": "Attacco",
+"zh-hans": "攻击"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"bitter_malice": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "ghost",
+"Category": 2,
+"BasePower": 60,
+"BaseCharges": 11,
+"HitRate": 100,
+"RangeDescription": "Foes in Area, 2 Tiles Away",
+"Description": {
+"DefaultText": "The user attacks the target with spine-chilling resentment. This may also leave the target frostbitten.",
+"LocalTexts": {}
+},
+"Name": {
+"DefaultText": "Bitter Malice",
+"LocalTexts": {
+"es": "Rencor Reprimido",
+"it": "Livore",
+"ja": "うらみつらみ",
+"ja-jp": "うらみつらみ",
+"zh-hans": "冤冤相报",
+"zh-hant": "冤冤相报"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 841
+},
+"caustic_breath": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "dragon",
+"Category": 2,
+"BasePower": 45,
+"BaseCharges": 10,
+"HitRate": 100,
+"RangeDescription": "Others in 5-Tile Piercing Shot",
+"Description": {
+"DefaultText": "The user exhales a corrosive gust that inflicts damage and lowers the opposing Pokémon's Defense and Sp. Defense stats.",
+"LocalTexts": {}
+},
+"Name": {
+"DefaultText": "Caustic Breath",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 10003
+},
+"corrosive_breath": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "poison",
+"Category": 2,
+"BasePower": 50,
+"BaseCharges": 12,
+"HitRate": 85,
+"RangeDescription": "Others in 5-Tile Piercing Shot",
+"Description": {
+"DefaultText": "The user blows extremely acidic breath on the target. This move is super effective on Steel, Rock and Ground types.",
+"LocalTexts": {}
+},
+"Name": {
+"DefaultText": "Corrosive Breath",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 10004
+},
+"downburst": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "flying",
+"Category": 2,
+"BasePower": 60,
+"BaseCharges": 14,
+"HitRate": 100,
+"RangeDescription": "Foes in 3-Tile Area",
+"Description": {
+"DefaultText": "The user attacks by sending down a burst of fast-moving wind. This may also make the target flinch.",
+"LocalTexts": {}
+},
+"Name": {
+"DefaultText": "Downburst",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 10018
+},
+"drain_life": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "dark",
+"Category": 1,
+"BasePower": 50,
+"BaseCharges": 20,
+"HitRate": 100,
+"RangeDescription": "Foe in Front",
+"Description": {
+"DefaultText": "The user drains the target's energy with its fangs. The user's HP is restored by half the damage taken by the target.",
+"LocalTexts": {}
+},
+"Name": {
+"DefaultText": "Drain Life",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 10012
+},
+"dust_storm": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "ground",
+"Category": 2,
+"BasePower": 50,
+"BaseCharges": 14,
+"HitRate": 100,
+"RangeDescription": "Foes in 4-Tile Area",
+"Description": {
+"DefaultText": "The user attacks with a suffocating gust of sand-like particles. This may also calcify the opposing Pokémon.",
+"LocalTexts": {}
+},
+"Name": {
+"DefaultText": "Dust Storm",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 10013
+},
+"fire_up": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "fire",
+"Category": 3,
+"BasePower": -1,
+"BaseCharges": 20,
+"HitRate": -1,
+"RangeDescription": "User",
+"Description": {
+"DefaultText": "The user boosts the power of the Fire move it uses on the next turn. The user takes less damage from physical attacks while fired up.",
+"LocalTexts": {}
+},
+"Name": {
+"DefaultText": "Fire Up",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 10002
+},
+"flame_tail": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "fire",
+"Category": 1,
+"BasePower": 75,
+"BaseCharges": 15,
+"HitRate": 90,
+"RangeDescription": "Foes in Front and Sides",
+"Description": {
+"DefaultText": "The user hits the target with its scorching tail. This may also burn the target.",
+"LocalTexts": {}
+},
+"Name": {
+"DefaultText": "Flame Tail",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 10014
+},
+"ghostly_chill": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "ghost",
+"Category": 2,
+"BasePower": 40,
+"BaseCharges": 18,
+"HitRate": 100,
+"RangeDescription": "Foe in 2-Tile Arc",
+"Description": {
+"DefaultText": "The user attacks the target by chilling the air around it. This may also leave the target immobolized.",
+"LocalTexts": {}
+},
+"Name": {
+"DefaultText": "Ghostly Chill",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 10016
+},
 "ice_fang": {
 "$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
 "Element": "ice",
@@ -84,6 +301,143 @@
 "Comment": "",
 "SortOrder": 8
 },
+"lovely_kiss": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "normal",
+"Category": 3,
+"BasePower": -1,
+"BaseCharges": 16,
+"HitRate": 100,
+"RangeDescription": "Foes in 2-Tile Cone",
+"Description": {
+"DefaultText": "With a scary face, the user tries to force a kiss on the target. If it succeeds, the target becomes drowsy.",
+"LocalTexts": {
+"fr": "Le lanceur fait un bisou à l’ennemi en prenant une mine effrayante. Endort l’ennemi.",
+"de": "Anwender zwingt dem Ziel einen Kuss auf, der Schlaf verursacht.",
+"es": "Con una cara que asusta, da un beso al objetivo y lo adormece.",
+"it": "Il Pokémon intimidisce il bersaglio con una faccia paurosa e gli schiocca un bacio che lo fa addormentare.",
+"ko": "무서운 얼굴로 키스를 시도한다. 성공하면 상대를 잠듦 상태로 만든다.",
+"ja": "おそろしい　かおで　キスを　せまる。 あいてを　ねむり　じょうたいに　する。",
+"ja-jp": "恐ろしい　顔で　キスを　せまる。 相手を　眠り状態に　する。",
+"zh-hans": "用恐怖的脸强吻对手。让对手陷入睡眠状态。",
+"zh-hant": "用恐怖的臉強吻對手。 能讓對手陷入睡眠狀態。"
+}
+},
+"Name": {
+"DefaultText": "Lovely Kiss",
+"LocalTexts": {
+"fr": "Grobisou",
+"de": "Todeskuss",
+"es": "Beso Amoroso",
+"it": "Demonbacio",
+"ko": "악마의키스",
+"ja": "あくまのキッス",
+"ja-jp": "あくまのキッス",
+"zh-hans": "恶魔之吻",
+"zh-hant": "惡魔之吻"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 142
+},
+"mineral_powder": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "rock",
+"Category": 3,
+"BasePower": -1,
+"BaseCharges": 16,
+"HitRate": 70,
+"RangeDescription": "Foes in 2-Tile Area",
+"Description": {
+"DefaultText": "The user scatters a cloud of dust made of rocky materials that calcifies the target.",
+"LocalTexts": {}
+},
+"Name": {
+"DefaultText": "Mineral Powder",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 10005
+},
+"muddy_terrain": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "ground",
+"Category": 3,
+"BasePower": -1,
+"BaseCharges": 10,
+"HitRate": -1,
+"RangeDescription": "User",
+"Description": {
+"DefaultText": "The user covers the entire floor with mud. Ground-type moves are boosted and Electric-type moves are weakened.",
+"LocalTexts": {}
+},
+"Name": {
+"DefaultText": "Muddy Terrain",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 10006
+},
+"mud_sport": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "ground",
+"Category": 3,
+"BasePower": -1,
+"BaseCharges": 12,
+"HitRate": 100,
+"RangeDescription": "Everyone in 5-Tile Area",
+"Description": {
+"DefaultText": "The user covers everyone with mud. This weakens the power of Electric-type moves for many turns.",
+"LocalTexts": {}
+},
+"Name": {
+"DefaultText": "Mud Sport",
+"LocalTexts": {
+"fr": "Lance-Boue",
+"de": "Lehmsuhler",
+"es": "Chapoteo Lodo",
+"it": "Fangata",
+"ko": "흙놀이",
+"ja": "どろあそび",
+"ja-jp": "どろあそび",
+"zh-hans": "玩泥巴",
+"zh-hant": "玩泥巴"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 300
+},
+"pounce": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "bug",
+"Category": 1,
+"BasePower": 60,
+"BaseCharges": 18,
+"HitRate": 100,
+"RangeDescription": "Foe in 3-Tile Dash",
+"Description": {
+"DefaultText": "The user attacks by pouncing on the target, which also lowers the target's Movement Speed.",
+"LocalTexts": {}
+},
+"Name": {
+"DefaultText": "Pounce",
+"LocalTexts": {
+"es": "Brinco",
+"it": "Balzo",
+"ja": "とびつく",
+"ja-jp": "とびつく",
+"zh-hans": "虫扑",
+"zh-hant": "虫扑"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 884
+},
 "powder_snow": {
 "$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
 "Element": "ice",
@@ -123,6 +477,221 @@
 "Released": true,
 "Comment": "",
 "SortOrder": 181
+},
+"rock_punch": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "rock",
+"Category": 1,
+"BasePower": 75,
+"BaseCharges": 18,
+"HitRate": 100,
+"RangeDescription": "Foe in Front",
+"Description": {
+"DefaultText": "The target is punched with a rocky fist. This may also leave the target calcified.",
+"LocalTexts": {}
+},
+"Name": {
+"DefaultText": "Rock Punch",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 10000
+},
+"sand_beam": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "ground",
+"Category": 2,
+"BasePower": 50,
+"BaseCharges": 12,
+"HitRate": 100,
+"RangeDescription": "Foe in 8-Tile Shot",
+"Description": {
+"DefaultText": "A spray of sand is forcefully ejected at the target at high speed. This may also leave the target calcified.",
+"LocalTexts": {}
+},
+"Name": {
+"DefaultText": "Sand Beam",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 10008
+},
+"sand_blast": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "ground",
+"Category": 1,
+"BasePower": 40,
+"BaseCharges": 15,
+"HitRate": 100,
+"RangeDescription": "Foes in 2-Tile Cone",
+"Description": {
+"DefaultText": "The target is attacked with a large amount of fast-moving sand particles. This may also leave the target calcified.",
+"LocalTexts": {}
+},
+"Name": {
+"DefaultText": "Sand Blast",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 10007
+},
+"scourge": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "ghost",
+"Category": 2,
+"BasePower": 60,
+"BaseCharges": 12,
+"HitRate": 100,
+"RangeDescription": "Foes in 4-Tile Area",
+"Description": {
+"DefaultText": "The user attacks by corrupting the very energy of the space around them. May terrify any target hit.",
+"LocalTexts": {}
+},
+"Name": {
+"DefaultText": "Scourge",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 10017
+},
+"secret_power": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "normal",
+"Category": 1,
+"BasePower": 60,
+"BaseCharges": 20,
+"HitRate": 100,
+"RangeDescription": "Foes in Front and Sides",
+"Description": {
+"DefaultText": "An attack whose additional effects depend on the condition of the floor.",
+"LocalTexts": {
+"de": "Die Wirkung dieser Attacke ist abhängig vom Status der Ebene.",
+"it": "Attacco che può avere un effetto aggiuntivo a seconda dello stato presente nel piano.",
+"ko": "사용하는 층의 날씨에 따라 추가 효과가 변화하는 공격이다.",
+"zh-hans": "根据楼层状况不同，该招式的追加效果也会有所变化。"
+}
+},
+"Name": {
+"DefaultText": "Secret Power",
+"LocalTexts": {
+"fr": "Force Cachée",
+"de": "Geheimpower",
+"es": "Daño Secreto",
+"it": "Forzasegreta",
+"ko": "비밀의힘",
+"ja": "ひみつのちから",
+"ja-jp": "ひみつのちから",
+"zh-hans": "秘密之力",
+"zh-hant": "秘密之力"
+}
+},
+"Released": true,
+"Comment": "No Anim\r\nsound's a bit clunky too",
+"SortOrder": 290
+},
+"shadow_beam": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "ghost",
+"Category": 2,
+"BasePower": 50,
+"BaseCharges": 12,
+"HitRate": 100,
+"RangeDescription": "Foe in 8-Tile Shot",
+"Description": {
+"DefaultText": "The target is attacked with a ray of ghostly energy. This may also make the target flinch.",
+"LocalTexts": {}
+},
+"Name": {
+"DefaultText": "Shadow Beam",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 10015
+},
+"spore": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "grass",
+"Category": 3,
+"BasePower": -1,
+"BaseCharges": 8,
+"HitRate": 100,
+"RangeDescription": "Foes in 3-Tile Area",
+"Description": {
+"DefaultText": "The user scatters bursts of spores that induce drowsiness.",
+"LocalTexts": {
+"fr": "Le lanceur répand un nuage de spores qui endort.",
+"de": "Erzeugt eine Wolke aus einschläfernden Sporen.",
+"es": "Esparce esporas que inducen al sueño.",
+"it": "Il Pokémon sparge una nube di spore che fa addormentare il bersaglio.",
+"ko": "최면 효과가 있는 포자를 훌훌 흩뿌려서 상대를 잠듦 상태로 만든다.",
+"ja": "さい ん　こうかの　ある ほうしを　パラパラと　ふりまき あいてを　ねむり　じょうたいに　する。",
+"ja-jp": "催眠効果の　ある 胞子を　パラパラと　ふりまき 相手を　眠り状態に　する。",
+"zh-hans": "沙沙沙地撒满具有催眠效果的孢子，从而让对手陷入睡眠状态。",
+"zh-hant": "大把撒出有催眠效果的孢子， 讓對手陷入睡眠狀態。"
+}
+},
+"Name": {
+"DefaultText": "Spore",
+"LocalTexts": {
+"fr": "Spore",
+"de": "Pilzspore",
+"es": "Espora",
+"it": "Spora",
+"ko": "버섯포자",
+"ja": "キノコのほうし",
+"ja-jp": "キノコのほうし",
+"zh-hans": "蘑菇孢子",
+"zh-hant": "蘑菇孢子"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 147
+},
+"sting": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "bug",
+"Category": 1,
+"BasePower": 40,
+"BaseCharges": 22,
+"HitRate": 100,
+"RangeDescription": "Foe in 2-Tile Shot",
+"Description": {
+"DefaultText": "The user stabs the target with a stinger.",
+"LocalTexts": {}
+},
+"Name": {
+"DefaultText": "Sting",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 10009
+},
+"stone_fang": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "rock",
+"Category": 1,
+"BasePower": 65,
+"BaseCharges": 18,
+"HitRate": 100,
+"RangeDescription": "Foe in Front",
+"Description": {
+"DefaultText": "The user bites with rock-covered fangs. This may also make the target flinch or leave it calcified.",
+"LocalTexts": {}
+},
+"Name": {
+"DefaultText": "Stone Fang",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 10001
 },
 "tri_attack": {
 "$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
@@ -164,125 +733,75 @@
 "Comment": "",
 "SortOrder": 161
 },
-"fire_bite": {
+"water_sport": {
 "$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
-"Element": "fire",
-"Category": 1,
-"BasePower": 45,
-"BaseCharges": 18,
-"HitRate": 100,
-"RangeDescription": "Foe in Front",
-"Description": {
-"DefaultText": "The user bites with flame-cloaked teeth. This may also leave the target with a burn.",
-"LocalTexts": {
-"fr": "Le lanceur utilise une morsure enflammée. Peut aussi brûler ou apeurer l’ennemi.",
-"de": "Anwender beißt mit flammenden Reißzähnen zu. Ziel schreckt eventuell zurück oder verbrennt sich.",
-"es": "Usa colmillos en llamas para morder. Puede hacer que el objetivo retroceda o reciba quemaduras.",
-"it": "Chi la usa morde con denti infuocati. Può anche scottare o far tentennare il bersaglio.",
-"ko": "불꽃을 두른 이빨로 문다. 상대를 풀죽게 하거나 화상 상태로 만들 때가 있다.",
-"ja": "ほのおを　まとった　キバで　か つく。 あいてを　ひるませたり やけど　じょうたいに　することが　ある。",
-"ja-jp": "炎を　まとった　キバで　か つく。 相手を　ひるませたり やけど状態に　することが　ある。",
-"zh-hans": "用覆盖着火焰的牙齿咬住对手。有时会使对手畏缩或陷入灼伤状态。",
-"zh-hant": "用纏繞火焰的牙齒咬住對手。 有時會讓對手畏縮 或陷入灼傷狀態。"
-}
-},
-"Name": {
-"DefaultText": "Fire Bite",
-"LocalTexts": {
-"fr": "Crocs Feu",
-"de": "Feuerzahn",
-"es": "Colmillo Ígneo",
-"it": "Rogodenti",
-"ko": "불꽃엄니",
-"ja": "ほのおのキバ",
-"ja-jp": "ほのおのキバ",
-"zh-hans": "火焰牙",
-"zh-hant": "火焰牙"
-}
-},
-"Released": true,
-"Comment": "",
-"SortOrder": 424
-},
-"fire_up": {
-"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
-"Element": "fire",
+"Element": "water",
 "Category": 3,
 "BasePower": -1,
-"BaseCharges": 20,
-"HitRate": -1,
-"RangeDescription": "User",
-"Description": {
-"DefaultText": "The user boosts the power of the Fire move it uses on the next turn. The user takes less damage from physical attacks while fired up.",
-"LocalTexts": {}
-},
-"Name": {
-"DefaultText": "Fire Up",
-"LocalTexts": {}
-},
-"Released": true,
-"Comment": "",
-"SortOrder": 268
-},
-"rock_punch": {
-"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
-"Element": "rock",
-"Category": 1,
-"BasePower": 75,
-"BaseCharges": 18,
+"BaseCharges": 12,
 "HitRate": 100,
-"RangeDescription": "Foe in Front",
+"RangeDescription": "Everyone in 5-Tile Area",
 "Description": {
-"DefaultText": "The target is punched with a rocky fist. This may also cause the target to flinch.",
+"DefaultText": "The user soaks everyone with water. This weakens the power of Fire-type moves for many turns.",
 "LocalTexts": {}
 },
 "Name": {
-"DefaultText": "Rock Punch",
-"LocalTexts": {}
-},
-"Released": true,
-"Comment": "",
-"SortOrder": 7
-},
-"thunder_bite": {
-"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
-"Element": "electric",
-"Category": 1,
-"BasePower": 45,
-"BaseCharges": 18,
-"HitRate": 100,
-"RangeDescription": "Foe in Front",
-"Description": {
-"DefaultText": "The user bites with electrified teeth. This may also leave the target with paralysis.",
+"DefaultText": "Water Sport",
 "LocalTexts": {
-"fr": "Le lanceur utilise une morsure électrifiée. Peut aussi paralyser ou apeurer l’ennemi.",
-"de": "Anwender beißt mit elektrifizierten Reißzähnen zu. Das Ziel schreckt eventuell zurück oder wird paralysiert.",
-"es": "Usa colmillos electrificados para morder. Puede hacer que el objetivo retroceda o se paralice.",
-"it": "Chi la usa morde con denti elettrificati che possono anche paralizzare o far tentennare il bersaglio.",
-"ko": "전기를 모은 이빨로 문다. 상대를 풀죽게 하거나 마비 상태로 만들 때가 있다.",
-"ja": "でんきを　ためた　キバで　か つく。 あいてを　ひるませたり まひ　じょうたいに　することが　ある。",
-"ja-jp": "電気を　ためた　キバで　か つく。 相手を　ひるませたり まひ状態に　することが　ある。",
-"zh-hans": "用蓄满电流的牙齿咬住对手。有时会使对手畏缩或陷入麻痹状态。",
-"zh-hant": "用蓄滿電流的牙齒咬住對手。 有時會讓對手畏縮 或陷入麻痺狀態。"
-}
-},
-"Name": {
-"DefaultText": "Thunder Bite",
-"LocalTexts": {
-"fr": "Crocs Éclair",
-"de": "Donnerzahn",
-"es": "Colmillo Rayo",
-"it": "Fulmindenti",
-"ko": "번개엄니",
-"ja": "かみなりのキバ",
-"ja-jp": "かみなりのキバ",
-"zh-hans": "雷电牙",
-"zh-hant": "雷電牙"
+"fr": "Tourniquet",
+"de": "Nassmacher",
+"es": "Hidrochorro",
+"it": "Docciascudo",
+"ko": "물놀이",
+"ja": "みずあそび",
+"ja-jp": "みずあそび",
+"zh-hans": "玩水",
+"zh-hant": "玩水"
 }
 },
 "Released": true,
 "Comment": "",
-"SortOrder": 422
+"SortOrder": 346
+},
+"wind_beam": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "flying",
+"Category": 2,
+"BasePower": 50,
+"BaseCharges": 12,
+"HitRate": 100,
+"RangeDescription": "Foe in 8-Tile Shot",
+"Description": {
+"DefaultText": "The target is attacked with a ray of high winds. This may also make the target flinch.",
+"LocalTexts": {}
+},
+"Name": {
+"DefaultText": "Wind Beam",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 10011
+},
+"wind_blast": {
+"$type": "RogueEssence.Data.SkillDataSummary, RogueEssence",
+"Element": "flying",
+"Category": 2,
+"BasePower": 40,
+"BaseCharges": 12,
+"HitRate": 100,
+"RangeDescription": "Foes in 2-Tile Cone",
+"Description": {
+"DefaultText": "The target is attacked with a blast of high winds. This may also make the target flinch.",
+"LocalTexts": {}
+},
+"Name": {
+"DefaultText": "Wind Blast",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 10010
 }
 }
 }

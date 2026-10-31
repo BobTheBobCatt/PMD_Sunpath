@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.8.8.0",
+"Version": "0.8.11.0",
 "Object": {
 "$type": "RogueEssence.Data.ItemData, RogueEssence",
 "Name": {
@@ -15,7 +15,7 @@
 "Sprite": "Berry_Kuo",
 "Icon": 3,
 "SortCategory": 6,
-"Price": 12,
+"Price": 6,
 "Rarity": 0,
 "MaxStack": 0,
 "CannotDrop": false,
@@ -59,7 +59,7 @@
 "LagBehindTime": 0
 },
 "Explosion": {
-"TargetAlignments": 0,
+"TargetAlignments": 1,
 "HitTiles": false,
 "Range": 0,
 "Speed": 0,

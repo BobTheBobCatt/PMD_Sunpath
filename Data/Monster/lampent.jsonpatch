@@ -1,0 +1,22 @@
+﻿{
+  "Version": [
+    "0.0",
+    "0.8.12.0"
+  ],
+  "Object": {
+    "Forms": {
+      "_t": "a",
+      "0": {
+        "LevelSkills": {
+          "_t": "a",
+          "10": [
+            {
+              "Level": 18,
+              "Skill": "ghostly_chill"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
