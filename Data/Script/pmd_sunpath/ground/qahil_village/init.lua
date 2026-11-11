@@ -24,13 +24,10 @@ function qahil_village.Init(map)
 	DEBUG.EnableDbgCoro()
 	print('=>> Init_qahil_village <<=')
 	SOUND:PlayBGM("Qahil Village.ogg", true)
-	if SV.ChapterProgression.Chapter == 1 then 
+	if SV.ChapterProgression.Chapter < 3 then 
 		COMMON.RespawnAlliesChapter1And2()
 		PartnerEssentials.InitializePartnerSpawn()
-	elseif SV.ChapterProgression.Chapter == 2 then
-		COMMON.RespawnAlliesChapter1And2()
-		PartnerEssentials.InitializePartnerSpawn()
-	elseif SV.ChapterProgression.Chapter ~= 1 or SV.ChapterProgression.Chapter ~= 2 then
+	elseif SV.ChapterProgression.Chapter > 2 then
 		COMMON.RespawnAllies()
 		PartnerEssentials.InitializeBothPartnersSpawn()
 	end
@@ -69,11 +66,11 @@ end
 --Engine callback function
 function qahil_village.GameSave(map)
 
-	if SV.ChapterProgression.Chapter == 1 then 
-		PartnerEssentials.LoadGamePartnerPosition(CH('Teammate1'))
+	if SV.ChapterProgression.Chapter == 1 or SV.ChapterProgression.Chapter == 2 then 
+		PartnerEssentials.SaveGamePartnerPosition(CH('Teammate1'))
 	else
-		PartnerEssentials.LoadGamePartnerPosition(CH('Teammate1'))
-		PartnerEssentials.LoadGamePartner2Position(CH('Teammate2'))
+		PartnerEssentials.SaveGamePartnerPosition(CH('Teammate1'))
+		PartnerEssentials.SaveGamePartner2Position(CH('Teammate2'))
 	end
 
 end
@@ -124,7 +121,7 @@ end
 --Engine callback function
 function qahil_village.GameLoad(map)
 
-	if SV.ChapterProgression.Chapter == 1 then 
+	if SV.ChapterProgression.Chapter == 1 or SV.ChapterProgression.Chapter == 2 then 
 		PartnerEssentials.LoadGamePartnerPosition(CH('Teammate1'))
 	else
 		PartnerEssentials.LoadGamePartnerPosition(CH('Teammate1'))
@@ -518,6 +515,24 @@ function qahil_village.PartnersTentEntrance_Touch(obj, activator)
 	end
 end
 
+function qahil_village.EldersTentEntrance_Touch(obj, activator)
+	DEBUG.EnableDbgCoro() --Enable debugging this coroutine
+	GAME:FadeOut(false, 20)
+	GAME:EnterGroundMap("elders_tent", "Main_Entrance_Marker")
+end
+
+function qahil_village.AggronsTentEntrance_Touch(obj, activator)
+	DEBUG.EnableDbgCoro() --Enable debugging this coroutine
+	GAME:FadeOut(false, 20)
+	GAME:EnterGroundMap("aggrons_tent", "Main_Entrance_Marker")
+end
+
+function qahil_village.DonphansTentEntrance_Touch(obj, activator)
+	DEBUG.EnableDbgCoro() --Enable debugging this coroutine
+	GAME:FadeOut(false, 20)
+	GAME:EnterGroundMap("donphans_tent", "Main_Entrance_Marker")
+end
+
 function qahil_village.Gurdurr_Action(chara, activator)
 	DEBUG.EnableDbgCoro()
   
@@ -624,10 +639,12 @@ function qahil_village.GurdurrDialogue_Action()
 	local villager1 = CH('Gurdurr')
 	local player = CH('PLAYER')
 	
-	GROUND:CharTurnToChar(player, villager1)
+	GROUND:CharTurnToChar(villager1, player)
 	UI:SetSpeaker(villager1)
 	UI:SetSpeakerEmotion('Normal')
-	UI:WaitShowDialogue("What do you want?")
+	UI:WaitShowDialogue("Me? Oh, I just help around when needed.")
+	UI:WaitShowDialogue("Not much to say, really. You can chat with the others, though.")
+	GROUND:CharAnimateTurnTo(villager1, Direction.Down, 4)
 end
 
 function qahil_village.LinooneDialogue_Action()
@@ -635,12 +652,21 @@ function qahil_village.LinooneDialogue_Action()
 	
 	local villager2 = CH('Linoone')
 	local player = CH('PLAYER')
+	local partner = CH('Teammate1')
 	
-	GROUND:CharTurnToChar(player, villager2)
+	GROUND:CharTurnToChar(villager2, player)
 	UI:SetSpeaker(villager2)
 	--UI:SetSpeakerEmotion('Happy') -- Linoone doesn't have any happy portraits right now
 	UI:WaitShowDialogue("Well, hello!")
-	UI:WaitShowDialogue("Always nice when someone new is in town!")
+	UI:WaitShowDialogue("Always nice when someone new is in the village!")
+	GROUND:CharAnimateTurnTo(villager2, Direction.Left, 4)
+	GAME:WaitFrames(20)
+	GROUND:CharTurnToCharAnimated(partner, player, 4)
+	GAME:WaitFrames(5)
+	GROUND:CharTurnToCharAnimated(player, partner, 4)
+	UI:SetSpeaker(partner)
+	UI:SetSpeakerEmotion('Happy')
+	UI:WaitShowDialogue("I like " .. CharacterEssentials.GetCharacterName("Linoone") .. ". She's always so nice.")
 end
 
 function qahil_village.GolemDialogue_Action()
@@ -648,12 +674,21 @@ function qahil_village.GolemDialogue_Action()
 	
 	local villager3 = CH('Golem')
 	local player = CH('PLAYER')
+	local partner = CH('Teammate1')
 	
-	GROUND:CharTurnToChar(player, villager3)
+	GROUND:CharTurnToChar(villager3, player)
 	UI:SetSpeaker(villager3)
 	--UI:SetSpeakerEmotion('Determined') -- Golem doesn't have any determined portraits right now
 	UI:WaitShowDialogue("What?")
 	UI:WaitShowDialogue("Go away.")
+	GROUND:CharAnimateTurnTo(villager3, Direction.Down, 4)
+	GAME:WaitFrames(20)
+	GROUND:CharTurnToCharAnimated(partner, player, 4)
+	GAME:WaitFrames(5)
+	GROUND:CharTurnToCharAnimated(player, partner, 4)
+	UI:SetSpeaker(partner)
+	UI:SetSpeakerEmotion('Normal')
+	UI:WaitShowDialogue("" .. CharacterEssentials.GetCharacterName("Golem") .. " isn't exactly the talkative type. It'd be best to avoid them.")
 end
 
 function qahil_village.RhydonDialogue_Action()
@@ -661,12 +696,23 @@ function qahil_village.RhydonDialogue_Action()
 	
 	local villager4 = CH('Rhydon')
 	local player = CH('PLAYER')
+	local partner = CH('Teammate1')
 	
-	GROUND:CharTurnToChar(player, villager4)
+	GROUND:CharTurnToChar(villager4, player)
 	UI:SetSpeaker(villager4)
 	UI:SetSpeakerEmotion('Normal')
 	UI:WaitShowDialogue("Hmm?")
 	UI:WaitShowDialogue("Don't think I've seen you before. Are you new around here?")
+	GAME:WaitFrames(20)
+	GROUND:CharTurnToChar(partner, villager4)
+	UI:SetSpeaker(partner)
+	UI:SetSpeakerEmotion('Happy')
+	UI:WaitShowDialogue("Indeed " .. DialogueFunctions.GetPronoun(player, "they", false) .. " " .. DialogueFunctions.GetPronoun(player, "are", false) .. "!")
+	GAME:WaitFrames(20)
+	UI:SetSpeaker(villager4)
+	UI:SetSpeakerEmotion('Normal')
+	UI:WaitShowDialogue("Interesting. Don't touch anything of mine and we'll do just fine.")
+	GROUND:CharAnimateTurnTo(villager4, Direction.Left, 4)
 end
 
 function qahil_village.GolettDialogue_Action()
@@ -674,11 +720,26 @@ function qahil_village.GolettDialogue_Action()
 	
 	local villager5 = CH('Golett')
 	local player = CH('PLAYER')
+	local partner = CH('Teammate1')
 	
-	GROUND:CharTurnToChar(player, villager5)
+	GROUND:CharTurnToChar(villager5, player)
 	UI:SetSpeaker(villager5)
 	UI:SetSpeakerEmotion('Normal')
-	UI:WaitShowDialogue("Yes? Need something?")
+	UI:WaitShowDialogue("Don't think I've seen you before. Which leads me to believe you're an outsider.")
+	UI:WaitShowDialogue("Speaking of which, someone oughta do something about that cave near here.")
+	UI:WaitShowDialogue("If it is actually a mystery dungeon, it won't be long until a wild Pokemon finds their way here.")
+	GROUND:CharAnimateTurnTo(villager5, Direction.Up, 4)
+	GAME:WaitFrames(20)
+	UI:SetSpeaker(player, false)
+	UI:SetSpeakerEmotion('Worried')
+	UI:WaitShowDialogue("(Well, about that...)")
+	GAME:WaitFrames(20)
+	GROUND:CharTurnToCharAnimated(partner, player, 4)
+	GAME:WaitFrames(5)
+	GROUND:CharTurnToCharAnimated(player, partner, 4)
+	UI:SetSpeaker(partner, true)
+	UI:SetSpeakerEmotion('Normal')
+	UI:WaitShowDialogue("Don't worry about that, we should get going.")
 end
 
 

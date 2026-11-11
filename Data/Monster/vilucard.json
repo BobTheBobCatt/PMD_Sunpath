@@ -1,0 +1,352 @@
+﻿{
+"Version": "0.8.12.0",
+"Object": {
+"$type": "RogueEssence.Data.MonsterData, RogueEssence",
+"Name": {
+"DefaultText": "Vilucard",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"Title": {
+"DefaultText": "Villainous Pokémon",
+"LocalTexts": {}
+},
+"IndexNum": 10006,
+"EXPTable": "medium_fast",
+"SkillGroup1": "field",
+"SkillGroup2": "humanlike",
+"JoinRate": 10,
+"PromoteFrom": "minyan",
+"Promotions": [],
+"Forms": [
+{
+"$type": "PMDC.Data.MonsterFormData, PMDC",
+"Released": true,
+"Generation": 6,
+"GenderlessWeight": 0,
+"MaleWeight": 1,
+"FemaleWeight": 1,
+"BaseHP": 75,
+"BaseAtk": 108,
+"BaseDef": 60,
+"BaseMAtk": 102,
+"BaseMDef": 58,
+"BaseSpeed": 90,
+"ExpYield": 170,
+"Height": 1.6,
+"Weight": 64.4,
+"Personalities": [
+0,
+1,
+2,
+3,
+8,
+9,
+11,
+13,
+14,
+16,
+24,
+30,
+31,
+36
+],
+"TeachSkills": [
+{
+"Skill": "aerial_ace"
+},
+{
+"Skill": "attract"
+},
+{
+"Skill": "brick_break"
+},
+{
+"Skill": "bulk_up"
+},
+{
+"Skill": "dark_pulse"
+},
+{
+"Skill": "double_team"
+},
+{
+"Skill": "drain_punch"
+},
+{
+"Skill": "dream_eater"
+},
+{
+"Skill": "embargo"
+},
+{
+"Skill": "endeavor"
+},
+{
+"Skill": "endure"
+},
+{
+"Skill": "facade"
+},
+{
+"Skill": "false_swipe"
+},
+{
+"Skill": "fire_blast"
+},
+{
+"Skill": "flamethrower"
+},
+{
+"Skill": "fling"
+},
+{
+"Skill": "frustration"
+},
+{
+"Skill": "giga_drain"
+},
+{
+"Skill": "giga_impact"
+},
+{
+"Skill": "hidden_power"
+},
+{
+"Skill": "hyper_beam"
+},
+{
+"Skill": "infestation"
+},
+{
+"Skill": "last_resort"
+},
+{
+"Skill": "payback"
+},
+{
+"Skill": "pluck"
+},
+{
+"Skill": "poison_jab"
+},
+{
+"Skill": "protect"
+},
+{
+"Skill": "psychic"
+},
+{
+"Skill": "rain_dance"
+},
+{
+"Skill": "rest"
+},
+{
+"Skill": "return"
+},
+{
+"Skill": "roar"
+},
+{
+"Skill": "rock_smash"
+},
+{
+"Skill": "secret_power"
+},
+{
+"Skill": "shadow_ball"
+},
+{
+"Skill": "shadow_claw"
+},
+{
+"Skill": "skill_swap"
+},
+{
+"Skill": "sleep_talk"
+},
+{
+"Skill": "sludge_bomb"
+},
+{
+"Skill": "snatch"
+},
+{
+"Skill": "steel_wing"
+},
+{
+"Skill": "strength"
+},
+{
+"Skill": "substitute"
+},
+{
+"Skill": "sunny_day"
+},
+{
+"Skill": "super_fang"
+},
+{
+"Skill": "swagger"
+},
+{
+"Skill": "taunt"
+},
+{
+"Skill": "thief"
+},
+{
+"Skill": "torment"
+},
+{
+"Skill": "toxic"
+},
+{
+"Skill": "u_turn"
+},
+{
+"Skill": "x_scissor"
+}
+],
+"SharedSkills": [
+{
+"Skill": "double_team"
+},
+{
+"Skill": "fake_tears"
+},
+{
+"Skill": "giga_drain"
+},
+{
+"Skill": "night_slash"
+},
+{
+"Skill": "poison_jab"
+},
+{
+"Skill": "slash"
+},
+{
+"Skill": "sucker_punch"
+},
+{
+"Skill": "torment"
+},
+{
+"Skill": "zen_headbutt"
+}
+],
+"SecretSkills": [
+{
+"Skill": "air_cutter"
+},
+{
+"Skill": "bounce"
+},
+{
+"Skill": "covet"
+},
+{
+"Skill": "crunch"
+},
+{
+"Skill": "dual_chop"
+},
+{
+"Skill": "feint"
+},
+{
+"Skill": "fire_fang"
+},
+{
+"Skill": "fire_punch"
+},
+{
+"Skill": "foul_play"
+},
+{
+"Skill": "gastro_acid"
+},
+{
+"Skill": "gunk_shot"
+},
+{
+"Skill": "hyper_voice"
+},
+{
+"Skill": "ice_fang"
+},
+{
+"Skill": "ice_punch"
+},
+{
+"Skill": "knock_off"
+},
+{
+"Skill": "nasty_plot"
+},
+{
+"Skill": "ominous_wind"
+},
+{
+"Skill": "poison_fang"
+},
+{
+"Skill": "role_play"
+},
+{
+"Skill": "super_fang"
+},
+{
+"Skill": "thunder_fang"
+},
+{
+"Skill": "thunder_punch"
+},
+{
+"Skill": "toxic_spikes"
+},
+{
+"Skill": "trick"
+}
+],
+"FormName": {
+"DefaultText": "Vilucard",
+"LocalTexts": {}
+},
+"Temporary": false,
+"PromoteForm": 0,
+"Element1": "dark",
+"Element2": "poison",
+"Intrinsic1": "blood_lust",
+"Intrinsic2": "none",
+"Intrinsic3": "poison_touch",
+"LevelSkills": [
+{
+"Level": 1,
+"Skill": "astonish"
+},
+{
+"Level": 1,
+"Skill": "drain_life"
+},
+{
+"Level": 1,
+"Skill": "leech_life"
+},
+{
+"Level": 1,
+"Skill": "poison_sting"
+},
+{
+"Level": 40,
+"Skill": "giga_drain"
+}
+]
+}
+]
+}
+}

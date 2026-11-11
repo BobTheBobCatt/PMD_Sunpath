@@ -39,15 +39,20 @@ function PartnerEssentials.InitializePartnerSpawn(dir, customPosition)
 	elseif SV.partner.Spawn ~= 'Default' then
 		local player = CH('PLAYER')
 		local marker = MRKR(SV.partner.Spawn)
-		dir = dir or marker.Direction or partner.Direction
 		
-		
-		GROUND:TeleportTo(partner, marker.Position.X, marker.Position.Y, dir)
+		--Failsafe. Sometimes the spawn variable isn't handled properly, and you get to a map with an invalid marker.
+		--If this happens, act as though the marker is 'Default'. I.e. do nothing.
+		--The bug this failsafe fixes sometimes happens in normal gameplay but typically doesn't cause any visible issues. This is more of an issue with debugging requiring a map reload depending on how you get to it.
+		if marker ~= nil then 
+			dir = dir or marker.Direction or partner.Direction
+			GROUND:TeleportTo(partner, marker.Position.X, marker.Position.Y, dir)
+		else
+			print('partner position marker failsafe hit')
+		end
 	end	
 	
-	
 
-	AI:SetCharacterAI(partner, "origin.ai.ground_partner", CH('PLAYER'), partner.Position)
+	AI:SetCharacterAI(partner, "pmd_sunpath.ai.ground_partner", CH('PLAYER'), partner.Position)
     partner.CollisionDisabled = true
 	
 end
@@ -95,8 +100,8 @@ function PartnerEssentials.InitializeBothPartnersSpawn(dir, customPosition)
 		GROUND:TeleportTo(partner2, marker.Position.X, marker.Position.Y, dir)
 	end	
 	
-	AI:SetCharacterAI(partner, "origin.ai.ground_partner", CH('PLAYER'), partner.Position)
-	AI:SetCharacterAI(partner2, "origin.ai.ground_partner", CH('PLAYER'), partner2.Position)
+	AI:SetCharacterAI(partner, "pmd_sunpath.ai.ground_partner", CH('PLAYER'), partner.Position)
+	AI:SetCharacterAI(partner2, "pmd_sunpath.ai.ground_partner", CH('PLAYER'), partner2.Position)
     partner.CollisionDisabled = true
     partner2.CollisionDisabled = true
 	
@@ -106,7 +111,7 @@ end
 function PartnerEssentials.LoadGamePartnerPosition(partner)
 	print("loading partner in, activating their AI")
 	GROUND:TeleportTo(partner, SV.partner.LoadPositionX, SV.partner.LoadPositionY, PartnerEssentials.NumToDir(SV.partner.LoadDirection))--sv doesn't seem to like storing custom classes
-	AI:SetCharacterAI(partner, "origin.ai.ground_partner", CH('PLAYER'), partner.Position)
+	AI:SetCharacterAI(partner, "pmd_sunpath.ai.ground_partner", CH('PLAYER'), partner.Position)
 	AI:EnableCharacterAI(partner)
 end
 
@@ -216,7 +221,7 @@ function PartnerEssentials.InitializePartner2Spawn(dir, customPosition)
 	
 	
 
-	AI:SetCharacterAI(partner2, "origin.ai.ground_partner", CH('PLAYER'), partner2.Position)
+	AI:SetCharacterAI(partner2, "pmd_sunpath.ai.ground_partner", CH('PLAYER'), partner2.Position)
     partner2.CollisionDisabled = true
 	
 end
@@ -225,7 +230,7 @@ end
 function PartnerEssentials.LoadGamePartnerPosition(partner2)
 	print("loading other partner in, activating their AI")
 	GROUND:TeleportTo(partner2, SV.partner2.LoadPositionX, SV.partner2.LoadPositionY, PartnerEssentials.NumToDir(SV.partner2.LoadDirection))--sv doesn't seem to like storing custom classes
-	AI:SetCharacterAI(partner2, "origin.ai.ground_partner", CH('PLAYER'), partner2.Position)
+	AI:SetCharacterAI(partner2, "pmd_sunpath.ai.ground_partner", CH('PLAYER'), partner2.Position)
 	AI:EnableCharacterAI(partner2)
 end
 

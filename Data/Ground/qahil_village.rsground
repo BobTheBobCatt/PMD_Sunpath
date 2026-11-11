@@ -145126,8 +145126,8 @@
 "EntOrder": 0,
 "InteractOrder": 0,
 "serializationLoc": {
-"X": 118,
-"Y": 632
+"X": 205,
+"Y": 692
 },
 "serializationHeight": 0,
 "serializationDir": 0,
@@ -145222,8 +145222,8 @@
 "EntOrder": 0,
 "InteractOrder": 0,
 "serializationLoc": {
-"X": 129,
-"Y": 441
+"X": 219,
+"Y": 443
 },
 "serializationHeight": 0,
 "serializationDir": 4,
@@ -145303,8 +145303,8 @@
 },
 "CollisionDisabled": false,
 "Collider": {
-"X": 128,
-"Y": 379,
+"X": 129,
+"Y": 441,
 "Width": 16,
 "Height": 16
 }
@@ -145318,7 +145318,7 @@
 "EntOrder": 0,
 "InteractOrder": 0,
 "serializationLoc": {
-"X": 454,
+"X": 399,
 "Y": 272
 },
 "serializationHeight": 0,
@@ -146941,6 +146941,135 @@
 "Width": 16,
 "Height": 30
 }
+},
+{
+"EntName": "EldersTentEntrance",
+"Direction": 0,
+"EntEnabled": true,
+"EntOrder": 0,
+"InteractOrder": 0,
+"triggerType": 2,
+"ObjectAnim": {
+"$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"Passable": false,
+"CurrentAnim": {
+"$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"AnimTime": {
+"Ticks": 0
+},
+"Cycles": 0,
+"DrawOffset": {
+"X": 0,
+"Y": 0
+},
+"Collider": {
+"X": 66,
+"Y": 361,
+"Width": 33,
+"Height": 33
+}
+},
+{
+"EntName": "AggronsTentEntrance",
+"Direction": 0,
+"EntEnabled": true,
+"EntOrder": 0,
+"InteractOrder": 0,
+"triggerType": 2,
+"ObjectAnim": {
+"$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"Passable": false,
+"CurrentAnim": {
+"$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"AnimTime": {
+"Ticks": 0
+},
+"Cycles": 0,
+"DrawOffset": {
+"X": 0,
+"Y": 0
+},
+"Collider": {
+"X": 550,
+"Y": 273,
+"Width": 33,
+"Height": 33
+}
+},
+{
+"EntName": "DonphansTentEntrance",
+"Direction": 0,
+"EntEnabled": true,
+"EntOrder": 0,
+"InteractOrder": 0,
+"triggerType": 2,
+"ObjectAnim": {
+"$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"Passable": false,
+"CurrentAnim": {
+"$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
+"AnimIndex": "",
+"FrameTime": 1,
+"StartFrame": -1,
+"EndFrame": -1,
+"AnimDir": -1,
+"Alpha": 255,
+"AnimFlip": 0
+},
+"AnimTime": {
+"Ticks": 0
+},
+"Cycles": 0,
+"DrawOffset": {
+"X": 0,
+"Y": 0
+},
+"Collider": {
+"X": 48,
+"Y": 608,
+"Width": 33,
+"Height": 33
+}
 }
 ],
 "Spawners": [
@@ -147145,7 +147274,7 @@
 "triggerType": 0,
 "Collider": {
 "X": 448,
-"Y": 122,
+"Y": 142,
 "Width": 16,
 "Height": 16
 }
@@ -147216,6 +147345,104 @@
 "Collider": {
 "X": 824,
 "Y": 59,
+"Width": 16,
+"Height": 16
+}
+},
+{
+"EntName": "ChiefsHutEntranceMarker_Partner",
+"Direction": 0,
+"EntEnabled": true,
+"EntOrder": 0,
+"InteractOrder": 0,
+"triggerType": 0,
+"Collider": {
+"X": 448,
+"Y": 122,
+"Width": 16,
+"Height": 16
+}
+},
+{
+"EntName": "EldersTentEntrance_Marker_Partner",
+"Direction": 0,
+"EntEnabled": true,
+"EntOrder": 0,
+"InteractOrder": 0,
+"triggerType": 0,
+"Collider": {
+"X": 108,
+"Y": 386,
+"Width": 16,
+"Height": 16
+}
+},
+{
+"EntName": "EldersTentEntrance_Marker",
+"Direction": 0,
+"EntEnabled": true,
+"EntOrder": 0,
+"InteractOrder": 0,
+"triggerType": 0,
+"Collider": {
+"X": 133,
+"Y": 386,
+"Width": 16,
+"Height": 16
+}
+},
+{
+"EntName": "AggronsTentEntrance_Marker_Partner",
+"Direction": 0,
+"EntEnabled": true,
+"EntOrder": 0,
+"InteractOrder": 0,
+"triggerType": 0,
+"Collider": {
+"X": 526,
+"Y": 305,
+"Width": 16,
+"Height": 16
+}
+},
+{
+"EntName": "AggronsTentEntrance_Marker",
+"Direction": 0,
+"EntEnabled": true,
+"EntOrder": 0,
+"InteractOrder": 0,
+"triggerType": 0,
+"Collider": {
+"X": 504,
+"Y": 305,
+"Width": 16,
+"Height": 16
+}
+},
+{
+"EntName": "DonphansTentEntrance_Marker",
+"Direction": 0,
+"EntEnabled": true,
+"EntOrder": 0,
+"InteractOrder": 0,
+"triggerType": 0,
+"Collider": {
+"X": 110,
+"Y": 619,
+"Width": 16,
+"Height": 16
+}
+},
+{
+"EntName": "DonphansTentEntrance_Marker_Partner",
+"Direction": 0,
+"EntEnabled": true,
+"EntOrder": 0,
+"InteractOrder": 0,
+"triggerType": 0,
+"Collider": {
+"X": 89,
+"Y": 619,
 "Width": 16,
 "Height": 16
 }

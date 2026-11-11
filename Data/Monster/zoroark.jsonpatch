@@ -6,7 +6,17 @@
   "Object": {
     "Forms": {
       "_t": "a",
+      "0": {
+        "Intrinsic2": [
+          "none",
+          "run_away"
+        ]
+      },
       "1": {
+        "Intrinsic2": [
+          "none",
+          "berserk"
+        ],
         "LevelSkills": {
           "_t": "a",
           "9": {

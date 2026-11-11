@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.8.11.0",
+"Version": "0.8.12.0",
 "Object": {
 "$type": "RogueEssence.Data.ZoneData, RogueEssence",
 "Name": {
@@ -354672,6 +354672,9 @@ false
 "partners_tent",
 "sandhill_cave_entrance",
 "sandhill_cave",
+"elders_tent",
+"aggrons_tent",
+"donphans_tent",
 "base_camp",
 "test_grounds"
 ]

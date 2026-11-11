@@ -21,10 +21,10 @@ function chiefs_hut.Init(map)
 	DEBUG.EnableDbgCoro()
 	print('=>> Init_chiefs_hut <<=')
 	SOUND:PlayBGM("Qahil Village.ogg", true)
-	if SV.ChapterProgression.Chapter == 1 then 
+	if SV.ChapterProgression.Chapter < 3 then 
 		COMMON.RespawnAlliesChapter1And2()
 		PartnerEssentials.InitializePartnerSpawn()
-	elseif SV.ChapterProgression.Chapter ~= 1 then
+	elseif SV.ChapterProgression.Chapter > 2 then
 		COMMON.RespawnAllies()
 		PartnerEssentials.InitializeBothPartnersSpawn()
 	end
@@ -37,6 +37,7 @@ function chiefs_hut.Enter(map)
 
 	chiefs_hut.StoryScripting()
 	--chiefs_hut.StoryScriptingTest() -- For playing the scene without requirements; Testing purposes
+	--chiefs_hut.StoryScriptingSkip() -- For skipping the scene; Testing purposes
 
 end
 
@@ -59,10 +60,10 @@ end
 function chiefs_hut.GameSave(map)
 
 	if SV.ChapterProgression.Chapter == 1 then 
-		PartnerEssentials.LoadGamePartnerPosition(CH('Teammate1'))
+		PartnerEssentials.SaveGamePartnerPosition(CH('Teammate1'))
 	else
-		PartnerEssentials.LoadGamePartnerPosition(CH('Teammate1'))
-		PartnerEssentials.LoadGamePartner2Position(CH('Teammate2'))
+		PartnerEssentials.SaveGamePartnerPosition(CH('Teammate1'))
+		PartnerEssentials.SaveGamePartner2Position(CH('Teammate2'))
 	end
 
 end
@@ -90,6 +91,11 @@ function chiefs_hut.StoryScriptingTest()
 	end
 end
 
+function chiefs_hut.StoryScriptingSkip()
+  --story scripting
+	GAME:FadeIn(20)
+end
+
 ---chiefs_hut.GameLoad(map)
 --Engine callback function
 function chiefs_hut.GameLoad(map)
@@ -113,6 +119,31 @@ function chiefs_hut.QahilVillageEntrance_Touch(obj, activator)
 	DEBUG.EnableDbgCoro() --Enable debugging this coroutine
 	GAME:FadeOut(false, 20)
 	GAME:EnterGroundMap("qahil_village", "ChiefsHutEntranceMarker")
+	SV.partner.Spawn = 'ChiefsHutEntranceMarker_Partner'
+end
+
+function chiefs_hut.Krookodile_Action(chara, activator)
+	DEBUG.EnableDbgCoro()
+  
+	chiefs_hut.KrookodileDialogue_Action()
+end
+
+-------------------------------
+-- Dialogue Callbacks
+-------------------------------
+
+function chiefs_hut.KrookodileDialogue_Action()
+	DEBUG.EnableDbgCoro() --Enable debugging this coroutine
+	
+	local chief = CH('Krookodile')
+	local player = CH('PLAYER')
+	
+	GROUND:CharTurnToChar(chief, player)
+	UI:SetSpeaker(chief)
+	UI:SetSpeakerEmotion('Normal')
+	UI:WaitShowDialogue("I don't have anything to say to you right now, little ones.")
+	UI:WaitShowDialogue("Why don't you two go play outside or something?")
+	GROUND:CharAnimateTurnTo(chief, Direction.Down, 4)
 end
 
 -------------------------------

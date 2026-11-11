@@ -55,171 +55,132 @@
 ],
 "TeachSkills": [
 {
-"Skill": "roar"
+"Skill": "attract"
 },
 {
-"Skill": "surf"
+"Skill": "captivate"
 },
 {
-"Skill": "ice_beam"
-},
-{
-"Skill": "blizzard"
-},
-{
-"Skill": "hyper_beam"
+"Skill": "confide"
 },
 {
 "Skill": "dig"
 },
 {
-"Skill": "toxic"
-},
-{
 "Skill": "double_team"
-},
-{
-"Skill": "waterfall"
-},
-{
-"Skill": "rest"
-},
-{
-"Skill": "protect"
-},
-{
-"Skill": "attract"
-},
-{
-"Skill": "return"
-},
-{
-"Skill": "frustration"
-},
-{
-"Skill": "iron_tail"
-},
-{
-"Skill": "hidden_power"
-},
-{
-"Skill": "rain_dance"
-},
-{
-"Skill": "sunny_day"
-},
-{
-"Skill": "shadow_ball"
-},
-{
-"Skill": "hail"
-},
-{
-"Skill": "facade"
-},
-{
-"Skill": "secret_power"
-},
-{
-"Skill": "dive"
-},
-{
-"Skill": "water_pulse"
-},
-{
-"Skill": "strength"
-},
-{
-"Skill": "substitute"
-},
-{
-"Skill": "endure"
-},
-{
-"Skill": "swagger"
-},
-{
-"Skill": "sleep_talk"
-},
-{
-"Skill": "rock_smash"
-},
-{
-"Skill": "brine"
-},
-{
-"Skill": "natural_gift"
-},
-{
-"Skill": "giga_impact"
-},
-{
-"Skill": "captivate"
-},
-{
-"Skill": "whirlpool"
-},
-{
-"Skill": "round"
 },
 {
 "Skill": "echoed_voice"
 },
 {
-"Skill": "scald"
-},
-{
-"Skill": "retaliate"
-},
-{
-"Skill": "work_up"
-},
-{
-"Skill": "confide"
-}
-],
-"SharedSkills": [
-{
-"Skill": "curse"
-},
-{
-"Skill": "flail"
-},
-{
 "Skill": "endure"
 },
 {
-"Skill": "charm"
+"Skill": "facade"
 },
 {
-"Skill": "wish"
+"Skill": "frustration"
 },
 {
-"Skill": "tickle"
+"Skill": "giga_impact"
 },
 {
-"Skill": "yawn"
+"Skill": "hidden_power"
 },
 {
-"Skill": "fake_tears"
+"Skill": "hyper_beam"
 },
 {
-"Skill": "covet"
-},
-{
-"Skill": "detect"
+"Skill": "iron_tail"
 },
 {
 "Skill": "natural_gift"
 },
 {
-"Skill": "synchronoise"
+"Skill": "protect"
+},
+{
+"Skill": "rain_dance"
+},
+{
+"Skill": "rest"
+},
+{
+"Skill": "retaliate"
+},
+{
+"Skill": "return"
+},
+{
+"Skill": "round"
+},
+{
+"Skill": "secret_power"
+},
+{
+"Skill": "shadow_ball"
+},
+{
+"Skill": "sleep_talk"
+},
+{
+"Skill": "substitute"
+},
+{
+"Skill": "sunny_day"
+},
+{
+"Skill": "swagger"
+},
+{
+"Skill": "toxic"
+},
+{
+"Skill": "work_up"
+}
+],
+"SharedSkills": [
+{
+"Skill": "captivate"
+},
+{
+"Skill": "charm"
+},
+{
+"Skill": "covet"
+},
+{
+"Skill": "curse"
+},
+{
+"Skill": "detect"
+},
+{
+"Skill": "endure"
+},
+{
+"Skill": "fake_tears"
+},
+{
+"Skill": "flail"
+},
+{
+"Skill": "natural_gift"
 },
 {
 "Skill": "stored_power"
 },
 {
-"Skill": "captivate"
+"Skill": "synchronoise"
+},
+{
+"Skill": "tickle"
+},
+{
+"Skill": "wish"
+},
+{
+"Skill": "yawn"
 }
 ],
 "SecretSkills": [
@@ -227,49 +188,13 @@
 "Skill": "body_slam"
 },
 {
+"Skill": "covet"
+},
+{
 "Skill": "double_edge"
 },
 {
-"Skill": "mimic"
-},
-{
-"Skill": "swift"
-},
-{
-"Skill": "substitute"
-},
-{
-"Skill": "snore"
-},
-{
-"Skill": "mud_slap"
-},
-{
-"Skill": "icy_wind"
-},
-{
 "Skill": "endure"
-},
-{
-"Skill": "swagger"
-},
-{
-"Skill": "sleep_talk"
-},
-{
-"Skill": "helping_hand"
-},
-{
-"Skill": "dive"
-},
-{
-"Skill": "signal_beam"
-},
-{
-"Skill": "last_resort"
-},
-{
-"Skill": "aqua_tail"
 },
 {
 "Skill": "headbutt"
@@ -278,16 +203,37 @@
 "Skill": "heal_bell"
 },
 {
-"Skill": "iron_tail"
+"Skill": "helping_hand"
 },
 {
 "Skill": "hyper_voice"
 },
 {
-"Skill": "covet"
+"Skill": "iron_tail"
 },
 {
-"Skill": "water_pulse"
+"Skill": "last_resort"
+},
+{
+"Skill": "mimic"
+},
+{
+"Skill": "mud_slap"
+},
+{
+"Skill": "sleep_talk"
+},
+{
+"Skill": "snore"
+},
+{
+"Skill": "substitute"
+},
+{
+"Skill": "swagger"
+},
+{
+"Skill": "swift"
 }
 ],
 "FormName": {

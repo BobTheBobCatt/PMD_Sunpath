@@ -735,9 +735,13 @@ SV.Chapter2 =
 	TeamEnteredCoast = false,--Did the player & partner go to Madkhal Coast?
 	TeamCompletedCoast = false,--Did the player & partner complete run of Madkhal Coast?
 	TeamEnteredTown = false,--Did player & partner go into the town yet?
+	TeamEnteredGuild = false,--Did player & partner go into the town yet?
+	TeamMetGuildmaster = false,--Did player & partner go into the town yet?
 	TeamMetPartner2 = false,--Finished player & partner meeting 2nd partner cutscene in Shati Town?
 	TeamEnteredMountain = false,--Did the player & partners go to Mt. Sahil?
-	TeamCompletedMountain = false--Did the player & partners complete run of Mt. Sahil?
+	TeamCompletedMountain = false,--Did the player & partners complete run of Mt. Sahil?
+	TeamReturnedToGuild = false,--Did the player & partners return to the guild?
+	TeamJoinedGuild = false--Did the player & partners get accepted into the guild?
 }
 
 SV.Chapter3 = 

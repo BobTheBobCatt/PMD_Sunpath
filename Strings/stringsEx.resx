@@ -131,52 +131,52 @@
     <value>{0}'s flames died down!</value>
   </data>
   <data name="TALK_PARTNER_FULL_0080" xml:space="preserve">
-    <value>Let's see how those [kind] handle my [move]!</value>
+    <value>Don't be careless now, the Pokemon here can still be dangerous.</value>
   </data>
   <data name="TALK_PARTNER_FULL_0081" xml:space="preserve">
-    <value>For a wild Pokémon, you sure can handle yourself.</value>
+    <value>Never explored with a wild Pokemon before. Don't be a stranger!</value>
   </data>
   <data name="TALK_PARTNER_FULL_0082" xml:space="preserve">
-    <value>Come on, let's keep going!</value>
+    <value>You are bit of an odd one, aren't you?</value>
   </data>
   <data name="TALK_PARTNER_FULL_0083" xml:space="preserve">
-    <value>Exploring is great, isn't it? I know I sure enjoy it!</value>
+    <value>I like exploring! It's a shame Mother doesn't really let me do so.</value>
   </data>
   <data name="TALK_PARTNER_FULL_0084" xml:space="preserve">
-    <value>Keep an eye for any [item], they could be useful.</value>
+    <value>They might look useless, but seeds are pretty helpful if I do say so myself.</value>
   </data>
   <data name="TALK_PARTNER_FULL_0085" xml:space="preserve">
-    <value>Don't let any [kind] bring you down, [player]!</value>
+    <value>I won't be afraid to defend you if you're at a type disadvantage, [player].</value>
   </data>
   <data name="TALK_PARTNER_FULL_0086" xml:space="preserve">
     <value>I'm wondering what's at the end of this cave. Let's find out together!</value>
   </data>
   <data name="TALK_PARTNER_FULL_0087" xml:space="preserve">
-    <value>This sure beats staying at home all day.</value>
+    <value>This sure beats staying at home all day, the desert's so boring.</value>
   </data>
   <data name="TALK_PARTNER_FULL_0088" xml:space="preserve">
-    <value>Don't be too reckless now, [player]!</value>
+    <value>For someone who was hesitant to go here, you sure seem ready to battle.</value>
   </data>
   <data name="TALK_PARTNER_FULL_0089" xml:space="preserve">
-    <value>I'm curious as to what we'll find here.</value>
+    <value>Best if...you don't mention to anyone that we were here, yeah?</value>
   </data>
   <data name="TALK_PARTNER_FULL_0090" xml:space="preserve">
-    <value>You sure have done plenty of exploration, haven't you?</value>
+    <value>The village should have training sessions for dungeons like this.</value>
   </data>
   <data name="TALK_PARTNER_HALF_0080" xml:space="preserve">
-    <value>Ack, I'm starting to ache...</value>
+    <value>Urk. Kinda hurts, but village Pokemon are tough!</value>
   </data>
   <data name="TALK_PARTNER_HALF_0081" xml:space="preserve">
     <value>Ouch, that hurt, but I'm not down yet!</value>
   </data>
   <data name="TALK_PARTNER_HALF_0082" xml:space="preserve">
-    <value>Ergh, it'll take more than that to bring me down!</value>
+    <value>This is nothing more than a scratch, I'm fine.</value>
   </data>
   <data name="TALK_PARTNER_HALF_0083" xml:space="preserve">
-    <value>This is starting to get serious.</value>
+    <value>This is starting to get serious. Watch yourself, [player].</value>
   </data>
   <data name="TALK_PARTNER_HALF_0084" xml:space="preserve">
-    <value>I'm not giving up just yet!</value>
+    <value>Ack. Definitely going to need some rest tonight.</value>
   </data>
   <data name="TALK_PARTNER_PINCH_0080" xml:space="preserve">
     <value>I'm sorry...for bringing you into this...[player]...</value>
@@ -191,7 +191,7 @@
     <value>This might be too much. Let's just go home, [player]...</value>
   </data>
   <data name="TALK_PARTNER_PINCH_0084" xml:space="preserve">
-    <value>O-o-ow! Perhaps coming here was a bad idea...</value>
+    <value>O-o-ow! You know, maybe Mother was right...</value>
   </data>
   <data name="MSG_DROWSY_END" xml:space="preserve">
     <value>{0} recovered from drowsiness!</value>
@@ -1686,5 +1686,8 @@
   </data>
   <data name="MSG_RAIN_RED_START" xml:space="preserve">
     <value>An odd-colored rain begins to fall.</value>
+  </data>
+  <data name="MSG_DEEP_FREEZE" xml:space="preserve">
+    <value>Contact with {0} caused {1} to freeze!</value>
   </data>
 </root>

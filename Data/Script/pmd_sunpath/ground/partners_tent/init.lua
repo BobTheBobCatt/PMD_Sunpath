@@ -7,6 +7,7 @@
 require 'pmd_sunpath.common'
 require 'pmd_sunpath.PartnerEssentials'
 require 'pmd_sunpath.ground.partners_tent.partners_tent_ch_1'
+require 'pmd_sunpath.ground.partners_tent.partners_tent_ch_2'
 
 -- Package name
 local partners_tent = {}
@@ -21,14 +22,14 @@ function partners_tent.Init(map)
 	DEBUG.EnableDbgCoro()
 	print('=>> Init_partners_tent <<=')
 	SOUND:PlayBGM("Qahil Village.ogg", true)
-	if SV.ChapterProgression.Chapter == 1 then 
+	if SV.ChapterProgression.Chapter < 3 then 
 		COMMON.RespawnAlliesChapter1And2()
 		PartnerEssentials.InitializePartnerSpawn()
-	elseif SV.ChapterProgression.Chapter ~= 1 then
+	elseif SV.ChapterProgression.Chapter > 2 then
 		COMMON.RespawnAllies()
 		PartnerEssentials.InitializeBothPartnersSpawn()
 	end
-
+	
 end
 
 ---partners_tent.Enter(map)
@@ -59,10 +60,10 @@ end
 function partners_tent.GameSave(map)
 
 	if SV.ChapterProgression.Chapter == 1 then 
-		PartnerEssentials.LoadGamePartnerPosition(CH('Teammate1'))
+		PartnerEssentials.SaveGamePartnerPosition(CH('Teammate1'))
 	else
-		PartnerEssentials.LoadGamePartnerPosition(CH('Teammate1'))
-		PartnerEssentials.LoadGamePartner2Position(CH('Teammate2'))
+		PartnerEssentials.SaveGamePartnerPosition(CH('Teammate1'))
+		PartnerEssentials.SaveGamePartner2Position(CH('Teammate2'))
 	end
 
 end
@@ -79,6 +80,12 @@ function partners_tent.StoryScripting()
 		else
 			GAME:FadeIn(20)
 		end
+	--[[elseif SV.ChapterProgression.Chapter == 2 then 
+		if SV.Chapter2.TeamSleptInTent and not SV.Chapter2.TeamEnteredWoods then
+			partners_tent_ch_2.Story_Cutscene()
+		else
+			GAME:FadeIn(20)
+		end]]
 	else
 		GAME:FadeIn(20)
 	end

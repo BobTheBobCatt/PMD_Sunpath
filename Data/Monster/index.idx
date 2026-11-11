@@ -6471,6 +6471,26 @@
 "Comment": "Fakemon designer: EeveeSanta",
 "SortOrder": 10001
 },
+"minyan": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Minyan",
+"LocalTexts": {}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Minyan",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 10005
+},
 "spectreon": {
 "$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
 "Forms": [
@@ -6510,6 +6530,46 @@
 "Released": false,
 "Comment": "Fakemon designer: EeveeSanta",
 "SortOrder": 10002
+},
+"turban": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Turban",
+"LocalTexts": {}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Turban",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 10004
+},
+"vilucard": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Vilucard",
+"LocalTexts": {}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Vilucard",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 10006
 }
 }
 }

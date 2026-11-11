@@ -11,6 +11,7 @@ chiefs_hut_ch_1 = {}
 -------------------------------
 --Play this cutscene after the scene where the guard leads the player to the chief's hut
 function chiefs_hut_ch_1.Story_Cutscene()
+	GROUND:AddMapStatus("dusk")
 	local hero = CH('PLAYER')
 	local chief = CH('Krookodile')
 	GROUND:Hide('Teammate1')

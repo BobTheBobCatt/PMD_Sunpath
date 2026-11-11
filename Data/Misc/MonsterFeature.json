@@ -7703,6 +7703,16 @@
 "WorstStat": -1
 }
 },
+"minyan": {
+"0": {
+"Family": "minyan",
+"Stage": 2,
+"Element1": "dark",
+"Element2": "poison",
+"BestStat": -1,
+"WorstStat": -1
+}
+},
 "miraidon": {
 "0": {
 "Family": "miraidon",
@@ -11979,6 +11989,16 @@
 "WorstStat": -1
 }
 },
+"turban": {
+"0": {
+"Family": "turban",
+"Stage": 1,
+"Element1": "water",
+"Element2": "poison",
+"BestStat": -1,
+"WorstStat": -1
+}
+},
 "turtonator": {
 "0": {
 "Family": "turtonator",
@@ -12586,6 +12606,16 @@
 "Family": "oddish",
 "Stage": 4,
 "Element1": "grass",
+"Element2": "poison",
+"BestStat": -1,
+"WorstStat": -1
+}
+},
+"vilucard": {
+"0": {
+"Family": "minyan",
+"Stage": 4,
+"Element1": "dark",
 "Element2": "poison",
 "BestStat": -1,
 "WorstStat": -1

@@ -1,0 +1,15 @@
+v0.0.2
+- Added sprites and portraits to Terreon
+- Added Turban, complete with sprites and portraits
+- Added Minyan, complete with sprites and portraits
+- Added Vilucard, complete with sprites and portraits
+- Fixed saving and loading causing the partner to teleport to X -1, Y -1 coordinates of a ground map
+- Added more dialogue to the Qahil Village NPCs to hopefully make them stand out a bit better
+- Tweaked Sandhill Cave dialogue in an attempt to make the partner dialogue more unique
+- Tweaked some scenes to hopefully add some context and to make some characters more understandable in their actions and dialogue
+- Added map weather to some interior scenes to hopefully showcase the time of day in some scenes
+- Added a line for ground map transitions to prevent the partner from appearing at the regular spawn point
+- Added the Blood Lust & Disenchant abilities
+- Hopefully fixed a minor bug where idle animations would play after a cutscene fade-in due to a scripting error
+- Added an updated version of a script used in a WIP build of Halcyon to fix a partner spawn error in the console, but otherwise unnoticeable as far as I know
+- Added a couple tent interiors to Qahil Village, as well as a couple more NPCs who are in them.

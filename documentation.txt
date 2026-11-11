@@ -1,11 +1,15 @@
 New abilities:
-- Acceleration (Originally from Pokemon Uranium) - "Priority"-based move damage is boosted by 25%.
+- Acceleration (Originally from Pokemon: Uranium) - "Priority"-based move damage is boosted by 25%.
+- Adrenaline Rush - Boosts the Pokémon's Attack stat when its HP is half or less.
 - Clairvoyance - Accuracy is boosted by 10% and enemy accuracy is decreased by 10%.
 - Cloud Guard - Avoids enemy status moves in cloudy, foggy or rainy weather.
+- Deep Freeze (Originally from Pokemon: Uranium) - Contact with the Pokémon may leave the attacker frozen.
+- Disenchant (Originally from Pokemon: Uranium) - The Pokémon receives full immunity to all Fairy-type moves.
 - Flame Absorb - Being hit by a Fire-type move restores HP.
 - Frost Absorb - Being hit by an Ice-type move restores HP.
 - Frozen Body - Moves that make contact with the Pokemon may leave the target frostbitten.
 - Fujiwhara Effect - Being hit by a wind-based move raises Sp. Attack by 1 stage.
+- Infuriate (Originally from Pokemon: Uranium) - The Pokémon is angered when it takes damage from a physical move, increasing its Attack stat.
 - Poison Absorb - Being hit by a Poison-type move restores HP.
 - Purging Veil - Lowers the Sp. Attack stat of nearby Pokémon by 33%.
 - Sound Boost (Originally from Pokemon Uranium) - Sound-based move damage is boosted by 25%.
@@ -14,7 +18,7 @@ New abilities:
 ------------------------------------------------------------------------------------------------
 New statuses:
 - Blindness - Changes vision to blind under the status effect; Goes back to normal when effect ends.
-- Calcify - Damage on action, lowers Accuracy, does not affect Ground nor Rock types.
+- Calcify - Damage on action, lowers Accuracy by 33%, does not affect Ground nor Rock types.
 - Drowsy (Originally from Pokemon Legends) - Basically acts like paralyze, but also increases taken Attack and Sp. Attack damage by 25%.
 - Frostbite (Originally from Pokemon Legends) - Damage on action, lowers Sp. attack, does not affect Ice Types.
 - Pathfinder - Changes vision to clear, changes vision back to normal when effect ends.
@@ -387,9 +391,11 @@ Changes to Pokemon moves and abilities:
 - Whismur - Added the Sound Boost ability.
 - Wooper - Now learns Muddy Terrain at level 31.
 - Wurmple - Now learns Sting at level 9, Poison Powder at level 12, Bug Bite at level 15, Stun Spore at level 18, Struggle Bug at level 22, Lunge at level 25, Take Down at level 29, Poison Tail at level 32, Pounce at level 35, Poison Jab at level 38 and Flail at level 43.
-- Zoroark (Hisuian) - Now learns Ghostly Chill at level 22, Shadow Beam at level 31 and Scourge at level 64.
-- Zorua (Hisuian) - Now learns Ghostly Chill at level 22 and Scourge at level 52.
----------------------------------------------------------------------------------
+- Zoroark - Added the Run Away ability.
+- Zoroark (Hisuian) - Added the Berserk ability. Now learns Ghostly Chill at level 22, Shadow Beam at level 31 and Scourge at level 64.
+- Zorua - Added the Run Away ability.
+- Zorua (Hisuian) - Added the Berserk ability. Now learns Ghostly Chill at level 22 and Scourge at level 52.
+------------------------------------------------------------------------------------------------------------
 Custom pokemon stats and moves:
 - Aereon - BST totals; HP: 65, Attack: 95, Defense: 60, Sp. Attack: 110, Sp. Defense: 65, Speed: 130. (Total: 525) | Type: Flying | Moves; Learns Helping Hand, Tackle and Tail Whip at level 1, Flash at level 5, Gust at level 9, Quick Attack at level 13, Air Cutter at level 17, Wind Beam at level 20, Aerial Ace at level 25, Tailwind at level 29, Recover at level 33, Downburst at level 37, Last Resort at level 41 and Hurricane at level 45.
 - Eeveon - BST totals; HP: 65, Attack: 110, Defense: 65, Sp. Attack: 60, Sp. Defense: 130, Speed: 95. (Total: 525) | Type: Normal | Moves; Learns Helping Hand, Tackle and Tail Whip at level 1, Sand Attack at level 5, Double Hit at level 9, Quick Attack at level 13, Covet at level 17, Headbutt at level 20, Wish at level 25, Screech at level 29, Barrier at level 33, Take Down at level 37, Last Resort at level 41 and Double-Edge at level 45.

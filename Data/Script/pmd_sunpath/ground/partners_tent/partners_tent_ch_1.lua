@@ -11,6 +11,7 @@ partners_tent_ch_1 = {}
 -------------------------------
 --Play this cutscene after the scene where the player enters their own tent and while the player makes their own bed
 function partners_tent_ch_1.Story_Cutscene()
+	GROUND:AddMapStatus("dusk")
 	local hero = CH('PLAYER')
 	local partner = CH('Teammate1')
 	GROUND:Hide('PLAYER')
@@ -169,6 +170,7 @@ function partners_tent_ch_1.Story_Cutscene2()
 end
 
 function partners_tent_ch_1.Story_Cutscene3()
+	GROUND:AddMapStatus("dusk")
 	local hero = CH('PLAYER')
 	local partner = CH('Teammate1')
 	GROUND:Hide('PLAYER')

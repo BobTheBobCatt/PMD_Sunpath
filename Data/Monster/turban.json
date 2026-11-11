@@ -1,0 +1,235 @@
+﻿{
+"Version": "0.8.12.0",
+"Object": {
+"$type": "RogueEssence.Data.MonsterData, RogueEssence",
+"Name": {
+"DefaultText": "Turban",
+"LocalTexts": {}
+},
+"Released": true,
+"Comment": "",
+"Title": {
+"DefaultText": "Sea Snail Pokémon",
+"LocalTexts": {}
+},
+"IndexNum": 10004,
+"EXPTable": "medium_fast",
+"SkillGroup1": "water_3",
+"SkillGroup2": "undiscovered",
+"JoinRate": -20,
+"PromoteFrom": "",
+"Promotions": [],
+"Forms": [
+{
+"$type": "PMDC.Data.MonsterFormData, PMDC",
+"Released": true,
+"Generation": 6,
+"GenderlessWeight": 0,
+"MaleWeight": 4,
+"FemaleWeight": 4,
+"BaseHP": 100,
+"BaseAtk": 95,
+"BaseDef": 170,
+"BaseMAtk": 30,
+"BaseMDef": 100,
+"BaseSpeed": 10,
+"ExpYield": 180,
+"Height": 1.0,
+"Weight": 85.0,
+"Personalities": [
+0,
+2,
+3,
+7,
+9,
+11,
+15,
+16,
+36
+],
+"TeachSkills": [
+{
+"Skill": "dive"
+},
+{
+"Skill": "facade"
+},
+{
+"Skill": "frustration"
+},
+{
+"Skill": "hail"
+},
+{
+"Skill": "hidden_power"
+},
+{
+"Skill": "light_screen"
+},
+{
+"Skill": "payback"
+},
+{
+"Skill": "psych_up"
+},
+{
+"Skill": "rest"
+},
+{
+"Skill": "return"
+},
+{
+"Skill": "safeguard"
+},
+{
+"Skill": "secret_power"
+},
+{
+"Skill": "strength"
+},
+{
+"Skill": "surf"
+},
+{
+"Skill": "rain_dance"
+}
+],
+"SharedSkills": [
+{
+"Skill": "aqua_ring"
+},
+{
+"Skill": "avalanche"
+},
+{
+"Skill": "barrier"
+},
+{
+"Skill": "bubble_beam"
+},
+{
+"Skill": "icicle_spear"
+},
+{
+"Skill": "mud_shot"
+},
+{
+"Skill": "rapid_spin"
+},
+{
+"Skill": "rock_blast"
+},
+{
+"Skill": "screech"
+},
+{
+"Skill": "take_down"
+},
+{
+"Skill": "twineedle"
+},
+{
+"Skill": "water_pulse"
+}
+],
+"SecretSkills": [
+{
+"Skill": "icy_wind"
+},
+{
+"Skill": "iron_defense"
+},
+{
+"Skill": "natural_gift"
+},
+{
+"Skill": "refresh"
+},
+{
+"Skill": "snore"
+},
+{
+"Skill": "water_pulse"
+}
+],
+"FormName": {
+"DefaultText": "Turban",
+"LocalTexts": {}
+},
+"Temporary": false,
+"PromoteForm": 0,
+"Element1": "water",
+"Element2": "poison",
+"Intrinsic1": "shell_armor",
+"Intrinsic2": "none",
+"Intrinsic3": "overcoat",
+"LevelSkills": [
+{
+"Level": 1,
+"Skill": "tackle"
+},
+{
+"Level": 4,
+"Skill": "withdraw"
+},
+{
+"Level": 8,
+"Skill": "bite"
+},
+{
+"Level": 12,
+"Skill": "headbutt"
+},
+{
+"Level": 16,
+"Skill": "protect"
+},
+{
+"Level": 20,
+"Skill": "poison_fang"
+},
+{
+"Level": 24,
+"Skill": "toxic"
+},
+{
+"Level": 28,
+"Skill": "ice_shard"
+},
+{
+"Level": 32,
+"Skill": "razor_shell"
+},
+{
+"Level": 36,
+"Skill": "shell_smash"
+},
+{
+"Level": 40,
+"Skill": "ice_fang"
+},
+{
+"Level": 44,
+"Skill": "power_split"
+},
+{
+"Level": 48,
+"Skill": "iron_defense"
+},
+{
+"Level": 52,
+"Skill": "icicle_crash"
+},
+{
+"Level": 56,
+"Skill": "crunch"
+},
+{
+"Level": 60,
+"Skill": "double_edge"
+}
+]
+}
+]
+}
+}

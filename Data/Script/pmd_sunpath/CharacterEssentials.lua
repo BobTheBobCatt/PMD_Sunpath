@@ -90,6 +90,24 @@ characters = {
 			form = 0,
 			skin = "normal"
 		},
+		--village villager 2
+		Linoone = {
+			species = "linoone", 
+			nickname = 'Linoone',
+			instance = 'Linoone',
+			gender = Gender.Female,
+			form = 0,
+			skin = "normal"
+		},
+		--village villager 3
+		Golem = {
+			species = "golem", 
+			nickname = 'Golem',
+			instance = 'Golem',
+			gender = Gender.Female,
+			form = 0,
+			skin = "normal"
+		},
 		--cave dweller
 		Sandslash = {
 			species = "sandslash", 

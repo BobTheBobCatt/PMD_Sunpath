@@ -53,230 +53,227 @@
 ],
 "TeachSkills": [
 {
-"Skill": "cut"
-},
-{
-"Skill": "hyper_beam"
-},
-{
-"Skill": "fly"
-},
-{
-"Skill": "defog"
-},
-{
-"Skill": "downburst"
-},
-{
-"Skill": "double_team"
-},
-{
-"Skill": "light_screen"
-},
-{
-"Skill": "reflect"
-},
-{
-"Skill": "flash"
-},
-{
-"Skill": "rest"
-},
-{
-"Skill": "protect"
+"Skill": "acupressure"
 },
 {
 "Skill": "attract"
 },
 {
-"Skill": "return"
+"Skill": "astral_barrage"
 },
 {
-"Skill": "frustration"
+"Skill": "astonish"
 },
 {
-"Skill": "iron_tail"
+"Skill": "bite"
 },
 {
-"Skill": "hidden_power"
-},
-{
-"Skill": "rain_dance"
-},
-{
-"Skill": "sunny_day"
+"Skill": "captivate"
 },
 {
 "Skill": "chatter"
 },
 {
-"Skill": "facade"
+"Skill": "confide"
 },
 {
-"Skill": "skill_swap"
+"Skill": "confuse_ray"
 },
 {
-"Skill": "secret_power"
+"Skill": "cut"
 },
 {
-"Skill": "sky_drop"
+"Skill": "defog"
 },
 {
-"Skill": "sky_attack"
-},
-{
-"Skill": "substitute"
-},
-{
-"Skill": "endure"
-},
-{
-"Skill": "swagger"
-},
-{
-"Skill": "sleep_talk"
-},
-{
-"Skill": "acupressure"
-},
-{
-"Skill": "natural_gift"
-},
-{
-"Skill": "giga_impact"
-},
-{
-"Skill": "wind_beam"
-},
-{
-"Skill": "captivate"
-},
-{
-"Skill": "extreme_speed"
-},
-{
-"Skill": "bite"
-},
-{
-"Skill": "razor_wind"
-},
-{
-"Skill": "round"
+"Skill": "double_team"
 },
 {
 "Skill": "echoed_voice"
 },
 {
-"Skill": "retaliate"
-},
-{
-"Skill": "work_up"
-},
-{
-"Skill": "confide"
-},
-{
-"Skill": "rapid_spin"
-}
-],
-"SharedSkills": [
-{
-"Skill": "curse"
-},
-{
-"Skill": "flail"
-},
-{
 "Skill": "endure"
 },
 {
-"Skill": "charm"
+"Skill": "facade"
 },
 {
-"Skill": "wish"
+"Skill": "flash"
 },
 {
-"Skill": "tickle"
+"Skill": "frustration"
 },
 {
-"Skill": "yawn"
+"Skill": "giga_impact"
 },
 {
-"Skill": "fake_tears"
+"Skill": "hex"
 },
 {
-"Skill": "covet"
+"Skill": "hidden_power"
 },
 {
-"Skill": "detect"
+"Skill": "hyper_beam"
+},
+{
+"Skill": "infernal_parade"
+},
+{
+"Skill": "iron_tail"
+},
+{
+"Skill": "light_screen"
+},
+{
+"Skill": "nasty_plot"
 },
 {
 "Skill": "natural_gift"
 },
 {
-"Skill": "synchronoise"
+"Skill": "nightmare"
 },
 {
-"Skill": "stored_power"
+"Skill": "ominous_wind"
 },
 {
-"Skill": "captivate"
-}
-],
-"SecretSkills": [
-{
-"Skill": "body_slam"
+"Skill": "protect"
 },
 {
-"Skill": "double_edge"
+"Skill": "reflect"
 },
 {
-"Skill": "mimic"
+"Skill": "retaliate"
 },
 {
-"Skill": "swift"
+"Skill": "return"
 },
 {
-"Skill": "bite"
+"Skill": "round"
 },
 {
-"Skill": "substitute"
+"Skill": "ruination"
 },
 {
-"Skill": "snore"
+"Skill": "secret_power"
 },
 {
-"Skill": "rage"
+"Skill": "shadow_beam"
 },
 {
-"Skill": "endure"
+"Skill": "shadow_force"
 },
 {
-"Skill": "swagger"
+"Skill": "shadow_sneak"
+},
+{
+"Skill": "skill_swap"
 },
 {
 "Skill": "sleep_talk"
 },
 {
+"Skill": "substitute"
+},
+{
+"Skill": "work_up"
+}
+],
+"SharedSkills": [
+{
+"Skill": "captivate"
+},
+{
+"Skill": "charm"
+},
+{
+"Skill": "covet"
+},
+{
+"Skill": "curse"
+},
+{
+"Skill": "detect"
+},
+{
+"Skill": "endure"
+},
+{
+"Skill": "fake_tears"
+},
+{
+"Skill": "flail"
+},
+{
+"Skill": "natural_gift"
+},
+{
+"Skill": "stored_power"
+},
+{
+"Skill": "synchronoise"
+},
+{
+"Skill": "tickle"
+},
+{
+"Skill": "wish"
+},
+{
+"Skill": "yawn"
+}
+],
+"SecretSkills": [
+{
+"Skill": "bite"
+},
+{
+"Skill": "body_slam"
+},
+{
 "Skill": "boomburst"
+},
+{
+"Skill": "covet"
+},
+{
+"Skill": "double_edge"
+},
+{
+"Skill": "endure"
+},
+{
+"Skill": "headbutt"
 },
 {
 "Skill": "helping_hand"
 },
 {
-"Skill": "trick"
+"Skill": "hyper_voice"
 },
 {
-"Skill": "signal_beam"
+"Skill": "icy_wind"
+},
+{
+"Skill": "iron_tail"
 },
 {
 "Skill": "last_resort"
 },
 {
+"Skill": "mimic"
+},
+{
+"Skill": "rage"
+},
+{
 "Skill": "screech"
 },
 {
-"Skill": "headbutt"
+"Skill": "signal_beam"
+},
+{
+"Skill": "skill_swap"
 },
 {
 "Skill": "slam"
@@ -285,22 +282,25 @@
 "Skill": "slash"
 },
 {
+"Skill": "sleep_talk"
+},
+{
+"Skill": "snore"
+},
+{
+"Skill": "substitute"
+},
+{
+"Skill": "swagger"
+},
+{
+"Skill": "swift"
+},
+{
 "Skill": "tail_slap"
 },
 {
-"Skill": "iron_tail"
-},
-{
-"Skill": "skill_swap"
-},
-{
-"Skill": "hyper_voice"
-},
-{
-"Skill": "covet"
-},
-{
-"Skill": "icy_wind"
+"Skill": "trick"
 }
 ],
 "FormName": {

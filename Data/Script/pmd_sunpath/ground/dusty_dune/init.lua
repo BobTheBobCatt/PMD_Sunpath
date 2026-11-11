@@ -22,12 +22,12 @@ function dusty_dune.Init(map)
 
 	DEBUG.EnableDbgCoro()
 	print('=>> Init_dusty_dune <<=')
-	if SV.ChapterProgression.Chapter == 1 then 
+	if SV.ChapterProgression.Chapter < 3 then 
 		if SV.Chapter1.PlayerMetPartner then
 			COMMON.RespawnAlliesChapter1And2()
 			PartnerEssentials.InitializePartnerSpawn()
 		end
-	elseif SV.ChapterProgression.Chapter ~= 1 then
+	elseif SV.ChapterProgression.Chapter > 2 then
 		COMMON.RespawnAllies()
 		PartnerEssentials.InitializeBothPartnersSpawn()
 	end
@@ -63,10 +63,10 @@ end
 function dusty_dune.GameSave(map)
 
 	if SV.ChapterProgression.Chapter == 1 then 
-		PartnerEssentials.LoadGamePartnerPosition(CH('Teammate1'))
+		PartnerEssentials.SaveGamePartnerPosition(CH('Teammate1'))
 	else
-		PartnerEssentials.LoadGamePartnerPosition(CH('Teammate1'))
-		PartnerEssentials.LoadGamePartner2Position(CH('Teammate2'))
+		PartnerEssentials.SaveGamePartnerPosition(CH('Teammate1'))
+		PartnerEssentials.SaveGamePartner2Position(CH('Teammate2'))
 	end
 
 end

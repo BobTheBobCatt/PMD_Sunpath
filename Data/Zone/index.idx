@@ -1319,7 +1319,9 @@
 "Rescues": 0,
 "CountedFloors": 6,
 "Rogue": 0,
-"Grounds": [],
+"Grounds": [
+"sandhill_cave"
+],
 "Maps": [
 [
 0,
@@ -1552,6 +1554,9 @@
 "partners_tent",
 "sandhill_cave_entrance",
 "sandhill_cave",
+"elders_tent",
+"aggrons_tent",
+"donphans_tent",
 "base_camp",
 "test_grounds"
 ],

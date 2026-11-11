@@ -20,10 +20,10 @@ function sandhill_cave_entrance.Init(map)
 
 	DEBUG.EnableDbgCoro()
 	print('=>> Init_sandhill_cave_entrance <<=')
-	if SV.ChapterProgression.Chapter == 1 then 
+	if SV.ChapterProgression.Chapter < 3 then 
 		COMMON.RespawnAlliesChapter1And2()
 		PartnerEssentials.InitializePartnerSpawn()
-	elseif SV.ChapterProgression.Chapter ~= 1 then
+	elseif SV.ChapterProgression.Chapter > 2 then
 		COMMON.RespawnAllies()
 		PartnerEssentials.InitializeBothPartnersSpawn()
 	end
@@ -58,10 +58,10 @@ end
 function sandhill_cave_entrance.GameSave(map)
 
 	if SV.ChapterProgression.Chapter == 1 then 
-		PartnerEssentials.LoadGamePartnerPosition(CH('Teammate1'))
+		PartnerEssentials.SaveGamePartnerPosition(CH('Teammate1'))
 	else
-		PartnerEssentials.LoadGamePartnerPosition(CH('Teammate1'))
-		PartnerEssentials.LoadGamePartner2Position(CH('Teammate2'))
+		PartnerEssentials.SaveGamePartnerPosition(CH('Teammate1'))
+		PartnerEssentials.SaveGamePartner2Position(CH('Teammate2'))
 	end
 
 end

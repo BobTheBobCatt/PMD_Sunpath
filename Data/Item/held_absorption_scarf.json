@@ -7,7 +7,7 @@
 "LocalTexts": {}
 },
 "Desc": {
-"DefaultText": "A held item that causes the Pokémon to restore some HP defeating an enemy.",
+"DefaultText": "A held item that causes the Pokémon to restore some HP after defeating an enemy.",
 "LocalTexts": {}
 },
 "Released": true,
