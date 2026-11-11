@@ -13,7 +13,7 @@ It currently consists of 1 chapter. - NOTE: This is very much an early WIP.
 * **Trio-**: Halcyon's in-dungeon scripting that this mod also uses as well as many other scripting and QoL features. Also helped me in learning some code and is resposible for the Focus Sash and Guiding Orb scripts.
 
 # Spriting credits:
-* Baroness Faron: Eeveon & Terreon portraits and sprites
+* Baroness Faron: Eeveon, Minyan, Terreon & Vilucard portraits and sprites
 - [JaiFain](https://bsky.app/profile/did:plc:tc2slfw255afsm45wxro5pee): Aereon portraits & sprites, Ultra Space: Desert tileset.
 - [MilesFarber](https://www.youtube.com/@milesfarber): Aspear Berry, Magost Berry, Rabuta Berry
 * Minarchu: Cactus, Desert Road Texture, Desert Tent, Sand Continent Map, Sand Dune
@@ -36,6 +36,7 @@ It currently consists of 1 chapter. - NOTE: This is very much an early WIP.
 # Fakemon design credits:
 - [Dragonmaple](https://www.deviantart.com/dragonmaple): Aereon designer and concept
 * EeveeSanta: Eeveon & Terreon designer and concept
+- [Involuntary Twitch](https://www.deviantart.com/involuntary-twitch): Minyan & Vilucard designer and concept
 - [Xadoku](https://www.deviantart.com/xadoku): Spectreon designer and concept
 
 # Note: Due to the lack of a response from the design artists and me being the one who commissioned the PMD portraits and sprites of the fakemon designs, they are NOT to be used by anyone else until further notice. For more information:
