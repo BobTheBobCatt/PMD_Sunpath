@@ -411,7 +411,7 @@
 },
 "dry_woods": {
 "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
-"ExpPercent": 35,
+"ExpPercent": 45,
 "Level": 5,
 "LevelCap": false,
 "KeepSkills": false,
@@ -1906,8 +1906,8 @@
 },
 "tropical_coast": {
 "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
-"ExpPercent": 35,
-"Level": 8,
+"ExpPercent": 45,
+"Level": 6,
 "LevelCap": false,
 "KeepSkills": false,
 "TeamRestrict": false,

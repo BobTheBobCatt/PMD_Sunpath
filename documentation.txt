@@ -240,6 +240,7 @@ Changes from PMDO and/or mainline PMD games:
 - Eevee can now evolve into Terreon by using an Earth Stone; A Ground-type Eeveelution.
 - Fear Wand now inflicts the Terrified effect; Flinch effect moved to Spook Wand.
 - Galarian Yamask now evolves into Runerigus by using an Earth Stone.
+- Graveler now evolves into Golen by using an Earth Stone.
 - Lovely Kiss and Spore now inflict the Drowsy status instead of the Sleep status.
 - The movesets of many Pokemon have been expanded upon.
 - Mud Sport now decreases the power of Electric-type moves instead of changing the Pokemon's type to Ground.

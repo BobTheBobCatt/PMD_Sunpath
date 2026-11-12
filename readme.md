@@ -39,7 +39,7 @@ It currently consists of 1 chapter. - NOTE: This is very much an early WIP.
 - [Involuntary Twitch](https://www.deviantart.com/involuntary-twitch): Minyan & Vilucard designer and concept
 - [Xadoku](https://www.deviantart.com/xadoku): Spectreon designer and concept
 
-# Note: Due to the lack of a response from the design artists and me being the one who commissioned the PMD portraits and sprites of the fakemon designs, they are NOT to be used by anyone else until further notice. For more information:
+# Fakemon designs that are NOT to be used by anyone else:
 * Aereon: DragonMaple has yet to respond when asked for usage.
 * Eeveon & Terreon: EeveeSanta is pretty much impossible to contact, so this could be considered an orphaned design. That being said, it'd be best to see if they have any contactable socials at all and attempt to ask.
 

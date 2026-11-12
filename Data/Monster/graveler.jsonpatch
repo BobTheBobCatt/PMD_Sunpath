@@ -1,13 +1,23 @@
 ﻿{
   "Version": [
     "0.0",
-    "0.8.11.0"
+    "0.8.12.0"
   ],
   "Object": {
-    "SkillGroup2": [
-      "",
-      "undiscovered"
-    ],
+    "Promotions": {
+      "_t": "a",
+      "0": {
+        "Details": {
+          "_t": "a",
+          "1": {
+            "ItemNum": [
+              "evo_link_cable",
+              "evo_earth_stone"
+            ]
+          }
+        }
+      }
+    },
     "Forms": {
       "_t": "a",
       "0": {
